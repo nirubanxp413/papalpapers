@@ -493,8 +493,10 @@ class PerplexityClient:
             f"{API_BASE}/async/sonar",
             headers=self._headers,
             json={
-                "model": MODEL,
-                "messages": [{"role": "user", "content": query}],
+                "request": {
+                    "model": MODEL,
+                    "messages": [{"role": "user", "content": query}],
+                }
             },
             timeout=60.0,
         )
@@ -551,7 +553,12 @@ async def process_item(
             return item_id
 
         if status in {"failed", "error", "cancelled", "canceled"}:
-            error = payload.get("error") or payload.get("message") or status
+            error = (
+                payload.get("error_message")
+                or payload.get("error")
+                or payload.get("message")
+                or status
+            )
             item["status"] = "failed"
             item["error"] = str(error)
             item["completed_at"] = utc_now()
