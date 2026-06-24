@@ -571,7 +571,8 @@ async def run_batch(
     dry_run: bool,
 ) -> None:
     data = load_checklist()
-    api_key()  # validate early
+    if not dry_run:
+        api_key()  # validate early
 
     pending = [
         i
