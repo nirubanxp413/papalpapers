@@ -1,0 +1,31 @@
+# Summa Quae
+
+---
+pope: Clement XIII
+title: Summa Quae
+published_date: 1768-01-06
+doc_type: document
+source: https://www.papalencyclicals.net/clem13/c13summa.htm
+---
+
+To Our Venerable Brothers, the Archbishops, and Bishops of the Kingdom of Poland.
+
+Venerable Brothers, Greeting and the Apostolic Blessing.
+
+We are greatly concerned with the protection of the entire Christian flock and with the needs of Our brothers who tend it; we feel we must either instruct or exhort and admonish them. Indeed, We have often done this with you, Venerable Brothers, especially after We foresaw the storms arising which sought to undermine religion in your country. The well-being of religion in Poland is the result of the outstanding defense of your people on behalf of it.
+
+2\. However, the calamity which We feared is now upon us and has weighed more heavily on Our mind than usual; therefore, We are moved with a more intense zeal for your nation. Our concern for your will-being requires fuller and more vehement expression in order to rekindle the heavenly grace with which you were endowed from on high at your episcopal consecration. This is particularly important since God now seeks and even demands from you the due and necessary fruits of His gifts.
+
+3\. With extreme distress We have learned that impious compacts have been entered into in your country. This is because truth is put together with falsehood, and the splendor of light with squalor and darkness. Because of this, your faithful people might be easily drawn to destruction by the conjunction of dissimilar things. The abomination of desolation might even be brought into the holy place. Truly Our spiritual anguish would significantly increase if in so great a disturbance of affairs, the voices of the bishops were to be silent, and if We were to see none of them distinguish himself in calling back from contagion the minds of the people and confirming them in the doctrinal truth. All the more so, if anyone, acting out of fear or a base desire to please men more than God, should pervert and thus suppress the dignity and authority given to each of you for the defense and embellishment of the Church.
+
+4\. We cannot believe that lips once consecrated to preaching the divine word would lack the force and ability to put the lie to flight when it dares to demand for itself a place of victory in the very temple of God; that hands ennobled by handling the body of Christ would be employed in writing for the propagation of the rashness and license of error; that ears accustomed only to the most sweet voice of the Church would harken to the delusions and snares of the devil. Nevertheless, We have seen the machinations of the enemy of human nature progress so far that practically everything must be feared.
+
+5\. We hope that no one would allow himself to be so carried away by error and fraud that, because he recognizes himself to be incapable of warding off overwhelming attacks, he would thereby believe himself also freed from the laws of his pastoral office; that having abandoned the role imposed on him by the Church, while retaining that other given by the state and public authority, he would willingly consent to the losses inflicted on him. That would indicate that these twin features of his function could be separated and disjoined, and that he should not constantly reckon the former preferable to the latter.
+
+6\. Wherefore, in the name of almighty God, whose vicarious authority We, however unworthy, bear, We declare to you that he who allows himself to be drawn into this deceit and error is totally blind and permits himself to be led by the blind. Furthermore he cannot be excused by any of the pretexts he employs. By neglecting his episcopal office, he has been condemned by God in the words of the prophet Hosea (4.6-10): “Because you have rejected knowledge, I reject you from being a priest to me, and since you have forgotten the law of your God, I will also forget your children.” Wherefore, Venerable Brothers, do not let ignorance, error, fear, or human considerations prevent you from zealously carrying out your episcopal duties. The powers and forces of this world may gather violently for the destruction of the Church; nevertheless, the actions and plans of holy pastors must conform to the gospel, tradition and ecclesiastical discipline.
+
+7\. Let them realize that the first role of their ministry is to act as a firm wall of defense for the house of Israel against all hostile attacks. Let them consider themselves as deserters of their flocks, the Church and God if they aid the wiles of the enemy or in any way consent to their deceits by connivance or forbearance. Great calamities may threaten; exile and the loss of goods, fortune, and even life itself may ensue. Let them bear all this with equanimity as long as they do not soil their priestly hands by consenting to another’s crime. Nor should their actions in any way weaken the integrity of religion and contaminate the sanctuary itself. Surely he will be considered most blessed who because of the constancy of his resolve is able to exchange the brief and fleeting condition of this life for an infinite and eternal reward. He would then be found worthy to receive that incorruptible crown which we believe is prepared by that best of Shepherds for those who have laid down their lives for the sheep entrusted to them.
+
+8\. These, Venerable Brothers, are Our words of warning for you in a most serious matter that is most necessary for your own salvation and that of your flock. May Our Lord Jesus Christ, by the assistance of His grace, confirm and strengthen in you those sentiments which are consonant with your vocation. May He likewise grant to you the eager willingness and fortitude to live up to it. In imploring the richness of these divine gifts for you, We grant you most lovingly the apostolic blessing as a presage of the same.
+
+Given in Rome, at St. Mary Major under the Fisherman’s ring, 6 January 1768, in the 10th year of Our pontificate.

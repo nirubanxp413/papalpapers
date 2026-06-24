@@ -1,0 +1,412 @@
+{
+  "Alexander IV": {
+    "count": 4,
+    "doc_types": {
+      "document": 4
+    },
+    "earliest": "1255-04-06",
+    "latest": "1955-09-22",
+    "pope_url": "https://www.papalencyclicals.net/category/alex04"
+  },
+  "Alexander VI": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1493-05-04",
+    "latest": "1493-05-04",
+    "pope_url": "https://www.papalencyclicals.net/category/alex06"
+  },
+  "Alexander VII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1659-09-09",
+    "latest": "1659-09-09",
+    "pope_url": "https://www.papalencyclicals.net/category/alex07"
+  },
+  "Benedict XII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1334-12-20",
+    "latest": "1334-12-20",
+    "pope_url": "https://www.papalencyclicals.net/category/ben12"
+  },
+  "Benedict XIV": {
+    "count": 45,
+    "doc_types": {
+      "document": 45
+    },
+    "earliest": "1740-12-03",
+    "latest": "1757-08-02",
+    "pope_url": "https://www.papalencyclicals.net/category/ben14"
+  },
+  "Benedict XV": {
+    "count": 12,
+    "doc_types": {
+      "document": 12
+    },
+    "earliest": "1914-11-01",
+    "latest": "1921-06-29",
+    "pope_url": "https://www.papalencyclicals.net/category/ben15"
+  },
+  "Benedict XVI": {
+    "count": 23,
+    "doc_types": {
+      "document": 2,
+      "encyclical": 3,
+      "other": 18
+    },
+    "earliest": "2000-02-02",
+    "latest": "2013-07-28",
+    "pope_url": "https://www.papalencyclicals.net/ben16"
+  },
+  "Bl. Pius IX": {
+    "count": 41,
+    "doc_types": {
+      "document": 41
+    },
+    "earliest": "1846-11-09",
+    "latest": "1877-11-16",
+    "pope_url": "https://www.papalencyclicals.net/category/pius09"
+  },
+  "Boniface VIII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1302-11-18",
+    "latest": "1302-11-18",
+    "pope_url": "https://www.papalencyclicals.net/category/bon08"
+  },
+  "Clement V": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1305-06-05",
+    "latest": "1305-06-05",
+    "pope_url": "https://www.papalencyclicals.net/category/clem05"
+  },
+  "Clement VIII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1595-10-07",
+    "latest": "1595-10-07",
+    "pope_url": "https://www.papalencyclicals.net/category/clem08"
+  },
+  "Clement XI": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1713-09-08",
+    "latest": "1713-09-08",
+    "pope_url": "https://www.papalencyclicals.net/category/clem11"
+  },
+  "Clement XII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1738-04-28",
+    "latest": "1738-04-28",
+    "pope_url": "https://www.papalencyclicals.net/category/clem12"
+  },
+  "Clement XIII": {
+    "count": 13,
+    "doc_types": {
+      "document": 13
+    },
+    "earliest": "1758-09-11",
+    "latest": "1768-06-25",
+    "pope_url": "https://www.papalencyclicals.net/category/clem13"
+  },
+  "Clement XIV": {
+    "count": 4,
+    "doc_types": {
+      "document": 4
+    },
+    "earliest": "1769-09-21",
+    "latest": "1774-04-30",
+    "pope_url": "https://www.papalencyclicals.net/category/clem14"
+  },
+  "Eugene IV": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1435-01-13",
+    "latest": "1435-01-13",
+    "pope_url": "https://www.papalencyclicals.net/category/eugene04"
+  },
+  "Francis": {
+    "count": 8,
+    "doc_types": {
+      "encyclical": 4,
+      "other": 4
+    },
+    "earliest": "2013-06-29",
+    "latest": "2024-10-24",
+    "pope_url": "https://www.papalencyclicals.net/franc"
+  },
+  "Gregory IX": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1228-07-16",
+    "latest": "1228-07-16",
+    "pope_url": "https://www.papalencyclicals.net/category/greg09"
+  },
+  "Gregory X": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1271-09-01",
+    "latest": "1271-09-01",
+    "pope_url": "https://www.papalencyclicals.net/category/greg10"
+  },
+  "Gregory XIII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1581-02-24",
+    "latest": "1581-02-24",
+    "pope_url": "https://www.papalencyclicals.net/greg13"
+  },
+  "Gregory XVI": {
+    "count": 10,
+    "doc_types": {
+      "document": 10
+    },
+    "earliest": "1832-05-27",
+    "latest": "1844-05-08",
+    "pope_url": "https://www.papalencyclicals.net/category/greg16"
+  },
+  "Honorious III": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1226-11-29",
+    "latest": "1226-11-29",
+    "pope_url": "https://www.papalencyclicals.net/category/hon03"
+  },
+  "Innocent IV": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1243-06-25",
+    "latest": "1243-06-25",
+    "pope_url": "https://www.papalencyclicals.net/category/innoc04"
+  },
+  "Innocent XI": {
+    "count": 2,
+    "doc_types": {
+      "document": 2
+    },
+    "earliest": "1679-11-20",
+    "latest": "1687-11-20",
+    "pope_url": "https://www.papalencyclicals.net/category/innoc11"
+  },
+  "John XXII": {
+    "count": 2,
+    "doc_types": {
+      "document": 2
+    },
+    "earliest": "1316-12-04",
+    "latest": "1333-12-02",
+    "pope_url": "https://www.papalencyclicals.net/category/john22"
+  },
+  "Leo X": {
+    "count": 2,
+    "doc_types": {
+      "document": 2
+    },
+    "earliest": "1520-06-15",
+    "latest": "1521-01-03",
+    "pope_url": "https://www.papalencyclicals.net/category/leo10"
+  },
+  "Leo XII": {
+    "count": 5,
+    "doc_types": {
+      "document": 5
+    },
+    "earliest": "1824-05-05",
+    "latest": "1827-02-13",
+    "pope_url": "https://www.papalencyclicals.net/category/leo12"
+  },
+  "Leo XIII": {
+    "count": 88,
+    "doc_types": {
+      "document": 88
+    },
+    "earliest": "1878-04-21",
+    "latest": "1902-12-24",
+    "pope_url": "https://www.papalencyclicals.net/category/leo13"
+  },
+  "Leo XIV": {
+    "count": 1,
+    "doc_types": {
+      "encyclical": 1
+    },
+    "earliest": "2026-05-15",
+    "latest": "2026-05-15",
+    "pope_url": "https://www.papalencyclicals.net/leo14"
+  },
+  "Nicholas III": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1279-08-14",
+    "latest": "1279-08-14",
+    "pope_url": "https://www.papalencyclicals.net/category/nichol03"
+  },
+  "Nicholas IV": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "2017-06-16",
+    "latest": "2017-06-16",
+    "pope_url": "https://www.papalencyclicals.net/category/nichol04"
+  },
+  "Nicholas V": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "2017-06-16",
+    "latest": "2017-06-16",
+    "pope_url": "https://www.papalencyclicals.net/category/nichol05"
+  },
+  "Paul III": {
+    "count": 2,
+    "doc_types": {
+      "document": 2
+    },
+    "earliest": "1537-05-29",
+    "latest": "1538-10-29",
+    "pope_url": "https://www.papalencyclicals.net/category/paul03"
+  },
+  "Paul VI": {
+    "count": 42,
+    "doc_types": {
+      "document": 42
+    },
+    "earliest": "1679-11-20",
+    "latest": "2017-07-13",
+    "pope_url": "https://www.papalencyclicals.net/category/paul06"
+  },
+  "Pius VI": {
+    "count": 25,
+    "doc_types": {
+      "document": 25
+    },
+    "earliest": "1775-12-25",
+    "latest": "1799-08-13",
+    "pope_url": "https://www.papalencyclicals.net/category/pius06"
+  },
+  "Pius VII": {
+    "count": 2,
+    "doc_types": {
+      "document": 2
+    },
+    "earliest": "1800-05-15",
+    "latest": "1814-05-18",
+    "pope_url": "https://www.papalencyclicals.net/category/pius07"
+  },
+  "Pius VIII": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1829-05-24",
+    "latest": "1829-05-24",
+    "pope_url": "https://www.papalencyclicals.net/category/pius08"
+  },
+  "Pius XI": {
+    "count": 32,
+    "doc_types": {
+      "document": 32
+    },
+    "earliest": "1922-12-23",
+    "latest": "1937-09-29",
+    "pope_url": "https://www.papalencyclicals.net/category/pius11"
+  },
+  "Pius XII": {
+    "count": 60,
+    "doc_types": {
+      "document": 60
+    },
+    "earliest": "1931-10-01",
+    "latest": "1958-07-14",
+    "pope_url": "https://www.papalencyclicals.net/category/pius12"
+  },
+  "Sixtus IV": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "2017-06-16",
+    "latest": "2017-06-16",
+    "pope_url": "https://www.papalencyclicals.net/category/sixtus04"
+  },
+  "Sixtus V": {
+    "count": 1,
+    "doc_types": {
+      "document": 1
+    },
+    "earliest": "1590-03-03",
+    "latest": "1590-03-03",
+    "pope_url": "https://www.papalencyclicals.net/category/sixtus05"
+  },
+  "St. John Paul II": {
+    "count": 34,
+    "doc_types": {
+      "document": 1,
+      "encyclical": 10,
+      "other": 23
+    },
+    "earliest": "1979-03-04",
+    "latest": "2003-06-03",
+    "pope_url": "https://www.papalencyclicals.net/jp02"
+  },
+  "St. Pius V": {
+    "count": 4,
+    "doc_types": {
+      "document": 4
+    },
+    "earliest": "1569-09-17",
+    "latest": "1571-07-25",
+    "pope_url": "https://www.papalencyclicals.net/category/pius05"
+  },
+  "St. Pius X": {
+    "count": 27,
+    "doc_types": {
+      "document": 27
+    },
+    "earliest": "1903-10-04",
+    "latest": "1914-04-20",
+    "pope_url": "https://www.papalencyclicals.net/category/pius10"
+  },
+  "St.John XXIII": {
+    "count": 12,
+    "doc_types": {
+      "encyclical": 12
+    },
+    "earliest": "1959-06-29",
+    "latest": "1963-04-11",
+    "pope_url": "https://www.papalencyclicals.net/john23"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "batch_id": "batch-20260624T121224+0000",
+  "model": "claude-4.6-sonnet-medium-thinking",
+  "prompt_file": "data/subagents/subagentsprompt.md",
+  "items": [
+    {
+      "id": 510,
+      "source_file": "data/encyclical/30121797_Pius VI_Christi Ecclesiae.md",
+      "report_file": "data/subagents/reports/run-30121797_Pius VI_Christi Ecclesiae.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 511,
+      "source_file": "data/encyclical/30121987_St. John Paul II_Sollicitudo Rei Socialis.md",
+      "report_file": "data/subagents/reports/run-30121987_St. John Paul II_Sollicitudo Rei Socialis.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 512,
+      "source_file": "data/encyclical/31051954_Pius XII_Si Diligis \u2013 Canonisation Of St Pius X.md",
+      "report_file": "data/subagents/reports/run-31051954_Pius XII_Si Diligis \u2013 Canonisation Of St Pius X.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 513,
+      "source_file": "data/encyclical/31071793_Pius VI_Ad nostras manus.md",
+      "report_file": "data/subagents/reports/run-31071793_Pius VI_Ad nostras manus.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 514,
+      "source_file": "data/encyclical/31101749_Benedict XIV_Gravissimo animi.md",
+      "report_file": "data/subagents/reports/run-31101749_Benedict XIV_Gravissimo animi.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 515,
+      "source_file": "data/encyclical/31121929_Pius XI_Divini Illius Magistri.md",
+      "report_file": "data/subagents/reports/run-31121929_Pius XI_Divini Illius Magistri.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    },
+    {
+      "id": 516,
+      "source_file": "data/encyclical/31121930_Pius XI_Casti Connubii.md",
+      "report_file": "data/subagents/reports/run-31121930_Pius XI_Casti Connubii.md",
+      "status": "in_progress",
+      "batch_id": "batch-20260624T121224+0000",
+      "started_at": "2026-06-24T12:12:24+00:00",
+      "completed_at": null,
+      "error": null,
+      "agent_id": null
+    }
+  ]
+}

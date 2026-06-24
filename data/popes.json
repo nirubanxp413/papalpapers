@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Leo XIV",
+    "url": "https://www.papalencyclicals.net/leo14",
+    "slug": "leo14",
+    "source_type": "page"
+  },
+  {
+    "name": "Francis",
+    "url": "https://www.papalencyclicals.net/franc",
+    "slug": "franc",
+    "source_type": "page"
+  },
+  {
+    "name": "Benedict XVI",
+    "url": "https://www.papalencyclicals.net/ben16",
+    "slug": "ben16",
+    "source_type": "page"
+  },
+  {
+    "name": "St. John Paul II",
+    "url": "https://www.papalencyclicals.net/jp02",
+    "slug": "jp02",
+    "source_type": "page"
+  },
+  {
+    "name": "Paul VI",
+    "url": "https://www.papalencyclicals.net/category/paul06",
+    "slug": "paul06",
+    "source_type": "category"
+  },
+  {
+    "name": "St.John XXIII",
+    "url": "https://www.papalencyclicals.net/john23",
+    "slug": "john23",
+    "source_type": "page"
+  },
+  {
+    "name": "Pius XII",
+    "url": "https://www.papalencyclicals.net/category/pius12",
+    "slug": "pius12",
+    "source_type": "category"
+  },
+  {
+    "name": "Pius XI",
+    "url": "https://www.papalencyclicals.net/category/pius11",
+    "slug": "pius11",
+    "source_type": "category"
+  },
+  {
+    "name": "Benedict XV",
+    "url": "https://www.papalencyclicals.net/category/ben15",
+    "slug": "ben15",
+    "source_type": "category"
+  },
+  {
+    "name": "St. Pius X",
+    "url": "https://www.papalencyclicals.net/category/pius10",
+    "slug": "pius10",
+    "source_type": "category"
+  },
+  {
+    "name": "Leo XIII",
+    "url": "https://www.papalencyclicals.net/category/leo13",
+    "slug": "leo13",
+    "source_type": "category"
+  },
+  {
+    "name": "Bl. Pius IX",
+    "url": "https://www.papalencyclicals.net/category/pius09",
+    "slug": "pius09",
+    "source_type": "category"
+  },
+  {
+    "name": "Gregory XVI",
+    "url": "https://www.papalencyclicals.net/category/greg16",
+    "slug": "greg16",
+    "source_type": "category"
+  },
+  {
+    "name": "Pius VIII",
+    "url": "https://www.papalencyclicals.net/category/pius08",
+    "slug": "pius08",
+    "source_type": "category"
+  },
+  {
+    "name": "Leo XII",
+    "url": "https://www.papalencyclicals.net/category/leo12",
+    "slug": "leo12",
+    "source_type": "category"
+  },
+  {
+    "name": "Pius VII",
+    "url": "https://www.papalencyclicals.net/category/pius07",
+    "slug": "pius07",
+    "source_type": "category"
+  },
+  {
+    "name": "Pius VI",
+    "url": "https://www.papalencyclicals.net/category/pius06",
+    "slug": "pius06",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement XIV",
+    "url": "https://www.papalencyclicals.net/category/clem14",
+    "slug": "clem14",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement XIII",
+    "url": "https://www.papalencyclicals.net/category/clem13",
+    "slug": "clem13",
+    "source_type": "category"
+  },
+  {
+    "name": "Benedict XIV",
+    "url": "https://www.papalencyclicals.net/category/ben14",
+    "slug": "ben14",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement XII",
+    "url": "https://www.papalencyclicals.net/category/clem12",
+    "slug": "clem12",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement XI",
+    "url": "https://www.papalencyclicals.net/category/clem11",
+    "slug": "clem11",
+    "source_type": "category"
+  },
+  {
+    "name": "Innocent XI",
+    "url": "https://www.papalencyclicals.net/category/innoc11",
+    "slug": "innoc11",
+    "source_type": "category"
+  },
+  {
+    "name": "Alexander VII",
+    "url": "https://www.papalencyclicals.net/category/alex07",
+    "slug": "alex07",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement VIII",
+    "url": "https://www.papalencyclicals.net/category/clem08",
+    "slug": "clem08",
+    "source_type": "category"
+  },
+  {
+    "name": "Sixtus V",
+    "url": "https://www.papalencyclicals.net/category/sixtus05",
+    "slug": "sixtus05",
+    "source_type": "category"
+  },
+  {
+    "name": "Gregory XIII",
+    "url": "https://www.papalencyclicals.net/greg13",
+    "slug": "greg13",
+    "source_type": "page"
+  },
+  {
+    "name": "St. Pius V",
+    "url": "https://www.papalencyclicals.net/category/pius05",
+    "slug": "pius05",
+    "source_type": "category"
+  },
+  {
+    "name": "Paul III",
+    "url": "https://www.papalencyclicals.net/category/paul03",
+    "slug": "paul03",
+    "source_type": "category"
+  },
+  {
+    "name": "Leo X",
+    "url": "https://www.papalencyclicals.net/category/leo10",
+    "slug": "leo10",
+    "source_type": "category"
+  },
+  {
+    "name": "Alexander VI",
+    "url": "https://www.papalencyclicals.net/category/alex06",
+    "slug": "alex06",
+    "source_type": "category"
+  },
+  {
+    "name": "Sixtus IV",
+    "url": "https://www.papalencyclicals.net/category/sixtus04",
+    "slug": "sixtus04",
+    "source_type": "category"
+  },
+  {
+    "name": "Nicholas V",
+    "url": "https://www.papalencyclicals.net/category/nichol05",
+    "slug": "nichol05",
+    "source_type": "category"
+  },
+  {
+    "name": "Eugene IV",
+    "url": "https://www.papalencyclicals.net/category/eugene04",
+    "slug": "eugene04",
+    "source_type": "category"
+  },
+  {
+    "name": "Benedict XII",
+    "url": "https://www.papalencyclicals.net/category/ben12",
+    "slug": "ben12",
+    "source_type": "category"
+  },
+  {
+    "name": "John XXII",
+    "url": "https://www.papalencyclicals.net/category/john22",
+    "slug": "john22",
+    "source_type": "category"
+  },
+  {
+    "name": "Clement V",
+    "url": "https://www.papalencyclicals.net/category/clem05",
+    "slug": "clem05",
+    "source_type": "category"
+  },
+  {
+    "name": "Boniface VIII",
+    "url": "https://www.papalencyclicals.net/category/bon08",
+    "slug": "bon08",
+    "source_type": "category"
+  },
+  {
+    "name": "Nicholas IV",
+    "url": "https://www.papalencyclicals.net/category/nichol04",
+    "slug": "nichol04",
+    "source_type": "category"
+  },
+  {
+    "name": "Nicholas III",
+    "url": "https://www.papalencyclicals.net/category/nichol03",
+    "slug": "nichol03",
+    "source_type": "category"
+  },
+  {
+    "name": "Gregory X",
+    "url": "https://www.papalencyclicals.net/category/greg10",
+    "slug": "greg10",
+    "source_type": "category"
+  },
+  {
+    "name": "Alexander IV",
+    "url": "https://www.papalencyclicals.net/category/alex04",
+    "slug": "alex04",
+    "source_type": "category"
+  },
+  {
+    "name": "Innocent IV",
+    "url": "https://www.papalencyclicals.net/category/innoc04",
+    "slug": "innoc04",
+    "source_type": "category"
+  },
+  {
+    "name": "Gregory IX",
+    "url": "https://www.papalencyclicals.net/category/greg09",
+    "slug": "greg09",
+    "source_type": "category"
+  },
+  {
+    "name": "Honorious III",
+    "url": "https://www.papalencyclicals.net/category/hon03",
+    "slug": "hon03",
+    "source_type": "category"
+  }
+]

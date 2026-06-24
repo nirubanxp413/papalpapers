@@ -1,0 +1,430 @@
+{
+  "recovered": [
+    {
+      "file": "26091255_Alexander IV_Clara claris praeclara.md",
+      "link": "https://www.papalencyclicals.net/alex04/clara-claris-praeclara.htm",
+      "alternate_source": "https://franciscan-archive.org/bullarium/clara.html",
+      "method": "manual"
+    },
+    {
+      "file": "30051741_Benedict XIV_Non ambigimus.md",
+      "link": "https://www.papalencyclicals.net/ben14/non-ambigimus.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-non-ambigimus--i---30-maggio-1741--il-pontefice-ricorda.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "30061741_Benedict XIV_Pro eximia tua.md",
+      "link": "https://www.papalencyclicals.net/ben14/pro-eximia-tua.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve-enciclica--i-pro-eximia-tua---i--30-giugno-1741--il-presen.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "22081741_Benedict XIV_In suprema Universalis.md",
+      "link": "https://www.papalencyclicals.net/ben14/in-suprema-universalis.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-universalis---i--22-agosto-1741--nei-giorni-.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "26081741_Benedict XIV_Quamvis paternae.md",
+      "link": "https://www.papalencyclicals.net/ben14/quamvis-paternae.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quamvis-paternae---i--26-agosto-1741--richiamate-le.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "17111741_Benedict XIV_Satis vobis compertum.md",
+      "link": "https://www.papalencyclicals.net/ben14/satis-vobis-compertum.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-satis-vobis-compertum--i--17-novembre-1741--il-pont.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "07021742_Benedict XIV_Etsi minime.md",
+      "link": "https://www.papalencyclicals.net/ben14/etsi-minime.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-etsi-minime--i---7-febbraio-1742--affermata-la-prim.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "13111742_Benedict XIV_Certiores effecti.md",
+      "link": "https://www.papalencyclicals.net/ben14/certiores-effecti.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-certiores-effecti--i---13-novembre-1742--i-sacerdot.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "14121742_Benedict XIV_Cum illud semper.md",
+      "link": "https://www.papalencyclicals.net/ben14/cum-illud-semper.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-illud-semper--i---14-dicembre-1742--desiderando.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "23031743_Benedict XIV_Quemadmodum preces.md",
+      "link": "https://www.papalencyclicals.net/ben14/quemadmodum-preces.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quemadmodum-preces--i---23-marzo-1743--spetta-alla-.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "02021744_Benedict XIV_Inter omnigenas.md",
+      "link": "https://www.papalencyclicals.net/ben14/inter-omnigenas.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-omnigenas---i--2-febbraio-1744--il-pontefice-.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "19081744_Benedict XIV_Cum semper oblatas.md",
+      "link": "https://www.papalencyclicals.net/ben14/cum-semper-oblatas.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-semper-oblatas--i---19-agosto-1744--il-pontefic.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "20111744_Benedict XIV_In suprema Catholicae.md",
+      "link": "https://www.papalencyclicals.net/ben14/in-suprema-catholicae.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-catholicae--i---20-novembre-1744--viene-conc.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "18021745_Benedict XIV_Cum multorum charitate.md",
+      "link": "https://www.papalencyclicals.net/ben14/cum-multorum-charitate.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-cum-multorum-charitate--i---18-febbraio-1745--il-giubil.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "10061745_Benedict XIV_Libentissime quidem.md",
+      "link": "https://www.papalencyclicals.net/ben14/libentissime-quidem.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-libentissime-quidem--i---10-giugno-1745--richiamati.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "08091745_Benedict XIV_Gravissimum supremi.md",
+      "link": "https://www.papalencyclicals.net/ben14/gravissimum-supremi.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimum-supremi---i--8-settembre-1745--il-ponte.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "16071746_Benedict XIV_Accepimus praestantium.md",
+      "link": "https://www.papalencyclicals.net/ben14/accepimus-praestantium.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-accepimus-praestantium--i---16-luglio-1746--sui-cri.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "16121746_Benedict XIV_Quemadmodum nihil.md",
+      "link": "https://www.papalencyclicals.net/ben14/quemadmodum-nihil.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quemadmodum-nihil--i---16-dicembre-1746--il-pontefice-c.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "01011748_Benedict XIV_Inter caetera.md",
+      "link": "https://www.papalencyclicals.net/ben14/inter-caetera.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-caetera--i---1-gennaio-1748--il-pontefice-esp.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "15031749_Benedict XIV_Officii nostri.md",
+      "link": "https://www.papalencyclicals.net/ben14/officii-nostri.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-officii-nostri--i---15-marzo-1749--poiche-sono-sorti-di.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "31101749_Benedict XIV_Gravissimo animi.md",
+      "link": "https://www.papalencyclicals.net/ben14/gravissimo-animi.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimo-animi--i---31-ottobre-1749--il-pontefice.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "03121749_Benedict XIV_Inter praeteritos.md",
+      "link": "https://www.papalencyclicals.net/ben14/inter-praeteritos.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-praeteritos--i---3-dicembre-1749--allo-scopo-.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "25121750_Benedict XIV_Benedictus Deus.md",
+      "link": "https://www.papalencyclicals.net/ben14/benedictus-deus.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-benedictus-deus--i---25-dicembre-1750--estensione-a-tut.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "01011751_Benedict XIV_Celebationem magni.md",
+      "link": "https://www.papalencyclicals.net/ben14/celebationem-magni.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-celebrationem-magni--i---1-gennaio-1751--dopo-aver-.html",
+      "method": "manual"
+    },
+    {
+      "file": "30011751_Benedict XIV_Prodiit jamdudum.md",
+      "link": "https://www.papalencyclicals.net/ben14/prodiit-jamdudum.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-prodiit-jamdudum--i---30-gennaio-1751--poiche-quest.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "20021751_Benedict XIV_Elapso proxime anno.md",
+      "link": "https://www.papalencyclicals.net/ben14/elapso-proxime-anno.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-elapso-proxime-anno--i---20-febbraio-1751--il-ponte.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "18031751_Benedict XIV_Providas Romanorum.md",
+      "link": "https://www.papalencyclicals.net/ben14/providas-romanorum.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "02061751_Benedict XIV_Magno cum animi.md",
+      "link": "https://www.papalencyclicals.net/ben14/magno-cum-animi.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magno-cum-animi--i---2-giugno-1751--sugli-abusi-da-.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "09071753_Benedict XIV_Sollicita ac provida.md",
+      "link": "https://www.papalencyclicals.net/ben14/sollicita-ac-provida.htm",
+      "alternate_source": "dco:https://documentacatholicaomnia.eu/04z/z_1753-07-09__SS_Benedictus_XIV__Sollicita_ac_Provida__LT.doc.html",
+      "method": "manual"
+    },
+    {
+      "file": "08081755_Benedict XIV_Quam ex sublimi.md",
+      "link": "https://www.papalencyclicals.net/ben14/quam-ex-sublimi.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quam-ex-sublimi--i---8-agosto-1755--il-pontefice-estend.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "02081757_Benedict XIV_Quam grave.md",
+      "link": "https://www.papalencyclicals.net/ben14/quam-grave.htm",
+      "alternate_source": "https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quam-grave--i---2-agosto-1757--il-pontefice-segnala.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "16111877_Bl. Pius IX_Dives In Misericordia Deus.md",
+      "link": "https://www.papalencyclicals.net/pius09/dives-misericordia-deus.htm",
+      "alternate_source": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html",
+      "method": "manual"
+    },
+    {
+      "file": "11091758_Clement XIII_Venimus in altitudinem.md",
+      "link": "https://www.papalencyclicals.net/clem13/venimus-in-altitudinem.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "21031759_Clement XIII_Pastoralis officii.md",
+      "link": "https://www.papalencyclicals.net/clem13/pastoralis-officii.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-pastoraliis-officii-21-marzo-1759.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "09061762_Clement XIII_Quanto in dolore.md",
+      "link": "https://www.papalencyclicals.net/clem13/quanto-in-dolore.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "14011764_Clement XIII_Ubi primum accepimus.md",
+      "link": "https://www.papalencyclicals.net/clem13/ubi-primum-accepimus.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "08051765_Clement XIII_Quanta auxilii.md",
+      "link": "https://www.papalencyclicals.net/clem13/quanta-auxilii.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "25061766_Clement XIII_Quam graviter.md",
+      "link": "https://www.papalencyclicals.net/clem13/quam-graviter.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "25061768_Clement XIII_Accedamus cum fiducia.md",
+      "link": "https://www.papalencyclicals.net/clem13/accedamus-cum-fiducia.htm",
+      "alternate_source": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "24021581_Gregory XIII_Inter Gravissimas.md",
+      "link": "https://www.papalencyclicals.net/greg13/inter-gravissimas.htm",
+      "alternate_source": "https://www.thelatinlibrary.com/gravissimas.html",
+      "method": "manual"
+    },
+    {
+      "file": "13021827_Leo XII_Quanta laetitia.md",
+      "link": "https://www.papalencyclicals.net/leo12/quanta-laetitia.htm",
+      "alternate_source": "https://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "06011895_Leo XIII_Longinqua.md",
+      "link": "https://www.papalencyclicals.net/leo13/longinqua.htm",
+      "alternate_source": "http://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua.html",
+      "method": "manual"
+    },
+    {
+      "file": "29062009_Paul VI_Caritas in veritate.md",
+      "link": "https://www.papalencyclicals.net/paul06/caritas-in-veritate.htm",
+      "alternate_source": "http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate_en.html",
+      "method": "manual"
+    },
+    {
+      "file": "25121775_Pius VI_Summa Dei.md",
+      "link": "https://www.papalencyclicals.net/pius06/summa-dei.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "06031779_Pius VI_Nuper pro.md",
+      "link": "https://www.papalencyclicals.net/pius06/nuper-pro.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "28111786_Pius VI_Super soliditate.md",
+      "link": "https://www.papalencyclicals.net/pius06/super-soliditate.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "10031791_Pius VI_Quod aliquantum.md",
+      "link": "https://www.papalencyclicals.net/pius06/quod-aliquantum.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "13041791_Pius VI_Cum populi.md",
+      "link": "https://www.papalencyclicals.net/pius06/cum-populi.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "23041791_Pius VI_Adeo nota.md",
+      "link": "https://www.papalencyclicals.net/pius06/adeo-nota.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "04051791_Pius VI_Quo luctu.md",
+      "link": "https://www.papalencyclicals.net/pius06/quo-luctu.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-luctu-4-maggio-1791.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "05111791_Pius VI_Ancorch\u00e9 antichissimo.md",
+      "link": "https://www.papalencyclicals.net/pius06/ancorche-antichissimo.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "19031792_Pius VI_In gravissimis.md",
+      "link": "https://www.papalencyclicals.net/pius06/in-gravissimis.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "19031792_Pius VI_Novae hae litterae.md",
+      "link": "https://www.papalencyclicals.net/pius06/novae-hae-litterae.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "04041792_Pius VI_Ubi communis.md",
+      "link": "https://www.papalencyclicals.net/pius06/ubi-communis.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "19041792_Pius VI_Dum nos.md",
+      "link": "https://www.papalencyclicals.net/pius06/dum-nos.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "30051792_Pius VI_Quo fluctu.md",
+      "link": "https://www.papalencyclicals.net/pius06/quo-fluctu.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "10111792_Pius VI_Perpensis circumstantiis.md",
+      "link": "https://www.papalencyclicals.net/pius06/perpensis-circumstantiis.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "24111792_Pius VI_Quae causa.md",
+      "link": "https://www.papalencyclicals.net/pius06/quae-causa.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "17061793_Pius VI_Quare lacrymae.md",
+      "link": "https://www.papalencyclicals.net/pius06/quare-lacrymae.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "31071793_Pius VI_Ad nostras manus.md",
+      "link": "https://www.papalencyclicals.net/pius06/ad-nostras-manus.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "28081794_Pius VI_Auctorem fidei.md",
+      "link": "https://www.papalencyclicals.net/pius06/auctorem-fidei.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "30121797_Pius VI_Christi Ecclesiae.md",
+      "link": "https://www.papalencyclicals.net/pius06/christi-ecclesiae.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "10111798_Pius VI_Constantiam vestram.md",
+      "link": "https://www.papalencyclicals.net/pius06/constantiam-vestram.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "13111798_Pius VI_Cum nos superiori.md",
+      "link": "https://www.papalencyclicals.net/pius06/cum-nos-superiori.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "13081799_Pius VI_Quoties animo.md",
+      "link": "https://www.papalencyclicals.net/pius06/quoties-animo.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "18051814_Pius VII_Il trionfo.md",
+      "link": "https://www.papalencyclicals.net/pius07/il-trionfo.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html",
+      "method": "vatican_match"
+    },
+    {
+      "file": "04101927_Pius XI_Rerum condicio.md",
+      "link": "https://www.papalencyclicals.net/pius11/rerum-condicio.htm",
+      "alternate_source": "https://franciscan-archive.org/bullarium/rerumcon.html",
+      "method": "manual"
+    },
+    {
+      "file": "04101909_St. Pius X_Septimo Iam.md",
+      "link": "https://www.papalencyclicals.net/pius10/septimo-iam.htm",
+      "alternate_source": "https://www.vatican.va/content/pius-x/la/apost_letters/documents/hf_p-x_apl_19090709_septimo-iam.html",
+      "method": "manual"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "27042017_Paul VI_1293.md",
+      "link": "https://www.papalencyclicals.net/paul06/1293.htm",
+      "reason": "index_or_stub_entry"
+    },
+    {
+      "file": "10111994_St. John Paul II_Speeches.md",
+      "link": "http://w2.vatican.va/content/john-paul-ii/en/speeches.html",
+      "reason": "index_or_stub_entry"
+    },
+    {
+      "file": "07081997_St. John Paul II_General Directory for Catechesis.md",
+      "link": "http://w2.vatican.va/content/john-paul-ii/en/homilies.html",
+      "reason": "index_or_stub_entry"
+    }
+  ],
+  "still_failed": []
+}

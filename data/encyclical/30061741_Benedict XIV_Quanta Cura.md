@@ -1,0 +1,29 @@
+# Quanta Cura
+
+---
+pope: Benedict XIV
+title: Quanta Cura
+published_date: 1741-06-30
+doc_type: document
+source: https://www.papalencyclicals.net/ben14/b14quant.htm
+---
+
+To the Venerable Brothers, the Primates, the Metropolitans, the Archbishops, and all the Bishops who are in Communion with the Holy See.
+
+Venerable Brothers, Greetings and Apostolic Benediction.
+
+There is no Catholic who does not know the care required to ensure that the Holy Sacrifice of the Mass is not only celebrated with due reverence and veneration, but also that all semblance of payment of any kind is removed from the dignity of such a sacrifice: both the base demand-rather than request-for alms and other similar practices which are not far removed from the sin of simony or at least from dishonest profit.
+
+It is true that the avarice-which is the bondage of idolatry-of many clerics and laymen has already progressed to the point that they collect alms or stipends for the celebration of the Mass. These have been prescribed by local customs or sanctions of the diocesan synods for the maintenance of the priests. They then take this money and have the Mass celebrated elsewhere, where the alms or stipends given for each Mass are lower than would be given there where the fee was received.
+
+2\. Everyone clearly understands how foreign this is to the expressed or silent desire of those who give alms piously. Nor is it to be judged otherwise. Everyone desires that the Masses be celebrated in the church upon which he bestowed alms or in which he is buried, rather than in another church, which may be unfamiliar to him. Such frustration of the intentions of the faithful is motivated by the desire for base profit, just as is the case in the conduct of trade. Accordingly, it is not immune to the suspicion of avarice and vice, even of theft, whence it may be subject to restitution. Thus many good people, gravely offended by the news of such business, abstain from offering more alms for the celebration of Masses.
+
+3\. The Roman Pontiffs, Our predecessors, detested this lethal abuse which gradually insinuated itself. For this reason they wanted a decree both from the Congregation of the Cardinals of the Universal Inquisition of the Holy Roman Church and from the Congregation of the Cardinals Interpreters of the Council of Trent against the heretical depravity. This decree stated that if a priest received a stipend or alms of a certain value for the celebration of the Mass, a lesser fee must not be paid to another priest for celebrating such a Mass. This holds even if the first priest were to inform the second that he had received a stipend or alms of greater value, and the second priest were willing to accept the lower fee.
+
+4\. For this reason, Venerable Brothers, We ask and exhort you who share Our concerns and are associated with Us in the apostolic ministry to keep watch over your flocks. Exert yourselves so that this disease may spread no further, but rather may be entirely eradicated. Avarice is the root of all evil. Some people who chased after it have strayed from the faith and have brought upon themselves many sorrows. There is no greater pestilence than avarice, which corrupts the opinion of priestly dignity and perfection and casts it out. Avarice, which teaches people to esteem God less than riches and to serve Mammon, causes the greedy to lose their inheritance in the kingdom of Christ and of God. If this can hardly be tolerated among laymen and should be restrained by law, what about churchmen who have sent forth this message in earthly matters, who have been called to share the work of the Lord, and who have delivered themselves up to the Lord? What about those who, with contempt for holy laws and with disdain for the priestly character, are led astray into avarice, not through worldly profits, but through the ministry of the altar? Strive therefore, Venerable Brothers, to whom the care of Christ’s flock is entrusted, not only to shine forth in word and example so that you may be an ambassador of Christ in every place and the people may follow in your footsteps, but also to teach both the clergy and the laity to shun pastures poisoned with vice and to run to the heavenly fold.
+
+5\. Since by the fear of present punishment there may be readier compliance with salutary warnings, make the following pronouncement known in all your dioceses. If anyone collects alms or stipends for the celebration of the Mass at the level which the customs of the place or synodical statutes demand and keeps part of this fee for himself, causing the Mass to be celebrated either there or elsewhere where lower fees are paid for celebrating Masses, he will be punished. A lay person who does this will automatically incur the penalty of excommunication in addition to the other penalties which you might invoke according to your decision. The cleric will automatically incur the penalty of suspension, from which no one can absolve except Ourselves or the Roman Pontiff ruling at the time, unless there is danger of death. We trust in the Lord that each one, mindful of his condition, wilt not belittle such salutary laws and ecclesiastical censures. Meanwhile, We lovingly impart Our apostolic blessing on your brotherhood and on the people entrusted to your care.
+
+6\. We also wish that the same confidence be placed in copies of this letter-even printed ones-which are signed by a notary public and guaranteed by the seal of an ecclesiastical official, as would be placed in the original letter if it were displayed or shown.
+
+Given in Rome at St. Mary Major under the ring of the fisherman on the thirtieth day of June in the year 1741, the first year of Our pontificate.

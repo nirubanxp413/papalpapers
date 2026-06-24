@@ -1,0 +1,28 @@
+---
+source_file: /Users/niruban/superflat-projects/prj-papalpapers/data/encyclical/20021751_Benedict XIV_Elapso proxime anno.md
+report_file: /Users/niruban/superflat-projects/prj-papalpapers/data/subagents/reports/run-20021751_Benedict XIV_Elapso proxime anno.md
+pass: step-3-theme-extraction
+---
+
+# Elapso proxime anno
+
+## Structured
+
+- **Key theme:** Spiritual
+- **Theme (one sentence):** The document clarifies the precise jurisdictional procedures for extracting heresy suspects — and other accused persons — from places of ecclesiastical asylum (immune churches), resolving ambiguities left by prior constitutions and by the secrecy laws governing the Inquisition.
+- **Summary:** Pope Benedict XIV issues this document in response to a doubt raised at the Holy Inquisition congregation of 28 January 1751 regarding how to carry out the extraction of a heresy suspect who had taken refuge in a church. Building on his own prior constitution *Officii nostri* (15 March 1750) and those of predecessors Gregory XIV, Benedict XIII, Clement XII, and John XXII (the *Ex parte vestra*), he resolves the matter by distinguishing three categories of accused: those guilty of heresy (extracted by the Inquisitor, with notification to the Bishop before or after); those guilty of other "excepted crimes" not covered by immunity (extracted with the Bishop's authorization and with the intervention of an ecclesiastic designated by him); and those guilty of non-excepted crimes (who retain the right of asylum). He extends these rules to fugitives from prisons or galleys, and affirms that the Holy See retains authority to grant bishops special indults for edge cases.
+- **Response to:** A specific jurisdictional doubt raised in the Inquisition congregation of 28 January 1751 about how heresy suspects who flee to a church should be extracted; and the perceived gap between the earlier *Officii nostri* constitution (which governed "excepted crimes" generally) and the older Johannine rule (which gave Inquisitors direct authority over heretics). The document also responds to the practical tension created by the law of inquisitorial secrecy, which prevented sharing evidence with Bishops prior to arrest.
+- **Prescriptive towards:** The "delegated Inquisitors of the Holy Office" (*Agli Inquisitori del Sant'Offizio delegati*), who are directed to follow a three-part procedural framework going forward. The document anticipates continued cases involving fugitives from imprisonment and anticipates future appeals to the Holy See for special indults in difficult cases.
+- **Tension:** The central tension is between the ancient right of ecclesiastical asylum (the immunity of sacred places) and the jurisdictional imperative to prosecute heresy — a crime explicitly "excepted" from that immunity. A secondary tension exists between the Inquisition's law of secrecy (which forbids sharing evidence with the Bishop before arrest) and the canonical requirement that Bishops be notified and involved in any extraction from their churches. Benedict resolves the latter by permitting notification before or after the arrest rather than requiring it beforehand.
+
+## Unstructured
+
+*Elapso proxime anno* is a tightly procedural document — closer in character to a legal rescript or administrative clarification than to an exhortatory encyclical. Its tone is resolutely authoritative: Benedict XIV writes as a legislating sovereign pontiff resolving a jurisdictional dispute that his own prior constitution had left imperfectly addressed.
+
+The argument flows in three logical movements. First (§1), Benedict situates the document: his *Officii nostri* of the previous year handled local immunity generally, but the congregation raised a specific sub-question about heresy suspects. Second (§§2–4), he systematically distinguishes the three categories — heresy, other excepted crimes, and non-excepted crimes — and assigns a distinct procedural rule to each, quoting precedent constitutions and a 1638 Urbanine congregation response as authority. Third (§5), he extends the same three-part logic to the specific sub-case of fugitives from prisons and galleys, acknowledging the edge case where a bishop lacks a papal indult and directing the parties to appeal to the Holy See.
+
+The document's key framing device is the **taxonomy of crimes**: the entire argument hinges on the distinction between "excepted" and "non-excepted" offences in the context of church immunity. Heresy sits at the apex as the pre-eminent excepted crime — the Inquisition's principal competence — and therefore receives the most streamlined extraction procedure (Inquisitor acts directly; bishop notified as a courtesy). Other excepted crimes require fuller episcopal involvement. Non-excepted crimes preserve the right of sanctuary entirely.
+
+Notably, Benedict does not argue from theological principles or pastoral motivation; he argues entirely from jurisdictional precedent (prior constitutions, a congregation minutes, a pontifical response). The document is pastoral only in the sense that it commands respect for "the House of God" during any extraction — a brief but genuine nod to the sacred character of the space being entered.
+
+The repeated phrase *"si osservi puntualmente"* ("be observed punctually/exactly") reflects a concern not with doctrinal novelty but with administrative compliance and the closing of loopholes. The document's overarching aim is procedural coherence: ensuring that Inquisitors, Bishops, and secular courts all know exactly who has authority to act, in what order, and with what formalities, depending on the nature of the crime.

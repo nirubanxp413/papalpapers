@@ -1,0 +1,88 @@
+# Diu Satis
+
+---
+pope: Pius VII
+title: Diu Satis
+published_date: 1800-05-15
+doc_type: document
+source: https://www.papalencyclicals.net/pius07/p7diusat.htm
+---
+
+## ON A RETURN TO GOSPEL PRINCIPLES
+
+To His Venerable Brothers, All Patriarchs, Primates, Archbishops and Bishops in Union and Favor with the Apostolic See.
+
+Venerable Brothers, We Give you Greeting and Our Apostolic Blessing.
+
+Long enough have We been silent. Two months have already passed, months of anxiety and toil, since God conferred on Us, despite Our weakness, the burden of this high office of guiding the entire Church. It is not so much custom as Our great love for you which impels Us to address you by at least this letter. We could have no sweeter nor so pleasant a task.
+
+2\. The particular part of Our duty which is expressed in the words, “strengthen your brethren,” also urges Us to do so. For at the present turbulent time, as much as ever, Satan “has sought after us all in order to sift us as wheat.” Still who is so sluggish, so different-minded to Us not to understand fully that Christ does what He said He would do: “to pray for Peter that his faith should not fail[1] even in the present grim circumstances. Later ages will be amazed at the wisdom, magnanimity, and firmness of Our predecessor Pius VI. We could wish that We had also inherited his courage which withstood unshaken the blows of every storm and misfortune.
+
+3\. Indeed, the famous Martin who long ago won great praise for this See, commends faithfulness and fortitude to Us by his strengthening and defense of the truth and by the endurance of labors and pains. He was driven from his See and from the City, stripped of his rule, his rank, and his entire fortune. As soon as he arrived in any peaceful place, he was forced to move. Despite his advanced age and an illness which prevented his walking, he was banished to a remote land and repeatedly threatened with an even more painful exile. Without the assistance offered by the pious generosity of individuals, he would not have had food for himself and his few attendants. Although he was tempted daily in his weakened and lonely state, he never surrendered his integrity. No deceit could trick, no fear perturb, no promises conquer, no difficulties or dangers break him. His enemies could extract from him no sign which would not prove to all that Peter “until this time and forever lives in his successors and exercises judgment as is particularly clear in every age”[2] as an excellent writer at the Council of Ephesus says.
+
+4\. It is a fact of very great importance, and it should be recalled gratefully, that God conferred death on Pius VI (this expression is better than that He took life from him) at a time when there was no obstacle to duly deciding on his successor. Remember Our fear and suspense when the Cardinals were personally expelled from their sees. Several of them were imprisoned, some hunted for their lives, and many forced to cross the sea in depths of winter, deprived of their possessions — all of them in want and separated from one another by great distances. Since the enemy occupied the roads, they could not correspond with one another nor were they allowed to go anywhere. It was clear that they could never assemble to assist the Church if any misfortune struck down Pius VI who was daily said to be between life and death.
+
+5\. Who would have dared at that time, with our affairs assailed and almost destroyed, to hope on the basis of human plans and help for what has actually happened by the special kindness of God? Before he died, Pius VI established the mode of holding the elections of his successors and most of Italy was restored to peace. All arrangements were made for the cardinals to meet in Venice to vote under the protection of Francis, Apostolic King of Hungary, illustrious King of Bohemia, and Emperor-elect of the Romans.
+
+6\. From these events men should realize that all attempts to overthrow the “House of God” are in vain. For this is the Church founded on Peter, “Rock,” not merely in name but in truth. Against this “the gates of hell will not prevail”[3] “for it is founded on a rock.”[4] There has never been an enemy of the Christian religion who was not simultaneously at wicked war with the See of Peter, since while this See remained strong the survival of the Christian religion was assured. As St. Irenaeus proclaims openly to all, “by the order and succession of the Roman pontiffs the tradition from the Apostles in the Church and the proclamation of the truth has come down to us. And this is the fullest demonstration that it is the one and the same life-giving faith which has been preserved in the Church until now since the time of the Apostles and has been handed on in truth.”[5]
+
+7\. This is the direction of attack chosen by those men of today who replace with the defiling plague of false philosophy, the philosophy (as the Greek Fathers in particular rightly name Christian teaching) which the Son of God, who is eternal wisdom, brought down from heaven and imparted to men. But “it has been written” — and these words of Paul are aimed directly at such men — “‘I will destroy the wisdom of the wise, and the sense of the sensible I will reject.’ Where is a wise man, where a scribe, where the examiner of this world? Has not God made foolish the wisdom of this world?”[6]
+
+8\. We are led to recall those words, venerable brothers, especially since they marvellously refresh Us. They inspire Us to shun no toil on behalf of Christ’s Church which He has entrusted to Us to rule, protect, adorn, and extend, despite Our fear of this unexpected burden. Assuredly “He will make us fitting ministers of the new testament as exaltation derives from the power of God and not from Ourselves.” Therefore I now urge you to join me and devote your eager effort to this objective. May Christ’s prayer to His Father never leave our minds: “Holy Father, keep them in your name that they may be one as We….not for these only (i.e. the Apostles) do I pray, but also for those who through their word will believe in me that they all may be one as you, Father, in me and I in you, that they also may be one in us.”[7]
+
+9\. “It is Our particular duty,” as Cyprian says (in On the Unity of the Church), “to uphold and defend this unity” so that the world may see, wonder and believe “that you have sent me,” as Christ’s prayer continues. Christ is with Us and never leaves Our side; he strengthens Us with the words: “Let not your heart be troubled, nor let it fear. You believe in God, believe also in me.”[8] Relying on His help, let us work for the common safety with combined zeal.
+
+10\. Consolation and cure is called for by cities, towns, countryside, states, provinces, kingdoms, and nations, which for many years have been attacked, defeated, destroyed, and made wretched. But this can be sought and hoped for only from the teaching of Christ. We can now, with greater confidence, rebuke those who think otherwise with the words of St. Augustine: “Let them give us an army composed of soldiers such as Christ’s teaching demands, such provincials, such veterans, such spouses, such parents, such children, such masters, such servants, such kings, such judges, and finally such men as repay debts to the public treasury and such tax-officials as the Christian teaching prescribes.” Since they are not able to do so, “let them admit at once that obedience to this teaching would be of great assistance to the state.”[9]
+
+11\. Therefore it is Our duty to help men and nations who are in distress, and to eliminate all present and threatening evils. For “Christ has given pastors and teachers for the perfecting of the saints, for the work of the ministry, for the building up of Christ’s Body, until we all come together to the unity of faith and knowledge of God’s son.”[10] If ever anything deters, prevents, or delays any one of us from performing this task, what a disgraceful sin he will commit! Therefore, omit no watchfulness, diligence, care, and effort, in order to “guard the deposit” of Christ’s teaching whose destruction has been planned, as you know, by a great conspiracy.
+
+12\. Do not admit anyone to the clergy, entrust to no one the ministry of the mysteries of God, allow no one to hear confessions or preach sermons, do not transfer any administration or office to anyone, before you carefully weigh, examine and “test their spirit to see if they are of God.”
+
+13\. Would that We had not learned by experience how many “false apostles” the present age has spawned! These are “deceitful workmen who transform themselves into apostles of Christ.” Unless we are on our guard “they will destroy the understanding of the faithful as the serpent seduced Eve by his cleverness, and they will fall away from their simplicity which is in Christ.”[11] While you must care for the whole flock over which the Holy Spirit has placed you as bishop, the watchfulness, eagerness, and effort of your fatherly love and benevolence is demanded in particular by boys and young men. Christ by example and statement has particularly entrusted these to us[12] and the enemies of private property and states who are striving to confound all laws, divine and human, hope to effect their wicked plans chiefly by corrupting their young minds. For they are aware that the young are like soft wax and can easily be drawn in any direction, bent and moulded and that they firmly retain a form once they have received it and it has been hardened by advancing years; then they will reject a different form. Hence the well-worn proverb from scripture: “A young man will not depart from his way even when he has grown old.”[13]
+
+14\. Do not allow “that the children of this world be wiser in their generation than the children of light.” Carefully investigate the directors given charge of boys and young men in seminaries and colleges, and the courses they are to follow, the teachers chosen for secondary schools, and the schools which are to be run. Keep out the ravening wolves who do not spare the flock of innocent lambs, and expel them if necessary by the way they entered. Eliminate them at once “according to the power which the Lord gave you for edification.”[14] We must use to the full this power to eradicate this very serious threat to our children. This course is required for the safety of Church, state, leaders, and all human beings; their safety should be dearer and more important to Us than Our own life. Clement XIII treated this subject in his Brief to you on 25th November 1766.
+
+15\. Books which openly oppose the teaching of Christ are to be burned. Even more importantly, the eyes and minds of all must be kept from books, which do so more stealthily and deceitfully. To recognize such books, as St. Cyprian says in On the Unity of the Church, “there is not need of a long treatise and arguments: The sum of truth is a proof easy for faith: the Lord says to Peter, ‘feed my sheep.'” So the sheep of Christ should consider safe and eat cheerfully the food to which Peter’s voice and authority directs them; but despite any beauty and charm, they should shun as harmful and plague-ridden, what this voice forbids them. Those who do not comply are certainly not to be counted among the sheep of Christ.
+
+16\. In this case We cannot overlook, keep silent or act sluggishly. For unless this great license of thinking, speaking, writing, and reading is repressed, it will appear that the strategy and armies of wise kings and generals have relieved us for but a short time from this evil which has crushed us for so long. But so long as its stock and seed is not removed and destroyed (I shudder to say it but it must be said), it will spread abroad and be strengthened to reach over the whole world. To destroy it later or to rout it, legions, guards, watches, the armories of cities, and the defenses of empires will not be enough.
+
+17\. Is any one of Us not aroused by the words God speaks to Us through the prophet Ezechiel: “Son of man, I have given you as a guide to the house of Israel: and you shall hear a word from my mouth, and you shall proclaim to them from me. If when I say to the wicked, you shall die the death, you do not proclaim it to him….the wicked man shall die in his iniquity but I shall look for his blood from your hand.”[15] I confess this statement startles me and prevents me from being slothful and fearful in executing the demands of my office. I promise and swear that I will always be not only your helper and supporter, but your chief and leader.
+
+18\. Still another deposit which We must firmly protect is that of the Church’s holy laws by which it establishes its own practice, and over which it alone has power. Under these laws, virtue and piety thrive; the spouse of Christ terrifies her enemies as an army set in battle array. Many of these laws are like foundations laid down to bear the weight of the faith, as Our predecessor St. Zosimus says.[16] There is no greater benefit or boast for kings and political leaders, as another wise and brave predecessor, St. Felix, wrote to Emperor Zeno, than “to allow the Catholic Church to enjoy its own laws and not to let anyone interfere with its liberty….For it is certain that it is beneficial for their own affairs, as God has laid down, for kings to submit their will to the priests of Christ when God’s business is in question, rather than imposing it.”
+
+19\. Regarding the Church’s property, wealth which has been vowed, holy money, the substance of the saints — the business of God, as Fathers, councils and scripture state — shall We give you any instructions about this now that the Church has been wretchedly stripped of them? Only this: to devote your efforts so that everyone will realize the truth of the short statement of the synod of Aachen long ago. “Whoever takes away or intends to take away what other faithful have given from the heritage of their possessions for the care of their souls, the honor of God, the beauty of His Church and the use of its ministers, assuredly turns the gifts of others into danger for his own soul.”[17] “Not from an eagerness to hold what we have or for the sake of worldly benefit, but from reflection on the divine judgment, are we moved to reiterate the command to be faithful and wise stewards.”[18] (Indeed, We can rightly affirm this to all, no less strongly than Our predecessor St. Agapitus.) Christian kings and princes who rightly hold and boast that they are “guardians”[19] of the Church as Isaiah said, will withdraw from no place at Our prayers, exhortations, warnings, or actions. But certainly their faith, piety, justice, wisdom, and religion have given Us great hope that they will ensure immediately that God receives His own and that they will not let their ears resound with God’s complaints. “You have taken my silver and gold and my lovely desirable things.”[20] Constantine the Great and Charlemagne were like these kings, and their noble generosity and justice were chiefly directed to the Church. The former asserted that he had known many kingdoms whose kings had perished because they had despoiled the Church. Because of this he commanded and urged his children and their successors at the head of the state: “We forbid them to the extent of Our power by God and all the merits of his saints to do such acts or agree with those who desire to do them. But let them be helpers and defenders of the churches and of the service of God insofar as they can.”[21]
+
+20\. I cannot conceal from you at the end of this letter, venerable brothers, “Since my sorrow is great and the pain of my heart unceasing,” my feelings for my children, the peoples of France, and other peoples still seething with the same madness. Nothing would be more desirable to me than to give my life for them if their safety could be achieved by my death. We do not deny — rather, We proclaim — that the bitterness of Our grief is much diminished by the invincible purpose which several of you have displayed. We remember this daily. Men of all kinds, age, and rank have followed this example. They do so, preferring to suffer any insults, dangers, losses, and penalties, and to face death itself. They consider this nobler than to be defiled by the stain of an illicit and wicked sacrament thereby committing sin and disobeying the decrees of the Apostolic See. Indeed, the courage of ancient times has been renewed no less than the cruelty.
+
+21\. But every people is embraced by my fatherly love, thoughts, and concern. We grieve and suffer greatly if any are separated from the truth, and We desire to assist them. Join us, then, in Our prayers that after this long-lasting disturbance, “the Church may have peace to be built up as it walks in the fear of the Lord and in the consolation of the Holy Spirit.” May nothing hinder all peoples from becoming one fold with one shepherd.
+
+22\. Meanwhile We most willingly impart the Apostolic Blessing to you in your courage and preparedness, and to the flock you govern.
+
+Given at Venice in the monastery of San Giorgio Maggiore on the 15th of May 1800 in the first year of Our pontificate.
+
+* * *
+
+1\. Lk 22.
+
+  * 3\. Mt 16.
+  * 4\. Mt 7.
+  * 5\. Adversus haereses, bk. 3 chap. 3.
+  * 6\. I Cor 1.9-20.
+  * 7\. Jn 17.
+  * 8\. Jn 14.
+  * 9\. Bk. 83, Question.
+  * 10\. Eph 4.12.
+  * 11\. II Cor 11.
+  * 12\. Mt 19, Mk 10, Lk 18.
+  * 13\. Prv 22.
+  * 14\. II Cor 13.
+  * 15\. Ez 3.17-18.
+  * 16\. Epistle 7.
+  * 17\. Chap. 37, Harduin, Conc., vol. 4, col. 1423.
+  * 18\. Epistle 4 to Caesarius, Bishop of Arles.
+  * 19\. Is 49.23.
+  * 20\. Jl 3.
+  * 21\. Ad. Balut., bk. 1, chap. 3.
+
+
+  * * * *

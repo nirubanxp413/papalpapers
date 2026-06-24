@@ -1,0 +1,147 @@
+# The Proofs For The Existence Of God In The Light Of Modern Natural Science
+
+---
+pope: Pius XII
+title: The Proofs For The Existence Of God In The Light Of Modern Natural Science
+published_date: 1951-11-22
+doc_type: document
+source: https://www.papalencyclicals.net/pius12/p12exist.htm
+---
+
+1\. This meeting of the Pontifical Academy of Sciences brings Us an hour of serene happiness, for which We are grateful to the Almighty. At the same time it affords Us the welcome opportunity to spend some time in the company of a select group of eminent Cardinals, illustrious diplomats, outstanding personages, and of yourselves, the members of the Pontifical Academy, who are indeed worthy of the solemnity of this gathering. For, by your research, your unveiling of the secrets of nature, and your teaching of men to direct the forces of nature toward their own welfare, you preach at the same time, in the language of figures, formulae and discoveries, the inexpressible harmony of the work of an all-wise God.
+
+2\. In fact, according to the measure of its progress, and contrary to affirmations advanced in the past, true science discovers God in an ever-increasing degree-as though God were waiting behind every door opened by science. We would even say that from this progressive discovery of God, which is realized in the increase of knowledge, there flow benefits not only for the scientist himself when he reflects as a philosopher-and how can he escape such reflection?-but also for those who share in these new discoveries or make them the object of their own considerations. Genuine philosophers profit from these discoveries in a very special way, because when they take these scientific conquests as the basis for their rational speculations, their conclusions thereby acquire greater certainty, while they are provided with clearer illustrations in the midst of possible shadows and more convincing assistance in establishing an ever more satisfying response to difficulties and objections.
+
+NATURE AND FOUNDATION OF THE PROOFS FOR THE EXISTENCE OF GOD
+
+3\. Thus stimulated and guided, the human intellect approaches that demonstration of the existence of God which Christian wisdom recognizes in those philosophical arguments which have been carefully examined throughout the centuries by giants in the world of knowledge, and which are already well known to you in the presentation of the “five ways” which the Angelic Doctor, St. Thomas, offers as a speedy and safe road to lead the mind to God. We have called these arguments “philosophical.” This does not mean that they are a prioristic, as they are accused of being by a narrow- minded and incoherent positivism. Even though they draw their demonstrative force from the power of human reason, they are nevertheless based on concrete realities established by the senses and by science.
+
+4\. In this way both philosophy and the sciences, by means of activities and methods which are analogous and mutually compatible, carry on their work. Though in different measures, they all make use of both empirical and rational elements and cooperate in harmonious unity for the discovery of truth.
+
+5\. But if the primitive experience of the ancients could provide human reason with sufficient arguments to demonstrate the existence of God, then with the expanding and deepening of the field of human experiments, the vestiges of the Eternal One are discernible in the visible world in ever more striking and clearer light. Hence it seems helpful to re-examine on the basis of new scientific discoveries the classical proofs of the Angelic Doctor, especially those based on motion and the order of the universe (S. Th., 1 p., q. 2, art. 3); that is to say, to inquire if, and in what degree, a very profound knowledge of the structure of the macrocosm and the microcosm contributes toward strengthening these philosophical arguments.
+
+6\. It is also helpful to consider, on the other hand, if and to what degree these proofs have been weakened, as is not infrequently affirmed by the fact that modern physics has formulated new basic principles, ruled out or modified certain ancient ideas, whose content was perhaps judged in the past to be fixed and definitive, such as time, space, motion, causality, substance all of which concepts are supremely important for the question which now occupies us. The question, then, is not one of revising the philosophical proofs, but rather of inquiring into the physical foundations from which they flow although limitations of time will oblige Us to restrict Our attention to only some few of these foundations. There is no reason to be fearful of surprises. Not even science itself aims to go outside that world which today, as yesterday, presents itself through these “five modes of being” whence the philosophical demonstration of the existence of God proceeds and draws its force.
+
+TWO ESSENTIAL CHARACTERISTICS OF THE COSMOS
+
+7\. From these “modes of being” of the world around us which, in greater or lesser degrees of comprehension, are noted with equal evidence by both the philosopher and the human mind in general, there are two which modern science has, in a marvelous degree, fathomed, verified and deepened beyond all expectations: (1) the mutability of things, including their origin and their end; and (2) the teleological order which stands out in every corner of the cosmos.
+
+8\. The contribution thus made by science to the two philosophical arguments which hinge on these facts and which constitute the first and the fifth ways of St. Thomas, is most notable. To the first way, physics especially has provided an inexhaustible mine of experiments, revealing the fact of mutability in the deepest recesses of nature, where previously no human mind could ever even suspect its existence and vastness. Thus physics has provided a multiplicity of empirical facts which are of tremendous assistance to philosophical reasoning. We say “assistance,” because the very direction of these same transformations, precisely in view of the certainty afforded by physics, seems to Us to surpass the value of a mere confirmation and acquires almost the structure and dignity of a physical argument which is in great part new, and more acceptable, persuasive and welcome to many minds.
+
+9\. With similar richness other sciences, especially the astronomical and the biological sciences, have in our own day contributed to the argument from order such a vast array of knowledge and, so to speak, so stupefying a vision of the conceptual unity animating the cosmos, and of the teleology directing its movements, as to anticipate for modern man the joy which the poet imagined in the empyrean heaven when he beheld in God
+
+“Into one volume bound by love, the same that the universe holds scattered through its maze” (Alighieri Dante, _Paradiso,_ Canto 33, 85-87).
+
+10\. Nevertheless, Providence has disposed that just as the notion of God, which is so essential to the life of each individual, can be gathered easily from a simple look at the world-in such a way that not to understand the voice of creation is foolishness (Wis., 13, 1-2)-so also this same idea of God finds confirmation in every new development and progress of scientific knowledge.
+
+11\. Wishing to give here only a rapid summary of the priceless services rendered by modern science to the demonstration of the existence of God, We shall limit Ourselves, first of all, to the fact of changes, pointing out principally their amplitude and vastness and, so to speak, their totality which modern physics meets in the inanimate cosmos. We shall then dwell on the significance of their direction, which is likewise verified by science. Thus, in Our treatment of these points, we shall, so to speak, be lending an ear to a miniature concert of the immense universe, which nevertheless has a voice strong enough to sing “the glory of Him who moveth all that is.” (Dante, _Paradiso,_ 1, 1).
+
+A. THE MUTABILITY OF THE COSMOS
+
+The Fact of Mutability
+
+(a) in the macrocosm:
+
+12\. At first sight it is rightly a source of wonderment to recognize how the knowledge of the fact of mutability has gained ever greater ground, both in the macrocosm and in the microcosm, according as science has made new progress, as though confirming with new proofs the theory of Heraclitus: “Everything is in flux”: _panta rhei_. As is known, our own everyday experience brings to light an immense number of transformations in the world around us, both near and far away, particularly the local movements of bodies.
+
+13 But, over and above all, these local movements strictly so called, the manifold chemico-physical changes which take place in the world are equally noticeable, as, for example, the change in the physical state of water in its three phases of steam, liquid, and ice. We are aware also of the far-reaching chemical effects produced by the use of fire, the knowledge of which goes back to pre-historic times, and of the weathering or rocks and the corruption of vegetable and animal life.
+
+14\. This common experience is corroborated by the natural sciences, which have taught people to understand these and other similar changes as processes of destruction and construction of corporeal substances in their chemical elements, that is to say, in their tiniest parts, the chemical atoms. Going still farther, natural science made known that this chemico-physical mutability is not, as the ancients thought, restricted to terrestrial bodies, but even extends to all the bodies of our solar system and of the great universe, which the telescope, and still more the spectroscope, have demonstrated to be composed of the same kind of atoms.
+
+(b) in the microcosm:
+
+15\. Nevertheless, in the face of the undeniable mutability of even inanimate nature, there still rises the enigma of the unexplored microcosm. It seemed, in fact, that, unlike the organic world, inorganic matter was in a certain sense immutable. Its tiniest parts, the chemical atoms, were indeed capable of combining in most diversified manners, but they appeared to be endowed with a privilege of eternal stability and indestructibility, since they emerged unchanged from every chemical synthesis and analysis. A hundred years ago, the elementary particles were still regarded as simple, indivisible, and indestructible.
+
+16\. The same idea prevailed regarding the material energy and forces of the cosmos, especially on the basis of the fundamental laws of the conservation of mass and energy. Some natural scientists went so far as to consider themselves authorized to formulate in the name of their science a fantastic monastic philosophy, whose sorry memory is linked up, among others, with the name of Ernst Haeckel. But in the very lifetime of the latter, toward the end of the last century, even this over-simplified conception of the chemical atom was shattered by modern science. The growing knowledge of the periodic system of chemical elements, the discovery of the corpuscular radiations of radio active elements, along with many other similar facts, have demonstrated that the microcosm of the chemical atom, with dimensions as small as ten-millionths of a millimeter, is a theater of continuous mutations, no less than the macrocosm known to all.
+
+In the electronic sphere:
+
+17\. It was in the sphere of electronics that the character of mutability was first established. From the electronic structure of the atom there emanate radiations of light and heat which are absorbed by outside bodies, corresponding to the energy level of the electronic orbits. In the exterior parts of this sphere there takes place the ionization of the atom and the transformation of energy in the synthesis and analysis of chemical combinations. At that time, however, it was possible to suppose that these chemico- physical transformations provided one last refuge for stability, since they did not reach the very nucleus of the atom, which is the seat of its mass and of the positive electric charge which determine the place of the chemical atom in the natural system of the elements, and where it seemed science had found, so to speak, an example of an absolutely stable and invariable being.
+
+And in the nucleus:
+
+18\. But already at the dawn of the new century, the observation of radioactive processes, which, in their last analysis, were connected with a spontaneous breaking down of the nucleus, began to exclude any such example. Hence, once science had established the fact of instability reaching down into the deepest depths of known nature, there still remained one further perplexing fact, since the atom was apparently unattackable, at least by human forces, because in the beginning all efforts to hasten or to retard its natural radioactive disintegration, or even to break down inactive nuclei, had failed.
+
+19\. The first very modest attempt to break down the nucleus (of nitrogen) goes back to hardly more than three decades ago, and it is only in recent years that it has been possible, by bringing into play tremendous forces, to produce very numerous processes involving the formation and the breaking down of nuclei. Although this result-which, insofar as it contributes to the cause of peace, is certainly to be inscribed among the glories of our century-represents in the field of practical nuclear physics no more than a preliminary step, nevertheless, it provides for our consideration an important conclusion, namely, that atomic nuclei are indeed, by many orders of magnitude, more firm and stable than ordinary chemical compositions, but this notwithstanding, they are also, in principle, subject to similar laws of transformation, and hence are mutable.
+
+20\. At the same time it was possible to establish that such processes have the greatest importance in the economy of energy of the fixed stars. In the center of our sun, for example, according to Bethe, and in the midst of a temperature which goes as high as some twenty million degrees, there takes place a chain-reaction returning upon itself, in which four hydrogen nuclei combine with one nucleus of helium. The energy thus liberated comes to compensate the loss involved in the radiation of the sun itself.
+
+21\. Also, in modern physical laboratories, through bombardment with particles endowed with tremendous energy or with neutrons, successful efforts are being made to effect transformations of nuclei, as can be seen in the example of the atom of uranium. In this connection mention must also be made of the effects of cosmic radiation which can break down even the heaviest atoms, thus not infrequently liberating entire swarms of sub-atomic particles.
+
+22\. We have desired to cite only some few examples, but such as could establish beyond all possible doubt the explicit mutability of the inorganic world, large and small: the countless transformations of the forms of energy, especially in the chemical decompositions and combinations taking place in the macrocosm and in no smaller degree, the mutation, a law which is analogous to the law of entropy for the macrocosm. The direction of spontaneous evolution is determined through the diminution of utilizable energy in the structure and the nucleus of the atom, and, up to the present time, science knows of no processes capable of compensating or annulling this exploitation through the spontaneous formation of nuclei having high energy value.
+
+C. THE UNIVERSE AND ITS DEVELOPMENT
+
+In the future:
+
+31\. If the scientist turns his attention from the present state of the universe to the future, even the very remote future, he finds himself constrained to recognize, both in the macrocosm and in the microcosm, that the world is growing old. In the course of billions of years, even the apparently inexhaustible quantities of atomic nuclei lost utilizable energy and, so to speak, matter becomes like an extinct and scoriform volcano. And the thought comes spontaneously that if this present cosmos, today so pulsating with rhythm and life is, as we have seen, insufficient to explain itself, with still less reason, will any such explanation be forthcoming from the cosmos over which, in its own way, the shadow of death will have passed.
+
+In the past:
+
+32\. Let us now turn our attention to the past. The farther back we go, the more matter presents itself as always more enriched with free energy, and as a theater of vast cosmic disturbances. Thus everything seems to indicate that the material universe had in finite times a mighty beginning, provided as it was with an indescribably vast abundance of energy reserves, in virture of which, at first rapidly and then with increasing slowness, it evolved into its present state.
+
+33\. This naturally brings to mind two questions:
+
+Is science in a position to state when this mighty beginning of the cosmos took place? And, secondly, what was the initial or primitive state of the universe?
+
+34\. The most competent experts in atomic physics, in collaboration with astronomers and astrophysicists, have attempted to shed light on these two difficult but extremely interesting problems.
+
+D. THE BEGINNING IN TIME
+
+35\. First of all, to quote some figures-which aim at nothing else than to give an order of magnitude fixing the dawn of our universe, that is to say, to its beginning in time- science has at its disposal various means, each of which is more or less independent from the other, although all converge. We point them out briefly:
+
+(1) recession of the spiral nebulae or galaxies:
+
+36\. The examination of various spiral nebulae, especially as carried out by Edwin W. Hubble at the Mount Wilson Observatory, has led to the significant conclusion, presented with all due reservations, that these distant systems of galaxies tend to move away from one another with such velocity that, in the space of 1,300 million years, the distance between such spiral nebulae is doubled. If we look back into the past at the time required for this process of the “expanding universe,” it follows that, from one to ten billion years ago, the matter of the spiral nebulae was compressed into a relatively restricted space, at the time the cosmic processes had their beginning.
+
+(2) The age of the solid crust of the earth:
+
+37\. To calculate the age of original radioactive substances, very approximate data are taken from the transformation of the isotope of uranium 238 into an isotope of lead (RaG), or of an isotope of uranium 235 into actinium D (AcD), and of the isotope of thorium 232 into thorium D (ThD). The mass of helium thereby formed can serve as a means of control. This leads to the conclusion that the average age of the oldest minerals is at the most five billion years.
+
+(3) The age of meteorites:
+
+38\. The preceding method adopted to determine the age of meteorites has led to practically the same figure of five billion years. This is a result which acquires special importance by reason of the fact that the meteorites come from outside our earth and, apart from the terrestrial minerals are the only examples of celestial bodies which can be studied in scientific laboratories.
+
+(4) The stability of the systems of double stars and starry masses:
+
+39\. The oscillations of gravitation between these systems, as also the attrition resulting from tides, again limit their stability within a period of from five to ten billion years. 40. Although these figures may seem astounding, nevertheless, even to the simplest of the faithful, they bring no new or different concept from the one they learned in the opening words of Genesis: “In the beginning . . .,” that is to say; at the beginning of things in time. The figures We have quoted clothe these words in a concrete and almost mathematical expression, while from them there springs forth a new source of consolation for those who share the esteem of the Apostle for that divinely inspired Scripture which is always useful “for teaching, for reproving, for correcting, for instructing” (2 Tim., 3, 16).
+
+E. THE STATE AND QUALITY OF ORIGINAL MATTER
+
+41\. In addition to the question of the age of the cosmos, scholars have, with similar earnestness and liberty of research and verification, turned their daring genius to the other problem which has already been mentioned and which is certainly more difficult, concerning the state and quality of primitive matter.
+
+42\. According to the theories serving as their basis, the relative calculations differ in no small degree from one another. Nevertheless, scientists agree in holding that not only the mass but also the density, pressure, and temperature of matter must have reached absolutely enormous proportions as can be seen from the recent work of A. Unsold, director of the Observatory of Kiel (_Kernphysik und Kosmologie, in the Zeitschrift fur Astrophysik_ , 24, B. 1948, pag. 278 306). Only under such conditions can we explain the formation of heavy nuclei and their relative frequency in the periodic system of the elements.
+
+43\. Rightly, on the other hand, does the mind in its eagerness for truth insist on asking how matter reached this state, which is so unlike anything found in our own everyday experience, and it also wants to know what went before it. In vain would we seek an answer in natural science, which declares honestly that it finds itself face to face with an insoluble enigma. It is true that such a question would demand too much of natural science as such. But it is also certain that the human mind trained in philosophical meditation penetrates more deeply into this problem.
+
+44\. It is undeniable that when a mind enlightened and enriched with modern scientific knowledge weighs this problem calmly, it feels drawn to break through the circle of completely independent or autochthonous matter, whether uncreated or self-created, and to ascend to a creating Spirit. With the same clear and critical look with which it examines and passes judgment on facts, it perceives and recognizes the work of creative omnipotence, whose power, set in motion by the mighty “Fiat” pronounced billions of years ago by the Creating Spirit, spread out over the universe, calling into existence with a gesture of generous love matter bursting with energy. In fact, it would seem that present-day science, with one sweeping step back across millions of centuries, has succeeded in bearing witness to that primordial “Fiat lux” uttered at the moment when, along with matter, there burst forth from nothing a sea of light and radiation, while the particles of chemical elements split and formed into millions of galaxies.
+
+45\. It is quite true that the facts established up to the present time are not an absolute proof of creation in time, as are the proofs drawn from metaphysics and Revelation in what concerns simple creation or those founded on Revelation if there be question of creation in time. The pertinent facts of the natural sciences, to which We have referred, are awaiting still further research and confirmation, and the theories founded on them are in need of further development and proof before they can provide a sure foundation for arguments which, of themselves, are outside the proper sphere of the natural sciences.
+
+46\. This notwithstanding, it is worthy of note that modern scholars in these fields regard the idea of the creation of the universe as entirely compatible with their scientific conceptions and that they are even led spontaneously to this conclusion by their scientific research. Just a few decades ago, any such “hypothesis” was rejected as entirely irreconcilable with the present state of science.
+
+47\. As late as 1911, the celebrated physicist Svante Arhenius declared that “the opinion that something can come from nothing is at variance with the present-day state of science, according to which matter is immutable.” (_Die Vorstellung vom Weltgebaude im Wandel der Zeiten_ , 1911, pag. 362). In this same vein we find the statement of Plato: “Matter exists. Nothing can come from nothing, hence matter is eternal. We cannot admit the creation of matter.” (_Ultramontane Weltanschauung und Moderne Lebenskunde_ , 1907, pag. 55).
+
+48\. On the other hand, how different and much more faithful a reflection of limitless visions is the language of an outstanding modern scientist, Sir Edmund Whittaker, member of the Pontifical Academy of Science, when he speaks of the above-mentioned inquiries into the age of the world: “These different calculations point to the conclusion that there was a time, some nine or ten billion years ago, prior to which the cosmos, if it existed, existed in a form totally different from anything we know, and this form constitutes the very last limit of science. We refer to it perhaps not improperly as creation. It provides a unifying background, suggested by geological evidence, for that explanation of the world according to which every organism existing on the earth had a beginning in time. Were this conclusion to be confirmed by future research, it might well be considered as the most outstanding discovery of our times, since it represents a fundamental change in the scientific conception of the universe, similar to the one brought about four centuries ago by Copernicus.” (_Space and Spirit_ , 1946, pag. 118- 119).
+
+Conclusion:
+
+49\. What, then, is the importance of modern science for the argument for the existence of God based on the mutability of the cosmos? By means of exact and detailed research into the macrocosm and the microcosm, it has considerably broadened and deepened the empirical foundation on which this argument rests, and from which it concludes to the existence of an _Ens a se_ , immutable by His very nature.
+
+50\. It has, besides, followed the course and the direction of cosmic developments, and, just as it was able to get a glimpse of the term toward which these developments were inexorably leading, so also has it pointed to their beginning in time some five billion years ago. Thus, with that concreteness which is characteristic of physical proofs, it has confirmed the contingency of the universe and also the well-founded deduction as to the epoch when the cosmos came forth from the hands of the Creator.
+
+51\. Hence, creation took place in time. Therefore, there is a Creator. Therefore, God exists! Although it is neither explicit nor complete, this is the reply we were awaiting from science, and which the present human generation is awaiting from it. It is a reply which bursts forth from nature and calm consideration of only one aspect of the universe; namely, its mutability. But this is already enough to make the entire human race, which is the peak and the rational expression of both the macrocosm and the microcosm, become conscious of its exalted Maker, realize that it belongs to Him in space and in time and then, falling on its knees before His sovereign majesty, begin to invoke His name: _Rerum, Deus, tenax vigor,-Immotus in te permanens, — Lucis diurnae tempora successibus determinans_ (Hymn for None).
+
+(A free English translation is: “O God, creation’s secret force/Thyself unmoved, yet motion’s source/Who from the morn till evening’s ray/Through every change dost guide the day.”)
+
+52\. The knowledge of God as sole Creator, now shared by many modern scientists, is indeed, the extreme limit to which human reason can attain. Nevertheless, as you are well aware, it does not constitute the last frontier of truth. In harmonious cooperation, because all three are instruments of truth, like rays of the same sun, science, philosophy, and, with still greater reason, Revelation, contemplate the substance of this Creator whom science has met along its path unveil His outlines and point out His features.
+
+53\. Revelation, above all, makes His presence, so to speak, immediate, vitalizing, and loving, like that presence of which either the simple faithful or the scientist is aware in his inner soul when he recites unhesitatingly the concise terms of the ancient Apostles’ Creed: “I believe in God, the Father Almighty, Creator of heaven and earth.”
+
+54\. Today, after so many centuries which were centuries of civilization because they were centuries of religion, the need is not so much to reveal God for the first time as it is rather to recognize Him as a Father, reverence Him as a lawgiver, and fear Him as a Judge. If they would be saved, the nations must adore the Son, the loving Redeemer of mankind, and bow to the loving inspirations of the Spirit, the fruitful Sanctifier of souls.
+
+55\. This persuasion, taking its remote inspiration from science, is crowned by Faith which, being ever more deeply rooted in the consciousness of the people, will truly be able to assure basic progress for the march of civilization.
+
+56\. This is a vision of the whole, of the present as of the future, of matter as of the spirit, of time as of eternity, which, as it illuminates the mind, will spare to the men of today a long tempestuous night.
+
+57\. It is that Faith which at this moment inspires Us to raise toward Him Whom we have just invoked as _Vigor_ , _Immotus,_ and _Pater_ , a fervent prayer for all His children entrusted to Our care: Largire lumen vespere,-Quo vita nusquam decidat, (Hymn for None)-light for the life of time, light for the life of eternity.
