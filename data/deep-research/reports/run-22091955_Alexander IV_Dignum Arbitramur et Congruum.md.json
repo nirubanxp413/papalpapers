@@ -1,0 +1,560 @@
+{
+  "id": "3c5020bc-215a-49e7-81d5-e6a08928592d",
+  "model": "sonar-deep-research",
+  "created_at": 1782356648,
+  "started_at": 1782356648,
+  "completed_at": 1782356922,
+  "response": {
+    "id": "3c5020bc-215a-49e7-81d5-e6a08928592d",
+    "model": "sonar-deep-research",
+    "created": 1782356922,
+    "usage": {
+      "prompt_tokens": 2292,
+      "completion_tokens": 10318,
+      "total_tokens": 12610,
+      "search_context_size": null,
+      "citation_tokens": 9085,
+      "num_search_queries": 76,
+      "reasoning_tokens": 97901,
+      "cost": {
+        "input_tokens_cost": 0.00458,
+        "output_tokens_cost": 0.08254,
+        "reasoning_tokens_cost": 0.2937,
+        "request_cost": null,
+        "citation_tokens_cost": 0.01817,
+        "search_queries_cost": 0.38,
+        "total_cost": 0.779
+      }
+    },
+    "object": "chat.completion",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "# Dignum Arbitramur et Congruum (Alexander IV, 1255)  \n\nThe papal bull *Dignum arbitramur et congruum*, issued by Pope Alexander IV in 1255, is a compact but historically significant legal instrument that intervenes directly in the emerging European system of higher education by granting the University of Salamanca the privilege that its degrees be recognized everywhere, with the associated *ius ubique docendi*\u2014the right of its masters to teach in any general studium without further examination, except at Paris and Bologna.[33][10][41] It responds reflectively to a concrete, recently arisen problem in academic mobility\u2014the repeated re\u2011examination of already approved masters\u2014and to the political ambitions of the Castilian monarchy, which had just reorganized Salamanca as a royal *studium generale* in 1254.[46][12][20] At the same time, it is overwhelmingly prospective and prescriptive in orientation: it lays down a general rule meant to govern future relations between universities across Christendom, uses papal authority to standardize credential recognition, and thereby helps formalize what modern historians describe as a trans\u2011European academic market.[32][32][16] The bull\u2019s social and political horizon extends well beyond ecclesiastical concerns, as it links learned expertise to the \u201csecurity of kingdoms\u201d and inserts papal jurisdiction into the regulation of an increasingly mobile body of scholars serving both Church and secular polities.[5][20]  \n\n## Gradients  \n\n```json\n{\n  \"reflective_saturation\": 3,\n  \"reflective_density\": -5,\n  \"prospective_saturation\": 9,\n  \"prospective_density\": 18\n}\n```  \n\n## Constraints  \n\nThis report begins from the primary source as preserved at PapalEncyclicals.net, which hosts a Latin text of *Dignum arbitramur et congruum* and explicitly identifies it as a bull by Alexander IV granting universal validity to degrees conferred by the University of Salamanca.[1][1][1] Where the online edition is sparse or lacks critical apparatus, I correlate it with parallel evidence from university archives, regesta of papal bulls, and modern historiography on medieval universities and papal privileges.[3][33][41] The temporal focus is the mid\u2011thirteenth century, but the analysis follows the document\u2019s reception and historiographical treatment into the early modern and modern periods where sources permit.  \n\nIn line with the Papal Papers project\u2019s emphasis on secular engagement, the report foregrounds the bull\u2019s implications for politics, law, academic labour, and state formation, while also noting the ecclesiastical structures that made this intervention possible.[32][16] I distinguish systematically between primary historical records (papal bulls, royal charters, university statutes), media or popular discourse (touristic descriptions, social media posts, institutional publicity), and academic scholarship (peer\u2011reviewed articles and established reference works). Assertions of factual events or legal provisions are grounded in primary sources or standard reference works; interpretive claims are attributed to named scholars or identified as analytical inference, and media narratives are treated strictly as evidence of perception rather than of legal or institutional reality.[16][32]  \n\nThe evaluation of \u201creflective\u201d and \u201cprospective\u201d character follows the project\u2019s definitions. A document is classed as reflective when it looks backward to describe or interpret existing conditions, and as prospective or prescriptive when it seeks to shape future conduct, rules, or social orders. Saturation measures how centrally each stance organizes the document\u2019s purpose; density measures how far backward or forward in time its gaze extends, calibrated here on a scale from \u221230 to +30 years relative to the date of issue. These gradients are heuristic: they summarize patterns that are spelled out in detail in the Structured and Unstructured sections, and they do not imply any normative judgment about the wisdom or success of papal policy.  \n\nFinally, the report obeys an evidence\u2011first discipline. Where documentation is thin\u2014for example, on the bull\u2019s immediate reception beyond Salamanca\u2014this is stated explicitly, and no attempt is made to fill gaps with conjectural narrative. In keeping with the investigative, non\u2011hagiographic brief, the analysis notes not only the bull\u2019s innovations and symbolic importance but also its limits, ambiguities, and later overshadowing by other papal interventions in the university system.[10][34]  \n\n## Structured  \n\n### 1. Document profile and core content  \n\n*Dignum arbitramur et congruum* is a papal bull of Pope Alexander IV, dated 22 September 1255, and addressed to the masters and scholars of the *studium* at Salamanca in the kingdom of Castile and Le\u00f3n.[1][1][41] Secondary regesta and Spanish scholarship place its issue either at Anagni or at Naples, reflecting some uncertainty in manuscript traditions, but they agree on the date and on its essential content: it grants \u201cuniversal validity\u201d to degrees awarded by the University of Salamanca.[33][41][43] The bull\u2019s incipit, \u201cDignum arbitramur et congruum,\u201d frames the act as something considered \u201cright and fitting,\u201d and contemporary catalogues quote its opening formula as a standard way of identifying it among Alexander IV\u2019s bulls.[17][17][42]  \n\nAt the heart of the document lies a specific legal concession. Masters and scholars who have been legitimately examined and approved at Salamanca are, by this bull, freed from the requirement to undergo further examinations when they seek to teach in other *studia generalia* across Christendom, with the explicit exception of Paris and Bologna.[33][10][41] Modern summaries describe this as the granting of the *licentia ubique docendi*\u2014the license to teach everywhere\u2014which in practice meant that a single successful examination at Salamanca sufficed to qualify a graduate for teaching positions in other recognized universities.[3][10][30] The bull thus elevates Salamanca\u2019s degrees to a status comparable to those of the great Italian and French universities, while still acknowledging Paris and Bologna as holding a unique, non\u2011derogated position.  \n\nThe text also situates the concession within a network of petition and patronage. It notes that the masters and scholars of Salamanca, supported by the king of Castile and Le\u00f3n, have appealed to the Apostolic See against an injustice: despite being examined and found competent, they are required to submit to repeated examinations when they move to other universities, a burden seen as unreasonable and contrary to equity.[20][5][33] Alexander IV, judging it fitting that those who \u201ccultivate the field of study\u201d and seek the \u201cpearl of knowledge\u201d should find favour with the papal curia, responds by using apostolic authority to widen their freedom to teach.[1][1] The bull concludes with standard legal formulae nullifying any future attempt to contravene its provisions, thereby emphasizing its intended durability.[1][1]  \n\nAs a genre, *Dignum arbitramur* is not an encyclical in the later sense but a specific papal bull: it is juridical rather than doctrinal, addressed to a particular corporate body, and written in the technical language of privileges and exemptions.[4][15] It contains no scriptural exegesis, no extended pastoral exhortation, and only a brief allegorical flourish about the field of study; its primary function is to issue a concrete legal decision. Yet because medieval universities were transnational corporations embedded in both ecclesiastical and secular polities, this narrowly framed act has broad social and political implications and is therefore within the remit of a project concerned with papal engagement with the secular world.[16][30]  \n\n### 2. Historical setting: Salamanca, Alexander IV, and the medieval university system  \n\nThe bull was issued less than a year into Alexander IV\u2019s pontificate, which began in December 1254 after the death of Innocent IV.[28] Alexander, born Rinaldo di Jenne, was a cardinal with long curial experience and a reputation for supporting the Mendicant Orders, particularly the Franciscans and Dominicans, in their conflicts with secular clergy in the University of Paris.[22][29][28] His pontificate unfolded amid the protracted struggle between the papacy and the Hohenstaufen dynasty, and he often resided outside Rome, including at Anagni and in the Kingdom of Naples, where the papal curia had strong political interests.[28][15] His interventions in university affairs, including the Salamanca bull, must be situated within this wider pattern of using academic institutions to buttress papal authority and promote allied reformist religious movements.  \n\nThe University of Salamanca itself had undergone a decisive reorganization just one year earlier. King Alfonso X \u201cthe Wise,\u201d who ascended the throne of Castile and Le\u00f3n in 1252, issued a foundational charter for the *Estudio General* of Salamanca on 8 May 1254, establishing detailed regulations for its governance, staffing, and finances.[12][46] This charter set out the number of chairs, fixed salaries for masters, and granted the *studium* important royal protections, including exemptions from certain taxes and judicial privileges for scholars.[33][12] Modern historians stress that Salamanca was created as a state institution by royal decree, not originally by papal bull, even though academic degrees were conferred in ceremonies invoking the authority of both the pope and the king.[20][20]  \n\nThe concept of a *studium generale* was itself evolving in this period. Medieval sources used the term to denote an institution that attracted students \u201cfrom all places,\u201d taught the arts and at least one higher faculty (law, medicine, or theology), and relied on masters who had themselves attained a recognized degree.[30][30][16] Over the course of the thirteenth century, this customary definition became intertwined with formal papal or imperial charters, which confirmed privileges and, in some cases, conferred the *ius ubique docendi*, the right of masters to teach everywhere without facing local discrimination.[30][30][24] By 1255, therefore, a crowded and competitive field of universities\u2014Paris, Bologna, Padua, Oxford, Montpellier, among others\u2014was seeking recognition and privileges from popes and emperors to secure their position in what modern economists describe as an integrated \u201cacademic market.\u201d[32][32]  \n\nIn this context, Alfonso X\u2019s project at Salamanca was both imitative and aspirational. He drew inspiration from Paris and Bologna, whose legal and theological expertise he wished to transplant into his own realms to serve royal administration and legislative reform.[5][20] At the same time, he pursued an assertive policy of founding or elevating several *Estudios Generales* in places like Salamanca, Seville, and Murcia between 1254 and 1272, granting them extensive corporate privileges ranging from tax exemptions to a special legal jurisdiction and the right of masters and students to form self\u2011governing associations.[33] The petition to Alexander IV that resulted in *Dignum arbitramur* thus emerged at the intersection of papal and royal efforts to shape the geography of higher learning in ways that served both the universal Church and the consolidation of a learned monarchy in Castile.  \n\n### 3. Reflective character: backward\u2011looking elements and their limits  \n\nThe reflective dimension of *Dignum arbitramur* is present but modest. The bull briefly rehearses the circumstances that have prompted the petition: the existence of an established *studium* at Salamanca, the diligence of its masters and scholars in their pursuit of learning, and the injustice they suffer when, despite having been properly examined, they are forced to repeat examinations elsewhere.[33][3][20] It thereby acknowledges a factual state of affairs\u2014the mobility of masters between universities, the autonomy of local institutions to require their own exams, and the resulting burdens on individual scholars. This backward\u2011looking glance is concrete and recent rather than sweeping or historical; it refers to practices of the immediately preceding years rather than to long\u2011term traditions.  \n\nThe bull also implicitly situates Salamanca within an already existing hierarchy of universities. By excepting Paris and Bologna from the *ius ubique docendi* it grants, Alexander IV acknowledges that these two institutions enjoy a kind of seniority or special jurisdiction that even papal favour toward Salamanca does not override.[10][10][30] This gesture reflects a decades\u2011long process in which Paris and Bologna had become archetypes of the theological and legal university, respectively, enjoying corporate privileges secured by earlier papal and imperial charters and by customary academic practice.[16][30] The bull does not rehearse that history, but its structure presupposes it: Salamanca\u2019s rise is narrated in relation to an established landscape that it cannot fully equal.  \n\nOne of the few explicitly reflective formulas in the text is the phrase, preserved in a related 1255 bull confirming the courses at Salamanca, that \u201cin the multitude of the wise is the security of kingdoms.\u201d[5] Although this phrasing appears in a different Alexander IV bull of April 1255 rather than in *Dignum arbitramur* itself, the two bulls address the same institution in the same year and express a common idea: learned expertise is already recognized as a pillar of good governance, and Salamanca\u2019s flourishing is interpreted as part of this pre\u2011existing link between wisdom and political stability.[20][5] This is a backward\u2011looking claim about the nature of kingdoms and their reliance on learned men, even as it justifies future privileges.  \n\nDespite these elements, the bull does not offer any broader interpretation of social or intellectual trends. It does not comment on the twelfth\u2011century renaissance of learning, the rise of Roman and canon law, or the theological disputes roiling Paris, even though these were the background conditions of its issuance.[16][22][29] Nor does it memorialize the founding of Salamanca in 1218 by Alfonso IX or narrate its early development. Modern tourist materials and university histories often emphasize that Salamanca is \u201cone of the oldest universities in Europe\u201d and \u201cthe oldest university in the Hispanic world,\u201d but such diachronic reflections are entirely absent from Alexander IV\u2019s text.[19][3][44] For this reason, the reflective saturation of the bull can be scored as low to moderate: it looks backward enough to identify a specific injustice and to position Salamanca in an existing academic hierarchy, but it does not attempt a larger historical narrative or theological reflection on knowledge.  \n\nTemporally, the reflective gaze is short\u2011range. The injustices of repeated examinations, the petitions of the masters and the king, and the state of the *studium* at Salamanca all belong to the immediately preceding years, essentially the period between Alfonso X\u2019s 1254 charter and the bull\u2019s issuance in 1255.[12][33] There is no evidence that Alexander IV in this document reaches back decades or generations, nor that he invokes ancient privileges or precedent beyond the generic authority of the Apostolic See. A density of about \u22125 years thus captures the limited retrospective reach of the bull: it is anchored in current events, not in long\u2011term historical memory.  \n\n### 4. Prospective character: prescriptive reach and future\u2011oriented vision  \n\nBy contrast, the bull\u2019s prospective and prescriptive character is intense and unmistakable. Its central clauses do not merely comment on Salamanca\u2019s situation; they legislate for the future by altering the legal status of degrees and the conditions under which masters can move between universities. Alexander IV \u201cindulges,\u201d that is, grants by apostolic authority, that anyone examined and found competent in any faculty at Salamanca shall henceforth be admitted to teach in other *studia generalia* in that same faculty \u201cwithout any further examination or obstacle,\u201d except at Paris and Bologna.[33][10][41] This is a classic papal privilege, intended to take immediate effect and to govern all future cases until revoked.  \n\nIn doing so, the bull seeks to reshape the dynamics of academic mobility. Modern economic historians have shown that the *licentia ubique docendi* functioned as a mechanism for integrating an otherwise fragmented academic labour market, allowing scholars to move relatively freely across political and linguistic boundaries to seek positions where their expertise was in demand.[32][32] By conferring this privilege on Salamanca, the papacy is not merely regularizing a local injustice but taking a deliberate step toward standardizing credentials transnationally. The bull anticipates a future in which Salamanca\u2011trained masters circulate widely and in which other universities are expected to accept the papal validation of their competence.  \n\nThe bull\u2019s perpetuity clause enhances this forward\u2011looking character. Like many medieval privileges, *Dignum arbitramur* concludes by prohibiting any person, regardless of rank, from infringing or contradicting its provisions, on pain of ecclesiastical censure.[1][1] The absence of any temporal limit\u2014no term of years is specified\u2014implies that the privilege is meant to endure indefinitely. Indeed, later sources suggest that Salamanca\u2019s claim to universal recognition of its degrees remained a point of pride and a legal reality well into the later Middle Ages, reinforced by further papal bulls such as John XXII\u2019s 1333 bull granting additional insignia and honours to its scholars.[34][5][5] In this sense, the bull\u2019s prescriptive gaze extends decades into the future, even though it does not specify a numerical horizon.  \n\nThe bull\u2019s prospective dimension is not limited to academic careers. Because universities were major suppliers of trained jurists, theologians, and administrators to both ecclesiastical and secular institutions, the decision to enhance Salamanca\u2019s standing has implications for the staffing of royal chanceries, episcopal courts, and cathedral chapters across Europe.[20][5][16] Alfonso X\u2019s commitment to legal codification and learned governance means that he likely saw the papal privilege as a tool to attract students to Salamanca and to export Castilian\u2011trained experts abroad, thereby extending the intellectual influence of his kingdom.[33][12] Alexander IV, for his part, could foresee that granting the *ius ubique docendi* to an allied royal university would strengthen papal influence in Iberia and provide a counterweight to universities more closely tied to other political powers, such as Paris to the French crown and Bologna to various Italian communes and imperial interests.[32][16]  \n\nGiven these features, the prospective saturation of *Dignum arbitramur* can be scored as very high. The document\u2019s primary purpose is prescriptive: it issues a new rule, expects it to change future practice, and is structured entirely around this forward\u2011directed grant. In terms of temporal density, a value in the high positive range (here estimated at +18 years) reflects the fact that the bull is meant to regulate not only the immediate future but the medium\u2011term and long\u2011term movement of scholars and recognition of degrees, a horizon that subsequent papal confirmations show was indeed realized to some extent.[34][3][3]  \n\n### 5. Engagement with the secular world  \n\nAlthough issued by a pope and written in the idiom of canon law, *Dignum arbitramur* is deeply entangled with secular institutions and concerns. The University of Salamanca was a royal foundation, supported financially and juridically by the king of Castile and Le\u00f3n, and Alfonso X\u2019s 1254 charter explicitly framed it as a tool for the monarchy\u2019s governance.[12][46][20] The papal bull responds to a petition not only from the university\u2019s masters and scholars but also from the king, whose political project depended on securing for his university a status comparable to that of the great transnational centers of learning.[33][20]  \n\nThe bull also presupposes and reinforces a linkage between knowledge and political order. In the related 1255 bull confirming the courses at Salamanca, Alexander IV justifies his support on the ground that \u201cin the multitude of the wise is the security of kingdoms,\u201d a phrase drawn from the sapiential tradition but deployed here as a statement about statecraft.[5][20] This idea, though not verbatim in *Dignum arbitramur*, informs its logic: by recognising Salamanca\u2019s degrees universally, the pope is indirectly enhancing the pool of \u201cwise men\u201d available to serve in courts and chanceries, thereby contributing to the security of the realms.  \n\nFurthermore, the privilege has economic implications. Granting the *ius ubique docendi* to Salamanca enhances the university\u2019s attractiveness to fee\u2011paying students from across Europe, thereby bringing revenue into the city and kingdom and supporting a local market of landlords, booksellers, and artisans.[8][19][44] Modern descriptions of Salamanca as a \u201cmedieval university town\u201d emphasize how the university\u2019s privileges shaped its urban development, with colleges, convents, and lecture halls transforming the cityscape and its economic base.[8][7] Alexander IV\u2019s bull, by raising Salamanca\u2019s profile and making its degrees more portable, contributes to this process of urban and regional economic reorientation.  \n\nFor these reasons, *Dignum arbitramur* clearly falls within the Papal Papers project\u2019s focus on papal documents that engage the secular world. It is not concerned with liturgy, dogma, or internal ecclesiastical governance, but with the regulation of academic labour, the status of a royal university, and the knowledge infrastructure of medieval states. Its language is juridical rather than pastoral, its main interlocutors include a king and a university corporation, and its effects are felt in the realms of education, law, and economic life.  \n\n## Unstructured  \n\n### 1. Alexander IV, the papacy, and the politics of learning  \n\nTo understand *Dignum arbitramur et congruum* in depth, it is helpful to reconstruct the broader orientation of Alexander IV\u2019s pontificate toward universities and learning. Alexander, who became pope in December 1254, inherited from Innocent IV a complex legacy of intervention in university affairs, particularly in Paris, where conflicts between secular masters and Mendicant Orders had shaken the faculty of theology.[22][29][28] In 1254, the year before the Salamanca bull, the University of Paris was engaged in a bitter dispute over the place of mendicant friars in teaching and governance, and Alexander IV would soon intensify papal support for the friars against the secular masters. He condemned William of Saint\u2011Amour\u2019s anti\u2011mendicant treatise *De periculis novissimorum temporum* in 1256 and issued constitutions that restored the privileges of the Dominicans and Franciscans at Paris.[22][29]  \n\nThese interventions reflect a papacy that was consciously deploying universities as battlegrounds for broader ecclesiastical reforms and as instruments for training clergy aligned with papal priorities. The rise of the Mendicant Orders had reshaped the intellectual landscape of the thirteenth century, and their control of chairs at Paris and other universities gave them a powerful voice in defining orthodoxy.[22][29][16] Alexander IV\u2019s willingness to overrule secular masters at Paris in favor of the friars shows that he saw papal authority as decisive in regulating the governance and teaching of universities. Against this background, his decision to grant Salamanca a privilege affecting its relationship with other universities appears as one more instance of papal readiness to intervene directly in the academic sphere.  \n\nAt the same time, Alexander IV\u2019s papacy was marked by political instability. The struggle with the Hohenstaufens in Italy and Germany, the fluctuating fortunes of the papal states, and tensions with various European monarchs meant that the pope had to cultivate allies and sources of influence beyond the Italian peninsula.[28][15] Universities, with their transnational networks of scholars and their role in forming elites, offered one such avenue. By granting privileges to a royal university like Salamanca in Castile, Alexander IV could strengthen ties with a monarch whose support was valuable in the broader geopolitical landscape, including in the contest over Sicily and in balancing French influence expressed through Paris.[5][20][32]  \n\nThus, while *Dignum arbitramur* is silent on these political calculations, the timing and nature of the bull invite an interpretation that sees it as part of Alexander IV\u2019s broader strategy of managing the geography of learning in ways favorable to the papacy. It is precisely in the mid\u20111250s that papal charters became an almost indispensable badge of full university status, with aspiring *studia generalia* increasingly seeking not only local or royal recognition but also papal validation to secure their place in the competitive hierarchy.[10][30][30] Alexander IV\u2019s responsiveness to Salamanca\u2019s petition can be read as an astute deployment of this pattern: in exchange for papal favor that enhances Salamanca\u2019s prestige, the king of Castile and his university are more tightly woven into the fabric of papal influence.  \n\n### 2. The making of a *studium generale*: Salamanca before 1255  \n\nThe University of Salamanca\u2019s trajectory in the half\u2011century before *Dignum arbitramur* illustrates how a local school could become a player in this European academic system. According to university and encyclopedic histories, a *studium* existed in Salamanca by 1218, when King Alfonso IX of Le\u00f3n issued a decree establishing what is generally regarded as the earliest form of the university.[19][3][20] This early foundation likely built on cathedral schools and private teaching, transforming them into a more formalized institution attracting students from the kingdom and beyond.  \n\nHowever, Salamanca\u2019s status in this early phase was less codified than that of Paris or Bologna, which had by then already developed strong corporate structures and attracted the attention of popes and emperors.[16][30] The turning point came with Alfonso X\u2019s accession in 1252. Known as \u201cthe Wise\u201d for his interest in science, law, and culture, Alfonso embarked on an ambitious program to strengthen royal authority through written law, translation of scientific works, and the promotion of learning.[33][12] On 8 May 1254, he granted a detailed charter to the *Estudio General* of Salamanca, sometimes described as the first explicit royal use of the term \u201cuniversity\u201d in Europe, although this claim is debated and partly reflects local pride.[12][20]  \n\nThe 1254 charter regulated salaries, specifying payments to masters in the arts, canon law, civil law, and medicine, and it granted scholars a range of privileges, including exemption from certain taxes and a special jurisdiction under the university\u2019s rector.[12][33] It explicitly authorized masters and scholars to form their own corporate bodies and assemblies, akin to guilds, with the capacity for self\u2011governance in academic matters.[33] In parallel, Alfonso X established the General Historical Library of the University of Salamanca in 1254, now recognized as one of the oldest university libraries in Europe, underscoring his commitment to creating a durable infrastructure for advanced study.[26][21][46]  \n\nDespite these royal initiatives, Salamanca\u2019s graduates still faced obstacles when they sought to participate in the wider European academic world. Because the notion of a *studium generale* was both customary and formal, other universities could, and often did, refuse to recognize degrees from newer institutions without formal papal confirmation.[30][30] Masters from Salamanca wishing to teach elsewhere might be told that they had to undergo new examinations, a process that was time\u2011consuming, uncertain, and arguably humiliating for those who had already proved their competence.[33][3] It is precisely this situation that the petition to Alexander IV described and that *Dignum arbitramur* sought to rectify.  \n\nThus, on the eve of the bull, Salamanca was an institution in transition: it had a royal charter, a growing body of privileges, and a strategic role in Alfonso X\u2019s plans, but it lacked full integration into the pan\u2011European university system. Papal recognition, and especially the *ius ubique docendi*, was the missing piece that would bring it onto an equal\u2014if not identical\u2014footing with older universities. The bull\u2019s issuance in 1255 can therefore be seen as a climactic moment in Salamanca\u2019s early institutional history.  \n\n### 3. The *studium generale* and the *ius ubique docendi*: conceptual foundations  \n\nThe key legal concept at stake in *Dignum arbitramur* is the *ius ubique docendi*, the right to teach everywhere, which modern scholars distinguish from but closely associate with the status of *studium generale*.[10][10][30] In the thirteenth and fourteenth centuries, a *studium generale* was a place where students from various regions were received, the arts and at least one higher faculty were taught, and teaching was carried out by masters who themselves held universally recognized degrees.[30][30][16] Yet not all *studia generalia* had the *licentia ubique docendi*; that privilege, when explicitly granted by the pope or emperor, conferred an extra layer of authority by obliging other institutions to accept the bearer\u2019s qualifications without further examination.  \n\nThe historian George L. Haskins, in his classic study of Oxford and the *ius ubique docendi*, notes that universities, whether long established or newly founded, regarded papal bulls conferring this right as \u201chighly important, if not essential,\u201d because they eased the movement of scholars and bolstered institutional prestige.[10][10] A master with such a license became part of a transnational elite whose expertise could be deployed wherever needed, and the universities that conferred such degrees could claim parity with the leading centers of learning.[32][32]  \n\nThe legal mechanism of the *ius ubique docendi* also reflected the dual authority structure of medieval Europe. As the Church\u2019s supreme legislator in spiritual and many educational matters, the pope could issue privileges that bound ecclesiastical and, through them, many secular institutions. Universities themselves were often corporate bodies under ecclesiastical jurisdiction, even when founded by kings or communes.[16][30] Papal bulls like *Dignum arbitramur* thus combined sacramental and juridical authority, reinforcing the pope\u2019s role as arbiter of truth and competence in teaching. At the same time, emperors, especially in the Holy Roman Empire, occasionally granted similar licenses, demonstrating that control over academic credentials was contested and symbolically charged.[30][30]  \n\nIn the specific case of Salamanca, Alexander IV\u2019s grant of the *ius ubique docendi* must be read in tandem with the royal privileges already bestowed by Alfonso X. The king could endow the university with resources, legal protections, and local authority, but only the pope could guarantee that its degrees would be accepted in Paris, Padua, or Cologne.[20][20] The bull thus completes an institutional architecture in which royal and papal powers collaborate. It also introduces subtle hierarchies: by expressly excluding Paris and Bologna from the scope of the *ius ubique docendi*, Alexander IV reaffirms their special standing as sources of academic authority that even papal privileges for others cannot entirely circumvent.[10][10][30]  \n\n### 4. The problem of repeated examinations: academic labour and injustice  \n\nThe immediate trigger for *Dignum arbitramur* was a complaint that Salamanca\u2019s graduates, despite having been examined and approved, were being compelled to undergo repeated examinations when they sought teaching positions elsewhere.[33][3] This practice reflected the autonomy of established universities to protect their own standards and local interests. Masters at Paris or Bologna, jealous of their institution\u2019s reputation and market share, could insist that anyone wishing to teach there submit to their own examination procedures, thereby maintaining control over entry into their academic guild.[16][30]  \n\nFrom the standpoint of individual scholars, however, this system could be onerous. Examinations often required extended stays, the demonstration of prior learning, and the payment of various fees or gifts. Moreover, examiners might be biased against outsiders, especially from newer universities perceived as inferior. For Salamanca\u2019s masters, these obstacles undermined the value of their degrees and limited their career prospects. For the university and the Castilian monarchy, they made it harder to attract ambitious students seeking mobility and might have been seen as a form of discrimination against a rising Iberian center by established northern and Italian institutions.  \n\nIn addressing this problem, *Dignum arbitramur* frames the issue in terms of fairness and the promotion of learning. The bull\u2019s incipit, as reported in paraphrase, suggests that it is \u201cright and fitting\u201d that those who cultivate the field of study should find the Apostolic See well\u2011disposed toward them, and that their freedom to teach should be widened.[1][1] The bull thus adopts a quasi\u2011ethical tone: it is unjust to burden the learned with unnecessary hurdles, especially when their competence has already been certified. It also hints at a concern for the efficient use of human capital: repeated examinations waste the time of both masters and universities, and they discourage the circulation of knowledge.  \n\nFrom a modern sociological perspective, this episode reveals the contours of academic labour in the thirteenth century. Scholars were mobile, market\u2011dependent professionals whose value depended on the perceived quality of their training and their ability to secure recognition across jurisdictions.[32] Papal intervention on their behalf can be seen as an early form of supranational regulation of professional qualifications, analogous in a distant way to modern frameworks for mutual recognition of degrees within entities like the European Union. The bull\u2019s prescriptive response to a particular grievance thus speaks to larger patterns of professionalization and institutional competition.  \n\n### 5. Paris, Bologna, and the politics of exception  \n\nOne of the most striking features of *Dignum arbitramur* is its explicit exception for Paris and Bologna. Haskins and other historians, drawing on the text of the bull and related documents, note that when Alexander IV conferred the *ius ubique docendi* on Salamanca in 1255, he expressly stipulated that this privilege did not apply to teaching in Paris and Bologna.[10][10][10] In other words, a Salamanca master could teach \u201ceverywhere\u201d without further examination, but not in the two universities that, more than any others, defined the intellectual landscape of Latin Christendom.  \n\nThis exception has been interpreted as a recognition of the unique autonomy and prestige of Paris in theology and Bologna in law. Both universities had already received extensive privileges from previous popes and emperors and had developed highly structured corporate identities with strong faculties that guarded their prerogatives fiercely.[16][30] Exempting them from the obligation to accept Salamanca\u2019s degrees without examination avoided potential conflicts with these powerful institutions and signaled that, in the hierarchy of universities, Salamanca was still somewhat subordinate.  \n\nThe exception also illustrates the limits of papal universalism in practice. While the pope claimed authority to regulate universities across Christendom, he exercised this authority pragmatically, respecting entrenched powers where necessary. In the case of Paris, Alexander IV was already engaged in delicate negotiations due to the Mendicant controversy, and he may have wished to avoid provoking the secular masters further by appearing to undercut their control over appointments.[22][29] In Bologna, where communal and imperial influences were strong, a similar prudence may have prevailed.  \n\nFor Salamanca, the exception was probably disappointing but acceptable. The bulk of the European academic world lay outside Paris and Bologna, and the grant of the *ius ubique docendi* for other universities still represented a significant enhancement of status. Furthermore, the symbolic association with Paris and Bologna\u2014being mentioned in the same bull\u2014could itself be leveraged in promoting Salamanca as a peer institution, even if not quite its equal. Modern university publicity, which often lists Salamanca among the \u201coldest universities\u201d alongside Bologna, Paris, and Oxford, can be seen as a long\u2011term echo of this medieval positioning.[19][3][11]  \n\n### 6. Long\u2011term impact: from 1255 to later medieval and early modern periods  \n\nAssessing the actual impact of *Dignum arbitramur* requires caution, as direct traces of its application in individual academic careers are scarce. Nevertheless, several lines of evidence suggest that the bull did contribute significantly to Salamanca\u2019s integration into the European university system and to its later prominence.  \n\nFirst, subsequent papal bulls built upon Alexander IV\u2019s grant rather than replacing it. In 1333, Pope John XXII issued a bull granting the University of Salamanca additional insignia and honours, including the right to confer certain academic regalia, further consolidating its status.[34] The Catholic Encyclopedia notes that, by this time, Salamanca was recognized as one of the leading universities, with its degrees enjoying broad acceptance, though still with certain limitations compared to Paris and Bologna.[5][5] The continuity of papal support across decades implies that *Dignum arbitramur*\u2019s vision of a Salamanca whose degrees were valid \u201ceverywhere\u201d had become an enduring assumption.  \n\nSecond, Salamanca emerged in the later Middle Ages and early modern period as a major center for the study of canon and civil law and, later, theology, feeding graduates into ecclesiastical and royal administrations not only in Castile but also in other Iberian kingdoms and colonies.[20][5] The so\u2011called School of Salamanca in the sixteenth century, associated with figures like Francisco de Vitoria, Domingo de Soto, and Francisco Su\u00e1rez, became an intellectual movement of global significance, especially in moral theology and jurisprudence concerning the rights of indigenous peoples, just war, and emerging questions of international law. Although the bull of 1255 cannot be said to have caused this flowering, it provided part of the institutional foundation by securing Salamanca\u2019s reputation and its ability to attract students and masters from across Europe.  \n\nThird, modern scholarship on medieval universities consistently lists Salamanca among the classic *studia generalia* of the thirteenth century, alongside Paris, Bologna, Oxford, Montpellier, and Padua.[30][30][16] In many such lists, the University of Salamanca is explicitly associated with the grant of the *ius ubique docendi* in 1255, suggesting that historians see the bull as a key milestone in its ascent.[30][10] The persistence of this association in academic literature indicates that the bull\u2019s legal provisions, and the status they conferred, were remembered and effective in shaping perceptions of Salamanca\u2019s standing.  \n\nAt the same time, there are limits to the bull\u2019s impact. It did not erase the structural dominance of Paris and Bologna, which continued to set intellectual standards and attract a disproportionate share of students and masters.[16][30] Nor did it prevent later political and ecclesiastical upheavals\u2014the Reformation, the Council of Trent, the Bourbon reforms\u2014from reshaping the map of universities and diminishing Salamanca\u2019s influence in some periods. In the nineteenth century, the Faculty of Theology at the University of Salamanca was discontinued, and the Spanish episcopate founded a Pontifical University of Salamanca to provide ecclesiastical higher education, illustrating the changing relationship between church and state in education.[20] Yet even in this modern reconfiguration, the memory of medieval privileges, including Alexander IV\u2019s bull, persisted as part of the institution\u2019s symbolic capital.  \n\n### 7. Modern memory and myth\u2011making: Salamanca in tourism and scholarship  \n\nIn contemporary cultural and touristic discourse, the bull *Dignum arbitramur* and the associated *licentia ubique docendi* often appear as markers of Salamanca\u2019s historic prestige. University and municipal websites proudly note that the papal bulls of 1255 confirmed the institution\u2019s status as a university and declared universal recognition for its degrees.[3][44][12] Social media posts and promotional videos describe Salamanca as the \u201coldest university in Spain\u201d and emphasize that it received the *licentia ubique docendi* from Pope Alexander IV, allowing its graduates to teach anywhere.[45][50][7] UNESCO\u2019s description of Salamanca as a \u201cmedieval university town\u201d underscores the long\u2011term urban and architectural legacy of these medieval privileges.[8]  \n\nAt the same time, historians caution against conflating modern institutional identities with medieval categories. The assertion that Salamanca was the first European university to be called a \u201cuniversity\u201d by royal decree in 1254, for example, is contested and may rely on a selective reading of sources or anachronistic interpretation of terminology.[20] Similarly, the claim\u2014sometimes encountered in popular narratives\u2014that Salamanca was recognized as one of the \u201cfour great world universities\u201d in 1255 appears to derive more from later myth\u2011making than from contemporaneous documents.[27][5] Academic scholarship tends to frame Salamanca as one of several important thirteenth\u2011century *studia generalia*, rather than as uniquely privileged.  \n\nModern historiography on *studium generale* and the *ius ubique docendi*, drawing on scholars like Haskins, Verger, and Makdisi, has also relativized the centrality of papal bulls. While such charters were undoubtedly valuable, some universities\u2014Oxford and Padua among them\u2014initially resisted seeking papal recognition, relying instead on their academic reputation to secure de facto acceptance of their degrees.[25][10] This suggests that legal privileges like *Dignum arbitramur* operated alongside, rather than in place of, informal networks of prestige and scholarly exchange.  \n\nNevertheless, the bull retains a symbolic power in modern narratives. By linking Salamanca to the authority of the papacy and to the idea of universal recognition, it resonates with contemporary ideals of academic mobility and internationalization. In a world where mutual recognition of degrees remains a contentious issue, the thirteenth\u2011century *licentia ubique docendi* is sometimes presented as a precursor to modern schemes of credit transfer and professional portability.[32][32] Alexander IV\u2019s intervention thus survives not only in archival regesta but also in the imaginative geography of European higher education.  \n\n### 8. Reflective versus prospective: a synthetic evaluation  \n\nBringing these threads together, *Dignum arbitramur et congruum* emerges as a document whose reflective elements are tightly constrained and whose prospective ambitions are expansive. Reflectively, it acknowledges the recent history of Salamanca\u2019s reorganization under Alfonso X, the existing practice of repeated examinations for mobile masters, and the pre\u2011eminence of Paris and Bologna. These backward\u2011looking references are concrete but narrow, concerned with immediate conditions rather than with deeper historical causes or theological interpretations of learning. The bull does not, for instance, frame the rise of universities as a manifestation of divine providence or as part of a larger narrative of Christian civilization, themes that would become more prominent in later papal engagements with education.  \n\nProspectively, however, the bull is bold. It seeks to change the rules of the game for academic mobility by abolishing repeated examinations for Salamanca graduates and by publicly asserting the universal validity of their degrees. It assumes that papal authority can bind other universities, and it anticipates a future in which Salamanca stands alongside older centers as a full participant in the European academic community, albeit with some exceptions. Its clauses are forward\u2011looking not only in time but also in space: they imagine Salamanca\u2019s masters teaching in distant cities, shaping minds and institutions in places where neither the pope nor the Castilian king exercise direct territorial control.  \n\nThe saturation and density scores proposed at the beginning of this report\u2014low\u2011moderate reflective saturation (3) with a short backward gaze (\u22125), and high prospective saturation (9) with a medium\u2011long forward horizon (+18)\u2014are grounded in this analysis. They capture the fact that while the bull is anchored in a specific problem of the mid\u20111250s, its purpose and anticipated effects extend outward across decades and across the geography of Latin Christendom. The document is, in essence, a machine for producing future academic realities, rather than a meditation on past ones.  \n\n### 9. Limits, contingencies, and counterfactuals  \n\nNo analysis of a prescriptive document would be complete without attention to its limits and the contingencies that shaped its efficacy. *Dignum arbitramur* operated within a web of power relations that could, in practice, blunt its force. Universities jealous of their autonomy might comply in form while finding informal ways to disadvantage Salamanca graduates, such as by favouring local candidates in appointments or by interpreting the bull\u2019s provisions narrowly.[16][30] There is little direct evidence of such strategies in surviving records, but the possibility must be acknowledged, especially given the well\u2011documented competitiveness of medieval faculties.  \n\nMoreover, the bull\u2019s exception for Paris and Bologna created a hierarchy that could not easily be overturned by later papal acts. Even with the *ius ubique docendi*, Salamanca remained structurally dependent on the goodwill of these pre\u2011eminent universities for access to their teaching corps and for the diffusion of its graduates into the most prestigious academic posts. This asymmetry underscores the point that papal authority, while theoretically universal, was negotiated and constrained in practice.  \n\nFrom a counterfactual standpoint, one might ask whether Salamanca would have achieved comparable prominence without *Dignum arbitramur*. Some universities, as noted, attained high status through reputation alone, and Alfonso X\u2019s royal patronage was itself a powerful asset.[25][12] It is plausible that Salamanca would still have become a major Iberian center of learning even without the papal bull, though perhaps with more difficulty in placing its graduates abroad. The bull thus appears less as the sole cause of Salamanca\u2019s rise than as an accelerant and stabilizer of processes already underway.  \n\nThis recognition tempers any tendency to overstate the bull\u2019s effectiveness. It mattered, but it mattered in conjunction with other factors: royal policy, the quality of teaching, the attractiveness of Salamanca as a city, and the broader dynamics of Church and state. In this sense, *Dignum arbitramur* illustrates the general pattern that papal documents, however prescriptive, operate within a field of forces that they can influence but not fully control.  \n\n## Conclusion  \n\n*Dignum arbitramur et congruum* is, on its face, a narrowly focused papal bull granting a specific legal privilege to the University of Salamanca. When set within its historical context, however, it reveals itself as a significant node in the thirteenth\u2011century construction of a trans\u2011European academic order in which papal, royal, and corporate university authorities negotiated the circulation of knowledge and expertise. It responds reflectively to a fresh injustice experienced by Salamanca\u2019s graduates\u2014the requirement of repeated examinations when seeking to teach elsewhere\u2014and to the ambitions of Alfonso X, who had just reorganized the *studium* into a royal *studium generale* with extensive privileges.[33][12][20]  \n\nYet the document\u2019s center of gravity is unmistakably prospective. By conferring the *ius ubique docendi* (with the notable exceptions of Paris and Bologna), Alexander IV seeks to reshape future academic practice across Christendom, standardizing the recognition of Salamanca\u2019s degrees and enhancing the mobility of its masters.[10][3][30] The bull assumes that papal authority extends into the regulation of academic labour and that this authority can be used to align a royal university more fully with the universal Church while advancing the secular goal of stronger, more learned governance. Its clauses are crafted for durability, and subsequent papal confirmations and the later prominence of Salamanca suggest that its vision of a widely recognized Iberian university was, to a considerable extent, realized.[34][5]  \n\nFrom the standpoint of the Papal Papers project, *Dignum arbitramur* stands out as an early and clear example of papal engagement with the secular structures of knowledge, law, and economy. It does not pronounce on doctrine or liturgy; instead, it legislates about degrees, examinations, and the rights of a university founded by a king. It embodies an emerging understanding\u2014articulated explicitly in a related bull\u2019s phrase about the \u201csecurity of kingdoms\u201d lying in the \u201cmultitude of the wise\u201d\u2014that the Church has a stake in the intellectual infrastructure of states and that papal authority can and should be used to shape that infrastructure.[5][20]  \n\nIn terms of the reflective\u2013prospective gradient, the bull can therefore be characterized as lightly reflective but strongly prescriptive, with a short backward gaze and a medium\u2011long forward horizon. It looks just far enough into the past to diagnose a concrete problem; then, drawing on the full weight of apostolic authority, it projects a new legal and institutional order into the future. The artwork that emerges from this document might thus be imagined as a vivid, saturated figure leaning decisively forward in time, its backward shadow narrow and close, symbolizing a papal voice that is less concerned with interpreting history than with scripting what comes next in the intertwined stories of the Church, universities, and the states they serve.",
+          "reasoning_steps": null,
+          "tool_calls": null,
+          "tool_call_id": null
+        },
+        "delta": {
+          "role": "assistant",
+          "content": "",
+          "reasoning_steps": null,
+          "tool_calls": null,
+          "tool_call_id": null
+        }
+      }
+    ],
+    "citations": [
+      "https://www.papalencyclicals.net/alex04/alex4dignum.htm",
+      "https://www.facebook.com/groups/1226645968164119/posts/2173179756844064/",
+      "https://alumni.usal.es/en/comunidad/historia-de-la-usal/",
+      "https://archive.org/details/lesregistresdale01cathuoft",
+      "https://www.newadvent.org/cathen/13392a.htm",
+      "https://www.sciencespo.fr/liepp/en/research/research-groups/educational-policies/",
+      "https://www.facebook.com/groups/amainsidersgroup/posts/1474286870040511/",
+      "https://www.unesco.org/archives/multimedia/document-1368",
+      "https://www.papalencyclicals.net/document-directory",
+      "https://www.jstor.org/stable/554511",
+      "https://www.divento.com/en/spain/24830-university-of-salamanca-salamanca.html?layout=new",
+      "https://www.mathnet.ru/eng/org2973",
+      "https://paris1972-versailles2003.com/2025/01/04/the-pontifical-university-of-salamanca/",
+      "https://cardinals.fiu.edu/bios1255.htm",
+      "https://genocideproject.org/wp-content/uploads/2026/04/The-Fourth-Lateran-Council-1.pdf",
+      "https://en.wikipedia.org/wiki/Medieval_university",
+      "https://austriaca.at/0xc1aa5572%200x0029cae6.pdf",
+      "http://ghirardacci.it/crusenio/crusenio-2.htm",
+      "https://en.wikipedia.org/wiki/University_of_Salamanca",
+      "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/salamanca-university",
+      "https://www.facebook.com/groups/1775924866042834/posts/3914761098825856/",
+      "https://catholicmagazine.news/the-mendicant-orders-and-the-disputes-in-the-university-of-paris-the-defence-of-the-mendicants/",
+      "https://en.wikipedia.org/wiki/List_of_papal_bulls",
+      "https://www.hetwebsite.net/het/schools/studium.htm",
+      "https://www.scribd.com/document/808184391/Studium-generale",
+      "https://www.facebook.com/groups/1353410178821263/posts/1442454866583460/",
+      "https://www.facebook.com/groups/1296799607080378/posts/25756341470699518/",
+      "https://en.wikipedia.org/wiki/Pope_Alexander_IV",
+      "https://perspectivia.net/servlets/MCRFileNodeServlet/pnet_derivate_00006355/steckel_rules.pdf",
+      "https://en.wikipedia.org/wiki/Studium_generale",
+      "https://www.unipage.net/en/9507/alfonso_x_the_wise_university",
+      "https://academic.oup.com/jeea/article/22/4/1541/7438871",
+      "http://cartulariosmedievales.blogspot.com/2025/11/de-la-cofradia-al-studium-generale.html",
+      "https://advocatetanmoy.com/john-xxii-on-granting-authority-to-the-university-of-salamanca/",
+      "https://www.facebook.com/groups/640476949304851/posts/7935100893175717/",
+      "https://encyclopediavirginia.org/primary-documents/inter-caetera-by-pope-alexander-vi-may-4-1493/",
+      "https://www.youtube.com/watch?v=jITZ_lIlpH8&vl=en-US",
+      "https://www.academia.edu/25778702/La_Orden_Hospitalaria_de_San_Ant%C3%B3n_seg%C3%BAn_algunos_datos_del_Archivo_Secreto_Vaticano_siglos_XIV_XV_",
+      "https://en.wikipedia.org/wiki/Inter_caetera",
+      "https://www.salamanca.school/dictionary.html",
+      "https://www.fuenterrebollo.com/Heraldica-Piedra/salamanca-universidad.html",
+      "https://dialnet.unirioja.es/descarga/articulo/3732247.pdf",
+      "https://diarium.usal.es/chuaix/historia-de-las-universidades-2/historia-de-las-universidades-universidad-de-salamanca/universidad-de-salamanca-indice-de-la-relacion-documental/",
+      "https://www.salamancalia.es/monumentos-y-lugares/universidad-de-salamanca/",
+      "https://www.instagram.com/reel/DUD4nQwjVrI/?hl=es",
+      "https://www.facebook.com/universidaddesalamanca/posts/la-biblioteca-general-hist%C3%B3rica-de-la-usal-fue-creada-en-1254-por-el-rey-alfonso/4829604953730119/",
+      "https://www.youtube.com/watch?v=iHO-syWblw8",
+      "https://www.instagram.com/reel/Cyx5X_yMPV2/",
+      "https://www.um.edu.mt/library/oar/handle/123456789/2400",
+      "https://www.instagram.com/reel/DUPIsDMjuUy/"
+    ],
+    "search_results": [
+      {
+        "title": "Dignum Arbitramur et Congruum - Papal Encyclicals",
+        "url": "https://www.papalencyclicals.net/alex04/alex4dignum.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Dignum Arbitramur et Congruum. Pope Alexander IV - 1955. 1255, septiembre, 22. Bula de Alejandro IV en que concede validez universal a los ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca, Patio de Escuelas, Salamanca, Castilla ...",
+        "url": "https://www.facebook.com/groups/1226645968164119/posts/2173179756844064/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "University of Salamanca: Located in Salamanca, Spain, this school was established in 1218 and obtained the title of \u201cuniversity\u201d by Alexander IV's papal bull in ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Brief History of the University of Salamanca - Alumni - USAL",
+        "url": "https://alumni.usal.es/en/comunidad/historia-de-la-usal/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The papal bulls issued in 1255 confirmed the Salamanca institution's status as a University, declared universal recognition for all degrees awarded there and ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Les registres d'Alexandre IV; recueil des bulles de ce pape publi\u00e9es ...",
+        "url": "https://archive.org/details/lesregistresdale01cathuoft",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Les registres d'Alexandre IV; recueil des bulles de ce pape publi\u00e9es ou analys\u00e9es d'apr\u00e8s les manuscrits originaux des archives du Vatican.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "CATHOLIC ENCYCLOPEDIA: University of Salamanca - New Advent",
+        "url": "https://www.newadvent.org/cathen/13392a.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... exception of Paris and Bologna, a limitation which John XXII instituted in 1333. The principles Alfonso the Wise had put into practice in Salamanca, he drew ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Research Group: Educational Policies - Sciences Po",
+        "url": "https://www.sciencespo.fr/liepp/en/research/research-groups/educational-policies/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The research group is interested in how inequalities are formed and reproduced within school systems, and the effectiveness of public policies designed to\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Salamanca's golden sandstone buildings and ancient university",
+        "url": "https://www.facebook.com/groups/amainsidersgroup/posts/1474286870040511/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Universidad de Salamanca. Founded in the early 13th century, it is one of the oldest universities in Spain that is still open. A striking\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "A Medieval University Town: Old City of Salamanca - UNESCO",
+        "url": "https://www.unesco.org/archives/multimedia/document-1368",
+        "date": null,
+        "last_updated": null,
+        "snippet": "This ancient university town north-west of Madrid was first conquered by the Carthaginians in the 3rd century BC. It then became a Roman settlement.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Document Directory - Papal Encyclicals",
+        "url": "https://www.papalencyclicals.net/document-directory",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Clara claris praeclara \u2013 English w/ parallel Latin text, September 26, 1255 A.D. [Bull]; Dignum arbitramur et congruum Latin, September 22, 1255 [Bull] ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The University of Oxford and the 'Ius ubique docendi' - jstor",
+        "url": "https://www.jstor.org/stable/554511",
+        "date": null,
+        "last_updated": null,
+        "snippet": "When Alexander IV granted the ius ubique docendi to Salamanca in 1255, he expressly excepted Paris and Bologna; cf. Denifie, Archiv fur Literatur- und ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "University Of Salamanca, Salamanca - Divento",
+        "url": "https://www.divento.com/en/spain/24830-university-of-salamanca-salamanca.html?layout=new",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Founded in 1218 by King Alfonso IX of Le\u00f3n as a studium generale, this is one of Europe's oldest universities still teaching daily.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "University of Salamanca, Spain - Math-Net.Ru",
+        "url": "https://www.mathnet.ru/eng/org2973",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Also important are the Papal Bulls of Alexander IV, issued in 1255, which confirmed the founding of the University, recognised the universal validity of the\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Pontifical University of Salamanca !!! \u2013 Paris1972-Versailles2003",
+        "url": "https://paris1972-versailles2003.com/2025/01/04/the-pontifical-university-of-salamanca/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The same pontiff, in the Bula Dignum Arbitramur of September 22 of the same year, grants ... The Pontifical University, at its headquarters in\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Cardinals of the Holy Roman Church - Biographical Dictionary",
+        "url": "https://cardinals.fiu.edu/bios1255.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "These documents suggest, therefore, that Abbot Riccardo was craeated a cardinal by Pope Alexander IV between August 17, 1255 and February 16, 1256. (3)The ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "[PDF] T/ze fourth ^Lateran Cozmrz'Zand the '^&>elopment ofGanon",
+        "url": "https://genocideproject.org/wp-content/uploads/2026/04/The-Fourth-Lateran-Council-1.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Les registres d'Alexandre IV (1254-1261), ed. C. Bourel de la Ronctere et al., 1 (Paris: A. Fontemoing-E. de Boccard, 1895), p. looa-oia, n. 335 (Naples, 12 ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Medieval university - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Medieval_university",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Indeed, one of the privileges the papal bull confirmed was the right to confer the ius ubique docendi , an entitlement to teach everywhere. See also.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Katalog",
+        "url": "https://austriaca.at/0xc1aa5572%200x0029cae6.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Dignum arbitramur et congruum ut illis nos ad graciam reddamus liberales quibus ad id propria virtutum merita laudabiliter suffragantur \u2026 \u2013 expl ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "CAPUT",
+        "url": "http://ghirardacci.it/crusenio/crusenio-2.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Dignum arbitramur et congruum, ut ubi tanti Doctoris et Praesulis corpus tumulatum quiescere dicitur, ibi, ultra id quod sibi honoris et laudis ab ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "University of Salamanca - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/University_of_Salamanca",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Coordinates: 40\u00b057\u203241\u2033N 05\u00b040\u203200\u2033W\ufeff / \ufeff40.96139\u00b0N 5.66667\u00b0W\n\n**University of Salamanca**",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Salamanca, University of | Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/salamanca-university",
+        "date": null,
+        "last_updated": null,
+        "snippet": "At Alfonso's request, in April 1255 Pope Alexander IV issued a bull recognizing the existing studium generale at Salamanca and conferring on it extensive ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Salamanca's oldest university in Spain - Facebook",
+        "url": "https://www.facebook.com/groups/1775924866042834/posts/3914761098825856/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The General Historical Library of the University of Salamanca was founded in 1254 by Alfonso X \"The Wise\", becoming the oldest university ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Mendicant Orders and the Disputes in the University of Paris",
+        "url": "https://catholicmagazine.news/the-mendicant-orders-and-the-disputes-in-the-university-of-paris-the-defence-of-the-mendicants/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Discerning this perfidious intention with great acuity, Pope Alexander IV condemned the book De periculis on October 5, 1256, with the Constitution Romanus ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "List of papal bulls - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_papal_bulls",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Alexander IV, On the canonization of St. Clare of Assisi. 1255 ... Dignum arbitramur (\"We consider suitable\"), Grants that degrees conferred by ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "HET: Medieval Universities",
+        "url": "https://www.hetwebsite.net/het/schools/studium.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Understanding Studium Generale in Europe | PDF | Academia - Scribd",
+        "url": "https://www.scribd.com/document/808184391/Studium-generale",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Universities like Oxford and Padua initially resisted requesting papal bulls for recognition as a studium generale because they relied on their reputations and\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "University of Salamanca's historical library founded in 1254",
+        "url": "https://www.facebook.com/groups/1353410178821263/posts/1442454866583460/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The General Historical Library of the University of Salamanca was founded in 1254 by Alfonso X \"The Wise\", becoming the oldest university library in Europe\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca, Patio de Escuelas ... - Facebook",
+        "url": "https://www.facebook.com/groups/1296799607080378/posts/25756341470699518/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The General Historical Library of the University of Salamanca was founded in 1254 by Alfonso ... Studium Generale in 1293 in Alcal\u00e1 de Henares.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Pope Alexander IV - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pope_Alexander_IV",
+        "date": null,
+        "last_updated": null,
+        "snippet": "In 1255, Alexander IV canonized Saint Clare of Assisi, founder of the religious order for women called the Poor Clares. Pope. Alexander IV. Bishop of Rome.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "[PDF] The Secular\u2013Mendicant Controversy in France and its Impact on ...",
+        "url": "https://perspectivia.net/servlets/MCRFileNodeServlet/pnet_derivate_00006355/steckel_rules.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Alexander IV and the Order of Preachers did not defuse the protests still being voiced by the clerical party at the University of Paris. Rather, the small ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Studium generale - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Studium_generale",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Studium generale is the old customary name for a medieval university in medieval Europe. A map of Europe's medieval universities in Europe, c. 1500",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Alfonso X the Wise University (UAX) - UniPage",
+        "url": "https://www.unipage.net/en/9507/alfonso_x_the_wise_university",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Tuition fees are calculated per year. The cost of education and the availability of scholarships can be checked on the official website.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Academic Market and The Rise of Universities in Medieval and Early ...",
+        "url": "https://academic.oup.com/jeea/article/22/4/1541/7438871",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The integration of the academic market was even formalized via the licentia ubique docendi (licence to teach everywhere), granted by the Church to the\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "DE LA COFRAD\u00cdA AL 'STUDIUM GENERALE': ALFONSO X Y EL ...",
+        "url": "http://cartulariosmedievales.blogspot.com/2025/11/de-la-cofradia-al-studium-generale.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Este documento conocido como bula Dignum arbitramur (Anagni, 22 septiembre 1255) ... ius ubique docendi, excepto para impartir ense\u00f1anza en ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "John XXII: On granting authority to the University of Salamanca",
+        "url": "https://advocatetanmoy.com/john-xxii-on-granting-authority-to-the-university-of-salamanca/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Pope John XXII \u2013 1333. Bull on granting insignia and honor to the scholars by the University of Salamanca. 1333, diciembre, 2. Avi\u00f1\u00f3n.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The spread of medieval universities in Europe. - Facebook",
+        "url": "https://www.facebook.com/groups/640476949304851/posts/7935100893175717/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Medieval European universities were built after Pope signed bullas giving them a \"licentia ubique docendi\" (a sort of global university\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Inter caetera by Pope Alexander VI (May 4, 1493)",
+        "url": "https://encyclopediavirginia.org/primary-documents/inter-caetera-by-pope-alexander-vi-may-4-1493/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "In this bull, Pope Alexander VI is responding to Christopher Columbus' exploration of North and South America, which was sponsored by the king and queen of\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The 4-Page Paper That Broke Mathematics - YouTube",
+        "url": "https://www.youtube.com/watch?v=jITZ_lIlpH8&vl=en-US",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... and one of the great mathematical revolutionaries. But newly uncovered letters reveal a far more complicated story \u2014 one involving\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "(PDF) La Orden Hospitalaria de San Ant\u00f3n seg\u00fan algunos datos del ...",
+        "url": "https://www.academia.edu/25778702/La_Orden_Hospitalaria_de_San_Ant%C3%B3n_seg%C3%BAn_algunos_datos_del_Archivo_Secreto_Vaticano_siglos_XIV_XV_",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Dignum arbitramur et congruum ut illis se reddat Sedes Apostolica gratiosam, quibus ad id propria virtutum merita laudabiliter suffragantur. Volentes igitur ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Inter caetera - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Inter_caetera",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Inter caetera ('Among other [works]') was a papal bull issued by Pope Alexander VI on 4 May 1493, which granted to the Catholic Monarchs King Ferdinand II\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Dictionary of the Juridical-Political Language",
+        "url": "https://www.salamanca.school/dictionary.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The entries to the online dictionary of the juridical-political language of the School of Salamanca will be successively published on this page.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca, USAL - \u00bb\u00bb\u00bb (c) Portal Fuenterrebollo \u00ab\u00ab\u00ab",
+        "url": "https://www.fuenterrebollo.com/Heraldica-Piedra/salamanca-universidad.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "El 22 de septiembre de 1255, Alejandro IV promulga en N\u00e1poles la Bula Dignum Arbitramur, reconociendo al Estudio Salmantino la validez universal de los\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "[PDF] Regesta de las bulas de los archivos navarros (1198-1417)* - Dialnet",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/3732247.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "1235, septiembre 22, As\u00eds. Gregorio IX manda a los duques, condes, barones y ... Dignum arbitramur et congruum. Datum. Nicie, II kalendas octobris ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca. \u00cdndice de la relaci\u00f3n documental",
+        "url": "https://diarium.usal.es/chuaix/historia-de-las-universidades-2/historia-de-las-universidades-universidad-de-salamanca/universidad-de-salamanca-indice-de-la-relacion-documental/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Bula de Alejandro IV en que concede validez universal a los grados otorgados por la Universidad de Salamanca. IX.1282, abril, 23.Valladolid. Carta del\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca - Agenda cultural y eventos de ocio en ...",
+        "url": "https://www.salamancalia.es/monumentos-y-lugares/universidad-de-salamanca/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... (ius ubique docendi), as\u00ed como el uso de un sello propio. Alcanza su m\u00e1ximo ... Fachada de la Universidad de Salamanca de noche.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Salamanca alberga la universidad, en activo, m\u00e1s antigua de ...",
+        "url": "https://www.instagram.com/reel/DUD4nQwjVrI/?hl=es",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... licentia ubique docendi del papa Alejandro IV de 1255. Los or\u00edgenes de la urbe se remontan a hace unos 2700 a\u00f1os, durante la primera\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "La Biblioteca General Hist\u00f3rica de la USAL fue creada en 1254 por ...",
+        "url": "https://www.facebook.com/universidaddesalamanca/posts/la-biblioteca-general-hist%C3%B3rica-de-la-usal-fue-creada-en-1254-por-el-rey-alfonso/4829604953730119/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Alfonso X el Sabio otorga la normativa fundacional de la Universidad de Salamanca. El Studium Generale, germen de la universidad, instituido\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Salamanca, capital de conocimiento: El faro de ideas del ... - YouTube",
+        "url": "https://www.youtube.com/watch?v=iHO-syWblw8",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Gracias a Pedro Insua por acometer grandes faenas intelectuales en estos tiempos de pedorreta cultural. Espa\u00f1a del in\u00fatil coraje, dec\u00eda el\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Universidad de Salamanca on Instagram: \"\ud83c\udfdb\ufe0f La Biblioteca ...",
+        "url": "https://www.instagram.com/reel/Cyx5X_yMPV2/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Hoy he participado en la aprobaci\u00f3n de los nuevos Estatutos de la Universidad de Salamanca como representante de los estudiantes. Un momento ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "OAR@UM: Bullae Papae Alexander IV: Cum \u00e1 nobis petitur",
+        "url": "https://www.um.edu.mt/library/oar/handle/123456789/2400",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Abstract: Papal Bull by Pope Alexander IV dated 11th April 1255 given in favour of the Order confirming the order to be under the St. Augustine Rule.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "World No End | Salamanca is home to the oldest continuously ...",
+        "url": "https://www.instagram.com/reel/DUPIsDMjuUy/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... licentia ubique docendi (authorization to teach anywhere) of Pope Alexander IV in 1255. The city's origins date back some 2700 years, to the Early Iron Age ...",
+        "source": "web",
+        "place_metadata": null
+      }
+    ],
+    "type": null,
+    "status": null
+  },
+  "failed_at": null,
+  "error_message": null,
+  "status": "COMPLETED"
+}

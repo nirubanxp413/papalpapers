@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Batch Perplexity Sonar Deep Research for encyclicals (Step 6).
+"""Batch Perplexity Sonar search for encyclicals (Step 6, search tier).
 
-Loads PERPLEXITY_API_KEY from project .env. Does not run on import — invoke explicitly:
+Uses the synchronous Sonar API (`POST /v1/sonar`) with web grounding — not
+sonar-deep-research. Loads PERPLEXITY_API_KEY from project .env.
 
-    .venv/bin/python scripts/deep_research_batch.py init
-    .venv/bin/python scripts/deep_research_batch.py run --concurrency 5
-
-Planning only until you execute run yourself.
+    python3 scripts/perplexity_search_batch.py init --include-themes Mixed
+    python3 scripts/perplexity_search_batch.py run --concurrency 3 --limit 10
 """
 
 from __future__ import annotations
@@ -17,7 +16,6 @@ import json
 import os
 import re
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -25,22 +23,22 @@ from typing import Any
 import httpx
 
 ROOT = Path(__file__).resolve().parent.parent
-DEEP_RESEARCH_DIR = ROOT / "data" / "deep-research"
-PROMPT_PATH = DEEP_RESEARCH_DIR / "prompt.md"
-REPORTS_DIR = DEEP_RESEARCH_DIR / "reports"
-CHECKLIST_PATH = DEEP_RESEARCH_DIR / "checklist.json"
-RUN_LOG_PATH = DEEP_RESEARCH_DIR / "run_log.jsonl"
+SEARCH_DIR = ROOT / "data" / "perplexity-search"
+PROMPT_PATH = SEARCH_DIR / "prompt.md"
+REPORTS_DIR = SEARCH_DIR / "reports"
+CHECKLIST_PATH = SEARCH_DIR / "checklist.json"
+RUN_LOG_PATH = SEARCH_DIR / "run_log.jsonl"
 ENV_PATH = ROOT / ".env"
 
 STEP3_REPORTS_DIR = ROOT / "data" / "subagents" / "reports"
 ENCYCLOPICAL_DIR = ROOT / "data" / "encyclical"
 
 API_BASE = "https://api.perplexity.ai/v1"
-MODEL = "sonar-deep-research"
-DEFAULT_CONCURRENCY = 5
-DEFAULT_POLL_INTERVAL = 15.0
-MAX_POLL_INTERVAL = 120.0
+MODEL = "sonar-pro"
+DEFAULT_CONCURRENCY = 3
 MIN_REPORT_BYTES = 500
+MAX_RETRIES = 4
+RETRY_BACKOFF = 8.0
 
 STATUSES = ("pending", "in_progress", "complete", "failed", "skipped")
 
@@ -62,6 +60,10 @@ CONSTRAINTS_SECTION_RE = re.compile(
 )
 KEY_THEME_RE = re.compile(r"\*\*Key theme:\*\*\s*(.+)", re.IGNORECASE)
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+GRADIENTS_JSON_RE = re.compile(
+    r"## Gradients\s*\n+```json\s*\n(.*?)\n```",
+    re.DOTALL | re.IGNORECASE,
+)
 ENCYCLOPICAL_META_RE = {
     "pope": re.compile(r"^pope:\s*(.+)$", re.MULTILINE),
     "title": re.compile(r"^title:\s*(.+)$", re.MULTILINE),
@@ -100,7 +102,7 @@ def api_key() -> str:
 
 
 def append_run_log(event: dict) -> None:
-    DEEP_RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
+    SEARCH_DIR.mkdir(parents=True, exist_ok=True)
     event = {"ts": utc_now(), **event}
     with RUN_LOG_PATH.open("a", encoding="utf-8") as f:
         f.write(json.dumps(event) + "\n")
@@ -113,7 +115,7 @@ def load_checklist() -> dict:
 
 
 def save_checklist(data: dict) -> None:
-    DEEP_RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
+    SEARCH_DIR.mkdir(parents=True, exist_ok=True)
     CHECKLIST_PATH.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
 
 
@@ -162,12 +164,6 @@ def parse_step3_key_theme(report_text: str) -> str | None:
     return match.group(1).strip() if match else None
 
 
-def encyclical_stem_from_report_name(report_name: str) -> str:
-    if report_name.startswith("run-"):
-        return report_name[len("run-") :]
-    return report_name
-
-
 def read_encyclical_meta(source_path: Path) -> dict[str, str]:
     if not source_path.exists():
         return {}
@@ -182,8 +178,7 @@ def read_encyclical_meta(source_path: Path) -> dict[str, str]:
 
 def extract_step3_summary(report_path: Path) -> str:
     text = report_path.read_text(encoding="utf-8", errors="replace")
-    body = FRONTMATTER_RE.sub("", text, count=1).strip()
-    return body
+    return FRONTMATTER_RE.sub("", text, count=1).strip()
 
 
 def build_query(
@@ -201,7 +196,7 @@ def build_query(
     alternate_url = meta.get("alternate_source", "")
 
     parts = [
-        "# Deep research request",
+        "# Perplexity search request",
         "",
         "## Document",
         f"- Pope: {pope}",
@@ -269,7 +264,7 @@ def init_checklist(
     if not encyclical_files:
         raise SystemExit(f"No markdown files in {ENCYCLOPICAL_DIR}")
 
-    for idx, source in enumerate(encyclical_files, 1):
+    for source in encyclical_files:
         rel_source = source.relative_to(ROOT).as_posix()
         stem = source.name
         step3_report = STEP3_REPORTS_DIR / report_name_for(stem)
@@ -317,7 +312,7 @@ def init_checklist(
                 "source_url": meta.get("source"),
                 "alternate_source_url": meta.get("alternate_source"),
                 "status": status,
-                "request_id": None,
+                "response_id": None,
                 "batch_id": None,
                 "started_at": None,
                 "completed_at": completed_at,
@@ -329,12 +324,10 @@ def init_checklist(
     if not items:
         raise SystemExit("No items matched init filters.")
 
-    # Persist rendered queries separately for inspection / diff
-    queries_dir = DEEP_RESEARCH_DIR / "queries"
+    queries_dir = SEARCH_DIR / "queries"
     queries_dir.mkdir(parents=True, exist_ok=True)
     for item in items:
         query_path = queries_dir / f"{item['id']:04d}.md"
-        # Rebuild query for disk (same as init logic)
         source = ROOT / item["source_file"]
         step3 = ROOT / item["step3_report_file"]
         meta = read_encyclical_meta(source)
@@ -354,8 +347,9 @@ def init_checklist(
     data = {
         "meta": {
             "step": 6,
-            "pass": "deep-research",
+            "pass": "perplexity-search",
             "model": MODEL,
+            "api": "v1/sonar",
             "concurrency": DEFAULT_CONCURRENCY,
             "prompt_file": PROMPT_PATH.relative_to(ROOT).as_posix(),
             "created_at": utc_now(),
@@ -386,7 +380,7 @@ def cmd_status(_: argparse.Namespace) -> None:
     data = load_checklist()
     counts = summarize(data)
     total = data["meta"]["total"]
-    print(f"Deep research checklist — {CHECKLIST_PATH}")
+    print(f"Perplexity search checklist — {CHECKLIST_PATH}")
     print(f"Model: {data['meta'].get('model', MODEL)}")
     for status in STATUSES:
         print(f"  {status}: {counts.get(status, 0)}")
@@ -420,7 +414,7 @@ def cmd_reset_stale(_: argparse.Namespace) -> None:
         if report.exists() and report.stat().st_size >= MIN_REPORT_BYTES:
             item["status"] = "complete"
             item["completed_at"] = item["completed_at"] or utc_now()
-        elif not item.get("request_id"):
+        else:
             item["status"] = "pending"
             item["batch_id"] = None
             item["started_at"] = None
@@ -431,7 +425,6 @@ def cmd_reset_stale(_: argparse.Namespace) -> None:
 
 
 def extract_message_content(payload: dict[str, Any]) -> str:
-    """Best-effort extraction across Perplexity response shapes."""
     if "choices" in payload:
         choice = payload["choices"][0]
         message = choice.get("message") or {}
@@ -441,17 +434,18 @@ def extract_message_content(payload: dict[str, Any]) -> str:
         if isinstance(content, list):
             parts = [p.get("text", "") for p in content if isinstance(p, dict)]
             return "\n".join(p for p in parts if p)
-    if "output" in payload:
-        chunks: list[str] = []
-        for block in payload["output"]:
-            for content in block.get("content", []) or []:
-                if content.get("type") == "output_text":
-                    chunks.append(content.get("text", ""))
-        if chunks:
-            return "\n".join(chunks)
-    if "response" in payload and isinstance(payload["response"], dict):
-        return extract_message_content(payload["response"])
     return json.dumps(payload, indent=2)
+
+
+def has_gradients_block(content: str) -> bool:
+    match = GRADIENTS_JSON_RE.search(content)
+    if not match:
+        return False
+    try:
+        json.loads(match.group(1))
+        return True
+    except json.JSONDecodeError:
+        return False
 
 
 def write_report(item: dict, content: str, raw: dict[str, Any] | None = None) -> None:
@@ -462,7 +456,7 @@ def write_report(item: dict, content: str, raw: dict[str, Any] | None = None) ->
         "source_file": item["source_file"],
         "step3_report_file": item["step3_report_file"],
         "report_file": item["report_file"],
-        "pass": "step-6-deep-research",
+        "pass": "step-6-perplexity-search",
         "model": MODEL,
         "pope": item.get("pope"),
         "title": item.get("title"),
@@ -470,10 +464,12 @@ def write_report(item: dict, content: str, raw: dict[str, Any] | None = None) ->
         "source_url": item.get("source_url"),
         "alternate_source_url": item.get("alternate_source_url"),
         "key_theme": item.get("key_theme"),
-        "request_id": item.get("request_id"),
+        "response_id": item.get("response_id"),
         "completed_at": utc_now(),
     }
-    fm = "\n".join(f"{k}: {json.dumps(v) if v is not None else 'null'}" for k, v in frontmatter.items())
+    fm = "\n".join(
+        f"{k}: {json.dumps(v) if v is not None else 'null'}" for k, v in frontmatter.items()
+    )
     report_path.write_text(f"---\n{fm}\n---\n\n{content.strip()}\n", encoding="utf-8")
 
     if raw is not None:
@@ -481,37 +477,34 @@ def write_report(item: dict, content: str, raw: dict[str, Any] | None = None) ->
         sidecar.write_text(json.dumps(raw, indent=2) + "\n", encoding="utf-8")
 
 
-class PerplexityClient:
+class PerplexitySonarClient:
     def __init__(self, key: str) -> None:
         self._headers = {
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
         }
 
-    async def submit(self, client: httpx.AsyncClient, query: str) -> str:
-        resp = await client.post(
-            f"{API_BASE}/async/sonar",
-            headers=self._headers,
-            json={
-                "request": {
-                    "model": MODEL,
-                    "messages": [{"role": "user", "content": query}],
-                }
-            },
-            timeout=60.0,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        request_id = data.get("request_id") or data.get("id")
-        if not request_id:
-            raise RuntimeError(f"No request_id in submit response: {data}")
-        return str(request_id)
+    async def complete(
+        self,
+        client: httpx.AsyncClient,
+        query: str,
+        *,
+        search_mode: str | None,
+    ) -> dict[str, Any]:
+        body: dict[str, Any] = {
+            "model": MODEL,
+            "messages": [{"role": "user", "content": query}],
+            "temperature": 0.2,
+            "max_tokens": 16000,
+        }
+        if search_mode:
+            body["search_mode"] = search_mode
 
-    async def poll(self, client: httpx.AsyncClient, request_id: str) -> dict[str, Any]:
-        resp = await client.get(
-            f"{API_BASE}/async/sonar/{request_id}",
+        resp = await client.post(
+            f"{API_BASE}/sonar",
             headers=self._headers,
-            timeout=60.0,
+            json=body,
+            timeout=300.0,
         )
         resp.raise_for_status()
         return resp.json()
@@ -520,65 +513,74 @@ class PerplexityClient:
 async def process_item(
     item: dict,
     data: dict,
-    client: PerplexityClient,
+    client: PerplexitySonarClient,
     http: httpx.AsyncClient,
-    poll_interval: float,
+    search_mode: str | None,
 ) -> int:
     item_id = item["id"]
     query_path = ROOT / item["query_file"]
     query = query_path.read_text(encoding="utf-8")
 
-    if not item.get("request_id"):
-        item["request_id"] = await client.submit(http, query)
-        item["status"] = "in_progress"
-        item["started_at"] = item["started_at"] or utc_now()
-        save_checklist(data)
-        append_run_log({"event": "submitted", "id": item_id, "request_id": item["request_id"]})
+    item["status"] = "in_progress"
+    item["started_at"] = item["started_at"] or utc_now()
+    save_checklist(data)
 
-    interval = poll_interval
-    while True:
-        payload = await client.poll(http, item["request_id"])
-        status = (payload.get("status") or payload.get("state") or "").lower()
-
-        if status in {"completed", "complete", "succeeded", "success"}:
+    last_error: str | None = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            payload = await client.complete(http, query, search_mode=search_mode)
             content = extract_message_content(payload)
             if not content.strip():
-                content = extract_message_content(payload.get("response", {}))
+                raise RuntimeError("Empty response content")
+
+            if not has_gradients_block(content):
+                raise RuntimeError("Response missing valid ## Gradients JSON block")
+
+            item["response_id"] = payload.get("id")
             write_report(item, content, raw=payload)
             item["status"] = "complete"
             item["completed_at"] = utc_now()
             item["error"] = None
             save_checklist(data)
-            append_run_log({"event": "complete", "id": item_id})
-            return item_id
-
-        if status in {"failed", "error", "cancelled", "canceled"}:
-            error = (
-                payload.get("error_message")
-                or payload.get("error")
-                or payload.get("message")
-                or status
+            append_run_log(
+                {
+                    "event": "complete",
+                    "id": item_id,
+                    "response_id": item.get("response_id"),
+                }
             )
-            item["status"] = "failed"
-            item["error"] = str(error)
-            item["completed_at"] = utc_now()
-            save_checklist(data)
-            append_run_log({"event": "failed", "id": item_id, "error": item["error"]})
             return item_id
+        except httpx.HTTPStatusError as exc:
+            detail = exc.response.text[:500]
+            last_error = f"HTTP {exc.response.status_code}: {detail}"
+            if exc.response.status_code in {429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
+                await asyncio.sleep(RETRY_BACKOFF * attempt)
+                continue
+            break
+        except Exception as exc:  # noqa: BLE001
+            last_error = str(exc)
+            if attempt < MAX_RETRIES:
+                await asyncio.sleep(RETRY_BACKOFF * attempt)
+                continue
+            break
 
-        await asyncio.sleep(interval)
-        interval = min(interval * 1.5, MAX_POLL_INTERVAL)
+    item["status"] = "failed"
+    item["error"] = last_error or "unknown error"
+    item["completed_at"] = utc_now()
+    save_checklist(data)
+    append_run_log({"event": "failed", "id": item_id, "error": item["error"]})
+    return item_id
 
 
 async def run_batch(
     *,
     concurrency: int,
     limit: int | None,
-    poll_interval: float,
     dry_run: bool,
+    search_mode: str | None,
 ) -> None:
     data = load_checklist()
-    api_key()  # validate early
+    api_key()
 
     pending = [
         i
@@ -596,13 +598,13 @@ async def run_batch(
         print("Nothing to run.")
         return
 
-    print(f"Queued {len(pending)} item(s), concurrency={concurrency}")
+    print(f"Queued {len(pending)} item(s), concurrency={concurrency}, model={MODEL}")
     if dry_run:
         for item in pending:
             print(f"  [{item['id']}] {item.get('title') or item['source_file']}")
         return
 
-    client = PerplexityClient(api_key())
+    client = PerplexitySonarClient(api_key())
     sem = asyncio.Semaphore(concurrency)
     completed = 0
 
@@ -611,7 +613,7 @@ async def run_batch(
 
         async def worker(item: dict) -> int:
             async with sem:
-                return await process_item(item, data, client, http, poll_interval)
+                return await process_item(item, data, client, http, search_mode)
 
         while pending or in_flight:
             while pending and len(in_flight) < concurrency:
@@ -628,7 +630,10 @@ async def run_batch(
                 item_id = task.result()
                 del in_flight[item_id]
                 completed += 1
-                print(f"Finished id={item_id} ({completed}/{completed + len(pending) + len(in_flight)})")
+                print(
+                    f"Finished id={item_id} "
+                    f"({completed}/{completed + len(pending) + len(in_flight)})"
+                )
 
             if limit is not None and completed >= limit:
                 for task in in_flight.values():
@@ -639,19 +644,22 @@ async def run_batch(
 
 
 def cmd_run(args: argparse.Namespace) -> None:
+    search_mode = args.search_mode
+    if search_mode == "default":
+        search_mode = None
     asyncio.run(
         run_batch(
             concurrency=args.concurrency,
             limit=args.limit,
-            poll_interval=args.poll_interval,
             dry_run=args.dry_run,
+            search_mode=search_mode,
         )
     )
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Perplexity deep research batch runner (Step 6)"
+        description="Perplexity Sonar search batch runner (Step 6, search tier)"
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -659,8 +667,8 @@ def main() -> None:
     p_init.add_argument("--force", action="store_true", help="Rebuild even if checklist exists")
     p_init.add_argument(
         "--include-themes",
-        default="Social,Mixed",
-        help="Comma-separated Key theme values to include (default: Social,Mixed). Use 'all' for every item with a Step 3 report.",
+        default="Mixed",
+        help="Comma-separated Key theme values to include (default: Mixed). Use 'all' for every item with a Step 3 report.",
     )
     p_init.add_argument(
         "--no-require-step3",
@@ -672,11 +680,16 @@ def main() -> None:
     sub.add_parser("sync", help="Mark complete where report files exist on disk")
     sub.add_parser("reset-stale", help="Reset stuck in_progress items")
 
-    p_run = sub.add_parser("run", help="Submit and poll Perplexity jobs (async, batched)")
+    p_run = sub.add_parser("run", help="Run Sonar search jobs (sync API, batched)")
     p_run.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
     p_run.add_argument("--limit", type=int, default=None, help="Max items this invocation")
-    p_run.add_argument("--poll-interval", type=float, default=DEFAULT_POLL_INTERVAL)
     p_run.add_argument("--dry-run", action="store_true", help="List queue without calling API")
+    p_run.add_argument(
+        "--search-mode",
+        default="default",
+        choices=("default", "web", "academic"),
+        help="Sonar search mode (default: web grounding without explicit mode)",
+    )
 
     args = parser.parse_args()
 

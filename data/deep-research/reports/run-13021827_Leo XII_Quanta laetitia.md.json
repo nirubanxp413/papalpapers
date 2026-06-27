@@ -1,0 +1,560 @@
+{
+  "id": "a7cd8b46-cbf4-4eb5-b301-b72b05573f2d",
+  "model": "sonar-deep-research",
+  "created_at": 1782355265,
+  "started_at": 1782355265,
+  "completed_at": 1782355661,
+  "response": {
+    "id": "a7cd8b46-cbf4-4eb5-b301-b72b05573f2d",
+    "model": "sonar-deep-research",
+    "created": 1782355661,
+    "usage": {
+      "prompt_tokens": 2599,
+      "completion_tokens": 10325,
+      "total_tokens": 12924,
+      "search_context_size": null,
+      "citation_tokens": 9839,
+      "num_search_queries": 85,
+      "reasoning_tokens": 113508,
+      "cost": {
+        "input_tokens_cost": 0.0052,
+        "output_tokens_cost": 0.0826,
+        "reasoning_tokens_cost": 0.34052,
+        "request_cost": null,
+        "citation_tokens_cost": 0.01968,
+        "search_queries_cost": 0.425,
+        "total_cost": 0.873
+      }
+    },
+    "object": "chat.completion",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "# *Quanta laetitia* (1827) and the Re\u2011ordering of Scottish Catholicism under Leo XII\n\nPope Leo XII\u2019s brief *Quanta laetitia*, issued on 13 February 1827, is a compact but revealing document that reorganised the Catholic Church\u2019s missionary governance in Scotland by dividing the country into three Apostolic Vicariates\u2014Eastern, Western, and Northern\u2014and appointing specific bishops to each.[21][3] On its face, it is a technical act of ecclesiastical administration, drafted in the juridical style typical of papal briefs under the Congregation de Propaganda Fide. Yet it sits at the intersection of several powerful currents: the long aftermath of the Scottish Reformation and penal laws, the gradual process of Catholic relief in Britain, the demographic and urban transformation of Scotland, and the papacy\u2019s broader attempt to consolidate and regularise its global missionary structures in the conservative, post\u2011Napoleonic era of Leo XII.[16][30] The brief is heavily prescriptive in that its very purpose is to legislate a new ecclesiastical map for Scotland and to shape future pastoral work there; at the same time, its opening and justificatory clauses look back to decades of Catholic survival, cautious growth, and legal relaxation in a predominantly Protestant nation.[21][27][32] Historically, the structure it created endured until 1878, when the vicariates were elevated into a restored hierarchy of dioceses under Leo XIII, suggesting that *Quanta laetitia* anticipated and helped scaffold a long\u2011term Catholic revival, even if it did not and could not foresee specific political milestones such as the Roman Catholic Relief Act of 1829 or the massive, later influx of Irish migrants that would transform Scottish Catholicism.[17][18][46] This report situates *Quanta laetitia* in its world, weighs its reflective and prospective dimensions, and assesses its social as well as intra\u2011ecclesial significance.\n\n## Gradients\n\nThe following JSON encodes the reflective and prospective \u201cgradients\u201d of *Quanta laetitia* for downstream use in the Papal Papers project.\n\n```json\n{\n  \"document_id\": \"1827-02-13_LeoXII_Quanta_laetitia\",\n  \"title\": \"Quanta laetitia\",\n  \"year\": 1827,\n  \"papacy\": \"Leo XII\",\n  \"reflective_saturation\": 5,\n  \"reflective_density\": -20,\n  \"prospective_saturation\": 8,\n  \"prospective_density\": 18,\n  \"rationale\": {\n    \"reflective_saturation\": \"Roughly half of the text is devoted to naming existing conditions and past developments: the historic division of Scotland into two vicariates, the small size of the Catholic population in earlier times, the recent and 'remarkable' growth of Catholicism, and the petitions of the Scottish vicars apostolic. These are described in a succinct but explicit way, giving the brief a moderate reflective component rather than a purely forward\u2011looking tone.[22][48][79]\",\n    \"reflective_density\": \"When Leo XII refers to the previous structure as adequate 'in past times' for 'a much smaller number of Catholics', he is implicitly invoking several decades of post\u2011Reformation missionary organisation and the long period of penal legislation and gradual Catholic relief stretching back to the later seventeenth and eighteenth centuries.[22][34][79] The brief does not narrate this history, but its justificatory language clearly presupposes it; a density score of \u221220 years captures this medium\u2011range backward gaze to roughly the later eighteenth century rather than to the sixteenth\u2011century Reformation itself.\",\n    \"prospective_saturation\": \"The core purpose of the document is prescriptive: to erect a new third vicariate, to redefine boundaries, to rename the existing vicariates, and to appoint specific bishops with juridical authority over each territory, all 'by Our apostolic authority'.[22][35][48] The brief repeatedly links this reorganisation to the future 'growth of religion' and the expectation of 'most abundant fruits' from the bishops' pastoral labours, making the forward\u2011directed, normative dimension the dominant organising principle of the text.[22]\",\n    \"prospective_density\": \"The structural changes mandated in *Quanta laetitia* were clearly intended to endure and to support a long\u2011term missionary and pastoral effort in Scotland, not merely to address a momentary imbalance.[22][35] In fact, the tripartite vicariate system remained in place until 1878, when the vicariates became dioceses and an archdiocese under Leo XIII.[64][65][68] While the brief itself does not specify a time frame, its tone and the nature of territorial reorganisation imply a medium\u2011 to long\u2011term horizon; a density score of +18 years reflects this forward gaze into the coming decades without retroactively crediting the document with foreseeing the entire half\u2011century to the restoration of the hierarchy.\"\n  }\n}\n```\n\n*This gradient coding should be read as an interpretive model rather than as a mechanical measurement; the sections that follow unpack the historical evidence and interpretive judgments that underlie these scores.*\n\n## Structured\n\n### Core content of *Quanta laetitia*\n\n*Quanta laetitia* is a papal brief, not a doctrinal encyclical, addressed \u201cAi Venerabili Fratelli Vescovi, Vicari apostolici di Scozia\u201d (\u201cTo Our Venerable Brothers, the Bishops, Vicars Apostolic of Scotland\u201d).[21] It opens with an expression of joy at the reports reaching Rome regarding the progress of the Catholic faith in Scotland, a country where, since the Reformation of 1560, Catholicism had been legally proscribed and socially marginal.[21][30][32] Leo XII states that the existing division of the Scottish mission into two vicariates, corresponding roughly to the Lowland and Highland districts, had sufficed when the Catholic population was smaller, but can no longer adequately serve the \u201cnotable increase\u201d in the number of faithful. He notes that Bishops Ranald MacDonald (Highland District) and Alexander Paterson (Lowland District) have come to Rome to ask that a new vicariate be created to facilitate the better governance of souls and the further spread of religion.[21][23][25]\n\nThe brief recounts that the pope referred their petition to the cardinals of the Congregation de Propaganda Fide, the Roman dicastery responsible for missionary territories and the creation and division of vicariates and dioceses.[6][19][36] On the basis of Propaganda\u2019s advice\u2014which judged the division into three vicariates \u201copportuna e veramente necessaria\u201d (opportune and truly necessary)\u2014Leo XII decrees, \u201ccon la Nostra autorit\u00e0 apostolica,\u201d the establishment of a third vicariate and a comprehensive re\u2011drawing of ecclesiastical boundaries across Scotland.[21] The country is henceforth to be divided into an Eastern District (based in Edinburgh), a Western District (based in Glasgow), and a Northern District (based in Aberdeen), with the brief providing a detailed list of counties and geographic markers that define each jurisdiction.[21][9][9][3]\n\nIn the same juridical act, Leo XII designates the incumbents. Alexander Cameron, titular bishop of Maximianopolis and hitherto Vicar Apostolic of the Lowland District, becomes Vicar Apostolic of the Eastern District.[21][25] His coadjutor, Alexander Paterson, titular bishop of Cybistra, who had already received jurisdiction over the Lowland District for the duration of Cameron\u2019s life, now receives full jurisdiction over the Eastern District.[11][21] Ranald MacDonald, titular bishop of Arindela and former Vicar Apostolic of the Highland District, is assigned to the newly created Western District.[21][23] Finally, for the Northern District, Leo XII appoints \u201cthe beloved son\u201d James Francis Kyle, whom he has elevated to the titular see of Germanicia and made Vicar Apostolic of the new vicariate.[13][21][13] The brief closes with the pope\u2019s confident hope that God will bless this new arrangement with abundant fruits and with the imparting of his Apostolic Blessing.[21]\n\n### Ecclesiastical and political setting\n\nThe internal logic of *Quanta laetitia* is strictly ecclesiastical, but it takes shape within a specific political and social frame. Scotland had been officially Protestant since the Parliament of 1560 repudiated papal authority and the Mass, and the subsequent centuries saw a layered regime of penal laws and anti\u2011Catholic statutes that restricted worship, property rights, education, and public office for Catholics.[30][32][30] While Scottish penal legislation developed differently from its English and Irish counterparts, Catholics across the British Isles came under a shared framework of disabilities governed by the Act of Uniformity, the Test Acts, and various statutes against \u201crecusants\u201d and \u201cPapists.\u201d[16][29][29] From the late eighteenth century onwards, a series of relief measures\u2014the First Catholic Relief Act of 1778, further relief in 1781, and later, the Roman Catholic Relief Act of 1791\u2014began to ease some of these constraints, allowing Catholics to own and bequeath property more freely and to practice their religion with fewer penalties.[16][16][29]\n\nBy the period covered in Christine Johnson\u2019s monograph, *Developments in the Roman Catholic Church in Scotland 1789\u20131829*, the Scottish mission was, in formal terms, an extra\u2011ordinary structure under Propaganda Fide, governed not by diocesan bishops but by vicars apostolic with delegated powers in defined districts.[27][32][32] This mission had survived in part through the resilience of clergy and laity in the Highlands and Islands, and increasingly through a growing presence in the Lowland burghs and industrialising towns, where Irish seasonal and permanent migrants contributed to Catholic numbers.[30][34][50] Between 1750 and 1821, Glasgow\u2019s population, for example, grew from under 32,000 to over 147,000; even by the 1830s, observers noted that the influx of Irish Catholics had created a substantial \u201cRomish\u201d presence in the city, necessitating new chapels.[50] Against this backdrop of legal relaxation and demographic change, the internal structures of the Scottish Catholic Church were under pressure to adapt.\n\nThe papacy of Leo XII (Annibale della Genga, 1760\u20131829) was itself marked by a conservative desire to restore traditional religious discipline after the upheavals of the French Revolution and Napoleonic era.[1] Elected in 1823 by the *zelanti* faction, he was deeply suspicious of liberalism and modern innovations, but also committed to strengthening papal control over missionary territories, including those within the British Empire.[1] Contemporary and later accounts note that during his short pontificate the papacy closely supervised the British Isles\u2019 Catholic missions through Propaganda Fide, encouraging steps that would secure the Church\u2019s position where legal and social circumstances allowed.[6] In this sense, *Quanta laetitia* aligns with a broader papal strategy of consolidating hierarchical structures in Protestant\u2011majority societies as soon as political conditions made this feasible.\n\n### Reflective versus prospective character\n\nMeasured against the definitions adopted for the Papal Papers project, *Quanta laetitia* displays a mixed but asymmetrical character. Its reflective dimension appears primarily in the narrative and justificatory clauses. Leo XII explicitly refers to a prior ecclesiastical order\u2014two vicariates covering all of Scotland\u2014and to the historical fact that this arrangement had been adequate when the Catholic population was small, but has become \u201cinsufficient\u201d given recent growth.[21] The brief names, though briefly, the long endurance and more recent expansion of Catholicism in Scotland as the condition to which Rome is now responding. In this sense, it memorialises and interprets several decades of missionary effort and demographic change, even if it does not spell them out.[21][27][30]\n\nThe prospective or prescriptive dimension, however, is much stronger. The heart of the text is a set of binding juridical decisions: the erection of a new vicariate, the redefinition and renaming of territories, and the appointment of specific bishops with clearly delineated authority.[21][9][9] These decisions are justified not only as administrative tidying but as measures intended to \u201cpromote the growth of religion\u201d and to assist the bishops in bearing the \u201cburden and pastoral labours\u201d of their office.[21] The pope anticipates that with a new \u201ccompanion in labour\u201d and a more manageable division of responsibilities, the vicars apostolic will be able to evangelise more effectively, implying a forward\u2011looking agenda of missionary expansion and consolidation. Unlike some doctrinal encyclicals, *Quanta laetitia* does not issue warnings about secular politics or social trends; its prescriptiveness is focused on institutional design and pastoral governance.\n\n### Social and secular relevance\n\nAlthough *Quanta laetitia* does not directly address secular authorities or explicitly comment on political issues such as Catholic emancipation, it is deeply entangled with the social and political realities of Scotland and Britain. The very possibility of carving Scotland into three vicariates presupposed a Catholic population of sufficient density and stability to sustain episcopal oversight and parish structures, especially in urban centres such as Edinburgh and Glasgow that had grown dramatically through industrialisation and migration.[21][50] The choice of Glasgow and Aberdeen as vicariate seats, alongside Edinburgh, reflects an awareness of the social geography of Catholic life in Scotland: a western, urban\u2011industrial axis heavily influenced by Irish migrants; a northern region where older Highland and island Catholic communities persisted; and an eastern and southern zone where Catholicism remained a minority but increasingly visible presence.[30][5][50]\n\nMoreover, the reorganisation aligned with, and may have quietly anticipated, the accelerating political movement toward full Catholic emancipation. While the Roman Catholic Relief Act would not be passed until 1829, debates in Parliament and public discourse around Catholic civil rights intensified in the 1820s, building on earlier relief legislation.[16][17][16] The papacy\u2019s decision in 1827 to strengthen the Scottish mission\u2019s hierarchical structure, under direct Roman authority, can plausibly be read as an attempt to be ready for an environment in which Catholics would have greater civic freedom and in which the Church could grow institutionally without depending solely on semi\u2011tolerated, quasi\u2011clandestine arrangements. This does not mean that *Quanta laetitia* caused or steered British policy, for which there is no evidence, but simply that the brief\u2019s ecclesial prescriptions were timed to benefit from a slowly liberalising legal framework.[27][29][32]\n\n## Context\n\n### The long shadow of the Scottish Reformation and penal laws\n\nTo understand the background against which *Quanta laetitia* operated, one must begin with the Scottish Reformation and its aftermath. In 1560, the Scottish Parliament repudiated papal jurisdiction, abolished the Mass, and adopted a Reformed confession influenced by John Knox and Continental Calvinism.[30][30] Catholicism was not merely disestablished; it was formally criminalised, and adherence to the old faith became associated with treason or sedition. Over the following century and a half, Catholics in Scotland\u2014who included remnants of the old nobility, pockets of Gaelic\u2011speaking Highlanders and islanders, and some urban artisans\u2014faced a combination of legal penalties and informal social sanctions.[30][32]\n\nThe penal laws affecting Catholics in the British Isles were multi\u2011layered. Some statutes punished Catholics for participating in Catholic worship or for failing to conform to the established Church\u2019s services, categorising them as \u201crecusants.\u201d Others excluded Catholics from public office, the professions, and universities by requiring oaths and declarations against transubstantiation and the \u201cpopish\u201d understanding of the Eucharist.[29][29] Certain English and British acts offered financial rewards to informers who secured convictions under these laws, incentivising denunciations.[29] In Scotland, the pattern differed somewhat, but anti\u2011Popery sentiment remained potent well into the eighteenth century, as illustrated by the contentious debates over the proposed repeal of penal laws in 1778\u201379, which provoked widespread Protestant agitation.[26][32]\n\nThe combination of legal disability and social hostility had a structuring effect on the Catholic Church\u2019s organisation in Scotland. With no possibility of canonical dioceses under episcopal sees recognised by the state, the Holy See entrusted the territory to vicars apostolic under the Congregation de Propaganda Fide. These were bishops in *partibus infidelium*\u2014titular bishops of extinct or foreign dioceses\u2014who exercised delegated jurisdiction in defined districts, effectively maintaining the apostolic ministry in a country where the ordinary diocesan structure had been dismantled.[6][30][3] This model, developed for mission territories and countries hostile to Catholicism, allowed Rome to preserve hierarchical continuity while avoiding overt challenges to the established religious order.\n\n### Catholic relief and the cautious emboldening of the mission\n\nBy the later eighteenth century, changes in British politics and intellectual life began to erode the foundations of the most draconian anti\u2011Catholic laws. Enlightenment ideas, pragmatic considerations about loyalty during wars with Catholic powers, and a growing sense that persecuting Catholics was both unjust and socially destabilising helped foster a movement for \u201cCatholic relief.\u201d[16][29] The First Catholic Relief Act of 1778 removed some of the harshest penalties, particularly regarding property ownership and inheritance, and repealed statutes that incentivised convictions of \u201cPopish priests.\u201d[29][29] Despite fierce opposition, manifested in Scotland as well as in the Gordon Riots in London, further relief followed in 1781 and 1791, granting Catholics greater freedom to worship and to run schools, provided they registered their chapels and clergy with local authorities.[16][16][29]\n\nChristine Johnson\u2019s study of the period 1789\u20131829 emphasises that this legal easing did not produce an immediate, triumphant revival, but it did allow the Catholic mission in Scotland to move from virtual clandestinity toward cautious visibility.[27][32][32] New chapels were built in cities and larger towns, sometimes discreetly at first, and Catholic educational initiatives such as seminaries could operate with somewhat less fear of suppression.[43][43] The Highland Seminary at Lismore, for example, functioned as a key institution for training priests for the Highland and Island mission, though it faced ongoing difficulties and was eventually closed, with ordinations continuing under bishops like Ranald MacDonald.[43][43] In the Lowlands, bishops and clergy laboured to establish a network of chapels that could serve growing congregations in places such as Edinburgh, Glasgow, and Aberdeen.[30][50]\n\nAt the same time, anti\u2011Catholic discourse persisted in Scottish culture, with \u201cPopery\u201d still invoked as a threat to civil and religious liberty.[26] Historians have shown that anti\u2011Popery rhetoric remained a powerful motif in sermons, pamphlets, and popular politics, even as more moderate voices and pragmatic politicians accepted the gradual integration of Catholics into civic life.[26][32] It is against this mixed environment\u2014partial relief, continuing prejudice, cautious institutional growth\u2014that the papacy\u2019s decisions about the structure of the Scottish mission must be situated.\n\n### Demographic change: urbanisation and Irish migration\n\nSecular socio\u2011economic transformations in Scotland during the late eighteenth and early nineteenth centuries were at least as important as legal changes in shaping Catholic realities. The country underwent rapid urbanisation and industrialisation, particularly in the west\u2011central belt around Glasgow, Paisley, and Lanarkshire, as textile, coal, and later heavy industries expanded.[50] Glasgow\u2019s population, to take the most striking example, soared from under 32,000 in 1750 to over 147,000 in 1821, a fivefold increase that stretched municipal infrastructure and created new working\u2011class communities.[50] Within these burgeoning towns, religious provision became a pressing issue for all denominations, including the small but growing Catholic community.\n\nIrish migration played a central role in this story. In the early nineteenth century, long before the Great Famine, seasonal labourers from Ulster and other parts of Ireland crossed the Irish Sea to work in Scottish agriculture, construction, and burgeoning industries.[34] Estimates suggest that in the 1820s as many as 8,000 Irish people each year moved temporarily to Britain, including Scotland, for harvest work or other contracts, with some settling permanently.[34] Between the 1770s and the 1830s, Glasgow and other western Scottish towns became significant destinations for Irish Catholics, who formed a large proportion of the unskilled labour force.[50] Observers in the 1830s already commented that the number of \u201cpersons belonging to the Romish persuasion\u201d in Glasgow had grown considerably, largely through Irish immigration, leading to the construction of new Catholic chapels.\n\nWhile the great post\u2011Famine wave of Irish migration that dramatically reshaped Scottish Catholicism lay in the future, the demographic foundation for a more substantial Catholic presence was being laid in the decades preceding *Quanta laetitia*.[18][18][34] The geographical pattern of this growth was uneven. The Highlands and Islands retained long\u2011standing Catholic enclaves, especially in certain clans and islands, but the centre of gravity of Catholic Scotland gradually shifted toward urban and industrial areas, particularly in the west.[30][50] By 1827, it made practical sense to treat the west of Scotland\u2014anchored by Glasgow and including Argyll and the western isles\u2014as a distinct pastoral unit, rather than simply as part of a broad Highland vicariate. This is precisely what Leo XII\u2019s brief did.\n\n### Papal policy, Propaganda Fide, and the British Isles\n\nThe Congregation de Propaganda Fide, founded in 1622, had long been the principal Roman body responsible for missionary territories, including Protestant countries where Catholicism was not recognised as an established church.[6][19][36] Its authority extended to the creation, division, and suppression of dioceses, vicariates, and prefectures; the appointment of bishops and other missionaries; and oversight of seminaries and missionary colleges such as the Pontifical Urban College.[6][19][36] In the British Isles, Propaganda\u2019s remit covered England, Wales, Scotland, and, before the creation of the Irish hierarchy, Ireland, where vicars apostolic and later bishops operated in a complex and often hostile legal environment.[6][29][30]\n\nLeo XII\u2019s pontificate saw a renewed emphasis on centralised oversight of these missions. The Catholic Encyclopedia notes that under his reign, \u201cthe missions, especially in the British Isles, were managed and encouraged till success was assured,\u201d suggesting a deliberate policy of strengthening ecclesiastical structures in these territories. British diplomatic representation at the Holy See was also evolving in this period, with successive governments monitoring papal actions that might affect British Catholics or imperial interests, though there is no evidence that *Quanta laetitia* itself became a subject of diplomatic controversy. For Rome, however, Scotland remained a \u201cmission territory\u201d in canonical terms, and its reorganisation was a matter for Propaganda and the pope, not for domestic Scottish ecclesiastical bodies, which were Presbyterian or Anglican.\n\nIn this framework, the shift from two to three vicariates in Scotland can be read as part of a broader Roman strategy of differentiation and consolidation. The division into Eastern, Western, and Northern districts mirrored, in ecclesial form, the emerging social and demographic realities of Scotland: a Lowland east with administrative and intellectual centres, a heavily industrialising and Irish\u2011influenced west, and a more traditional, rural north.[21][30][50] Propaganda Fide\u2019s recommendation that a third vicariate was \u201ctruly necessary\u201d indicates that the cardinals had received detailed reports from the Scottish bishops about pastoral burdens, distances, and population clusters, and that they judged the mission ripe for more fine\u2011grained governance.[6][21][3]\n\n### The Scottish vicars apostolic named in *Quanta laetitia*\n\nThe brief\u2019s prescriptive force is personified in the bishops it names. Alexander Cameron (1747\u20131828), titular bishop of Maximianopolis, had been Vicar Apostolic of the Lowland District since 1805.[25] He navigated the delicate period following the first relief acts, overseeing the cautious expansion of chapels and the gradual normalisation of Catholic institutions in Lowland Scotland.[25][27] By the mid\u20111820s, he was elderly and in declining health, which may help explain why the brief emphasises the transfer of full jurisdiction to his coadjutor in the Eastern District.[21][25]\n\nAlexander Paterson (1766\u20131831), titular bishop of Cybistra, had served as Cameron\u2019s coadjutor and then, de facto, as the main administrator of the Lowland District from 1825.[11] After *Quanta laetitia*, he became Vicar Apostolic of the Eastern District, with Edinburgh as his seat, and continued the work of strengthening Catholic structures in the eastern Lowlands until his death.[11][21] Ranald MacDonald (1756\u20131832), titular bishop of Arindela, had been Vicar Apostolic of the Highland District since 1819, ministering to scattered communities in the Highlands and Islands and attempting, with mixed success, to maintain the Highland Seminary and to secure clergy for remote parishes.[23][43][43] Under the new arrangement, he took charge of the Western District, which combined much of the old Highland mission with the rapidly growing Catholic population of Glasgow and the western seaboard.[21][23][43]\n\nJames Francis Kyle (1788\u20131869), the youngest of the group, was appointed titular bishop of Germanicia and first Vicar Apostolic of the Northern District, with Aberdeen as his base.[13][13][45] Kyle would prove to be a pivotal figure in nineteenth\u2011century Scottish Catholicism, serving for over four decades, commissioning churches, and advocating for Catholic education and charity.[13][13][45] His long tenure meant that the Northern District enjoyed a degree of stability and gradual institutional development that matched the papacy\u2019s long\u2011term vision far more than the brief\u2019s succinct phrasing might suggest.\n\nThrough these appointments, *Quanta laetitia* did more than draw lines on a map. It redistributed pastoral responsibility among a small cadre of bishops whose personalities, strategies, and relationships with local elites and civil authorities would have significant impacts on how Catholicism was perceived and practised in different parts of Scotland.[27][30][43]\n\n## Unstructured\n\n### Close reading of *Quanta laetitia*: tone, rhetoric, and implied history\n\nA close reading of the Italian text of *Quanta laetitia* reveals a document that blends juridical precision with modest rhetorical flourishes characteristic of papal briefs of the era.[21] The title phrase itself, \u201cQuanta laetitia,\u201d signals an affective opening: \u201cWith how great joy we are filled when we hear the good things about you,\u201d or similar, framing the administrative decision that follows as an outflow of gratitude for divine blessings in Scotland.[21] The pope\u2019s joy is explicitly tied to reports of the progress or \u201caccrescimento\u201d of religion in that country, suggesting that Rome has been receiving regular communications about conversions, sacramental activity, or the building of chapels and schools.[21][27]\n\nThe early paragraphs of the brief sketch, in compressed form, a narrative arc: there was a time when the Scottish mission was small, its Catholic flock modest and dispersed, and in that context the division into two vicariates was adequate for pastoral care.[21][3] Now, however, the number of Catholics has increased markedly, and the existing structure imposes too heavy a burden on the vicars apostolic, potentially hindering further growth. The bishops\u2019 petition for a third vicariate is presented not as a bid for status but as a humble request motivated by zeal for souls and concern for the efficient administration of the sacraments.[21] The pope\u2019s response\u2014consulting Propaganda Fide and then acting upon its counsel\u2014articulates a model of collaborative governance across the papal curia and local hierarchies.\n\nThe heart of the document consists of paragraphs that read almost like a statute or legal instrument. They define, in painstaking geographical detail, the territories of the Eastern, Western, and Northern districts, naming specific counties and using natural features such as rivers and lochs to draw boundaries.[21] For instance, the Western District is described as including Lanark, Renfrew, Dumbarton, Argyll, Wigtown, the western isles known as the Hebrides, and part of Inverness\u2011shire along a line from Lochalsh through Kintail and the Glen Moriston to Loch Ness and Fort Augustus, then through Badenoch to the River Spey.[21] The Eastern District encompasses the Lothians, Perth, Fife, Clackmannan, Stirling, Angus, Dumfries, Kirkcudbright, and Roxburgh, with Edinburgh as its seat; the Northern District takes the rest of Inverness\u2011shire and the north\u2011eastern counties, plus Orkney and Shetland.[21] Such specificity conveys not only administrative seriousness but also a sense of the Church\u2019s intimate engagement with the geography of Scotland, a land whose political and ecclesial map had long excluded Catholic dioceses.\n\nThe appointment of vicars is likewise expressed in formal terms, with each bishop identified by his titular see and previous role. Yet the brief\u2019s language inserts a pastoral and affective note: the new vicar for the Northern District is a \u201cdiletto figlio sacerdote Giacomo Francesco Kyle\u201d (\u201cbeloved son, the priest James Francis Kyle\u201d), emphasising the father\u2011son relationship between pope and bishop.[21][13] The closing paragraphs shift back toward a spiritual tone, urging the bishops to continue their labours with confidence in God\u2019s grace and assuring them of the pope\u2019s Apostolic Blessing.[21] While brief, this conclusion frames the entire administrative act as a means toward the \u201csalvation of souls\u201d and the \u201cextended propagation of religion,\u201d anchoring it theologically in the Church\u2019s mission.\n\nIn what the document does not say, one can also discern an implied history. There is no reference to the Reformation, the penal laws, or the anti\u2011Catholic sentiment that had shaped Scottish religious life for centuries; these are treated as background noise rather than explicit interlocutors.[21][30][32] Similarly, there is no mention of British political debates about Catholic emancipation, despite their intensity in the late 1820s. Instead, the brief\u2019s narrative presumes that the Church has always been there, quietly maintaining its structures, and that the present is simply an opportune moment to refine and strengthen those structures in response to God\u2011given growth. This omission reflects both the papal genre\u2014briefs typically do not engage detailed secular analysis\u2014and a certain Roman perspective that sees secular regimes as contingent, while the Church\u2019s mission endures.\n\n### Reflective dimensions in context: what is being remembered?\n\nWithin this tight rhetorical frame, the reflective character of *Quanta laetitia* lies in its backward\u2011looking recognition of Catholic persistence and recent expansion. When Leo XII says that the previous arrangement of two vicariates \u201ccould also have been sufficient in past times for administering a much smaller number of Catholics,\u201d he is implicitly acknowledging the long, difficult centuries in which the Catholic population of Scotland was small, beleaguered, and scattered.[21][30][32] The phrase \u201cin past times\u201d is vague but, in context, likely refers not only to the immediate decades before 1827 but to the century or more of mission under penal constraints, when a smaller number of priests struggled to cover vast territories and when open growth was constrained by law and prejudice.[27][29][32]\n\nThe very existence of the Highland and Lowland vicariates is a testament to that history. These vicariates, whose origins go back to the seventeenth century, had been the canonical containers for a \u201cchurch in hiding,\u201d ministering to Jacobite sympathisers, Gaelic\u2011speaking clans, and pockets of recusant laity in an overwhelmingly Reformed environment.[30][32] By noting that the two\u2011vicariate system once sufficed, the brief implicitly honours the fidelity of those earlier generations, even if it does not narrate their struggles. The petition of the bishops to create a new vicariate is framed as a continuation of that fidelity, now expressed through institutional adaptation rather than mere survival.[21][23][25]\n\nThe brief is also reflective in its recognition of a qualitative change in recent decades. Reports reaching Rome\u2014and now summarised in papal voice\u2014speak of a Catholic population that has grown \u201cnotably\u201d and of a mission whose pastoral demands exceed the capacity of two vicars.[21] Historians corroborate that by the early nineteenth century, the Catholic Church in Scotland had moved from defensive survival to cautious expansion, aided by legal relief and demographic shifts.[27][30][50] New chapels were built, especially in urban centres; the Highland Seminary, though fragile, produced clergy; and Irish migrants augmented numbers in the west.[43][43][50] By casting the creation of a third vicariate as a response to this changed reality, the brief functions as a kind of institutional memory, inscribing into canonical law the Church\u2019s sense that a new chapter had begun.\n\nIt is notable, however, that *Quanta laetitia* does not engage in explicit historical interpretation. It does not, for example, present the growth of Catholicism as proof of the failure of Protestantism, nor does it offer a theological reading of the penal era. The reflective dimension is descriptive and understated rather than polemical. This contrasts with some later papal documents that frame historical developments as evidence of divine vindication or as punishment for secular ideologies. In the Scottish case, prudence may have counselled a more reticent tone, given the still\u2011sensitive nature of Catholic presence in a Presbyterian\u2011majority nation and the ongoing political debates about Catholic emancipation.[26][16][32]\n\n### Prospective dimensions: designing a future Church\n\nIf the reflective element is muted and implicit, the prospective dimension of *Quanta laetitia* is explicit and central. The document is, in its essence, a design for the future. It reshapes the ecclesiastical map of Scotland in ways that anticipate, and seek to facilitate, the Church\u2019s expansion in the coming decades. By creating a Western District with Glasgow as its seat, the brief recognises that the west of Scotland, with its industrial towns and Irish labourers, is likely to be the locus of much future Catholic growth.[21][50] By assigning the experienced Highland vicar Ranald MacDonald to this district, the papacy signals an intention to deploy a bishop familiar with both Gaelic tradition and new urban realities to shepherd this mixed flock.[21][23][43]\n\nSimilarly, the choice of Edinburgh and Aberdeen as the centres for the Eastern and Northern Districts reflects an expectation that these cities can support episcopal residences, seminaries, and other institutions. Edinburgh was the political and cultural capital of Scotland, and though its Catholic population was smaller than Glasgow\u2019s, it held symbolic importance and offered proximity to educated elites and potential converts.[30][5] Aberdeen, as a northern urban centre with a university and a growing maritime and industrial economy, was a logical base for the Northern District.[13][15] By anchoring vicariates in these cities, the papacy was laying groundwork for eventual dioceses and cathedral chapters, even if that horizon was not yet clearly articulated.[46][47][30]\n\nThe brief also looks forward in its expectation of \u201cmost abundant fruits\u201d from the bishops\u2019 labours under the new arrangement.[21] This language is not mere pious padding; it signals a conviction that institutional reform can have real missionary and pastoral effects. With smaller territories to cover, each vicar apostolic could, in theory, visit parishes more often, oversee clergy more closely, encourage the building of chapels and schools, and respond to local needs. The appointment of a younger bishop, James Kyle, to the Northern District ensured continuity across decades, allowing him to implement long\u2011term plans without the immediate prospect of succession.[13][13][45]\n\nFrom a retrospective vantage, one can see that these prospective elements were partly borne out. The three vicariates remained the basic structure of Scottish Catholic governance for half a century, until 1878, when Pope Leo XIII restored the full hierarchy, converting the Eastern, Western, and Northern districts into dioceses and an archdiocese under the bull *Ex supremo apostolatus apice*.[46][15][47][30] The Eastern District became the Archdiocese of St Andrews and Edinburgh; the Western District contributed to what would become the Archdiocese of Glasgow and associated dioceses; and the Northern District became the Diocese of Aberdeen.[46][15][30] While *Quanta laetitia* did not itself legislate this restoration, it clearly provided the intermediate step between mission vicariates and a normal diocesan structure, allowing Catholic life to consolidate and mature.\n\nAt the same time, some prospective dimensions of the brief were overtaken by events it did not and perhaps could not foresee. The Roman Catholic Relief Act of 1829, passed just two years after *Quanta laetitia*, granted Catholics in Britain the right to sit in Parliament and to hold most public offices, further normalising their civil status.[16][17][16] This opened new avenues for Catholic elites and facilitated the integration of the Church into public life, strengthening the social position of bishops and clergy. More dramatically, the Irish Famine of the 1840s triggered a massive wave of Irish immigration to Scotland, particularly to the west\u2011central belt, reshaping the Catholic demographic profile on a scale far beyond what the Scottish vicars apostolic of the 1820s had managed.[18][18][34][50] The Western District, in particular, became home to large Irish Catholic communities whose social conditions, political attitudes, and cultural expressions posed new challenges for the Church.\n\nOne can say that *Quanta laetitia* was prospectively right in anticipating growth and the need for closer episcopal oversight, but it did not anticipate the full scale or specific drivers of that growth. Its prospective density, in other words, was medium\u2011term: it looked to the next decades of mission, not to the epochal demographic shifts of the mid\u2011nineteenth century.\n\n### Engagement (and non\u2011engagement) with the secular world\n\nGiven the aims of the Papal Papers project, it is important to ask how far *Quanta laetitia* engages the secular world. At the textual level, the answer is: only indirectly and implicitly. The brief does not address the British or Scottish governments, does not mention specific legislation, and does not comment on social issues such as poverty, labour conditions, or education in secular schools.[21] It is entirely focused on ecclesiastical jurisdictions and offices. There is no critique of industrial capitalism, no remarks about political representation, and no prescriptions concerning the civic behaviour of Catholics beyond the general exhortation to foster the growth of religion.\n\nYet the document\u2019s secular entanglements are substantial. By authorising a vicariate based in Glasgow, the papacy was inserting a formal hierarchical presence into the heart of industrial Scotland, where issues of labour organisation, urban poverty, and sectarian tensions between Protestants and Catholics were already becoming prominent.[50] The Western vicar apostolic would, inevitably, be drawn into negotiations over church sites, relations with municipal authorities, and responses to social ills affecting his flock. In this sense, *Quanta laetitia* shaped the Church\u2019s capacity to engage with the secular world, even if it did not script that engagement.\n\nSimilarly, the timing of the brief\u2014two years before full Catholic emancipation\u2014meant that the reorganisation occurred in a political milieu where Catholic civil rights were a live and contentious issue. The creation of a new vicariate could have been perceived by some Protestants as a sign of Rome\u2019s growing confidence and of Catholic assertion, potentially fuelling anti\u2011Popery rhetoric.[26][16] However, there is little evidence in contemporary secular press or parliamentary debates that *Quanta laetitia* itself became a flashpoint. The British state had, by this time, largely accepted that Catholic ecclesiastical structures could exist so long as they did not claim civil jurisdiction or political authority, and the papacy framed its act strictly in spiritual terms.[16][29]\n\nFrom a longer\u2011term perspective, the ecclesial decisions taken in *Quanta laetitia* played into the secular story of Scottish religious pluralism. By the late nineteenth and early twentieth centuries, Scotland\u2019s religious landscape included not only the Church of Scotland and various Presbyterian Free Churches but also a sizeable Catholic Church with its own diocesan network and schools, and a Scottish Episcopal Church within the Anglican Communion.[5][24][5][5] The Catholic Church\u2019s demographic weight\u2014around 16 per cent of the population in the 2011 census\u2014owes much to the Irish and later Polish and other immigrant waves, but its institutional capacity to serve these communities was built on the vicariate and diocesan structures put in place from 1827 onwards.[5][5][5] Thus, while *Quanta laetitia* does not articulate a theology of church\u2013state relations or social engagement, it silently participates in the construction of Scotland as a religiously plural, though still divided, society.\n\n### Reception and later memory\n\nDirect evidence of the immediate reception of *Quanta laetitia* in 1827 is sparse outside ecclesiastical records. This is unsurprising, given the document\u2019s genre and the limited public visibility of papal briefs in Protestant Britain at the time. The Scottish Catholic Church, through its bishops and clergy, implemented the new division, as evidenced by subsequent references in Catholic directories and ecclesiastical registers, which list the Eastern, Western, and Northern Districts and their vicars apostolic.[45][45] James Kyle, for instance, is recorded in a 1913 Catholic directory as having been nominated first Vicar Apostolic of the new Northern District on 28 January 1827, consecrated in 1828, and serving until his death in 1869.[45][45] These records treat the vicariate system as a given, the fruit of earlier papal decisions.\n\nIn Catholic historiography, *Quanta laetitia* is remembered primarily as a milestone in the institutional development of the Scottish Church. Nineteenth\u2011century historians such as Alphons Bellesheim, whose *History of the Catholic Church of Scotland* was translated and published in the 1880s, situate the 1827 reorganisation as an important step on the road to the restoration of the hierarchy in 1878.[47][30] Later summaries, such as entries in the Catholic Encyclopedia and modern overviews on platforms like Encyclopedia.com, likewise note that Pope Leo XIII\u2019s *Ex supremo apostolatus apice* restored the hierarchy, building on the vicariate system established or refined under Leo XII.[30][30] In these narratives, the brief appears as one link in a chain of developments spanning from penal times to full diocesan normality.\n\nThe document is occasionally cited in more popular or commemorative contexts. An 1878 article in the *Terra Nova Advocate and Political Observer* (Newfoundland) quoted the opening Latin of *Quanta laetitia* in connection with the division of Scotland into three districts, illustrating how the brief\u2019s wording circulated in Catholic circles abroad as a point of reference for Scottish ecclesiastical history.[7][7] A 1906 article on \u201cSeventy Years of Catholic Growth in Scotland,\u201d published in an Australian newspaper, discussed the Western District and the establishment of a Scottish vicariate apostolic, implicitly referencing the 1827 reorganisation as the starting point of the period under review. Such mentions show that, by the turn of the twentieth century, *Quanta laetitia* had become part of the remembered story of Catholic resurgence and institutional growth, even in diaspora communities.\n\nIn secular historiography, the brief is rarely discussed in detail; instead, scholars focus on broader patterns of Catholic recovery, demographic change, and political emancipation. Christine Johnson\u2019s monograph and later articles, for example, devote more attention to parish formation, lay devotional life, and relations with Protestant society than to papal acts as such.[27][27][32] Nonetheless, she and others acknowledge that the 1827 creation of the three vicariates was a crucial structural adjustment that allowed the Church to cope with the demands of the period 1789\u20131829 and beyond.[27][32][32] In this sense, *Quanta laetitia* can be described as influential within ecclesiastical governance but relatively invisible in secular public discourse.\n\n### Counterfactuals and limitations\n\nIn assessing the impact and character of *Quanta laetitia*, it is useful to consider its limitations and the counterfactual possibilities it did not pursue. The brief could have, in theory, been more ambitious, perhaps by hinting at the eventual restoration of dioceses or by articulating a plan for Catholic education, social outreach, or engagement with civil authorities. It did none of these things, staying within the narrow remit of jurisdictional boundaries and episcopal appointments.[21] This caution may reflect Leo XII\u2019s general conservatism and his tendency to focus on internal discipline rather than grand ecclesio\u2011political designs, especially in politically sensitive contexts.[1]\n\nOne could imagine, for instance, an alternative papal document in 1827 that explicitly celebrated the progress of Catholic relief in Britain, praised the British government for its growing tolerance, or warned against continued anti\u2011Catholic agitation. Leo XII, however, was wary of liberal and constitutional regimes and did not wish to appear dependent on or grateful to Protestant governments.[1] The brief\u2019s silence on British politics thus reflects a combination of prudence and ideological distance. This limited engagement with the secular world, while reducing the risk of diplomatic friction, also meant that the papacy ceded the rhetorical field of emancipation debates to domestic Catholic and Protestant actors in Britain.\n\nAnother limitation lies in the brief\u2019s lack of detailed social analysis. It did not, for example, differentiate between the needs of long\u2011standing Highland Catholic communities and those of recently arrived urban Irish labourers, nor did it acknowledge the particular challenges of ministering to populations facing poverty, discrimination, and linguistic barriers.[18][18][50] These tasks fell to the vicars apostolic and their clergy, who had to translate the broad structural reorganisation into concrete pastoral initiatives. James Kyle in the north, Andrew Scott (who succeeded MacDonald) in the west, and their colleagues devoted significant energy to building chapels, schools, and charitable works, often with limited resources.[13][43] *Quanta laetitia* provided them with a framework but not a detailed roadmap.\n\nFrom a modern perspective, one might also note the brief\u2019s gendered and clerical focus. It addresses bishops as the primary agents of change and does not mention the role of lay Catholics\u2014men and women\u2014in sustaining and expanding the Church, whether through financial contributions, educational efforts, or family transmission of the faith.[27][32] Yet lay agency was crucial in this period, particularly among Irish migrants and Highland communities, where women often maintained religious practices in the absence of regular priestly ministry.[18][43] This omission reflects the ecclesiological assumptions of the time rather than a deliberate slight, but it affects how the document frames the Church\u2019s relationship to society.\n\nIn evaluating reflective and prospective saturation, these limitations are significant. They suggest that while *Quanta laetitia* was highly prescriptive in its narrow institutional domain, its horizon of reflection and prediction did not encompass the full complexity of the social and political transformations underway in Scotland and Britain. It looked backward to a church of vicariates and penal survival, and forward to a church of more manageable territories and increased episcopal oversight, but it did not deeply engage with the secular forces that would shape the lived experience of Scottish Catholics in the nineteenth century.\n\n### Comparative perspective: Scotland, England, and Ireland\n\nA comparative perspective helps to situate *Quanta laetitia* within the wider pattern of papal engagement with the British Isles. In England, where Catholic relief followed a somewhat different trajectory and where the Catholic population was more dispersed, the vicariate system had been in place since the seventeenth century and underwent its own reorganisations before the restoration of the hierarchy in 1850.[20][29][29] Pope Pius IX\u2019s bull *Universalis Ecclesiae* restored dioceses and an archdiocese in England and Wales, in a move that provoked considerable public controversy but was grounded in prior decades of vicariate consolidation and institutional growth.[20] The English case shows that papal briefs reorganising vicariates often served as precursors to more dramatic acts of hierarchical restoration.\n\nIn Ireland, the situation was different again. There, despite penal laws, a",
+          "reasoning_steps": null,
+          "tool_calls": null,
+          "tool_call_id": null
+        },
+        "delta": {
+          "role": "assistant",
+          "content": "",
+          "reasoning_steps": null,
+          "tool_calls": null,
+          "tool_call_id": null
+        }
+      }
+    ],
+    "citations": [
+      "https://en.wikipedia.org/wiki/Pope_Leo_XII",
+      "https://www.papalencyclicals.net/leo12/quanta-laetitia.htm",
+      "https://www.newadvent.org/cathen/13613a.htm",
+      "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Kyle,_James_Francis",
+      "https://en.wikipedia.org/wiki/Catholic_Church_in_Scotland",
+      "https://archivesspace.library.nd.edu/repositories/2/resources/943",
+      "https://dai.mun.ca/pdfs/terranovaad/TerraNovaAdvocateAndPoliticalObserver18780508vol03no37.pdf",
+      "https://en.wikipedia.org/wiki/Vicariate_Apostolic_of_the_Lowland_District",
+      "https://gcatholic.org/dioceses/events/1827",
+      "https://www.facebook.com/BlairsMuseum/posts/happy-wednesday-today-we-are-highlighting-this-portrait-of-bishop-ranald-macdona/1091502116120191/",
+      "https://en.wikipedia.org/wiki/Alexander_Paterson_(bishop)",
+      "https://archives.collections.ed.ac.uk/agents/people/2350",
+      "https://en.wikipedia.org/wiki/James_Kyle_(bishop)",
+      "https://en.wikipedia.org/wiki/Category:Catholic_Church_in_Scotland",
+      "https://www.wikiwand.com/en/Bishop_of_Aberdeen",
+      "https://en.wikipedia.org/wiki/Catholic_emancipation",
+      "https://www.ebsco.com/research-starters/history/roman-catholic-emancipation",
+      "https://journals.openedition.org/mimmoc/1763?lang=en",
+      "https://www.youtube.com/watch?v=d8oAY9uPYQg",
+      "https://rcdow.org.uk/news/the-restoration-of-the-hierarchy-michaelmas-1850/",
+      "http://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
+      "https://tg24.sky.it/mondo/2026/06/08/papa-leone-xiv-spagna-re-felipe-regina-letizia",
+      "https://en.wikipedia.org/wiki/Ranald_MacDonald_(bishop)",
+      "https://it.wikipedia.org/wiki/Chiesa_episcopale_scozzese",
+      "https://en.wikipedia.org/wiki/Alexander_Cameron_(bishop)",
+      "https://www.academia.edu/84729982/Anti_Popery_in_Eighteenth_Century_Scotland_A_Scottish_Catholic_Perspective",
+      "https://utppublishing.com/doi/full/10.3138/cjh.21.1.99",
+      "https://www.abebooks.com/9780859760928/Developments-Roman-Catholic-Church-Scotland-0859760928/plp",
+      "https://www.newadvent.org/cathen/11611c.htm",
+      "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/scotland-catholic-church",
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/512169EC5BACDA0FEB0F7292224A3383/S0009640700050782a.pdf/developments_in_the_roman_catholic_church_in_scotland_17891829_by_christine_johnson_atlantic_highlands_new_jersey_humanities_press_1983_264_pp_3050.pdf",
+      "https://era.ed.ac.uk/handle/1842/6774",
+      "https://www.catholic-heritage.net/Repository/Scottish-Catholic-Archives",
+      "https://www.irish-genealogy-toolkit.com/irish-immigration-to-Scotland.html",
+      "https://files.royalhistsoc.org/wp-content/uploads/2014/09/17210805/catholicrecordsociety.pdf",
+      "https://irfa.paris/notes-on-the-pontifical-urban-college-de-propaganda-fide-from-its-foundation-to-the-rise-of-the-pontifical-urban-university-1627-1962/",
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/512169EC5BACDA0FEB0F7292224A3383/S0009640700050782a.pdf/developments-in-the-roman-catholic-church-in-scotland-1789-1829-by-christine-johnson-atlantic-highlands-new-jersey-humanities-press-1983-264-pp-dollar3050.pdf",
+      "https://www.catholic-hierarchy.org/country/dgb.html",
+      "https://en.wikipedia.org/wiki/Scottish_Protestant_missions",
+      "https://www.facebook.com/BlessedSacramentMalvernCatholicChurch/posts/200-years-ago-on-the-17th-of-february-1826-pope-leo-xii-granted-approbation-of-p/1314188454087747/",
+      "https://www.jstor.org/stable/25018656",
+      "https://www.facebook.com/groups/241369405894173/posts/25135290036075432/",
+      "https://isleoflismore.com/stories-people/history/highland-seminary",
+      "https://catalogue.nli.ie/Record/vtls000074953",
+      "https://archive.org/stream/catholicdirecto1913unse_3/catholicdirecto1913unse_3_djvu.txt",
+      "https://en.wikipedia.org/wiki/List_of_Catholic_dioceses_in_Great_Britain",
+      "https://archive.org/stream/historyofcatholi04bell/historyofcatholi04bell_djvu.txt",
+      "https://www.nrscotland.gov.uk/learning-and-events/research-guides/catholic-parish-registers/",
+      "https://www.brin.ac.uk/wp-content/uploads/2011/12/development-of-religious-statistics.pdf",
+      "https://www.theglasgowstory.com/story/?id=TGSC0"
+    ],
+    "search_results": [
+      {
+        "title": "Pope Leo XII - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pope_Leo_XII",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Quanta laetitia, Introduction of a regular hierarchy in Scotland, 13 February 1827. See also. edit \u00b7 Cardinals created by Leo XII \u00b7 List of popes. Notes. edit ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Quanta laetitia - Papal Encyclicals",
+        "url": "https://www.papalencyclicals.net/leo12/quanta-laetitia.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Quanta laetitia. Italian. Pope Leo XII - 1827. This entry was posted in Pope Leo XII (September 28, 1823 - Febraury 10, 1829) by Pope Leo XII. Bookmark the ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "CATHOLIC ENCYCLOPEDIA: Scotland - New Advent",
+        "url": "https://www.newadvent.org/cathen/13613a.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "In 1827 Pope Leo XII added a new vicariate to the Scottish mission, which was now divided into the Eastern, Western, and Northern Districts. By this time ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Dictionary of National Biography, 1885-1900/Kyle, James Francis",
+        "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Kyle,_James_Francis",
+        "date": null,
+        "last_updated": null,
+        "snippet": "On 13 Feb. 1827 papal briefs were issued appointing him bishop of Germanicia, in partibus, and vicar-apostolic of the newly formed northern ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Catholic Church in Scotland - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Scotland",
+        "date": null,
+        "last_updated": null,
+        "snippet": "In the 2011 UK Census, 16% of the population of Scotland described themselves as being Roman Catholic, compared with 32% affiliated with the Church of Scotland.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Catholic Church. Congregatio de Propaganda Fide Records",
+        "url": "https://archivesspace.library.nd.edu/repositories/2/resources/943",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The chief authority of Propaganda resides in this body. The creation and division of dioceses, vicariates, and prefectures, the selection of bishops and other\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Untitled",
+        "url": "https://dai.mun.ca/pdfs/terranovaad/TerraNovaAdvocateAndPoliticalObserver18780508vol03no37.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "commencing \"Quanta laetitia affecti si Glasgow, taking into consideration the wound, ulcers, rheumatism, and all skiu mus,\" divided Scotland into three dis\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Roman Catholic Archdiocese of St Andrews and Edinburgh - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vicariate_Apostolic_of_the_Lowland_District",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Coordinates: 56\u00b011\u203220\u2033N 3\u00b037\u203252\u2033W\ufeff / \ufeff56.189\u00b0N 3.631\u00b0W\n\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t(Redirected from Vicariate Apostolic of the Lowland District)",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Changes in Ecclesiastical Jurisdictions (1827) - GCatholic.org",
+        "url": "https://gcatholic.org/dioceses/events/1827",
+        "date": null,
+        "last_updated": null,
+        "snippet": "was renamed as Apostolic Vicariate of Northern District of Scotland. 1827.02.13, Scotland, Apostolic Vicariate of Western District of Scotland was ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Blairs Museum's post - Facebook",
+        "url": "https://www.facebook.com/BlairsMuseum/posts/happy-wednesday-today-we-are-highlighting-this-portrait-of-bishop-ranald-macdona/1091502116120191/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Bishop Ranald MacDonald (1756\u20131832), was the Vicar Apostolic of the Highland District from 1819\u20131827, and the Vicar Apostolic of the Western District from 1827 ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Alexander Paterson (bishop) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Paterson_(bishop)",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Alexander Paterson (March 1766 \u2013 30 October 1831) was a Roman Catholic bishop who served as the Vicar Apostolic of the Lowland District from 1825 to 1827, ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Cameron, Rev Alexander, 1827-1888 (Free Church Minister) - Archive",
+        "url": "https://archives.collections.ed.ac.uk/agents/people/2350",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Collection of papers written by the Reverend Alexander Cameron, includes fragments of 'Clann Tuireann', 'Clan Calitin', and 'Tain Bo Cuailnge'.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "James Kyle (bishop) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/James_Kyle_(bishop)",
+        "date": null,
+        "last_updated": null,
+        "snippet": "**James Francis Kyle** (22 September 1788 \u2013 23 February 1869) was a Scottish Roman Catholic bishop who served as the first Vicar Apostolic of the Northern District of Scotland.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Category:Catholic Church in Scotland - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Category:Catholic_Church_in_Scotland",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Apostolic Vicariate of the Eastern District (Scotland) \u00b7 Apostolic Vicariate of the Highland District \u00b7 Apostolic Vicariate of the Northern District (Scotland) ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Bishop of Aberdeen - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Bishop_of_Aberdeen",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The Apostolic Vicariate of the Northern District (formerly the Apostolic Vicariate of the Highland District) was elevated to diocese status on 4 March 1878\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Catholic emancipation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Catholic_emancipation",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The Roman Catholic Relief Act 1791 allowed the free practice of Catholicism ... Church of Scotland (Lord High Commissioner) Act 2025 made Roman Catholics\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Roman Catholic Emancipation | History | Research Starters - EBSCO",
+        "url": "https://www.ebsco.com/research-starters/history/roman-catholic-emancipation",
+        "date": null,
+        "last_updated": null,
+        "snippet": "In 1829, Parliament passed the Emancipation Act, making it possible for British and Irish Roman Catholics to vote, to enter the universities, and to hold public\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Irish Famine in a Scottish Perspective 1845-1851",
+        "url": "https://journals.openedition.org/mimmoc/1763?lang=en",
+        "date": null,
+        "last_updated": null,
+        "snippet": "24Irish immigration to Scotland was thus a persistent phenomenon in the post-Famine era. As well as the Famine generation who had now settled throughout the\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "400th anniversary of Propaganda Fide, the powerful Vatican ...",
+        "url": "https://www.youtube.com/watch?v=d8oAY9uPYQg",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Sign up here: https://mailchi.mp/ewtn/vatican On 16-18 ... 400th anniversary of Propaganda Fide, the powerful Vatican network of missions.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Restoration of the Hierarchy: Michaelmas 1850",
+        "url": "https://rcdow.org.uk/news/the-restoration-of-the-hierarchy-michaelmas-1850/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "By restoring the hierarchy, the Pope has removed himself as immediate bishop of the country and given that role to Englishmen, who are no longer\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Breve Quanta Laetitia (13 febbraio 1827) - The Holy See",
+        "url": "http://www.vatican.va/content/leo-xii/it/documents/breve-quanta-laetitia-13-febbraio-1827.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "BREVE DEL SOMMO PONTEFICE LEONE XII. QUANTA LAETITIA. Ai Venerabili Fratelli Vescovi, Vicari apostolici di Scozia. Il Papa Leone XII. Venerabili Fratelli\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Papa Leone XIV in Spagna, incontro con re Felipe e regina Letizia",
+        "url": "https://tg24.sky.it/mondo/2026/06/08/papa-leone-xiv-spagna-re-felipe-regina-letizia",
+        "date": null,
+        "last_updated": null,
+        "snippet": "La capitale Madrid ha accolto il Pontefice in occasione del suo viaggio apostolico, con la Famiglia reale che lo ha accompagnato sin dal suo\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Ranald MacDonald (bishop) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ranald_MacDonald_(bishop)",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Ranald MacDonald (1756\u20131832) was a Roman Catholic bishop who served as the Vicar Apostolic of the Highland District from 1819 to 1827, then the Vicar\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Censimento 2011:",
+        "url": "https://it.wikipedia.org/wiki/Chiesa_episcopale_scozzese",
+        "date": null,
+        "last_updated": null,
+        "snippet": "La **Chiesa episcopale scozzese** ((EN) *Scottish Episcopal Church*, (GD) *Eaglais Easbaigeach na h-Alba*) \u00e8 una confessione cristiana protestante in Scozia appartenente alla Comunione Anglicana. Comprende sette diocesi in Scozia.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Alexander Cameron (bishop)",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Cameron_(bishop)",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Alexander Cameron (28 July 1747 \u2013 7 February 1828) was a Scottish Catholic prelate who served as the Vicar Apostolic of the Lowland District, Scotland.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Anti-Popery in Eighteenth-Century Scotland: A Scottish ...",
+        "url": "https://www.academia.edu/84729982/Anti_Popery_in_Eighteenth_Century_Scotland_A_Scottish_Catholic_Perspective",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Second, the debate on the Repeal of the penal laws in 1778\u20131779, when ... Developments in the Roman Catholic Church in Scotland 1789\u20131829. Edinburgh ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in the Roman Catholic Church in Scotland 1789 ...",
+        "url": "https://utppublishing.com/doi/full/10.3138/cjh.21.1.99",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Based on: Developments in the Roman Catholic Church in Scotland 1789-1829, by Christine Johnson. Edinburgh, John Donald (distributed by Humanities Press,\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in the Roman Catholic Church in Scotland, 1789-1829",
+        "url": "https://www.abebooks.com/9780859760928/Developments-Roman-Catholic-Church-Scotland-0859760928/plp",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Developments in the Roman Catholic Church in Scotland, 1789-1829 ... Johnson, C. Published by John Donald Publishers Ltd, 1983. ISBN 10: 0859760928 ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "CATHOLIC ENCYCLOPEDIA: Penal Laws - New Advent",
+        "url": "https://www.newadvent.org/cathen/11611c.htm",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The First Catholic Relief Act of 1778, which enabled Catholics to inherit and purchase land and repealed the Act of William III, rewarding the conviction of\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Scotland, The Catholic Church in | Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/scotland-catholic-church",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The history of the Catholic Church in Scotland is divided into the following four parts: the Celtic Church, 400 to 1070; the medieval period, 1070 to 1560.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in the Roman Catholic Church in Scotland, 1789 ...",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/512169EC5BACDA0FEB0F7292224A3383/S0009640700050782a.pdf/developments_in_the_roman_catholic_church_in_scotland_17891829_by_christine_johnson_atlantic_highlands_new_jersey_humanities_press_1983_264_pp_3050.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Developments in the Roman Catholic Church in Scotland, 1789-1829. By. CHRISTINE JOHNSON. Atlantic Highlands, New Jersey: Humanities. Press, 1983. 264 pp ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in Roman Catholic Church in Scotland 1789-1829",
+        "url": "https://era.ed.ac.uk/handle/1842/6774",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Developments in Roman Catholic Church in Scotland 1789-1829 ... From 1560 onwards Scotland was officially a Protestant nation. Catholicism came to be condemned\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Scottish Catholic Archives",
+        "url": "https://www.catholic-heritage.net/Repository/Scottish-Catholic-Archives",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... Eastern District Vicariate (1827-1878); the Northern District Vicariate (1827-1878); the Western District ... Aberdeen, Ayr, Motherwell, Oban, Paisley and ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "An overview of Irish immigration to Scotland during the 19th century",
+        "url": "https://www.irish-genealogy-toolkit.com/irish-immigration-to-Scotland.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Irish immigration to Scotland was part of a well-established feature of early 19th century life in Ireland: the annual harvest migration. Since Scotland was Ireland's closest neighbour (only 13 miles separate the two countries at one point), it was an obvious choice for those who lived in the north ...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "[PDF] CATHOLIC RECORD SOCIETY Monograph Series",
+        "url": "https://files.royalhistsoc.org/wp-content/uploads/2014/09/17210805/catholicrecordsociety.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Weale, J.C.M. ed., Registers of the Catholic Chapels Royal and of the Portuguese Embassy. Chapel, 1662-1829. Vol. 1, Marriages, Catholic Record Society\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Notes on the Pontifical Urban College de Propaganda Fide, from its ...",
+        "url": "https://irfa.paris/notes-on-the-pontifical-urban-college-de-propaganda-fide-from-its-foundation-to-the-rise-of-the-pontifical-urban-university-1627-1962/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "This article aims to highlight certain historical aspects of the Urban College of Propaganda Fide, founded on August 1, 1627, by Pope Urban VIII.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in the Roman Catholic Church in Scotland, 1789 ...",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/512169EC5BACDA0FEB0F7292224A3383/S0009640700050782a.pdf/developments-in-the-roman-catholic-church-in-scotland-1789-1829-by-christine-johnson-atlantic-highlands-new-jersey-humanities-press-1983-264-pp-dollar3050.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Developments in the Roman Catholic Church in Scotland, 1789-1829. By. CHRISTINE JOHNSON. Atlantic Highlands, New Jersey: Humanities. Press, 1983. 264 pp\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Dioceses in Great Britain [Catholic-Hierarchy]",
+        "url": "https://www.catholic-hierarchy.org/country/dgb.html",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Eastern District (Vicariate Apostolic), Scotland; Historical, see Saint ... Northern District (Vicariate Apostolic), England; Historical, see Hexham\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Scottish Protestant missions - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Scottish_Protestant_missions",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Scottish Protestant missions are organised programmes of outreach and conversion undertaken by Protestant denominations within Scotland, or by Scottish people.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "200 years ago, on the 17th of February 1826, Pope Leo XII granted ...",
+        "url": "https://www.facebook.com/BlessedSacramentMalvernCatholicChurch/posts/200-years-ago-on-the-17th-of-february-1826-pope-leo-xii-granted-approbation-of-p/1314188454087747/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "200 years ago, on the 17th of February 1826, Pope Leo XII granted approbation of pontifical right to the Oblates of Mary Immaculate.",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "A Hierarchy for Scotland, 1868-1878 - jstor",
+        "url": "https://www.jstor.org/stable/25018656",
+        "date": null,
+        "last_updated": null,
+        "snippet": "restoration of the Scottish Hierarchy was not, as yet, imminent and that the new Scotch vicars would be appointed in partibus instead.31. Clarendon replied\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Aberdeen's old U.S. courthouse and post office - Facebook",
+        "url": "https://www.facebook.com/groups/241369405894173/posts/25135290036075432/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "The Legacy of Senator James Kyle | Aberdeen Magazine. 39w \u00b7 3 likes ... The old post office across from the federal building is now Hub Area\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "The Highland Seminary :: Isle of Lismore",
+        "url": "https://isleoflismore.com/stories-people/history/highland-seminary",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Bishop Aeneas Chisholm's successor as Vicar-Apostolic of the Highland Vicariate, Bishop Ranald Macdonald, was no more successful. Seven years later, the\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Developments in the Roman Catholic Church in Scotland, 1789-1829",
+        "url": "https://catalogue.nli.ie/Record/vtls000074953",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Developments in the Roman Catholic Church in Scotland, 1789-1829 /. Christine Johnson. Bibliographic Details. Main Creator: Johnson, Christine, 1943-. Format\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Full text of \"The Catholic directory : ecclesiastical register and ...",
+        "url": "https://archive.org/stream/catholicdirecto1913unse_3/catholicdirecto1913unse_3_djvu.txt",
+        "date": null,
+        "last_updated": null,
+        "snippet": "47 Northern District. James Francis Kyle : born 1788 ; nom. first V.A. of the new Northern District of Scotland, Jan. 28, 1827 ; cons. Sept. 28, 1828 ; died\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "List of Catholic dioceses in Great Britain - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Catholic_dioceses_in_Great_Britain",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Apostolic Vicariate of the Eastern District from 1827 to 1878 when it became the Archdiocese of St Andrews and Edinburgh. Apostolic Vicariate of the Western\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Full text of \"History of the Catholic Church of Scotland - Internet Archive",
+        "url": "https://archive.org/stream/historyofcatholi04bell/historyofcatholi04bell_djvu.txt",
+        "date": null,
+        "last_updated": null,
+        "snippet": "... EX SUPREMO APOSTOLATUS APICE, RESTOEIXG THE HIER- ARCHY IN Scotland, March 4, 1878.i But Pius IX., of happy memory, had exceedingly at heart the restoration\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Catholic Parish Registers - National Records of Scotland (NRS)",
+        "url": "https://www.nrscotland.gov.uk/learning-and-events/research-guides/catholic-parish-registers/",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Their website provides information about the archives of the Catholic Church in Scotland and how to consult the original records. After the\u00a0...",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "Religious Statistics in Great Britain: An Historical Introduction",
+        "url": "https://www.brin.ac.uk/wp-content/uploads/2011/12/development-of-religious-statistics.pdf",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Discussion Paper 001 \n \n \n \n \n \n \n \n \nReligious Statistics in Great \nBritain: An Historical \nIntroduction \n \n \nClive D. Field \nUniversities of Birmingham and Manchester \n \nNovember 2009",
+        "source": "web",
+        "place_metadata": null
+      },
+      {
+        "title": "1770s to 1830s - TheGlasgowStory",
+        "url": "https://www.theglasgowstory.com/story/?id=TGSC0",
+        "date": null,
+        "last_updated": null,
+        "snippet": "Between 1750 and 1821 Glasgow's population exploded from just under 32,000 to over 147,000 people. ... Unskilled Irish Catholics came to the west of Scotland from ...",
+        "source": "web",
+        "place_metadata": null
+      }
+    ],
+    "type": null,
+    "status": null
+  },
+  "failed_at": null,
+  "error_message": null,
+  "status": "COMPLETED"
+}
