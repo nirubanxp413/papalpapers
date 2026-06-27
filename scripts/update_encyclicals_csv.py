@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Merge Step 3 themes/summaries and Step 6 gradients into data/encyclicals.csv."""
+"""Merge Step 3 themes/summaries and gradient scores into data/encyclicals.csv.
+
+Gradient sources (first match wins):
+  - data/perplexity-search/reports/ (Step 6 sonar-pro search tier)
+  - data/deep-research/reports/     (Step 6 sonar-deep-research)
+"""
 
 from __future__ import annotations
 
@@ -16,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "encyclicals.csv"
 STEP3_REPORTS_DIR = ROOT / "data" / "subagents" / "reports"
 DEEP_RESEARCH_REPORTS_DIR = ROOT / "data" / "deep-research" / "reports"
+PERPLEXITY_SEARCH_REPORTS_DIR = ROOT / "data" / "perplexity-search" / "reports"
 
 KEY_THEME_RE = re.compile(r"^\s*-\s*\*\*Key theme:\*\*\s*(.+?)\s*$", re.MULTILINE | re.IGNORECASE)
 SUMMARY_RE = re.compile(r"^\s*-\s*\*\*Summary:\*\*\s*(.+?)\s*$", re.MULTILINE | re.IGNORECASE | re.DOTALL)
@@ -154,22 +160,35 @@ def apply_gradients(fields: AnalysisFields, gradients: dict[str, Any]) -> None:
                 break
 
 
-def load_analysis_for_stem(stem: str) -> AnalysisFields:
+def load_gradients_for_stem(stem: str) -> tuple[dict[str, Any] | None, str]:
+    for source, reports_dir in (
+        ("perplexity-search", PERPLEXITY_SEARCH_REPORTS_DIR),
+        ("deep-research", DEEP_RESEARCH_REPORTS_DIR),
+    ):
+        report_path = report_path_for_stem(stem, reports_dir)
+        if not report_path:
+            continue
+        text = report_path.read_text(encoding="utf-8", errors="replace")
+        gradients = parse_gradients(text)
+        if gradients:
+            return gradients, source
+    return None, ""
+
+
+def load_analysis_for_stem(stem: str) -> tuple[AnalysisFields, str]:
     fields = AnalysisFields()
+    gradient_source = ""
 
     step3_path = report_path_for_stem(stem, STEP3_REPORTS_DIR)
     if step3_path:
         step3_text = step3_path.read_text(encoding="utf-8", errors="replace")
         fields = parse_step3_report(step3_text)
 
-    deep_path = report_path_for_stem(stem, DEEP_RESEARCH_REPORTS_DIR)
-    if deep_path:
-        deep_text = deep_path.read_text(encoding="utf-8", errors="replace")
-        gradients = parse_gradients(deep_text)
-        if gradients:
-            apply_gradients(fields, gradients)
+    gradients, gradient_source = load_gradients_for_stem(stem)
+    if gradients:
+        apply_gradients(fields, gradients)
 
-    return fields
+    return fields, gradient_source
 
 
 def ordered_fieldnames(existing_rows: list[dict[str, str]]) -> list[str]:
@@ -202,13 +221,15 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
         "category": 0,
         "summary": 0,
         "gradients": 0,
+        "gradients_deep_research": 0,
+        "gradients_perplexity_search": 0,
         "missing_reports": 0,
     }
 
     updated_rows: list[dict[str, str]] = []
     for row in rows:
         stem = build_stem(row, used_stems)
-        analysis = load_analysis_for_stem(stem)
+        analysis, gradient_source = load_analysis_for_stem(stem)
 
         if not report_path_for_stem(stem, STEP3_REPORTS_DIR):
             stats["missing_reports"] += 1
@@ -219,6 +240,10 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
             stats["summary"] += 1
         if analysis.reflective_saturation or analysis.prescriptive_saturation:
             stats["gradients"] += 1
+            if gradient_source == "deep-research":
+                stats["gradients_deep_research"] += 1
+            elif gradient_source == "perplexity-search":
+                stats["gradients_perplexity_search"] += 1
 
         updated = dict(row)
         updated["category"] = analysis.category
@@ -244,6 +269,8 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
     print(f"Category filled: {stats['category']}")
     print(f"Summary filled: {stats['summary']}")
     print(f"Gradient sets filled: {stats['gradients']}")
+    print(f"  from deep-research: {stats['gradients_deep_research']}")
+    print(f"  from perplexity-search: {stats['gradients_perplexity_search']}")
     print(f"Rows without Step 3 report: {stats['missing_reports']}")
     return stats
 
