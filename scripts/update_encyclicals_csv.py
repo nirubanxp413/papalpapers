@@ -20,7 +20,7 @@ DEEP_RESEARCH_REPORTS_DIR = ROOT / "data" / "deep-research" / "reports"
 KEY_THEME_RE = re.compile(r"^\s*-\s*\*\*Key theme:\*\*\s*(.+?)\s*$", re.MULTILINE | re.IGNORECASE)
 SUMMARY_RE = re.compile(r"^\s*-\s*\*\*Summary:\*\*\s*(.+?)\s*$", re.MULTILINE | re.IGNORECASE | re.DOTALL)
 GRADIENTS_JSON_RE = re.compile(
-    r"## Gradients\s*\n+```json\s*\n(\{.*?\})\s*\n```",
+    r"## Gradients\s*\n+(?:.*?\n+)?```json\s*\n(\{.*?\})\s*\n```",
     re.DOTALL | re.IGNORECASE,
 )
 
@@ -92,6 +92,7 @@ def build_stem(row: dict[str, str], used: set[str]) -> str:
 def report_path_for_stem(stem: str, reports_dir: Path) -> Path | None:
     candidates = [
         reports_dir / f"run-{stem}.md",
+        reports_dir / f"run-{stem}.md.md",  # Step 6 batch uses source.name (includes .md)
         reports_dir / f"{stem}.md",
     ]
     for path in candidates:
@@ -126,16 +127,31 @@ def parse_gradients(text: str) -> dict[str, dict[str, int]] | None:
 
 
 def apply_gradients(fields: AnalysisFields, gradients: dict[str, Any]) -> None:
-    for axis in ("reflective", "prescriptive"):
-        axis_data = gradients.get(axis)
-        if not isinstance(axis_data, dict):
-            continue
-        saturation = axis_data.get("saturation")
-        density = axis_data.get("density")
-        if saturation is not None:
-            setattr(fields, f"{axis}_saturation", str(saturation))
-        if density is not None:
-            setattr(fields, f"{axis}_density", str(density))
+    axis_aliases = {
+        "reflective": ("reflective",),
+        "prescriptive": ("prescriptive", "prospective"),
+    }
+
+    for target_axis, source_axes in axis_aliases.items():
+        for source_axis in source_axes:
+            axis_data = gradients.get(source_axis)
+            if isinstance(axis_data, dict):
+                saturation = axis_data.get("saturation")
+                density = axis_data.get("density")
+                if saturation is not None:
+                    setattr(fields, f"{target_axis}_saturation", str(saturation))
+                if density is not None:
+                    setattr(fields, f"{target_axis}_density", str(density))
+                break
+
+            flat_saturation = gradients.get(f"{source_axis}_saturation")
+            flat_density = gradients.get(f"{source_axis}_density")
+            if flat_saturation is not None or flat_density is not None:
+                if flat_saturation is not None:
+                    setattr(fields, f"{target_axis}_saturation", str(flat_saturation))
+                if flat_density is not None:
+                    setattr(fields, f"{target_axis}_density", str(flat_density))
+                break
 
 
 def load_analysis_for_stem(stem: str) -> AnalysisFields:
