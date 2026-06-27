@@ -42,6 +42,12 @@ RETRY_BACKOFF = 8.0
 
 STATUSES = ("pending", "in_progress", "complete", "failed", "skipped")
 
+QUOTA_ERROR_MARKERS = ("insufficient_quota", "exceeded your current quota")
+
+
+class QuotaExceededError(RuntimeError):
+    """Raised when the API returns a non-recoverable quota/billing error."""
+
 PROJECT_CONTEXT_RE = re.compile(
     r"## Project context\s*\n(.*?)(?=\n---|\n## |\Z)",
     re.DOTALL | re.IGNORECASE,
@@ -404,6 +410,29 @@ def cmd_sync(_: argparse.Namespace) -> None:
     print(f"Sync complete — {changed} item(s) marked complete from disk.")
 
 
+def is_quota_error(error: str | None) -> bool:
+    if not error:
+        return False
+    lowered = error.lower()
+    return any(marker in lowered for marker in QUOTA_ERROR_MARKERS)
+
+
+def cmd_reset_quota_failed(_: argparse.Namespace) -> None:
+    data = load_checklist()
+    reset = 0
+    for item in data["items"]:
+        if item["status"] != "failed" or not is_quota_error(item.get("error")):
+            continue
+        item["status"] = "pending"
+        item["error"] = None
+        item["completed_at"] = None
+        item["started_at"] = None
+        reset += 1
+    save_checklist(data)
+    append_run_log({"event": "reset_quota_failed", "reset_to_pending": reset})
+    print(f"Reset {reset} quota-failed item(s) back to pending.")
+
+
 def cmd_reset_stale(_: argparse.Namespace) -> None:
     data = load_checklist()
     reset = 0
@@ -553,6 +582,13 @@ async def process_item(
         except httpx.HTTPStatusError as exc:
             detail = exc.response.text[:500]
             last_error = f"HTTP {exc.response.status_code}: {detail}"
+            if is_quota_error(last_error):
+                item["status"] = "pending"
+                item["error"] = last_error
+                item["completed_at"] = None
+                save_checklist(data)
+                append_run_log({"event": "quota_exceeded", "id": item_id, "error": last_error})
+                raise QuotaExceededError(last_error) from exc
             if exc.response.status_code in {429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
                 await asyncio.sleep(RETRY_BACKOFF * attempt)
                 continue
@@ -611,12 +647,14 @@ async def run_batch(
     async with httpx.AsyncClient() as http:
         in_flight: dict[int, asyncio.Task[int]] = {}
 
+        quota_exceeded = False
+
         async def worker(item: dict) -> int:
             async with sem:
                 return await process_item(item, data, client, http, search_mode)
 
         while pending or in_flight:
-            while pending and len(in_flight) < concurrency:
+            while pending and len(in_flight) < concurrency and not quota_exceeded:
                 item = pending.pop(0)
                 in_flight[item["id"]] = asyncio.create_task(worker(item))
 
@@ -627,13 +665,30 @@ async def run_batch(
                 in_flight.values(), return_when=asyncio.FIRST_COMPLETED
             )
             for task in done:
-                item_id = task.result()
+                try:
+                    item_id = task.result()
+                except QuotaExceededError as exc:
+                    quota_exceeded = True
+                    for other in in_flight.values():
+                        other.cancel()
+                    in_flight.clear()
+                    print(f"\nQuota exceeded — stopping batch: {exc}", file=sys.stderr)
+                    print(
+                        "Top up credits, then run: "
+                        "python3 scripts/perplexity_search_batch.py reset-quota-failed && "
+                        "python3 scripts/perplexity_search_batch.py run --concurrency 1",
+                        file=sys.stderr,
+                    )
+                    break
                 del in_flight[item_id]
                 completed += 1
                 print(
                     f"Finished id={item_id} "
                     f"({completed}/{completed + len(pending) + len(in_flight)})"
                 )
+
+            if quota_exceeded:
+                break
 
             if limit is not None and completed >= limit:
                 for task in in_flight.values():
@@ -679,6 +734,10 @@ def main() -> None:
     sub.add_parser("status", help="Print checklist summary")
     sub.add_parser("sync", help="Mark complete where report files exist on disk")
     sub.add_parser("reset-stale", help="Reset stuck in_progress items")
+    sub.add_parser(
+        "reset-quota-failed",
+        help="Reset failed items caused by insufficient API quota back to pending",
+    )
 
     p_run = sub.add_parser("run", help="Run Sonar search jobs (sync API, batched)")
     p_run.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
@@ -708,6 +767,8 @@ def main() -> None:
         cmd_sync(args)
     elif args.command == "reset-stale":
         cmd_reset_stale(args)
+    elif args.command == "reset-quota-failed":
+        cmd_reset_quota_failed(args)
     elif args.command == "run":
         cmd_run(args)
 
