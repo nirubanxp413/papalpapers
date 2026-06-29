@@ -37,10 +37,13 @@ ENCYCLOPICAL_DIR = ROOT / "data" / "encyclical"
 
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 MODEL = "gemini-3.1-flash-lite"
-DEFAULT_CONCURRENCY = 2
+DEFAULT_CONCURRENCY = 1
 MIN_REPORT_BYTES = 500
 MAX_RETRIES = 4
+MAX_RATE_LIMIT_RETRIES = 500
 RETRY_BACKOFF = 10.0
+REQUEST_INTERVAL = 5.0  # free tier: ~15 RPM for gemini-3.1-flash-lite
+RATE_LIMIT_COOLDOWN = 60.0
 
 STATUSES = ("pending", "in_progress", "complete", "failed", "skipped")
 
@@ -450,6 +453,13 @@ def is_quota_error(error: str | None) -> bool:
     return any(marker in lowered for marker in QUOTA_ERROR_MARKERS)
 
 
+def is_rate_limit_error(status_code: int, detail: str) -> bool:
+    if status_code == 429:
+        return True
+    lowered = detail.lower()
+    return "resource_exhausted" in lowered or "retry in" in lowered
+
+
 def cmd_reset_quota_failed(_: argparse.Namespace) -> None:
     data = load_checklist()
     reset = 0
@@ -615,6 +625,7 @@ async def process_item(
     save_checklist(data)
 
     last_error: str | None = None
+    rate_limit_attempts = 0
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             payload = await client.complete(http, query)
@@ -640,16 +651,29 @@ async def process_item(
         except httpx.HTTPStatusError as exc:
             detail = exc.response.text[:800]
             last_error = f"HTTP {exc.response.status_code}: {detail}"
-            if is_quota_error(last_error):
-                item["status"] = "pending"
-                item["error"] = last_error
-                item["completed_at"] = None
+            if is_rate_limit_error(exc.response.status_code, detail):
+                rate_limit_attempts += 1
+                if rate_limit_attempts > MAX_RATE_LIMIT_RETRIES:
+                    break
+                wait = parse_retry_seconds(detail) or RATE_LIMIT_COOLDOWN
+                print(
+                    f"Rate limited id={item_id}, waiting {wait:.0f}s "
+                    f"(rate-limit retry {rate_limit_attempts})",
+                    file=sys.stderr,
+                )
+                item["status"] = "in_progress"
+                item["error"] = f"rate_limited, retrying in {wait:.0f}s"
                 save_checklist(data)
-                append_run_log({"event": "quota_exceeded", "id": item_id, "error": last_error})
-                raise QuotaExceededError(last_error) from exc
-            if exc.response.status_code == 429 and attempt < MAX_RETRIES:
-                wait = parse_retry_seconds(detail) or RETRY_BACKOFF * attempt
+                append_run_log(
+                    {
+                        "event": "rate_limited",
+                        "id": item_id,
+                        "wait_seconds": wait,
+                        "attempt": rate_limit_attempts,
+                    }
+                )
                 await asyncio.sleep(wait)
+                attempt -= 1
                 continue
             if exc.response.status_code in {500, 502, 503, 504} and attempt < MAX_RETRIES:
                 await asyncio.sleep(RETRY_BACKOFF * attempt)
@@ -702,14 +726,16 @@ async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> No
 
     async with httpx.AsyncClient() as http:
         in_flight: dict[int, asyncio.Task[int]] = {}
-        quota_exceeded = False
 
         async def worker(item: dict) -> int:
             async with sem:
-                return await process_item(item, data, client, http)
+                item_id = await process_item(item, data, client, http)
+                if REQUEST_INTERVAL > 0:
+                    await asyncio.sleep(REQUEST_INTERVAL)
+                return item_id
 
         while pending or in_flight:
-            while pending and len(in_flight) < concurrency and not quota_exceeded:
+            while pending and len(in_flight) < concurrency:
                 item = pending.pop(0)
                 in_flight[item["id"]] = asyncio.create_task(worker(item))
 
@@ -720,30 +746,13 @@ async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> No
                 in_flight.values(), return_when=asyncio.FIRST_COMPLETED
             )
             for task in done:
-                try:
-                    item_id = task.result()
-                except QuotaExceededError as exc:
-                    quota_exceeded = True
-                    for other in in_flight.values():
-                        other.cancel()
-                    in_flight.clear()
-                    print(f"\nQuota exceeded — stopping batch: {exc}", file=sys.stderr)
-                    print(
-                        "Top up credits, then run: "
-                        "python3 scripts/gemini_search_batch.py reset-quota-failed && "
-                        "python3 scripts/gemini_search_batch.py run --concurrency 1",
-                        file=sys.stderr,
-                    )
-                    break
+                item_id = task.result()
                 del in_flight[item_id]
                 completed += 1
                 print(
                     f"Finished id={item_id} "
                     f"({completed}/{completed + len(pending) + len(in_flight)})"
                 )
-
-            if quota_exceeded:
-                break
 
             if limit is not None and completed >= limit:
                 for task in in_flight.values():
@@ -753,14 +762,62 @@ async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> No
     cmd_sync(argparse.Namespace())
 
 
-def cmd_run(args: argparse.Namespace) -> None:
-    asyncio.run(
-        run_batch(
-            concurrency=args.concurrency,
-            limit=args.limit,
-            dry_run=args.dry_run,
+def count_remaining(data: dict) -> int:
+    return sum(
+        1
+        for i in data["items"]
+        if i["status"] in ("pending", "in_progress", "failed")
+        and not (
+            (ROOT / i["report_file"]).exists()
+            and (ROOT / i["report_file"]).stat().st_size >= MIN_REPORT_BYTES
         )
     )
+
+
+async def run_until_done(
+    *,
+    concurrency: int,
+    limit: int | None,
+    dry_run: bool,
+) -> None:
+    round_num = 0
+    while True:
+        round_num += 1
+        data = load_checklist()
+        remaining = count_remaining(data)
+        if remaining == 0:
+            print("All items complete.")
+            break
+        print(f"\n=== Round {round_num}: {remaining} item(s) remaining ===")
+        await run_batch(concurrency=concurrency, limit=limit, dry_run=dry_run)
+        if dry_run or limit is not None:
+            break
+        data = load_checklist()
+        remaining = count_remaining(data)
+        if remaining == 0:
+            print("All items complete.")
+            break
+        print(f"{remaining} item(s) still remaining — continuing in 10s...")
+        await asyncio.sleep(10)
+
+
+def cmd_run(args: argparse.Namespace) -> None:
+    if args.until_done and not args.dry_run and args.limit is None:
+        asyncio.run(
+            run_until_done(
+                concurrency=args.concurrency,
+                limit=args.limit,
+                dry_run=args.dry_run,
+            )
+        )
+    else:
+        asyncio.run(
+            run_batch(
+                concurrency=args.concurrency,
+                limit=args.limit,
+                dry_run=args.dry_run,
+            )
+        )
 
 
 def main() -> None:
@@ -794,6 +851,12 @@ def main() -> None:
     p_run.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
     p_run.add_argument("--limit", type=int, default=None, help="Max items this invocation")
     p_run.add_argument("--dry-run", action="store_true", help="List queue without calling API")
+    p_run.add_argument(
+        "--until-done",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Keep running until all items complete (default: true)",
+    )
 
     args = parser.parse_args()
 
