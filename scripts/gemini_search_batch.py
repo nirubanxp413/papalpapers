@@ -6,7 +6,7 @@ Uses the Google Generative Language API. Loads GEMINI_PRO from the environment
 
     python3 scripts/gemini_search_batch.py init --include-themes Mixed
     python3 scripts/gemini_search_batch.py status
-    python3 scripts/gemini_search_batch.py run --concurrency 2
+    python3 scripts/gemini_search_batch.py run --concurrency 5
 """
 
 from __future__ import annotations
@@ -37,12 +37,12 @@ ENCYCLOPICAL_DIR = ROOT / "data" / "encyclical"
 
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 MODEL = "gemini-3.1-flash-lite"
-DEFAULT_CONCURRENCY = 1
+DEFAULT_CONCURRENCY = 5
 MIN_REPORT_BYTES = 500
 MAX_RETRIES = 4
 MAX_RATE_LIMIT_RETRIES = 500
 RETRY_BACKOFF = 10.0
-REQUEST_INTERVAL = 5.0  # free tier: ~15 RPM for gemini-3.1-flash-lite
+REQUEST_INTERVAL = 0.0
 RATE_LIMIT_COOLDOWN = 60.0
 
 STATUSES = ("pending", "in_progress", "complete", "failed", "skipped")
@@ -84,10 +84,6 @@ FORMAT_REMINDER = """
 5. Include `## Unstructured` sections 1–5 and `### Citations` table.
 6. Density integers must be between -30 and +30 inclusive.
 """
-
-
-class QuotaExceededError(RuntimeError):
-    """Raised when the API returns a non-recoverable quota/billing error."""
 
 
 PROJECT_CONTEXT_RE = re.compile(
@@ -289,6 +285,257 @@ def report_name_for(stem: str) -> str:
     return f"run-{stem}"
 
 
+def report_paths_for_stem(stem: str, reports_dir: Path) -> list[Path]:
+    return [
+        reports_dir / f"run-{stem}.md",
+        reports_dir / f"run-{stem}.md.md",
+        reports_dir / f"{stem}.md",
+    ]
+
+
+def read_report_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def report_is_valid(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size < MIN_REPORT_BYTES:
+        return False
+    ok, _ = validate_gradients(read_report_text(path))
+    return ok
+
+
+def has_valid_gemini_report(stem: str) -> bool:
+    for path in report_paths_for_stem(stem, REPORTS_DIR):
+        if report_is_valid(path):
+            return True
+    return False
+
+
+def item_has_valid_report(item: dict) -> bool:
+    report = ROOT / item["report_file"]
+    return report_is_valid(report)
+
+
+def classify_theme_bucket(theme: str | None) -> str:
+    theme = (theme or "").strip()
+    if not theme:
+        return "empty"
+    if theme == "Mixed":
+        return "mixed-pure"
+    if theme == "Social":
+        return "social"
+    if theme == "Spiritual":
+        return "spiritual"
+    if theme.startswith("Mixed") or "Mixed" in theme:
+        return "mixed-variant"
+    return "other"
+
+
+def normalize_stem_quotes(stem: str) -> str:
+    return (
+        stem.replace("“", '"')
+        .replace("”", '"')
+        .replace("‘", "'")
+        .replace("’", "'")
+    )
+
+
+def resolve_encyclical_path(stem: str) -> Path | None:
+    candidates = [
+        ENCYCLOPICAL_DIR / stem,
+        ENCYCLOPICAL_DIR / normalize_stem_quotes(stem),
+    ]
+    for path in candidates:
+        if path.exists():
+            return path
+
+    date_prefix = stem[:8] if len(stem) >= 8 and stem[:8].isdigit() else None
+    if date_prefix:
+        matches = sorted(ENCYCLOPICAL_DIR.glob(f"{date_prefix}_*.md"))
+        normalized_target = normalize_stem_quotes(stem).casefold()
+        for match in matches:
+            if normalize_stem_quotes(match.name).casefold() == normalized_target:
+                return match
+        if len(matches) == 1:
+            return matches[0]
+    return None
+
+
+def encyclical_stem(path: Path) -> str:
+    return path.name
+
+
+def build_item_from_stem(
+    *,
+    item_id: int,
+    stem: str,
+    key_theme: str | None,
+    sections: dict[str, str],
+    step3_report: Path | None = None,
+) -> dict:
+    source = resolve_encyclical_path(stem)
+    if source is None:
+        raise FileNotFoundError(f"Encyclical source not found for stem: {stem}")
+    stem = encyclical_stem(source)
+    rel_source = source.relative_to(ROOT).as_posix()
+    step3_report = step3_report or (STEP3_REPORTS_DIR / report_name_for(stem))
+    rel_step3 = step3_report.relative_to(ROOT).as_posix()
+    out_report = REPORTS_DIR / f"{report_name_for(stem)}.md"
+    rel_out = out_report.relative_to(ROOT).as_posix()
+
+    meta = read_encyclical_meta(source)
+    summary = extract_step3_summary(step3_report) if step3_report.exists() else ""
+    query = build_query(
+        meta=meta,
+        source_file=rel_source,
+        step3_report_file=rel_step3,
+        step3_summary=summary,
+        sections=sections,
+    )
+
+    status = "complete" if has_valid_gemini_report(stem) else "pending"
+    completed_at = utc_now() if status == "complete" else None
+
+    return {
+        "id": item_id,
+        "source_file": rel_source,
+        "step3_report_file": rel_step3,
+        "report_file": rel_out,
+        "key_theme": key_theme,
+        "pope": meta.get("pope"),
+        "title": meta.get("title"),
+        "published_date": meta.get("published_date"),
+        "source_url": meta.get("source"),
+        "alternate_source_url": meta.get("alternate_source"),
+        "status": status,
+        "response_id": None,
+        "batch_id": None,
+        "started_at": None,
+        "completed_at": completed_at,
+        "error": None,
+        "query_chars": len(query),
+        "theme_bucket": classify_theme_bucket(key_theme),
+    }
+
+
+def extend_checklist_remaining(*, dry_run: bool = False) -> dict[str, int]:
+    """Append or re-queue Step 3 items that lack a valid Gemini report."""
+    if not CHECKLIST_PATH.exists():
+        raise SystemExit(f"Checklist not found: {CHECKLIST_PATH}. Run init first.")
+
+    ensure_prompt_file()
+    sections = load_prompt_sections()
+    data = load_checklist()
+    items = data["items"]
+    by_source = {item["source_file"]: item for item in items}
+
+    stats = {
+        "scanned": 0,
+        "already_complete": 0,
+        "requeued": 0,
+        "added": 0,
+        "missing_source": 0,
+        "by_bucket": {},
+    }
+
+    next_id = max((item["id"] for item in items), default=0) + 1
+    queries_dir = SEARCH_DIR / "queries"
+    queries_dir.mkdir(parents=True, exist_ok=True)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    for step3_report in sorted(STEP3_REPORTS_DIR.glob("run-*.md")):
+        stats["scanned"] += 1
+        stem = step3_report.name.removeprefix("run-")
+        step3_text = step3_report.read_text(encoding="utf-8", errors="replace")
+        key_theme = parse_step3_key_theme(step3_text)
+        bucket = classify_theme_bucket(key_theme)
+        bucket_stats = stats["by_bucket"].setdefault(
+            bucket, {"queued": 0, "complete": 0}
+        )
+
+        source = resolve_encyclical_path(stem)
+        if source is None:
+            stats["missing_source"] += 1
+            continue
+
+        stem = encyclical_stem(source)
+        rel_source = source.relative_to(ROOT).as_posix()
+        if has_valid_gemini_report(stem):
+            stats["already_complete"] += 1
+            bucket_stats["complete"] += 1
+            existing = by_source.get(rel_source)
+            if existing and existing["status"] != "complete":
+                existing["status"] = "complete"
+                existing["completed_at"] = existing.get("completed_at") or utc_now()
+                existing["error"] = None
+            continue
+
+        existing = by_source.get(rel_source)
+        if existing:
+            existing["status"] = "pending"
+            existing["error"] = None
+            existing["completed_at"] = None
+            existing["started_at"] = None
+            existing["response_id"] = None
+            existing["key_theme"] = key_theme
+            existing["theme_bucket"] = bucket
+            existing["step3_report_file"] = step3_report.relative_to(ROOT).as_posix()
+            item = existing
+            stats["requeued"] += 1
+        else:
+            item = build_item_from_stem(
+                item_id=next_id,
+                stem=stem,
+                key_theme=key_theme,
+                sections=sections,
+                step3_report=step3_report,
+            )
+            items.append(item)
+            by_source[rel_source] = item
+            next_id += 1
+            stats["added"] += 1
+
+        bucket_stats["queued"] += 1
+        query_path = queries_dir / f"{item['id']:04d}.md"
+        if not dry_run:
+            query_path.write_text(
+                build_query(
+                    meta=read_encyclical_meta(source),
+                    source_file=item["source_file"],
+                    step3_report_file=item["step3_report_file"],
+                    step3_summary=extract_step3_summary(step3_report),
+                    sections=sections,
+                ),
+                encoding="utf-8",
+            )
+        item["query_file"] = query_path.relative_to(ROOT).as_posix()
+        item["query_chars"] = query_path.stat().st_size if query_path.exists() else item.get("query_chars", 0)
+
+    data["items"] = items
+    data["meta"]["total"] = len(items)
+    data["meta"]["concurrency"] = DEFAULT_CONCURRENCY
+    data["meta"]["extended_at"] = utc_now()
+
+    if dry_run:
+        print("Dry run — remaining queue preview:")
+    else:
+        save_checklist(data)
+        append_run_log({"event": "extend_remaining", **stats})
+        print(f"Extended checklist → {CHECKLIST_PATH}")
+
+    print(f"Scanned Step 3 reports: {stats['scanned']}")
+    print(f"Already complete (valid Gemini): {stats['already_complete']}")
+    print(f"Re-queued existing items: {stats['requeued']}")
+    print(f"Added new items: {stats['added']}")
+    print(f"Missing encyclical source: {stats['missing_source']}")
+    print(f"Total queued this pass: {stats['requeued'] + stats['added']}")
+    print("By bucket:")
+    for bucket, bucket_stats in sorted(stats["by_bucket"].items()):
+        if bucket_stats["queued"] or bucket_stats["complete"]:
+            print(f"  {bucket}: queued={bucket_stats['queued']} already_complete={bucket_stats['complete']}")
+    return stats
+
+
 def init_checklist(
     *,
     force: bool = False,
@@ -341,7 +588,7 @@ def init_checklist(
 
         status = "pending"
         completed_at = None
-        if out_report.exists() and out_report.stat().st_size >= MIN_REPORT_BYTES:
+        if has_valid_gemini_report(stem):
             status = "complete"
             completed_at = utc_now()
 
@@ -440,16 +687,19 @@ def cmd_sync(_: argparse.Namespace) -> None:
     data = load_checklist()
     changed = 0
     for item in data["items"]:
-        report = ROOT / item["report_file"]
-        if report.exists() and report.stat().st_size >= MIN_REPORT_BYTES:
+        if item_has_valid_report(item):
             if item["status"] != "complete":
                 item["status"] = "complete"
                 item["completed_at"] = item["completed_at"] or utc_now()
                 item["error"] = None
                 changed += 1
+        elif item["status"] == "complete":
+            item["status"] = "pending"
+            item["completed_at"] = None
+            changed += 1
     save_checklist(data)
     append_run_log({"event": "sync", "marked_complete": changed})
-    print(f"Sync complete — {changed} item(s) marked complete from disk.")
+    print(f"Sync complete — {changed} item(s) updated from disk validation.")
 
 
 def is_quota_error(error: str | None) -> bool:
@@ -489,7 +739,7 @@ def cmd_reset_stale(_: argparse.Namespace) -> None:
         if item["status"] != "in_progress":
             continue
         report = ROOT / item["report_file"]
-        if report.exists() and report.stat().st_size >= MIN_REPORT_BYTES:
+        if item_has_valid_report(item):
             item["status"] = "complete"
             item["completed_at"] = item["completed_at"] or utc_now()
         else:
@@ -713,11 +963,8 @@ async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> No
     pending = [
         i
         for i in data["items"]
-        if i["status"] in ("pending", "in_progress")
-        and not (
-            (ROOT / i["report_file"]).exists()
-            and (ROOT / i["report_file"]).stat().st_size >= MIN_REPORT_BYTES
-        )
+        if i["status"] in ("pending", "in_progress", "failed")
+        and not item_has_valid_report(i)
     ]
     if limit is not None:
         pending = pending[:limit]
@@ -779,10 +1026,7 @@ def count_remaining(data: dict) -> int:
         1
         for i in data["items"]
         if i["status"] in ("pending", "in_progress", "failed")
-        and not (
-            (ROOT / i["report_file"]).exists()
-            and (ROOT / i["report_file"]).stat().st_size >= MIN_REPORT_BYTES
-        )
+        and not item_has_valid_report(i)
     )
 
 
@@ -811,6 +1055,10 @@ async def run_until_done(
             break
         print(f"{remaining} item(s) still remaining — continuing in 10s...")
         await asyncio.sleep(10)
+
+
+def cmd_extend_remaining(args: argparse.Namespace) -> None:
+    extend_checklist_remaining(dry_run=args.dry_run)
 
 
 def cmd_run(args: argparse.Namespace) -> None:
@@ -858,6 +1106,11 @@ def main() -> None:
         "reset-quota-failed",
         help="Reset failed items caused by insufficient API quota back to pending",
     )
+    p_extend = sub.add_parser(
+        "extend-remaining",
+        help="Queue Step 3 items lacking a valid Gemini report (Spiritual, variants, gaps)",
+    )
+    p_extend.add_argument("--dry-run", action="store_true", help="Preview without writing checklist")
 
     p_run = sub.add_parser("run", help="Run Gemini research jobs (sync API, batched)")
     p_run.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
@@ -889,6 +1142,8 @@ def main() -> None:
         cmd_reset_stale(args)
     elif args.command == "reset-quota-failed":
         cmd_reset_quota_failed(args)
+    elif args.command == "extend-remaining":
+        cmd_extend_remaining(args)
     elif args.command == "run":
         cmd_run(args)
 
