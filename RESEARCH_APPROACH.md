@@ -4,6 +4,8 @@ A reusable playbook for turning a large corpus of primary-source documents into 
 
 Use this as a template: swap the domain (encyclicals → court rulings, annual reports, policy papers), keep the pipeline shape.
 
+> **Build narrative and starter template:** see [`HOW_IT_WAS_BUILT.md`](HOW_IT_WAS_BUILT.md) for how the project was constructed end-to-end (index crawl → scrape → subagent classification → index merge → deep research).
+
 ---
 
 ## 1. What this approach optimises for
@@ -49,9 +51,9 @@ flowchart LR
 | 1–2 | Done | 516 markdown files in `data/encyclical/` |
 | Recovery | Done | 68 documents recovered via alternate sources |
 | 3 | Done | 516 theme reports in `data/subagents/reports/` |
-| 4 | Planned | Add `themes` column to CSV |
+| 4 | Done | `update_encyclicals_csv.py` merges category, summary, gradients into CSV |
 | 5 | Planned | Second-pass texture reports for Social/Mixed documents |
-| 6 | Scaffolded | Prompt + batch runner ready; reports not yet generated |
+| 6 | In progress | Three batch runners: `perplexity-search/`, `deep-research/`, `Gemini3.1Flash/` |
 | 7 | Planned | Temporal gradient scoring and pope-level ranking |
 
 ---
@@ -61,6 +63,7 @@ flowchart LR
 ```
 project-root/
 ├── brief.md                    # Original intent, downstream art goals
+├── HOW_IT_WAS_BUILT.md         # Build narrative + starter template
 ├── RESEARCH_APPROACH.md        # This document
 ├── requirements.txt            # Python deps for ingest scripts
 ├── scripts/
@@ -68,7 +71,10 @@ project-root/
 │   ├── fetch_markdown.py       # Steps 1–2
 │   ├── recover_failed.py       # Failure recovery
 │   ├── step3_checklist.py      # Step 3 orchestration
-│   └── deep_research_batch.py  # Step 6 orchestration
+│   ├── update_encyclicals_csv.py  # Step 4: merge reports into CSV
+│   ├── perplexity_search_batch.py # Step 6: Perplexity sonar-pro
+│   ├── deep_research_batch.py  # Step 6: Perplexity deep research
+│   └── gemini_search_batch.py  # Step 6: Gemini research tier
 └── data/
     ├── encyclicals.csv         # Master index (one row per document)
     ├── summary.json            # Per-author aggregate stats
@@ -83,12 +89,10 @@ project-root/
     │   ├── run_log.jsonl
     │   ├── batches/
     │   └── reports/
-    └── deep-research/          # Step 6 pass
-        ├── prompt.md
-        ├── checklist.json
-        ├── run_log.jsonl
-        ├── queries/
-        └── reports/
+    ├── perplexity-search/      # Step 6 sonar-pro pass
+    ├── deep-research/          # Step 6 deep research pass
+    └── Gemini3.1Flash/         # Step 6 Gemini pass
+        (each: prompt.md, checklist.json, run_log.jsonl, queries/, reports/)
 ```
 
 **Naming convention for corpus files:**
@@ -335,20 +339,22 @@ Free-form analysis: argument flow, tone, notable framing. Grounded in the text o
 
 ---
 
-## 8. Step 4 — Merge themes into the index (planned)
+## 8. Step 4 — Merge analysis into the index
+
+**Script:** `scripts/update_encyclicals_csv.py`
 
 **Purpose:** Make the master CSV queryable without opening individual reports.
 
-Add a `themes` column to `data/encyclicals.csv` by parsing `**Key theme:**` from each Step 3 report (join on filename stem or link).
+Parses Step 3 reports for `category` (Key theme) and `summary`, and Step 6 reports for gradient JSON (`reflective_saturation`, `reflective_density`, `prescriptive_saturation`, `prescriptive_density`).
 
-This is a simple extraction script — no AI needed:
+Gradient sources are tried in priority order: `data/perplexity-search/reports/` → `data/deep-research/reports/`.
 
-```python
-# Pseudocode
-for row in csv:
-    report = find_report(row)
-    row["themes"] = parse_key_theme(report)
+```bash
+python scripts/update_encyclicals_csv.py
+python scripts/update_encyclicals_csv.py --dry-run   # preview fill counts
 ```
+
+No AI needed — pure regex and JSON parsing against the structured report formats.
 
 ---
 
@@ -373,9 +379,15 @@ Step 5 output becomes additional structured columns or a parallel report directo
 
 ## 10. Step 6 — Deep research (external sources)
 
-**Orchestrator:** `scripts/deep_research_batch.py`  
-**Prompt:** `data/deep-research/prompt.md`  
-**Model:** Perplexity `sonar-deep-research` (async API with polling)
+Three batch runners share the same checklist pattern; pick one or run in parallel on different subsets:
+
+| Script | Model | Output dir |
+|--------|-------|------------|
+| `scripts/perplexity_search_batch.py` | Perplexity `sonar-pro` (sync) | `data/perplexity-search/` |
+| `scripts/deep_research_batch.py` | Perplexity `sonar-deep-research` (async) | `data/deep-research/` |
+| `scripts/gemini_search_batch.py` | Gemini 3.1 Flash Lite | `data/Gemini3.1Flash/` |
+
+**Prompt:** each pass has its own `prompt.md` (Gemini reuses the Perplexity prompt by default).
 
 ### Design shift from Step 3
 
@@ -403,19 +415,28 @@ Default init filter: `Key theme ∈ {Social, Mixed}`. Override with `--include-t
 ### Async batch execution
 
 ```bash
+# Perplexity sonar-pro (sync, fast)
+python scripts/perplexity_search_batch.py init --include-themes Mixed
+python scripts/perplexity_search_batch.py run --concurrency 3
+
+# Perplexity deep research (async, thorough)
 python scripts/deep_research_batch.py init
-python scripts/deep_research_batch.py status
 python scripts/deep_research_batch.py run --concurrency 5
-python scripts/deep_research_batch.py sync
-python scripts/deep_research_batch.py reset-stale
+
+# Gemini (alternative tier)
+python scripts/gemini_search_batch.py init --include-themes Mixed
+python scripts/gemini_search_batch.py run --concurrency 2
+
+# All runners support: status, sync, reset-stale
 ```
 
-- Submits jobs to Perplexity async API.
-- Polls with exponential backoff (15s → 120s cap).
-- Writes report + raw JSON sidecar on completion.
+- Deep research: async API with polling (15s → 120s backoff cap).
+- Sonar / Gemini: synchronous requests with retry and rate-limit handling.
+- Writes report + optional raw JSON sidecar on completion.
 - Resumable: re-run `run` to pick up pending/failed items.
+- Quota exhaustion stops the batch cleanly; reset failed items and retry.
 
-Requires `PERPLEXITY_API_KEY` in `.env`.
+Requires `PERPLEXITY_API_KEY` and/or `GEMINI_PRO` in `.env`.
 
 ### Step 6 report format
 
@@ -655,7 +676,11 @@ For Step 6, add `PERPLEXITY_API_KEY` to `.env` (gitignored).
 | Key theme: Mixed | 333 |
 | Key theme: Spiritual | 163 |
 | Key theme: Social | 23 |
-| Step 6 deep research reports | 0 (scaffolded, not yet run) |
+| CSV rows with category + summary | 516 |
+| CSV rows with gradient scores | 22 (Step 6 in progress) |
+| Step 6 reports (deep-research) | 46 |
+| Step 6 reports (perplexity-search) | 2 |
+| Step 6 reports (Gemini3.1Flash) | 6 |
 
 ---
 
@@ -663,6 +688,7 @@ For Step 6, add `PERPLEXITY_API_KEY` to `.env` (gitignored).
 
 | File | Role |
 |------|------|
+| `HOW_IT_WAS_BUILT.md` | Build narrative and starter template for similar projects |
 | `brief.md` | Original project vision, art pipeline, open design questions |
 | `data/subagents/subagentsprompt.md` | Step 3 agent instructions |
 | `data/deep-research/prompt.md` | Step 6 research instructions and output schema |
