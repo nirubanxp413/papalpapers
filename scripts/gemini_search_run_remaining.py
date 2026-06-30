@@ -82,6 +82,13 @@ def main() -> None:
     p_init = sub.add_parser("init", help="Extend checklist with remaining Step 3 items")
     p_init.add_argument("--dry-run", action="store_true", help="Preview without writing checklist")
     p_run = sub.add_parser("run", help="Run queued remaining items")
+    p_run.add_argument(
+        "--concurrency",
+        type=int,
+        default=DEFAULT_CONCURRENCY,
+        help=f"Parallel API requests (default: {DEFAULT_CONCURRENCY})",
+    )
+    p_run.add_argument("--limit", type=int, default=None, help="Max items to run this invocation")
     p_run.add_argument("--dry-run", action="store_true", help="List queue without calling API")
     p_run.add_argument(
         "--until-done",
@@ -90,6 +97,13 @@ def main() -> None:
         help="Keep running until the remaining queue is complete (default: true)",
     )
     p_all = sub.add_parser("init-and-run", help="Extend checklist, then run until done")
+    p_all.add_argument(
+        "--concurrency",
+        type=int,
+        default=DEFAULT_CONCURRENCY,
+        help=f"Parallel API requests (default: {DEFAULT_CONCURRENCY})",
+    )
+    p_all.add_argument("--limit", type=int, default=None, help="Max items to run this invocation")
     p_all.add_argument("--dry-run", action="store_true", help="Preview without writing checklist or calling API")
     p_all.add_argument(
         "--until-done",
