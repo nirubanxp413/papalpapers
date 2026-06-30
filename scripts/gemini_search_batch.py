@@ -61,6 +61,12 @@ SYSTEM_INSTRUCTION = (
     "Include all Structured and Unstructured sections. Never exceed gradient density bounds."
 )
 
+GRADIENT_CORRECTION = (
+    "\n\nCORRECTION REQUIRED: density must be an integer from -30 to +30 — "
+    "years from the publication date, NOT calendar years or total historical span. "
+    "If the backward gaze exceeds 30 years before publication, use -30 as the cap."
+)
+
 FORMAT_REMINDER = """
 ---
 ## Final reminders (mandatory)
@@ -626,12 +632,18 @@ async def process_item(
 
     last_error: str | None = None
     rate_limit_attempts = 0
+    gradient_correction_used = False
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             payload = await client.complete(http, query)
             content = extract_gemini_content(payload)
             ok, reason = validate_gradients(content)
             if not ok:
+                if "density out of range" in (reason or "") and not gradient_correction_used:
+                    gradient_correction_used = True
+                    query = query + GRADIENT_CORRECTION
+                    last_error = reason
+                    continue
                 raise RuntimeError(reason or "invalid gradients")
 
             item["response_id"] = payload.get("responseId")
