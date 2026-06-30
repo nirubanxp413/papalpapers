@@ -2,6 +2,7 @@
 """Merge Step 3 themes/summaries and gradient scores into data/encyclicals.csv.
 
 Gradient sources (first match wins):
+  - data/Gemini3.1Flash/reports/   (Step 6 gemini-3.1-flash-lite)
   - data/perplexity-search/reports/ (Step 6 sonar-pro search tier)
   - data/deep-research/reports/     (Step 6 sonar-deep-research)
 """
@@ -21,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "encyclicals.csv"
 STEP3_REPORTS_DIR = ROOT / "data" / "subagents" / "reports"
 DEEP_RESEARCH_REPORTS_DIR = ROOT / "data" / "deep-research" / "reports"
+GEMINI_SEARCH_REPORTS_DIR = ROOT / "data" / "Gemini3.1Flash" / "reports"
 PERPLEXITY_SEARCH_REPORTS_DIR = ROOT / "data" / "perplexity-search" / "reports"
 
 KEY_THEME_RE = re.compile(r"^\s*-\s*\*\*Key theme:\*\*\s*(.+?)\s*$", re.MULTILINE | re.IGNORECASE)
@@ -162,6 +164,7 @@ def apply_gradients(fields: AnalysisFields, gradients: dict[str, Any]) -> None:
 
 def load_gradients_for_stem(stem: str) -> tuple[dict[str, Any] | None, str]:
     for source, reports_dir in (
+        ("gemini-3.1-flash", GEMINI_SEARCH_REPORTS_DIR),
         ("perplexity-search", PERPLEXITY_SEARCH_REPORTS_DIR),
         ("deep-research", DEEP_RESEARCH_REPORTS_DIR),
     ):
@@ -208,6 +211,29 @@ def ordered_fieldnames(existing_rows: list[dict[str, str]]) -> list[str]:
     return fieldnames
 
 
+def has_full_gradients(fields: AnalysisFields) -> bool:
+    return all(
+        getattr(fields, col)
+        for col in (
+            "reflective_saturation",
+            "reflective_density",
+            "prescriptive_saturation",
+            "prescriptive_density",
+        )
+    )
+
+
+def theme_bucket(category: str) -> str:
+    category = (category or "").strip()
+    if not category:
+        return "empty"
+    if category in ("Social", "Spiritual", "Mixed"):
+        return category
+    if category.startswith("Mixed") or "Mixed" in category:
+        return "Mixed-variant"
+    return "other"
+
+
 def update_csv(*, dry_run: bool = False) -> dict[str, int]:
     if not CSV_PATH.exists():
         raise SystemExit(f"CSV not found: {CSV_PATH}")
@@ -221,9 +247,12 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
         "category": 0,
         "summary": 0,
         "gradients": 0,
+        "gradients_full": 0,
+        "gradients_gemini": 0,
         "gradients_deep_research": 0,
         "gradients_perplexity_search": 0,
         "missing_reports": 0,
+        "by_theme": {},
     }
 
     updated_rows: list[dict[str, str]] = []
@@ -240,10 +269,23 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
             stats["summary"] += 1
         if analysis.reflective_saturation or analysis.prescriptive_saturation:
             stats["gradients"] += 1
-            if gradient_source == "deep-research":
+            if gradient_source == "gemini-3.1-flash":
+                stats["gradients_gemini"] += 1
+            elif gradient_source == "deep-research":
                 stats["gradients_deep_research"] += 1
             elif gradient_source == "perplexity-search":
                 stats["gradients_perplexity_search"] += 1
+        if has_full_gradients(analysis):
+            stats["gradients_full"] += 1
+            bucket = theme_bucket(analysis.category)
+            theme_stats = stats["by_theme"].setdefault(
+                bucket, {"total": 0, "gradients_full": 0}
+            )
+            theme_stats["gradients_full"] += 1
+
+        bucket = theme_bucket(analysis.category)
+        theme_stats = stats["by_theme"].setdefault(bucket, {"total": 0, "gradients_full": 0})
+        theme_stats["total"] += 1
 
         updated = dict(row)
         updated["category"] = analysis.category
@@ -268,10 +310,20 @@ def update_csv(*, dry_run: bool = False) -> dict[str, int]:
     print(f"Rows: {stats['rows']}")
     print(f"Category filled: {stats['category']}")
     print(f"Summary filled: {stats['summary']}")
-    print(f"Gradient sets filled: {stats['gradients']}")
+    print(f"Gradient sets filled (any axis): {stats['gradients']}")
+    print(f"Gradient sets complete (all 4 fields): {stats['gradients_full']}")
+    print(f"  from gemini-3.1-flash: {stats['gradients_gemini']}")
     print(f"  from deep-research: {stats['gradients_deep_research']}")
     print(f"  from perplexity-search: {stats['gradients_perplexity_search']}")
     print(f"Rows without Step 3 report: {stats['missing_reports']}")
+    print("By theme (Step 6 gradients complete / total in CSV):")
+    for theme in ("Social", "Mixed", "Mixed-variant", "Spiritual", "empty", "other"):
+        theme_stats = stats["by_theme"].get(theme)
+        if not theme_stats:
+            continue
+        done = theme_stats["gradients_full"]
+        total = theme_stats["total"]
+        print(f"  {theme}: {done}/{total}")
     return stats
 
 
