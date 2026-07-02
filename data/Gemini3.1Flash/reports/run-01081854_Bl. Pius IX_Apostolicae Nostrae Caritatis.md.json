@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Apostolicae Nostrae Caritatis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Pius IX is in exile in Gaeta/Rome following the 1848 revolutions. The Roman Republic (1849) has been suppressed, but the Papal States remain under French military protection.\n*   **Political Climate:** The \"Roman Question\" is at its height. Pius IX is navigating the collapse of the neo-Guelph dream (a confederation of Italian states under the Pope) and the rise of secular nationalism (Risorgimento).\n*   **Ecclesial Climate:** The Church is transitioning from the defensive posture of the post-Napoleonic era to a more centralized, ultramontane identity, culminating in the 1854 definition of the Immaculate Conception.\n\n### Reflective\n*   **1848-1849 Revolutions:** The document explicitly mourns the \"ferocious wars\" and \"impious rebellion\" that forced the Pope from Rome and destabilized European monarchies.\n*   **Indifferentism:** Pius reflects on the rise of secular liberalism and the \"deadly virus\" of indifferentism, which he views as the intellectual root of the 1848 uprisings.\n*   **Prior Papal Acts:** The encyclical explicitly references his 1849 appeal for prayers regarding the Immaculate Conception, framing the current document as a continuation of that specific, long-term project.\n\n### Prospective\n*   **Immaculate Conception:** The document acts as a \"soft launch\" for the dogma of the Immaculate Conception, mobilizing the global Church to prepare for the December 1854 definition.\n*   **Jubilee Mobilization:** It prescribes a specific, time-bound program of prayer and almsgiving, attempting to unify the global Catholic identity through synchronized ritual action.\n*   **Ecclesiastical Authority:** It attempts to re-assert the Pope\u2019s role as the supreme arbiter of peace, despite his diminished temporal power in the Italian peninsula.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document is heavily anchored in the trauma of the 1848-1849 revolutions, which remain the primary lens through which Pius views all contemporary \"disorders.\"\n*   **Prescriptive Density (+2):** The gaze is short-term, focused on the immediate 1854 Jubilee and the impending December definition of the Immaculate Conception.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Apostolicae Nostrae Caritatis* is a document of a Pope in a state of \"besieged sovereignty.\" Having been restored to Rome by French bayonets, Pius IX\u2019s rhetoric reflects a profound disillusionment with the liberal-constitutional experiments of 1848. The \"sons of darkness\" mentioned are not merely theological abstractions; they are the Mazzinian republicans and secularists who sought to strip the Papacy of its temporal power. The encyclical serves as a spiritual consolidation of the Church's ranks before the dogmatic assertion of 1854.\n\n### 2. Secular Engagement\nThe encyclical engages the secular world primarily by rejecting its foundational principles. By framing \"indifferentism\" as a \"deadly virus,\" Pius signals that the Church will not accommodate the secular-liberal separation of church and state. The document is a rejection of the \"modern\" political order that emerged from the Enlightenment, positioning the Church as a counter-society.\n\n### 3. Reception and Impact\nThere is little evidence of this encyclical having a direct impact on secular policy or international relations in 1854. Its primary impact was internal: it successfully synchronized the global Catholic Church\u2019s devotional focus toward the Immaculate Conception. Secular press of the time (e.g., *The Times* of London) largely ignored the encyclical, viewing it as an internal ecclesiastical circular, which underscores the growing gap between the Vatican\u2019s concerns and the secular political discourse of the mid-19th century.\n\n### 4. The Pope\u2019s Personal Situation\nPius IX\u2019s personal authority was at a nadir in terms of temporal power but at a zenith in terms of spiritual centralization. The encyclical demonstrates his shift away from the \"liberal Pope\" persona of 1846 toward the uncompromising, ultramontane figure who would later issue the *Syllabus of Errors*.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Pii IX*, Vol. I | Official record of the Jubilee decree. |\n| Academic | Kertzer, D. (2004). *Prisoner of the Vatican* | Contextualizes the Pope's post-1848 isolation. |\n| Media | *The Times* (London), Aug 1854 | No significant coverage of this specific encyclical found. |\n| Academic | Chadwick, O. (1998). *A History of the Popes* | Confirms the shift toward Marian devotion as a defensive strategy. |",
+            "thoughtSignature": "EjQKMgEMOdbHDU9d3BtXpfgpcHQ7916UitdfrJRI+5cjGQ8f1le1e8CnyDtQajlcqIsir6gp"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3086,
+    "candidatesTokenCount": 1123,
+    "totalTokenCount": 4209,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3086
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "TupBasORC-2kmtkP4_-UCA"
+}

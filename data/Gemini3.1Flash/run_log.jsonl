@@ -336,3 +336,250 @@
 {"ts": "2026-06-30T00:59:11+00:00", "event": "complete", "id": 71, "response_id": "2hRDaubGEuS6qtsPxaaXoQE"}
 {"ts": "2026-06-30T00:59:13+00:00", "event": "sync", "marked_complete": 0}
 {"ts": "2026-06-30T00:59:16+00:00", "event": "sync", "marked_complete": 0}
+{"ts": "2026-06-30T01:29:02+00:00", "event": "extend_remaining", "scanned": 520, "already_complete": 327, "requeued": 0, "added": 193, "missing_source": 0, "by_bucket": {"mixed-pure": {"queued": 0, "complete": 327}, "social": {"queued": 22, "complete": 0}, "spiritual": {"queued": 146, "complete": 0}, "mixed-variant": {"queued": 24, "complete": 0}, "other": {"queued": 1, "complete": 0}}}
+{"ts": "2026-06-30T01:29:41+00:00", "event": "reset_stale", "reset_to_pending": 0}
+{"ts": "2026-06-30T01:29:46+00:00", "event": "complete", "id": 324, "response_id": "BhxDav6NFbumqtsP6ojYiA4"}
+{"ts": "2026-06-30T01:29:47+00:00", "event": "complete", "id": 327, "response_id": "BhxDauCxE9GymtkP88CSwAQ"}
+{"ts": "2026-06-30T01:29:47+00:00", "event": "complete", "id": 325, "response_id": "BhxDaq2PFbKe6dkPjoSlqQE"}
+{"ts": "2026-06-30T01:29:47+00:00", "event": "complete", "id": 328, "response_id": "BhxDaouPFYmkqtsPz6iO2Q4"}
+{"ts": "2026-06-30T01:29:48+00:00", "event": "complete", "id": 326, "response_id": "BhxDarDrEui9qtsPmI6fuAk"}
+{"ts": "2026-06-30T01:29:51+00:00", "event": "complete", "id": 329, "response_id": "ChxDaoLgOcKBqtsPw_3e-QE"}
+{"ts": "2026-06-30T01:29:52+00:00", "event": "complete", "id": 330, "response_id": "CxxDavTBE9qumtkP4auJoQo"}
+{"ts": "2026-06-30T01:29:52+00:00", "event": "complete", "id": 331, "response_id": "CxxDaoGVF8KBqtsPw_3e-QE"}
+{"ts": "2026-06-30T01:29:52+00:00", "event": "complete", "id": 332, "response_id": "CxxDaovEGo_FqtsP2crumAE"}
+{"ts": "2026-06-30T01:29:53+00:00", "event": "complete", "id": 333, "response_id": "DBxDavSZErqxqtsPnaW_2Ak"}
+{"ts": "2026-06-30T01:29:56+00:00", "event": "complete", "id": 334, "response_id": "DxxDavC7JJy_qtsP4uCrwAk"}
+{"ts": "2026-06-30T01:29:57+00:00", "event": "complete", "id": 335, "response_id": "EBxDap37G6qf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:29:57+00:00", "event": "rate_limited", "id": 340, "wait_seconds": 3.325577138, "attempt": 1}
+{"ts": "2026-06-30T01:29:57+00:00", "event": "complete", "id": 337, "response_id": "EBxDauWkPLKe6dkPjoSlqQE"}
+{"ts": "2026-06-30T01:29:57+00:00", "event": "rate_limited", "id": 341, "wait_seconds": 3.103837932, "attempt": 1}
+{"ts": "2026-06-30T01:29:58+00:00", "event": "complete", "id": 336, "response_id": "EBxDas-FNpT7qtsP7fnCsQo"}
+{"ts": "2026-06-30T01:29:59+00:00", "event": "complete", "id": 338, "response_id": "ERxDaqfnDdymmtkP6K6u2Qk"}
+{"ts": "2026-06-30T01:29:59+00:00", "event": "rate_limited", "id": 343, "wait_seconds": 60.0, "attempt": 1}
+{"ts": "2026-06-30T01:30:01+00:00", "event": "rate_limited", "id": 340, "wait_seconds": 59.893528358, "attempt": 2}
+{"ts": "2026-06-30T01:30:01+00:00", "event": "complete", "id": 339, "response_id": "FBxDatuOD4aYqtsP7drSmQ4"}
+{"ts": "2026-06-30T01:30:01+00:00", "event": "rate_limited", "id": 344, "wait_seconds": 59.548259208, "attempt": 1}
+{"ts": "2026-06-30T01:30:03+00:00", "event": "complete", "id": 342, "response_id": "FhxDavHUE4OCqtsPw6ad0Qo"}
+{"ts": "2026-06-30T01:30:03+00:00", "event": "rate_limited", "id": 345, "wait_seconds": 57.518614427, "attempt": 1}
+{"ts": "2026-06-30T01:30:06+00:00", "event": "complete", "id": 341, "response_id": "GRxDasqnCJOf6dkPzLrx2Q0"}
+{"ts": "2026-06-30T01:30:11+00:00", "event": "complete", "id": 346, "response_id": "HhxDasy6F9PzqtsPsMnJiAU"}
+{"ts": "2026-06-30T01:30:11+00:00", "event": "rate_limited", "id": 347, "wait_seconds": 49.233807891, "attempt": 1}
+{"ts": "2026-06-30T01:31:04+00:00", "event": "complete", "id": 343, "response_id": "UxxDaqfcFtKGz7IPk5aogQ8"}
+{"ts": "2026-06-30T01:31:06+00:00", "event": "complete", "id": 347, "response_id": "VRxDauTnCszmqtsP2Lik0As"}
+{"ts": "2026-06-30T01:31:06+00:00", "event": "complete", "id": 340, "response_id": "VRxDavqpD9PzqtsPsMnJiAU"}
+{"ts": "2026-06-30T01:31:06+00:00", "event": "complete", "id": 345, "response_id": "VRxDatjIC7HTz7IP3dCDCA"}
+{"ts": "2026-06-30T01:31:06+00:00", "event": "complete", "id": 344, "response_id": "VRxDaqWqD_qdqtsPrNjf8Qo"}
+{"ts": "2026-06-30T01:31:08+00:00", "event": "complete", "id": 348, "response_id": "WBxDaviZH4mHz7IP_7KP8As"}
+{"ts": "2026-06-30T01:31:10+00:00", "event": "complete", "id": 349, "response_id": "WhxDaqqXDvqdqtsPqYbesQE"}
+{"ts": "2026-06-30T01:31:11+00:00", "event": "complete", "id": 350, "response_id": "WhxDaqzzJqzyqtsPsa3q8AU"}
+{"ts": "2026-06-30T01:31:12+00:00", "event": "complete", "id": 352, "response_id": "WhxDarqbM4qBmtkPuq3jsAM"}
+{"ts": "2026-06-30T01:31:12+00:00", "event": "complete", "id": 351, "response_id": "WhxDaqueLLrjz7IP_5HJsA8"}
+{"ts": "2026-06-30T01:31:13+00:00", "event": "complete", "id": 353, "response_id": "XRxDatKwA7qCz7IPw7GOyQ4"}
+{"ts": "2026-06-30T01:31:16+00:00", "event": "complete", "id": 354, "response_id": "XhxDatXyLNzAqtsPn6nnqQ0"}
+{"ts": "2026-06-30T01:31:16+00:00", "event": "complete", "id": 355, "response_id": "XxxDat6KLIOCqtsPw6ad0Qo"}
+{"ts": "2026-06-30T01:31:16+00:00", "event": "rate_limited", "id": 360, "wait_seconds": 44.339701947, "attempt": 1}
+{"ts": "2026-06-30T01:31:17+00:00", "event": "complete", "id": 356, "response_id": "YBxDatCAIZSe6dkP8-2KoQs"}
+{"ts": "2026-06-30T01:31:17+00:00", "event": "rate_limited", "id": 361, "wait_seconds": 43.734318584, "attempt": 1}
+{"ts": "2026-06-30T01:31:17+00:00", "event": "complete", "id": 357, "response_id": "YBxDat-_IbbXz7IPtb6f6AM"}
+{"ts": "2026-06-30T01:31:19+00:00", "event": "complete", "id": 358, "response_id": "YhxDaoaRC-Cfz7IPrqCnyQo"}
+{"ts": "2026-06-30T01:31:19+00:00", "event": "rate_limited", "id": 363, "wait_seconds": 41.460589194, "attempt": 1}
+{"ts": "2026-06-30T01:31:22+00:00", "event": "complete", "id": 359, "response_id": "ZBxDasHCIJOf6dkPzLrx2Q0"}
+{"ts": "2026-06-30T01:31:22+00:00", "event": "rate_limited", "id": 364, "wait_seconds": 38.628574068, "attempt": 1}
+{"ts": "2026-06-30T01:31:22+00:00", "event": "complete", "id": 362, "response_id": "ZRxDavPxGfKAmtkP9rmHmAI"}
+{"ts": "2026-06-30T01:31:22+00:00", "event": "rate_limited", "id": 365, "wait_seconds": 38.4390652, "attempt": 1}
+{"ts": "2026-06-30T01:32:05+00:00", "event": "complete", "id": 363, "response_id": "kRxDapzWD9ymmtkP6K6u2Qk"}
+{"ts": "2026-06-30T01:32:06+00:00", "event": "complete", "id": 360, "response_id": "kRxDaqmVD-ayqtsPl_q6uAs"}
+{"ts": "2026-06-30T01:32:06+00:00", "event": "complete", "id": 365, "response_id": "kRxDavD3DZa0qtsPx_KZkQo"}
+{"ts": "2026-06-30T01:32:06+00:00", "event": "complete", "id": 361, "response_id": "kRxDaqW1EYGTqtsPl8Oj2Q0"}
+{"ts": "2026-06-30T01:32:06+00:00", "event": "complete", "id": 364, "response_id": "kRxDaqLpEYnZjMcPwerVqQI"}
+{"ts": "2026-06-30T01:32:10+00:00", "event": "complete", "id": 367, "response_id": "lhxDaoLAGcnlqtsPw5LC4AY"}
+{"ts": "2026-06-30T01:32:10+00:00", "event": "complete", "id": 366, "response_id": "lRxDasf6MeuvqtsP-L2X6Ak"}
+{"ts": "2026-06-30T01:32:11+00:00", "event": "complete", "id": 368, "response_id": "lhxDaob1GsnlqtsPw5LC4AY"}
+{"ts": "2026-06-30T01:32:11+00:00", "event": "complete", "id": 370, "response_id": "lhxDapSZL8zjjMcP1qugkA4"}
+{"ts": "2026-06-30T01:32:11+00:00", "event": "complete", "id": 369, "response_id": "lhxDapqALNS2qtsP35fx0Aw"}
+{"ts": "2026-06-30T01:32:15+00:00", "event": "complete", "id": 371, "response_id": "mhxDarXNPPKAmtkP9rmHmAI"}
+{"ts": "2026-06-30T01:32:16+00:00", "event": "complete", "id": 375, "response_id": "mxxDaruzK_v6qtsPku-HoAg"}
+{"ts": "2026-06-30T01:32:16+00:00", "event": "complete", "id": 372, "response_id": "mxxDaqWFBOS6qtsPxaaXoQE"}
+{"ts": "2026-06-30T01:32:16+00:00", "event": "complete", "id": 373, "response_id": "mxxDasDmGOayqtsPl_q6uAs"}
+{"ts": "2026-06-30T01:32:16+00:00", "event": "rate_limited", "id": 378, "wait_seconds": 44.431967165, "attempt": 1}
+{"ts": "2026-06-30T01:32:16+00:00", "event": "rate_limited", "id": 379, "wait_seconds": 44.415567612, "attempt": 1}
+{"ts": "2026-06-30T01:32:17+00:00", "event": "complete", "id": 374, "response_id": "mxxDaqLjG_qPjMcP4MSK2Qw"}
+{"ts": "2026-06-30T01:32:17+00:00", "event": "rate_limited", "id": 380, "wait_seconds": 43.473823024, "attempt": 1}
+{"ts": "2026-06-30T01:32:20+00:00", "event": "complete", "id": 376, "response_id": "oBxDavydB_qdqtsPqYbesQE"}
+{"ts": "2026-06-30T01:32:20+00:00", "event": "rate_limited", "id": 381, "wait_seconds": 40.263053246, "attempt": 1}
+{"ts": "2026-06-30T01:32:30+00:00", "event": "complete", "id": 377, "response_id": "oBxDaoPCFcnlqtsPw5LC4AY"}
+{"ts": "2026-06-30T01:32:35+00:00", "event": "complete", "id": 382, "response_id": "rxxDap3uAZqVmtkPz4nnmQw"}
+{"ts": "2026-06-30T01:32:35+00:00", "event": "rate_limited", "id": 383, "wait_seconds": 25.208935704, "attempt": 1}
+{"ts": "2026-06-30T01:33:05+00:00", "event": "complete", "id": 380, "response_id": "zRxDauvpDaqf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:33:05+00:00", "event": "complete", "id": 379, "response_id": "zRxDapnnCpr6qtsP-vmHqA4"}
+{"ts": "2026-06-30T01:33:06+00:00", "event": "complete", "id": 381, "response_id": "zRxDasahC4GTqtsPuMOj2Q0"}
+{"ts": "2026-06-30T01:33:06+00:00", "event": "complete", "id": 383, "response_id": "zRxDat-UDp31jMcPmYa42QE"}
+{"ts": "2026-06-30T01:33:06+00:00", "event": "complete", "id": 378, "response_id": "zRxDau-TEPqGqtsP0eObkAw"}
+{"ts": "2026-06-30T01:33:10+00:00", "event": "complete", "id": 385, "response_id": "0RxDaorBL6v8qtsPxfyKyQk"}
+{"ts": "2026-06-30T01:33:11+00:00", "event": "complete", "id": 386, "response_id": "0hxDauLsELKkqtsPu6PA8AQ"}
+{"ts": "2026-06-30T01:33:11+00:00", "event": "complete", "id": 384, "response_id": "0RxDaqOqJ4OCqtsPw6ad0Qo"}
+{"ts": "2026-06-30T01:33:12+00:00", "event": "complete", "id": 387, "response_id": "0hxDaqnVI7TCjMcPiuuisQU"}
+{"ts": "2026-06-30T01:33:12+00:00", "event": "complete", "id": 388, "response_id": "0hxDaqiFO5Se6dkP8-2KoQs"}
+{"ts": "2026-06-30T01:33:14+00:00", "event": "complete", "id": 389, "response_id": "1hxDaqvNJImkqtsPz6iO2Q4"}
+{"ts": "2026-06-30T01:33:16+00:00", "event": "complete", "id": 391, "response_id": "1xxDaqTvIrKe6dkP74SlqQE"}
+{"ts": "2026-06-30T01:33:16+00:00", "event": "complete", "id": 390, "response_id": "1xxDarHxEcCAqtsP_pKt8Q4"}
+{"ts": "2026-06-30T01:33:17+00:00", "event": "complete", "id": 392, "response_id": "2BxDaoOiEs3UjMcPo4ql6Ao"}
+{"ts": "2026-06-30T01:33:17+00:00", "event": "rate_limited", "id": 397, "wait_seconds": 43.038065429, "attempt": 1}
+{"ts": "2026-06-30T01:33:18+00:00", "event": "complete", "id": 393, "response_id": "2RxDaoXtAZyUmtkPz6XpIA"}
+{"ts": "2026-06-30T01:33:18+00:00", "event": "rate_limited", "id": 398, "wait_seconds": 41.976474551, "attempt": 1}
+{"ts": "2026-06-30T01:33:20+00:00", "event": "complete", "id": 394, "response_id": "2xxDaru7CZaiqtsP5K6suAk"}
+{"ts": "2026-06-30T01:33:21+00:00", "event": "complete", "id": 395, "response_id": "3BxDavivE9GymtkP88CSwAQ"}
+{"ts": "2026-06-30T01:33:21+00:00", "event": "rate_limited", "id": 400, "wait_seconds": 39.019832192, "attempt": 1}
+{"ts": "2026-06-30T01:33:22+00:00", "event": "complete", "id": 396, "response_id": "3BxDaq2bKaqf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:33:22+00:00", "event": "rate_limited", "id": 401, "wait_seconds": 38.534962046, "attempt": 1}
+{"ts": "2026-06-30T01:34:00+00:00", "event": "complete", "id": 399, "response_id": "4BxDap78Eab-qtsPmril6Ag"}
+{"ts": "2026-06-30T01:34:05+00:00", "event": "complete", "id": 402, "response_id": "CB1DapnhOY63mtkPn4KJwQQ"}
+{"ts": "2026-06-30T01:34:06+00:00", "event": "complete", "id": 398, "response_id": "CR1DavLJDo2jqtsPlPC46Qk"}
+{"ts": "2026-06-30T01:34:06+00:00", "event": "complete", "id": 397, "response_id": "CR1DaumWDeKsz7IP3veM-Q8"}
+{"ts": "2026-06-30T01:34:06+00:00", "event": "complete", "id": 400, "response_id": "CR1Das_gCrKkqtsPu6PA8AQ"}
+{"ts": "2026-06-30T01:34:06+00:00", "event": "complete", "id": 401, "response_id": "CR1Daq32CuThz7IP-KKz2Q4"}
+{"ts": "2026-06-30T01:34:10+00:00", "event": "complete", "id": 403, "response_id": "Dh1DaouKBvigqtsP8IDw0Ak"}
+{"ts": "2026-06-30T01:34:11+00:00", "event": "complete", "id": 406, "response_id": "Dh1DauqoJfqGqtsP0eObkAw"}
+{"ts": "2026-06-30T01:34:11+00:00", "event": "complete", "id": 404, "response_id": "Dh1Daq2MD6v8qtsPxfyKyQk"}
+{"ts": "2026-06-30T01:34:11+00:00", "event": "complete", "id": 405, "response_id": "Dh1DasioFqiEz7IPpeabyAs"}
+{"ts": "2026-06-30T01:34:12+00:00", "event": "complete", "id": 407, "response_id": "Dx1DaqjECYWsz7IP2bK14Q4"}
+{"ts": "2026-06-30T01:34:16+00:00", "event": "complete", "id": 411, "response_id": "Ex1DasyJNKmez7IP7oyi8A8"}
+{"ts": "2026-06-30T01:34:16+00:00", "event": "complete", "id": 408, "response_id": "Ex1DatAOyeWq2w_DksLgBg"}
+{"ts": "2026-06-30T01:34:17+00:00", "event": "rate_limited", "id": 414, "wait_seconds": 43.939982177, "attempt": 1}
+{"ts": "2026-06-30T01:34:17+00:00", "event": "complete", "id": 410, "response_id": "Ex1DasPML6almtkPyMn54Ak"}
+{"ts": "2026-06-30T01:34:17+00:00", "event": "complete", "id": 412, "response_id": "FB1DavjPEvigqtsP8IDw0Ak"}
+{"ts": "2026-06-30T01:34:17+00:00", "event": "rate_limited", "id": 416, "wait_seconds": 43.500197626, "attempt": 1}
+{"ts": "2026-06-30T01:34:21+00:00", "event": "complete", "id": 413, "response_id": "GB1DavC1Or6hz7IP5PCn4Qs"}
+{"ts": "2026-06-30T01:34:22+00:00", "event": "complete", "id": 415, "response_id": "GR1DasOnEoGTqtsPuMOj2Q0"}
+{"ts": "2026-06-30T01:34:22+00:00", "event": "complete", "id": 409, "response_id": "Ex1Dap_OHPKAmtkP9rmHmAI"}
+{"ts": "2026-06-30T01:34:22+00:00", "event": "rate_limited", "id": 419, "wait_seconds": 38.210036755, "attempt": 1}
+{"ts": "2026-06-30T01:34:26+00:00", "event": "complete", "id": 417, "response_id": "Hh1DarSoAZT7qtsP7fnCsQo"}
+{"ts": "2026-06-30T01:34:26+00:00", "event": "rate_limited", "id": 420, "wait_seconds": 34.233483434, "attempt": 1}
+{"ts": "2026-06-30T01:34:27+00:00", "event": "complete", "id": 418, "response_id": "Hh1Dasi8LPqdqtsPrNjf8Qo"}
+{"ts": "2026-06-30T01:34:27+00:00", "event": "rate_limited", "id": 421, "wait_seconds": 33.713091538, "attempt": 1}
+{"ts": "2026-06-30T01:35:05+00:00", "event": "complete", "id": 420, "response_id": "RR1DarOdD9zoqtsPmJGe0Ag"}
+{"ts": "2026-06-30T01:35:06+00:00", "event": "complete", "id": 416, "response_id": "RR1DapyQDY7lz7IPtcflyAM"}
+{"ts": "2026-06-30T01:35:06+00:00", "event": "complete", "id": 421, "response_id": "RR1DauSdD5Se6dkP8-2KoQs"}
+{"ts": "2026-06-30T01:35:06+00:00", "event": "complete", "id": 419, "response_id": "RR1DaqLQDKqf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:35:06+00:00", "event": "complete", "id": 414, "response_id": "RR1DauT4DJqVmtkPz4nnmQw"}
+{"ts": "2026-06-30T01:35:10+00:00", "event": "complete", "id": 422, "response_id": "SR1DaoTqIoaYqtsP7drSmQ4"}
+{"ts": "2026-06-30T01:35:11+00:00", "event": "complete", "id": 424, "response_id": "Sh1DavymGtqumtkP4auJoQo"}
+{"ts": "2026-06-30T01:35:11+00:00", "event": "complete", "id": 423, "response_id": "Sh1Dary0EP-Hz7IP443MgQQ"}
+{"ts": "2026-06-30T01:35:11+00:00", "event": "complete", "id": 425, "response_id": "Sh1DatenIYiCmtkPn6zHyAg"}
+{"ts": "2026-06-30T01:35:12+00:00", "event": "complete", "id": 426, "response_id": "Sh1DaubkM9WUmtkPrsjSsAk"}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "complete", "id": 427, "response_id": "Th1Daue0LIWgqtsP67aSqQc"}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "rate_limited", "id": 432, "wait_seconds": 44.721262733, "attempt": 1}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "complete", "id": 428, "response_id": "Tx1DasCkFomkqtsPz6iO2Q4"}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "complete", "id": 430, "response_id": "UB1DasGoBav8qtsPxfyKyQk"}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "complete", "id": 429, "response_id": "Tx1DavOTG76cz7IP2vTr2As"}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "rate_limited", "id": 434, "wait_seconds": 44.346275293, "attempt": 1}
+{"ts": "2026-06-30T01:35:16+00:00", "event": "complete", "id": 431, "response_id": "UB1DavWaDuayqtsPl_q6uAs"}
+{"ts": "2026-06-30T01:35:21+00:00", "event": "complete", "id": 435, "response_id": "VB1DaqL_K8nqz7IPnKTIgQ4"}
+{"ts": "2026-06-30T01:35:21+00:00", "event": "rate_limited", "id": 437, "wait_seconds": 39.727633929, "attempt": 1}
+{"ts": "2026-06-30T01:35:21+00:00", "event": "complete", "id": 433, "response_id": "VB1Dao2BKIGTqtsPl8Oj2Q0"}
+{"ts": "2026-06-30T01:35:21+00:00", "event": "rate_limited", "id": 438, "wait_seconds": 39.192735577, "attempt": 1}
+{"ts": "2026-06-30T01:35:22+00:00", "event": "complete", "id": 436, "response_id": "VB1DatalOJuVmtkPoqvswQk"}
+{"ts": "2026-06-30T01:35:22+00:00", "event": "rate_limited", "id": 439, "wait_seconds": 38.752667873, "attempt": 1}
+{"ts": "2026-06-30T01:36:05+00:00", "event": "complete", "id": 438, "response_id": "gR1DaqmUD8zmqtsP2Lik0As"}
+{"ts": "2026-06-30T01:36:05+00:00", "event": "complete", "id": 432, "response_id": "gR1DarrQDZ2Hz7IP19aq4Q4"}
+{"ts": "2026-06-30T01:36:06+00:00", "event": "complete", "id": 439, "response_id": "gR1Dar-UD4GTqtsPrMOj2Q0"}
+{"ts": "2026-06-30T01:36:06+00:00", "event": "complete", "id": 434, "response_id": "gR1DasLQEKv8qtsPxfyKyQk"}
+{"ts": "2026-06-30T01:36:06+00:00", "event": "complete", "id": 437, "response_id": "gR1DarjGDaqf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:36:11+00:00", "event": "complete", "id": 440, "response_id": "hR1DatS9O_qdqtsPqYbesQE"}
+{"ts": "2026-06-30T01:36:11+00:00", "event": "complete", "id": 442, "response_id": "hh1Dau37EYiCmtkPn6zHyAg"}
+{"ts": "2026-06-30T01:36:11+00:00", "event": "complete", "id": 441, "response_id": "hh1DaubKCcnqz7IPnKTIgQ4"}
+{"ts": "2026-06-30T01:36:11+00:00", "event": "complete", "id": 443, "response_id": "hh1DaqruE6WtqtsP1PmkgAw"}
+{"ts": "2026-06-30T01:36:13+00:00", "event": "complete", "id": 444, "response_id": "hx1DaqLJCpa0qtsPx_KZkQo"}
+{"ts": "2026-06-30T01:36:16+00:00", "event": "complete", "id": 445, "response_id": "ix1DasCsEueez7IP4Ivr6Qs"}
+{"ts": "2026-06-30T01:36:16+00:00", "event": "complete", "id": 446, "response_id": "ix1Davn3H7CmqtsP2KSeoQ4"}
+{"ts": "2026-06-30T01:36:17+00:00", "event": "complete", "id": 447, "response_id": "ix1Dat3MLJ7nz7IPoJm9qA4"}
+{"ts": "2026-06-30T01:36:17+00:00", "event": "complete", "id": 448, "response_id": "ix1DasGQNPqdqtsPqYbesQE"}
+{"ts": "2026-06-30T01:36:17+00:00", "event": "rate_limited", "id": 452, "wait_seconds": 43.825628693, "attempt": 1}
+{"ts": "2026-06-30T01:36:19+00:00", "event": "complete", "id": 449, "response_id": "jR1DavHNI4qBmtkPuq3jsAM"}
+{"ts": "2026-06-30T01:36:19+00:00", "event": "rate_limited", "id": 454, "wait_seconds": 41.690398529, "attempt": 1}
+{"ts": "2026-06-30T01:36:21+00:00", "event": "complete", "id": 451, "response_id": "kB1DateQMKqf6dkP2rCT-Ak"}
+{"ts": "2026-06-30T01:36:21+00:00", "event": "rate_limited", "id": 455, "wait_seconds": 39.346526034, "attempt": 1}
+{"ts": "2026-06-30T01:36:22+00:00", "event": "complete", "id": 450, "response_id": "kB1DauPqJOCfz7IPrqCnyQo"}
+{"ts": "2026-06-30T01:36:22+00:00", "event": "complete", "id": 453, "response_id": "kR1Daqe9DoaYqtsP7drSmQ4"}
+{"ts": "2026-06-30T01:36:22+00:00", "event": "rate_limited", "id": 456, "wait_seconds": 38.400752354, "attempt": 1}
+{"ts": "2026-06-30T01:36:22+00:00", "event": "rate_limited", "id": 457, "wait_seconds": 38.185822379, "attempt": 1}
+{"ts": "2026-06-30T01:37:05+00:00", "event": "complete", "id": 455, "response_id": "vR1DaomaD86Gz7IP57PNgAQ"}
+{"ts": "2026-06-30T01:37:06+00:00", "event": "complete", "id": 457, "response_id": "vR1DauqMD8zmqtsP2Lik0As"}
+{"ts": "2026-06-30T01:37:06+00:00", "event": "complete", "id": 456, "response_id": "vR1DarOiD9S2qtsP35fx0Aw"}
+{"ts": "2026-06-30T01:37:06+00:00", "event": "complete", "id": 452, "response_id": "vR1DavXtDJSe6dkPhYSmsQk"}
+{"ts": "2026-06-30T01:37:06+00:00", "event": "complete", "id": 454, "response_id": "vR1Dao_xDJ3rz7IP6r7WqA8"}
+{"ts": "2026-06-30T01:37:11+00:00", "event": "complete", "id": 458, "response_id": "wR1DaqmoJ8Dhz7IPwJ6pmAM"}
+{"ts": "2026-06-30T01:37:11+00:00", "event": "complete", "id": 460, "response_id": "wh1Dau_3HI2jqtsPlPC46Qk"}
+{"ts": "2026-06-30T01:37:11+00:00", "event": "complete", "id": 459, "response_id": "wh1DarDRF4_FqtsP2crumAE"}
+{"ts": "2026-06-30T01:37:11+00:00", "event": "complete", "id": 462, "response_id": "wh1Daue4OqCBmtkP0YiGkAk"}
+{"ts": "2026-06-30T01:37:12+00:00", "event": "complete", "id": 461, "response_id": "wh1Daqm_N8r4qtsP3u-yqA4"}
+{"ts": "2026-06-30T01:37:16+00:00", "event": "complete", "id": 464, "response_id": "xx1DavrqH5a0qtsPx_KZkQo"}
+{"ts": "2026-06-30T01:37:16+00:00", "event": "complete", "id": 463, "response_id": "xx1DauXLDtWGz7IP5f3qsQM"}
+{"ts": "2026-06-30T01:37:17+00:00", "event": "complete", "id": 466, "response_id": "yB1DasqICIGTqtsPuMOj2Q0"}
+{"ts": "2026-06-30T01:37:17+00:00", "event": "complete", "id": 467, "response_id": "yB1DatrCJ5y_qtsP4uCrwAk"}
+{"ts": "2026-06-30T01:37:17+00:00", "event": "rate_limited", "id": 471, "wait_seconds": 43.151581739, "attempt": 1}
+{"ts": "2026-06-30T01:37:17+00:00", "event": "complete", "id": 465, "response_id": "yB1DatvAAYGTqtsPrMOj2Q0"}
+{"ts": "2026-06-30T01:37:21+00:00", "event": "complete", "id": 468, "response_id": "zB1DavaOHYWqmtkPkuPWqA8"}
+{"ts": "2026-06-30T01:37:21+00:00", "event": "rate_limited", "id": 473, "wait_seconds": 39.726514203, "attempt": 1}
+{"ts": "2026-06-30T01:37:22+00:00", "event": "complete", "id": 469, "response_id": "zB1DaoXdNbuHz7IPv5nRgQ8"}
+{"ts": "2026-06-30T01:37:22+00:00", "event": "rate_limited", "id": 474, "wait_seconds": 38.682564261, "attempt": 1}
+{"ts": "2026-06-30T01:37:22+00:00", "event": "complete", "id": 470, "response_id": "zR1Dat6IDvKAmtkP9rmHmAI"}
+{"ts": "2026-06-30T01:37:22+00:00", "event": "rate_limited", "id": 475, "wait_seconds": 37.97770904, "attempt": 1}
+{"ts": "2026-06-30T01:37:23+00:00", "event": "complete", "id": 472, "response_id": "zh1DatOcCsnlqtsP8bOK2A4"}
+{"ts": "2026-06-30T01:37:23+00:00", "event": "rate_limited", "id": 476, "wait_seconds": 36.953189188, "attempt": 1}
+{"ts": "2026-06-30T01:38:06+00:00", "event": "complete", "id": 473, "response_id": "-R1Daq_2DLqCz7IPw7GOyQ4"}
+{"ts": "2026-06-30T01:38:06+00:00", "event": "complete", "id": 471, "response_id": "-R1DapTwD-i9qtsPmI6fuAk"}
+{"ts": "2026-06-30T01:38:06+00:00", "event": "complete", "id": 476, "response_id": "-R1DaqWbD4GTqtsPl8Oj2Q0"}
+{"ts": "2026-06-30T01:38:06+00:00", "event": "complete", "id": 475, "response_id": "-R1Dav-aD9GymtkP88CSwAQ"}
+{"ts": "2026-06-30T01:38:07+00:00", "event": "complete", "id": 474, "response_id": "-R1Dauj8DOXgqtsP7KDX-Q0"}
+{"ts": "2026-06-30T01:38:11+00:00", "event": "complete", "id": 480, "response_id": "_x1DatmOAdWUmtkPrsjSsAk"}
+{"ts": "2026-06-30T01:38:12+00:00", "event": "complete", "id": 479, "response_id": "_h1DapD4OpyUmtkPz6XpIA"}
+{"ts": "2026-06-30T01:38:12+00:00", "event": "complete", "id": 477, "response_id": "_h1Daon-KIbOz7IP1PuNqA8"}
+{"ts": "2026-06-30T01:38:12+00:00", "event": "complete", "id": 478, "response_id": "_h1DasSoKJT7qtsP7fnCsQo"}
+{"ts": "2026-06-30T01:38:13+00:00", "event": "complete", "id": 481, "response_id": "_x1Dat-aIpSe6dkP8-2KoQs"}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "complete", "id": 483, "response_id": "BB5Das_YEJaiqtsP5K6suAk"}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "complete", "id": 485, "response_id": "BB5DatmgOoOCqtsPw6ad0Qo"}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "rate_limited", "id": 488, "wait_seconds": 43.54699249, "attempt": 1}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "complete", "id": 482, "response_id": "Ax5DasWrM5y_qtsP4uCrwAk"}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "complete", "id": 484, "response_id": "BB5Daq-DFqGHz7IP4JjU8QI"}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "rate_limited", "id": 489, "wait_seconds": 43.42503958, "attempt": 1}
+{"ts": "2026-06-30T01:38:17+00:00", "event": "rate_limited", "id": 490, "wait_seconds": 43.383291797, "attempt": 1}
+{"ts": "2026-06-30T01:38:18+00:00", "event": "complete", "id": 486, "response_id": "BR5DavO5EpT7qtsP7fnCsQo"}
+{"ts": "2026-06-30T01:38:18+00:00", "event": "rate_limited", "id": 491, "wait_seconds": 42.566821455, "attempt": 1}
+{"ts": "2026-06-30T01:38:22+00:00", "event": "complete", "id": 487, "response_id": "CR5DasmgDrDgqtsPkpeX2As"}
+{"ts": "2026-06-30T01:38:28+00:00", "event": "complete", "id": 492, "response_id": "Dh5DarmvOJSe6dkPhYSmsQk"}
+{"ts": "2026-06-30T01:38:28+00:00", "event": "rate_limited", "id": 493, "wait_seconds": 31.963784388, "attempt": 1}
+{"ts": "2026-06-30T01:39:05+00:00", "event": "complete", "id": 488, "response_id": "NR5DavmWCrCmqtsP2KSeoQ4"}
+{"ts": "2026-06-30T01:39:06+00:00", "event": "complete", "id": 490, "response_id": "NR5DarTSC_qGqtsP0eObkAw"}
+{"ts": "2026-06-30T01:39:06+00:00", "event": "complete", "id": 491, "response_id": "NR5DatnODdzoqtsPmJGe0Ag"}
+{"ts": "2026-06-30T01:39:06+00:00", "event": "complete", "id": 493, "response_id": "NR5Dar3PDbumqtsP6ojYiA4"}
+{"ts": "2026-06-30T01:39:07+00:00", "event": "complete", "id": 489, "response_id": "NR5DaorvDe3gz7IP1468gQ0"}
+{"ts": "2026-06-30T01:39:11+00:00", "event": "complete", "id": 494, "response_id": "OR5Dap27Np-VmtkPlcz22Ak"}
+{"ts": "2026-06-30T01:39:11+00:00", "event": "complete", "id": 496, "response_id": "Oh5DaoGsLvKAmtkP9rmHmAI"}
+{"ts": "2026-06-30T01:39:11+00:00", "event": "complete", "id": 495, "response_id": "Oh5Dasu2JdS2qtsP35fx0Aw"}
+{"ts": "2026-06-30T01:39:11+00:00", "event": "complete", "id": 497, "response_id": "Ox5DauPtBYiCmtkPn6zHyAg"}
+{"ts": "2026-06-30T01:39:12+00:00", "event": "complete", "id": 498, "response_id": "PB5DarqPCb2fz7IPhMCggAs"}
+{"ts": "2026-06-30T01:39:16+00:00", "event": "complete", "id": 500, "response_id": "Px5Dao7hMPqdqtsPqYbesQE"}
+{"ts": "2026-06-30T01:39:16+00:00", "event": "complete", "id": 502, "response_id": "QB5DauDBBbDgqtsPkpeX2As"}
+{"ts": "2026-06-30T01:39:16+00:00", "event": "complete", "id": 499, "response_id": "Px5Darq3K7DgqtsPkpeX2As"}
+{"ts": "2026-06-30T01:39:16+00:00", "event": "rate_limited", "id": 506, "wait_seconds": 44.252324031, "attempt": 1}
+{"ts": "2026-06-30T01:39:17+00:00", "event": "complete", "id": 501, "response_id": "QB5Daqe0A7CmqtsP2KSeoQ4"}
+{"ts": "2026-06-30T01:39:17+00:00", "event": "rate_limited", "id": 507, "wait_seconds": 43.681773157, "attempt": 1}
+{"ts": "2026-06-30T01:39:17+00:00", "event": "complete", "id": 503, "response_id": "QB5DauHINvaGz7IP9MGK8As"}
+{"ts": "2026-06-30T01:39:20+00:00", "event": "complete", "id": 504, "response_id": "RB5DaqPNIIGTqtsPuMOj2Q0"}
+{"ts": "2026-06-30T01:39:21+00:00", "event": "rate_limited", "id": 509, "wait_seconds": 39.898965817, "attempt": 1}
+{"ts": "2026-06-30T01:39:21+00:00", "event": "complete", "id": 505, "response_id": "RB5DavOCLpT7qtsP7fnCsQo"}
+{"ts": "2026-06-30T01:39:21+00:00", "event": "rate_limited", "id": 510, "wait_seconds": 39.181848094, "attempt": 1}
+{"ts": "2026-06-30T01:39:22+00:00", "event": "complete", "id": 508, "response_id": "Rh5Dat_hBOXgqtsP7KDX-Q0"}
+{"ts": "2026-06-30T01:39:23+00:00", "event": "rate_limited", "id": 511, "wait_seconds": 37.848524826, "attempt": 1}
+{"ts": "2026-06-30T01:40:05+00:00", "event": "complete", "id": 506, "response_id": "cR5Dao3yDpaiqtsP5K6suAk"}
+{"ts": "2026-06-30T01:40:06+00:00", "event": "complete", "id": 511, "response_id": "cR5DaviIDI2jqtsPlPC46Qk"}
+{"ts": "2026-06-30T01:40:06+00:00", "event": "complete", "id": 507, "response_id": "cR5DavvPELKe6dkP74SlqQE"}
+{"ts": "2026-06-30T01:40:06+00:00", "event": "complete", "id": 510, "response_id": "cR5Dav2sDvqGqtsP0eObkAw"}
+{"ts": "2026-06-30T01:40:06+00:00", "event": "complete", "id": 509, "response_id": "cR5DarWsD4CEz7IP7MC_0AM"}
+{"ts": "2026-06-30T01:40:10+00:00", "event": "complete", "id": 513, "response_id": "dh5DaqfTDIqBmtkPuq3jsAM"}
+{"ts": "2026-06-30T01:40:10+00:00", "event": "complete", "id": 512, "response_id": "dR5Dau7HNfi3qtsPwsfzsQ0"}
+{"ts": "2026-06-30T01:40:12+00:00", "event": "complete", "id": 516, "response_id": "dh5DaquMNbXhz7IP7aeAKA"}
+{"ts": "2026-06-30T01:40:12+00:00", "event": "complete", "id": 515, "response_id": "dh5DaqbtNPiJ6dkPtOHD4Qg"}
+{"ts": "2026-06-30T01:40:30+00:00", "event": "complete", "id": 514, "response_id": "dh5DavfwJ9WUmtkPrsjSsAk"}
+{"ts": "2026-06-30T01:40:30+00:00", "event": "sync", "marked_complete": 0}

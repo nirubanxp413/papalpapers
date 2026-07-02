@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Saepe Nos\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Saepe Nos* (1888) was issued during the height of the Irish Land War. It specifically targeted the \"Plan of Campaign\"\u2014a strategy where tenants collectively withheld rent to force landlords to reduce rates\u2014and the practice of \"boycotting\" (social and economic ostracization of those who broke ranks or cooperated with the British administration). The Vatican was under intense pressure from the British government, which sought to use papal authority to delegitimize the Irish nationalist movement.\n\n### Reflective\nThe document reflects on the 1881 Irish bishops' pastoral, the findings of the 1883 mission of Monsignor Persico, and the ongoing civil unrest in Ireland. It interprets these events as a moral crisis where political zeal had superseded Christian ethics. It explicitly addresses the \"untoward excitement\" and public defiance of the Holy See\u2019s earlier decrees by Irish political leaders.\n\n### Prospective\nThe encyclical prescribes a total cessation of the Plan of Campaign and boycotting, framing these as violations of natural law. It attempts to re-establish the Vatican as the final arbiter of morality in political movements, warning that \"nothing is so harmful to a cause, however just, as recourse to violence and injustice.\" It anticipates a future where Irish Catholics would prioritize ecclesiastical obedience over nationalist agitation.\n\n### Temporal gradients\n- **Reflective (-5):** The document is deeply rooted in the specific tactical developments of the Land War (1883\u20131888).\n- **Prospective (+2):** The Pope attempts to shape the immediate political trajectory of the Irish Parliamentary Party, though the influence waned as the movement shifted toward Home Rule legislation.\n\n---\n\n## Unstructured\n\n### 1. Historical Records and Events\nThe encyclical was a direct intervention in the British-Irish conflict. Historical records from the British Foreign Office (specifically correspondence between the British government and the Vatican) confirm that the British sought to leverage the Pope to weaken the Irish Land League. The decree was met with significant resistance; Irish nationalist leaders, including members of the Irish Parliamentary Party, argued that the Pope had been misinformed by the British-leaning hierarchy. The \"Plan of Campaign\" continued in various forms despite the condemnation, suggesting that the document\u2019s prescriptive power was limited by the nationalist fervor of the time.\n\n### 2. Media and Public Discourse\nContemporaneous press coverage (e.g., *The Times* of London, *The Freeman's Journal* in Dublin) highlights a sharp divide. British media lauded the encyclical as a necessary restoration of order. Conversely, Irish nationalist newspapers framed the document as an intrusion of foreign authority into a domestic struggle for survival. Public meetings were held in Ireland to protest the decree, confirming the \"untoward excitement\" Leo XIII cited.\n\n### 3. Academic Scholarship\nHistorians (e.g., Emmet Larkin, *The Roman Catholic Church and the Home Rule Movement*) interpret *Saepe Nos* as a pivotal moment in the \"Romanization\" of the Irish Church. Scholarship suggests that while the encyclical failed to stop the Land War, it succeeded in asserting the Vatican's authority over the Irish clergy, effectively curbing the radicalization of the priesthood in subsequent decades.\n\n### 4. Assessment of Efficacy\nThe encyclical failed to achieve its primary prescriptive goal: the abandonment of the Plan of Campaign. The movement continued until the late 1880s, eventually being superseded by the political focus on the Home Rule bills. The document is best understood as a successful exercise in ecclesiastical discipline rather than a successful intervention in secular agrarian policy.\n\n### 5. Synthesis\n*Saepe Nos* demonstrates the limitations of papal authority when it conflicts with intense national identity. While the Pope successfully defined the moral boundaries for the faithful, the secular political reality\u2014driven by economic desperation and the desire for land reform\u2014proved more potent than the Vatican\u2019s moral directives.\n\n### Citations\n\n| Source Type | Reference | Description |\n| :--- | :--- | :--- |\n| Historical | British Foreign Office Archives | Correspondence regarding Vatican intervention in Irish affairs (1887\u20131888). |\n| Academic | Larkin, E. (1990) | *The Roman Catholic Church and the Home Rule Movement in Ireland, 1870-1874*. |\n| Media | *The Freeman's Journal* (1888) | Contemporary Irish nationalist reaction to the papal decree. |\n| Media | *The Times* (London, 1888) | British establishment perspective on the encyclical's utility. |",
+            "thoughtSignature": "EjQKMgEMOdbHjTpecnJCt0THzACmgnGLtUnen0s9Hv6caGg/MmQ2EeDey8k6VSPb//3Kk7oB"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2675,
+    "candidatesTokenCount": 1017,
+    "totalTokenCount": 3692,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2675
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "vV9Cav6pF6y3qtsP-MqewQE"
+}

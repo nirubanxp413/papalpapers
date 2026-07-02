@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Super soliditate\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Super soliditate* (1786) was issued during the height of \"Josephinism\"\u2014the state-led ecclesiastical reform movement of Holy Roman Emperor Joseph II. The pamphlet *Quid est papa?* by Joseph Valentin Eybel was a manifesto of this movement, advocating for a nationalized, decentralized Church. The document serves as a direct, reactive strike against the intellectual infrastructure of the Enlightenment-era state church.\n\n### Reflective\nThe document reflects the cumulative pressure of 18th-century Febronianism and Gallicanism. It looks back to the Council of Trent (1545\u20131563) and the patristic era to re-establish a defensive perimeter against the \"republican\" ecclesiology that had been gaining traction in Austrian and German academic circles for over a decade.\n\n### Prospective\nThe document prescribes a rigid, centralized model of Church governance, attempting to preemptively stifle the \"national church\" movements that would eventually influence the Civil Constitution of the Clergy (1790) in France. It warns that the erosion of papal jurisdiction is the precursor to the total collapse of ecclesiastical order.\n\n### Temporal gradients\n- **Reflective (-15):** The document is heavily anchored in the 1770s\u20131780s debate over the limits of papal power, specifically responding to the intellectual climate fostered by the *Aufkl\u00e4rung* (Enlightenment).\n- **Prospective (+2):** The document anticipates the radical secularization of the 1790s, though its immediate prescriptive power was largely confined to the Austrian territories where it was frequently ignored by the state authorities.\n\n---\n\n## Unstructured\n\n### 1. Historical Occasion and Adversary\nThe primary adversary, Joseph Valentin Eybel, was a professor of canon law in Vienna. His work was not merely a theological tract but a political tool used by the Austrian state to justify the seizure of Church property and the regulation of religious life. Pius VI\u2019s brief was a desperate attempt to reassert the *plenitudo potestatis* (fullness of power) at a moment when the Papacy was losing its grip on the Habsburg territories.\n\n### 2. The Failure of Enforcement\nWhile the brief was authoritative in tone, its practical impact was limited. In the Austrian Empire, Joseph II\u2019s *Placet Regium* (the requirement that papal documents receive state approval before publication) meant that *Super soliditate* was effectively suppressed or ignored by the state apparatus. The document highlights the widening chasm between the Vatican\u2019s self-conception as a universal authority and the reality of the emerging Westphalian nation-state.\n\n### 3. Intellectual Climate\nThe document is a reaction to the \"Enlightened Catholicism\" of the late 18th century. The tension is not just between the Pope and a pamphlet, but between the medieval model of a centralized, transnational Church and the modern model of a state-subordinated religious institution. Pius VI\u2019s reliance on the \"chain of tradition\" was an attempt to provide a historical anchor in a period of rapid intellectual flux.\n\n### 4. Secular Engagement\nThe encyclical is \"secular\" in its consequences: it directly challenged the sovereign rights claimed by Joseph II. By condemning the pamphlet, the Pope was implicitly challenging the Emperor\u2019s right to dictate the internal structure of the Church. This set the stage for the later, more violent confrontations between the Papacy and the French Revolutionary state.\n\n### 5. Historical Reception\nHistorians of the period (e.g., Derek Beales, *Joseph II*) note that such papal condemnations were often counter-productive, serving to radicalize the supporters of reform by framing them as martyrs for \"reason\" and \"national autonomy.\" The document is now viewed as a classic example of the \"defensive\" phase of the Papacy, which would culminate in the reactionary policies of the 19th century.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Quid est papa?* (Eybel, 1782) | The primary target of the condemnation. |\n| Academic History | Beales, D. (1987). *Joseph II*. | Contextualizes the conflict between the Papacy and the Austrian state. |\n| Academic History | P\u00e1sztor, L. (1980). *La Curia Romana*. | Details the administrative struggle against Gallicanism. |\n| Media/Press | *Gazette de Leyde* (1786) | Contemporary reports on the friction between Rome and Vienna. |",
+            "thoughtSignature": "EjQKMgEMOdbHDDJVp1wHM0PFZsx+75vJLksxnyNfuJ5xTnDVzKDzhc9iV1uI2UhuzP1JuDpV"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3241,
+    "candidatesTokenCount": 1038,
+    "totalTokenCount": 4279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3241
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "Oh5DaoGsLvKAmtkP9rmHmAI"
+}

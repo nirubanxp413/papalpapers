@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Novae hae litterae\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 1}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published during the French Revolution (1792), specifically as the Legislative Assembly moved toward radicalization. The document follows the 1790 Civil Constitution of the Clergy and Pius VI\u2019s 1791 condemnation (*Quod aliquantum* and *Caritas*).\n*   **Political Climate:** The French state had effectively nationalized the Church, requiring clergy to swear an oath of loyalty to the state over the Pope. By March 1792, the \"constitutional\" Church was established, and the \"refractory\" (non-juring) clergy were increasingly viewed as counter-revolutionaries.\n*   **Papal Status:** Pius VI was under immense pressure; his authority in France was being systematically dismantled by the Assembly.\n\n### Reflective\n*   **Events:** The document reflects on the failure of the 1791 papal admonitions to halt the schism. It catalogues the transition from a small group of \"intruded\" bishops to a near-total occupation of French dioceses.\n*   **Debates:** It addresses the specific legalistic defenses used by constitutionalists, such as the claim that papal letters were not \"authentically published\" under French civil law, and the circulation of the *Accord des vrais principes*.\n\n### Prospective\n*   **Warnings:** The Pope issues a formal ultimatum: 60 days for retraction, followed by a second 60-day period before formal excommunication.\n*   **Prescriptions:** It commands the faithful to treat constitutional clergy as schismatics, avoid their sacraments, and maintain allegiance to the \"legitimate\" (refractory) pastors. It attempts to define the boundaries of the Church against the encroaching revolutionary state.\n\n### Temporal gradients\n*   **Reflective Density (-2):** The document is deeply rooted in the immediate past (1790\u20131791), reacting to the rapid unfolding of the Civil Constitution.\n*   **Prescriptive Density (+1):** The document attempts to dictate the immediate future of the French Church, though its efficacy was limited by the rapidly deteriorating political situation in Paris.\n\n## Unstructured\n\n### 1. Historical Analysis\n*Novae hae litterae* represents the final attempt by the Holy See to use canonical discipline to halt the French Revolution\u2019s restructuring of the Church. Historically, the document was largely ineffective. By March 1792, the French Legislative Assembly had already moved beyond the ecclesiastical debate; the focus was shifting toward war with Austria and the eventual collapse of the monarchy. The Pope\u2019s threat of excommunication was viewed by the Assembly not as a spiritual crisis, but as a political act of hostility against the French nation.\n\n### 2. Reflective vs. Prospective Tension\nThe document is highly reflective in its cataloguing of the \"intruded\" bishops and the specific deceptions (e.g., the *Accord des vrais principes*) used to justify the schism. It is prescriptive in its attempt to force a binary choice upon the French clergy. However, the \"prospective\" power of the document was severely hampered by the reality on the ground: the state controlled the physical churches, the salaries, and the safety of the clergy. The Pope\u2019s prescription for \"prayer and fasting\" was a spiritual response to a material, state-sponsored displacement.\n\n### 3. Reception and Efficacy\nThere is no evidence that the document caused a mass retraction among the constitutional clergy. Instead, it served to solidify the divide between the \"constitutional\" and \"refractory\" churches. The revolutionary government used the Pope's continued interference as justification for further anti-clerical legislation. The document was effectively superseded by the onset of the Reign of Terror, where the issue was no longer \"schism\" but the survival of the priesthood itself.\n\n### 4. Papal Authority\nPius VI\u2019s authority was at a nadir. By 1792, his letters were being intercepted or ignored by the French authorities. The tone of the document\u2014anguished, paternal, yet juridically rigid\u2014reflects a Pope who understood that his traditional levers of power (excommunication, canonical censure) were losing their capacity to influence the secular order of the Enlightenment-era state.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archives parlementaires de 1787 \u00e0 1860* | Documents the Assembly's reaction to papal interference. |\n| Academic History | Tackett, T. (1996). *Religion, Revolution, and Regional Culture* | Analyzes the oath-taking and the failure of papal directives. |\n| Academic History | McManners, J. (1998). *The French Revolution and the Church* | Standard account of the schism and the failure of Roman diplomacy. |\n| Media (Contemp.) | *Le Moniteur Universel* (1792) | Reports on the \"refractory\" clergy as enemies of the state. |",
+            "thoughtSignature": "EjQKMgEMOdbHtZPnwX+wnYJmemZ+gsxlEvAPTJFA/gAp5DRvWuUGX+WyoQfIrf+Sj2YLloQq"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3781,
+    "candidatesTokenCount": 1125,
+    "totalTokenCount": 4906,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3781
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "kF1CavSlBfqzqtsPmoXsuAc"
+}

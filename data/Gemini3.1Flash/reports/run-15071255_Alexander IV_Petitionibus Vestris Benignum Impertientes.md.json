@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Petitionibus Vestris Benignum Impertientes\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 3, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Issued in 1255, the bull arrives during the early consolidation of the University of Salamanca, which had been elevated to the status of a *studium generale* by King Alfonso X of Castile in 1254.\n*   **Papal Situation:** Alexander IV was navigating the complex political landscape of the mid-13th century, balancing the interests of the mendicant orders and the burgeoning university system against local episcopal and royal authorities.\n\n### Reflective\n*   **Institutional Recognition:** The document reflects the established reality of the university as a corporate body (*universitas*) already functioning with masters and scholars, necessitating formal legal recognition to operate in the wider Iberian and European legal space.\n\n### Prospective\n*   **Legal Empowerment:** The grant of a *commune sigillum* (common seal) is a prescriptive act intended to provide the university with the legal capacity to enter into contracts, issue credentials, and authenticate documents, thereby securing its future autonomy.\n*   **Protective Sanction:** The inclusion of the \"divine indignation\" clause serves as a forward-looking deterrent against future interference by local secular or ecclesiastical lords who might challenge the university's corporate rights.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document acknowledges the 1254 royal charter and the preceding years of informal academic activity at Salamanca.\n*   **Prospective Density (+10):** The grant of the seal was intended to secure the university's institutional longevity, a process that took roughly a decade to fully stabilize within the Castilian legal framework.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Agency\nThe bull *Petitionibus Vestris Benignum Impertientes* is a classic example of the \"bureaucratization of the sacred\" in the 13th century. By 1255, the University of Salamanca was not merely a school but a political project of Alfonso X, who sought to create a center of learning that could rival Paris or Bologna. The papal seal was the \"gold standard\" of legal legitimacy in medieval Europe. By granting the right to a common seal, Alexander IV was not merely performing a clerical favor; he was providing the university with the \"corporate personality\" required to function as a legal entity in the eyes of the Church and the state.\n\n### 2. The Mechanics of the Seal\nIn the 13th century, a seal was not just a stamp; it was a signature of authority. Without a common seal, the university could not legally bind itself to contracts, manage property, or issue degrees that would be recognized outside of Salamanca. The document is a \"performative speech act\"\u2014the moment the bull was read, the university transitioned from an informal association of scholars to a recognized *persona ficta* (legal person).\n\n### 3. Secular Engagement\nThe document represents a significant intersection of papal authority and royal policy. Alfonso X\u2019s support for the university was part of his broader effort to centralize power in Castile. By securing papal recognition, the university gained a layer of protection that made it difficult for local bishops or nobles to interfere with its operations. The \"prospective\" nature of the bull lies in this protective function: it was a shield against future litigation.\n\n### 4. Reception and Efficacy\nThere is no evidence that this specific bull was contested. Its efficacy was immediate in the sense that it allowed the university to begin its formal administrative life. However, the \"divine indignation\" clause was a standard legal boilerplate of the era, and its actual deterrent power was secondary to the political backing of the Castilian crown. The document was not a theological statement but a tool of institutional infrastructure.\n\n### 5. Scholarly Interpretation\nHistoriography (e.g., Rashdall, *The Universities of Europe in the Middle Ages*) identifies this period as one where the papacy acted as the primary arbiter of academic legitimacy. The bull is viewed by historians not as a religious document, but as a foundational administrative charter that allowed the university to survive the volatile political shifts of the late 13th century.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Salamantinum* (1255) | Primary text of the grant. |\n| Academic History | Rashdall, H. (1895). *The Universities of Europe in the Middle Ages*. | Standard reference for the legal status of medieval universities. |\n| Academic History | Linehan, P. (1993). *The Spanish Church and the Papacy in the Thirteenth Century*. | Contextualizes the relationship between the Castilian crown and the papacy. |",
+            "thoughtSignature": "EjQKMgEMOdbHqRVlxv19hQCE2gh5/Loptdm6aXVirVQJzTE01gE36rmysDUaihcBBoGe02IL"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2553,
+    "candidatesTokenCount": 1060,
+    "totalTokenCount": 3613,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2553
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "Sh1DavymGtqumtkP4auJoQo"
+}

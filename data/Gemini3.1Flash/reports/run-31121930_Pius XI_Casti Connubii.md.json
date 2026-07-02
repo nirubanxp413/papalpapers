@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Casti Connubii\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Casti Connubii* was issued on December 31, 1930, in the wake of the 1930 Lambeth Conference, where the Anglican Church first permitted the use of contraception under limited circumstances. The document functions as a definitive Catholic counter-response to the \"modernist\" shift in sexual ethics, the rise of state-sponsored eugenics (notably in the US and emerging in Germany), and the secularization of marriage law in post-WWI Europe.\n\n### Reflective\nThe encyclical reflects on the rapid erosion of traditional family structures following the Great War. It explicitly reacts to:\n- The 1930 Lambeth Conference resolution on birth control.\n- The proliferation of \"no-fault\" divorce laws in Western jurisdictions.\n- The rise of eugenics movements, which the Vatican viewed as a direct threat to the sanctity of the individual and the autonomy of the family unit against the State.\n\n### Prospective\nThe document prescribes:\n- A total prohibition on artificial contraception, framing it as a \"grave sin\" against natural law.\n- A rejection of state-mandated sterilization, asserting the primacy of the family over the State.\n- A call for \"Catholic Action\" to influence civil legislation, specifically aiming to align civil marriage laws with Canon Law (modeled on the 1929 Lateran Pacts).\n\n### Temporal gradients\n- **Reflective Density (-15):** The document is deeply rooted in the 1910s-1920s shift toward secularization and the \"New Woman\" movement.\n- **Prescriptive Density (+10):** The encyclical sets a moral baseline intended to govern Catholic conduct for the remainder of the 20th century, anticipating the long-term conflict between Catholic moral theology and the sexual revolution of the 1960s.\n\n---\n\n## Unstructured\n\n### 1. Historical and Political Context\nPius XI wrote *Casti Connubii* at a moment of acute anxiety regarding the \"totalitarian\" state. While the Lateran Pacts (1929) had secured a degree of sovereignty for the Vatican, the Pope was acutely aware of the encroaching power of secular governments over the private lives of citizens. The document is a defensive perimeter drawn around the family, intended to prevent the State from encroaching on the \"sacred\" domain of procreation.\n\n### 2. The Anglican Catalyst\nThe immediate trigger was the 1930 Lambeth Conference. The Anglican decision to allow contraception in \"hard cases\" was viewed by the Vatican as a breach in the wall of Christian tradition. Pius XI\u2019s response was not merely theological; it was a strategic attempt to re-assert the Catholic Church as the sole arbiter of moral law in the West, distinguishing it from the \"compromised\" Protestant denominations.\n\n### 3. Eugenics and the State\nThe encyclical\u2019s condemnation of eugenics was highly prescient. In 1930, eugenics was considered \"progressive\" science in many Western democracies, including the United States (e.g., *Buck v. Bell*). By framing eugenics as a violation of the \"sacredness of the body,\" Pius XI positioned the Church as a defender of human rights against the emerging \"biopolitical\" state. This stance would later become a point of friction with the Nazi regime, though the encyclical predates the full implementation of the T4 program.\n\n### 4. Reception and Impact\nThe document was received as a rigid, uncompromising restatement of traditional morality. While it successfully unified Catholic teaching, it also deepened the divide between the Church and secular liberal democracies. In the decades following, the encyclical served as the primary source material for *Humanae Vitae* (1968), demonstrating its long-term influence on the Church's internal trajectory, even as its influence on secular law waned significantly after 1950.\n\n### 5. Limitations of Influence\nWhile the encyclical was authoritative for the faithful, it failed to halt the global trend toward legalized divorce and contraception. By the 1960s, even many Catholic-majority nations had adopted civil laws that directly contradicted the prescriptions of *Casti Connubii*. The document remains a primary example of a \"defensive\" encyclical that successfully preserved a sub-cultural identity but failed to dictate the legislative direction of the broader secular world.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | Lambeth Conference (1930) | Resolution 15 regarding contraception. |\n| Historical Record | Lateran Pacts (1929) | Cited as the model for Church-State marriage law. |\n| Academic | *The Catholic Church and the Nation-State* (Various) | Analysis of the Vatican's struggle against 20th-century secularism. |\n| Media | *The New York Times* (1931) | Contemporary coverage of the Pope's \"stern warning\" on marriage. |",
+            "thoughtSignature": "EjQKMgEMOdbHMB53cE9Pms6Nb/wxPvZrBPZbwM6T8wewETl9kPiqnNKFxX0K+RLfv7SqGyQW"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3597,
+    "candidatesTokenCount": 1135,
+    "totalTokenCount": 4732,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3597
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "UmNCavrNNay3qtsP-MqewQE"
+}

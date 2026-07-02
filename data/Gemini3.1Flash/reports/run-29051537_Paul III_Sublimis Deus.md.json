@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Sublimis Deus\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -10},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 15}\n}\n```\n\n## Structured\n\n### Context\n*Sublimis Deus* was issued in the context of the Spanish conquest of the Americas. By 1537, the *encomienda* system\u2014a labor grant system that effectively enslaved indigenous populations\u2014was firmly established. The document emerged from intense lobbying by Dominican friars, specifically Bernardino de Minaya, who sought papal intervention to counter the \"subhuman\" narrative used by *encomenderos* to justify exploitation.\n\n### Reflective\nThe document reflects the immediate, brutal reality of the *Requerimiento* (1513) and the ongoing debates at the University of Salamanca regarding the \"rationality\" of the indigenous peoples. It explicitly reacts to the dehumanizing propaganda disseminated by colonial administrators to circumvent existing, albeit weak, protections.\n\n### Prospective\nThe document prescribes a radical shift in colonial policy: the recognition of indigenous legal personhood and the prohibition of enslavement. It anticipates future colonial expansion by explicitly extending its protections to \"all other people who may later be discovered,\" attempting to set a universal legal standard for all future European encounters with non-Christian peoples.\n\n### Temporal gradients\n- **Reflective (-10):** The document addresses the systemic abuses that had been escalating since the second voyage of Columbus (1493).\n- **Prescriptive (+15):** The document attempted to legislate the moral conduct of colonial powers for the subsequent generation, though its practical enforcement remained largely aspirational until the New Laws of 1542.\n\n## Unstructured\n\n### 1. Historical Reality vs. Papal Authority\nThe document was a direct response to the *encomienda* crisis. However, its efficacy was severely limited by the *Patronato Real*, which gave the Spanish Crown control over the Church in the Americas. King Charles V, fearing the document would undermine his colonial revenue, pressured the Pope to revoke or limit its impact. Paul III subsequently issued *Pastorale Officium* (1537), which, while maintaining the core theological stance, was interpreted by colonial authorities as a weakening of the original decree's legal force.\n\n### 2. The \"Rationality\" Debate\nThe document serves as a formal intervention in the *disputatio* regarding the nature of the \"Indians.\" By declaring them \"truly men,\" Paul III effectively ended the theological debate on their humanity within the Church, though this did not stop secular colonialists from arguing that their \"barbarism\" necessitated tutelage (the *just war* theory later championed by Juan Gin\u00e9s de Sep\u00falveda).\n\n### 3. Media and Public Discourse (16th Century)\nThere is no \"media\" in the modern sense, but the document was circulated via broadsides and read from pulpits. Its reception was polarized: it was celebrated by the Dominican order as a charter of rights, while it was suppressed or ignored by colonial governors and *encomenderos* who viewed it as an existential threat to the colonial economy.\n\n### 4. Long-term Historical Impact\nHistorians (e.g., Hanke, 1959) note that while *Sublimis Deus* failed to end slavery in practice, it established a crucial precedent in international law. It is often cited by legal scholars as an early, if flawed, precursor to universal human rights discourse, shifting the focus from the rights of the colonizer to the inherent dignity of the colonized.\n\n### 5. Evidence of Failure\nThe most significant evidence of the document's limited reach is the continued existence of the *encomienda* and the subsequent rise of the transatlantic slave trade. The document\u2019s failure to address the status of African peoples\u2014who were already being enslaved\u2014highlights the narrow, specific scope of its \"universal\" protection.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Requerimiento* (1513) | The legal instrument the Pope was effectively countering. |\n| Historical Record | *Pastorale Officium* (1537) | Papal follow-up that weakened the enforcement of *Sublimis Deus*. |\n| Academic | Hanke, L. (1959). *Aristotle and the American Indians*. | Standard historiography on the debate over indigenous humanity. |\n| Academic | Tierney, B. (1997). *The Idea of Natural Rights*. | Analysis of the document's role in the evolution of human rights. |",
+            "thoughtSignature": "EjQKMgEMOdbHChCagBAb73S14UVNvZ9FrAq/ZSmv+MW512KD6V/tapOyu4h/kGu5bcpAch9a"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2851,
+    "candidatesTokenCount": 995,
+    "totalTokenCount": 3846,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2851
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "72FCav3MF9aIqtsPhr7QCA"
+}

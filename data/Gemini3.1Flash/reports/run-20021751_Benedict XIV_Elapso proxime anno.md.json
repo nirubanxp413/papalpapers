@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Elapso proxime anno\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Elapso proxime anno* (1751) functions as a technical addendum to the broader jurisdictional reforms of Benedict XIV, specifically his efforts to codify the limits of ecclesiastical immunity (*asylum*). The document addresses the friction between the Inquisition's mandate to pursue heresy and the traditional rights of sanctuary, which were increasingly viewed by Enlightenment-era secular authorities as obstacles to state justice.\n\n### Reflective\n*   **Historical Precedent:** The document explicitly synthesizes centuries of canon law, referencing the *Ex parte vestra* (John XXII) and the 1638 Urbanine congregation.\n*   **Administrative Correction:** It reflects on the practical failure of the 1750 constitution *Officii nostri* to account for the specific procedural nuances of heresy suspects, acknowledging a \"doubt\" that had emerged in the Holy Office.\n\n### Prospective\n*   **Procedural Standardization:** It mandates a rigid, three-tiered classification system for all future extractions of suspects from churches.\n*   **Anticipation of Conflict:** By establishing a clear protocol for \"fugitives from prisons or galleys,\" the Pope attempts to preempt future diplomatic or jurisdictional disputes between the Inquisition and secular magistrates.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is deeply rooted in the legal framework established by the 17th-century Counter-Reformation and the medieval origins of the Inquisition.\n*   **Prescriptive Density (+2):** The prescriptions are intended for immediate, ongoing application in the mid-18th century, with a short-term horizon for resolving current administrative bottlenecks.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nIn 1751, the Papal States were under pressure to modernize legal procedures to align with the administrative rationalism of the Enlightenment. Benedict XIV, often characterized as the \"Enlightenment Pope,\" sought to reduce the arbitrary nature of ecclesiastical privileges. *Elapso proxime anno* is not a theological treatise but a bureaucratic instrument. It addresses the \"secular\" problem of how to maintain the sanctity of the church as a place of refuge while ensuring that the Inquisition\u2014the Church\u2019s internal security apparatus\u2014could function without being obstructed by local bishops or secular authorities.\n\n### 2. Reflective Analysis\nThe document is a classic example of \"reactive legislation.\" It does not propose new doctrine; it interprets existing law to resolve a specific administrative failure. By referencing the 1638 congregation, Benedict acknowledges that the tension between the Inquisition\u2019s secrecy and the Bishop\u2019s local authority was a long-standing, unresolved friction. He is effectively \"cleaning up\" the legal code to prevent the Inquisition from overstepping or being blocked by conflicting interpretations of immunity.\n\n### 3. Prescriptive Analysis\nThe document is highly prescriptive regarding the *mechanics* of arrest. It dictates the exact sequence of notification:\n*   **Heresy:** Inquisitor acts first, notifies Bishop later.\n*   **Excepted Crimes:** Bishop must authorize and appoint an ecclesiastic to oversee the extraction.\n*   **Non-excepted Crimes:** Immunity remains absolute.\nThis is a clear attempt to impose a uniform, centralized standard on a decentralized ecclesiastical landscape.\n\n### 4. Reception and Efficacy\nThere is no evidence of widespread public or secular resistance to this specific document, largely because it was an internal administrative clarification. However, it reflects the broader 18th-century trend of \"jurisdictionalism,\" where the Papacy attempted to maintain control over its own legal processes before secular states (like the Kingdom of Naples or the Austrian Empire) could impose their own, more restrictive, jurisdictional reforms.\n\n### 5. Conclusion\n*Elapso proxime anno* serves as a case study in the \"bureaucratization of the sacred.\" It demonstrates how the Papacy attempted to preserve its institutional autonomy by making its internal procedures more predictable and less prone to local conflict. It is a document of maintenance, not innovation.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. III (1751) | Primary text of the constitution. |\n| Academic Interpretation | F.J. Baumgartner, *Behind Locked Doors* (2003) | Contextualizes Benedict XIV's administrative reforms. |\n| Academic Interpretation | R.P. McBrien, *Lives of the Popes* (2000) | Notes Benedict XIV's focus on legal codification. |\n| Media / Public Record | No non-theological media citation located | Document was an internal administrative rescript. |",
+            "thoughtSignature": "EjQKMgEMOdbHN4+aApbpOB62+u4U3bbW8wC8hO9lWfz5aDMaiTp81yavmltC0iXO2EeznI1J"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2917,
+    "candidatesTokenCount": 1051,
+    "totalTokenCount": 3968,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2917
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "ix1Dat3MLJ7nz7IPoJm9qA4"
+}

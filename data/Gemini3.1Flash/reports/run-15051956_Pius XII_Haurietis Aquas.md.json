@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Haurietis Aquas\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -20},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Haurietis Aquas* (1956) was published during the twilight of Pius XII\u2019s pontificate, a period marked by the consolidation of the Cold War, the rise of consumerist secularism in the West, and the suppression of the Church in the Eastern Bloc. The encyclical serves as a theological anchor for a Church facing rapid modernization and internal debates regarding the nature of \"active\" versus \"contemplative\" piety.\n\n### Reflective\n- **Centenary of the Feast:** The document explicitly commemorates the 1856 extension of the Feast of the Sacred Heart to the Universal Church by Pius IX.\n- **Theological Correction:** It reacts against mid-century \"modernist\" or \"activist\" tendencies within the Church that dismissed affective/devotional piety as sentimental or \"feminine.\"\n- **Historical Polemic:** It addresses the \"materialistic atheism\" and \"secularism\" of the post-WWII era, interpreting these as the logical conclusion of a world that has \"cooled\" in its charity.\n\n### Prospective\n- **Prescriptive Goals:** Calls for a universal, systematic adoption of the devotion to the Sacred Heart as a \"remedy\" for social and moral decay.\n- **Institutional Consecration:** Encourages the consecration of families and nations to the Sacred Heart as a bulwark against the spread of communism and moral relativism.\n- **Future Anticipation:** Predicts that the restoration of this devotion will lead to a \"re-Christianization\" of public life, though historical evidence suggests this failed to stem the tide of secularization in the 1960s.\n\n### Temporal gradients\n- **Reflective Density (-20):** The document reaches back to the 19th-century origins of the feast and the foundational Patristic/Scholastic definitions of the hypostatic union.\n- **Prescriptive Density (+10):** The encyclical attempts to project a moral and spiritual framework for the coming decades, anticipating a need for \"reparation\" in the face of the Cold War.\n\n---\n\n## Unstructured\n\n### 1. Historical and Political Context\nIn 1956, the Catholic Church was navigating the \"Pius XII era\" of high centralization. The encyclical was released against the backdrop of the Hungarian Revolution (later that year) and the ongoing struggle against Soviet-backed atheism. While the document is ostensibly theological, its insistence on the \"social reign of Christ\" through the Sacred Heart was a direct, albeit spiritualized, counter-narrative to the secular-materialist ideologies dominating the geopolitical landscape.\n\n### 2. Reception and Secular Engagement\nThere is **insufficient evidence** of significant secular media coverage or parliamentary debate regarding *Haurietis Aquas*. Unlike the Pope\u2019s earlier encyclicals on labor or international order, this document was received primarily as an internal ecclesial directive. Secular press outlets of the time (e.g., *The New York Times*, *Le Monde*) largely ignored the theological nuances of the Sacred Heart, focusing instead on the Pope's health and his geopolitical statements on the Cold War.\n\n### 3. The \"Active\" vs. \"Passive\" Tension\nThe encyclical is a defensive response to the \"Action\" movement in the Church. Pius XII sought to redefine \"devotion\" not as a passive, sentimental act, but as a rigorous, intellectual, and volitional engagement with the Incarnation. He attempted to bridge the gap between the \"mystical\" and the \"apostolic,\" arguing that the latter is impossible without the former.\n\n### 4. Failed Prophecy and Legacy\nThe encyclical\u2019s hope that the Sacred Heart devotion would serve as a primary bulwark against secularism did not materialize in the way the Vatican anticipated. The 1960s saw a rapid decline in traditional devotional practices in the West, as the Church shifted toward the liturgical and social reforms of the Second Vatican Council. *Haurietis Aquas* is now viewed by historians as the \"last great defense\" of a specific 19th-century devotional paradigm before the liturgical shifts of the 1960s.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | AAS 48 (1956) | Official publication of the encyclical. |\n| Academic | O'Malley, J. W. (2008) | *A History of the Popes* (Contextualizes Pius XII's theological conservatism). |\n| Media | *The Tablet* (1956) | Brief mention of the encyclical as a \"call to prayer\" amidst Cold War tensions. |\n| Academic | Rahner, K. (1956) | *Theological Investigations* (Contemporary theological engagement with the devotion). |",
+            "thoughtSignature": "EjQKMgEMOdbHg39roXDooxQo5NdeNPyKWkBclinNJ7YDs1vtKWfZY/mXSAikXGE4SlHPdFrG"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3534,
+    "candidatesTokenCount": 1087,
+    "totalTokenCount": 4621,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3534
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "SR1DaoTqIoaYqtsP7drSmQ4"
+}

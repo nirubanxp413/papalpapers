@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Miranda Prorsus\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 9, \"density\": 12}\n}\n```\n\n## Structured\n\n### Context\n*Miranda Prorsus* (1957) emerged at the zenith of the \"Golden Age\" of television and the consolidation of the Hollywood studio system. It was published during the Cold War, a period where the Vatican viewed mass media as a primary battlefield for ideological hegemony against Soviet-aligned states.\n\n### Reflective\n- **The Vigilanti Cura Legacy:** The document explicitly builds upon the 1936 encyclical *Vigilanti cura*, reflecting on two decades of Catholic film censorship and the institutionalization of the Legion of Decency in the United States.\n- **Technological Anxiety:** It reflects the mid-century panic regarding the \"invasion\" of the domestic sphere by television, mirroring broader sociological concerns of the 1950s regarding the erosion of traditional family structures by mass entertainment.\n- **Cold War Realities:** It reflects the documented phenomenon of \"jamming\" radio broadcasts (the \"aerial iron curtain\") by Eastern Bloc regimes, which the Vatican viewed as a direct violation of the right to information.\n\n### Prospective\n- **Institutional Standardization:** It prescribes a global, hierarchical structure for Catholic media offices, attempting to create a \"Catholic media bureaucracy\" to mirror the reach of secular media conglomerates.\n- **Moral Pedagogy:** It anticipates the need for \"media literacy\" (though not using the term), prescribing that the Church must train the faithful to act as \"critics\" of their own consumption.\n- **Regulatory Advocacy:** It calls for civil authorities to adopt \"public interest\" standards, anticipating the later development of broadcast licensing regulations in various Western democracies.\n\n### Temporal gradients\n- **Reflective Density (-15):** The document is heavily anchored in the 1930s\u20131940s experience of cinema regulation and the post-WWII geopolitical divide.\n- **Prescriptive Density (+12):** The encyclical attempts to set a framework for the next decade of television expansion, though its influence waned significantly after the Second Vatican Council (1962\u20131965).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Reception\n*Miranda Prorsus* was received by the secular press as a sophisticated, if restrictive, attempt by the Vatican to modernize its engagement with technology. Unlike earlier, more reactionary papal statements, Pius XII acknowledged the technical brilliance of the media. However, in the United States, the Legion of Decency was already beginning to lose its grip on the film industry as the Hays Code weakened and the Supreme Court (e.g., *Burstyn v. Wilson*, 1952) began to protect film under the First Amendment. The encyclical\u2019s call for \"national offices\" to classify films was increasingly viewed by secular legal scholars as an attempt to exert extra-legal pressure on artistic expression.\n\n### 2. The \"Aerial Iron Curtain\"\nThe encyclical\u2019s most significant political engagement was its condemnation of radio jamming. Historical records from the Cold War confirm that the Vatican\u2019s *Radio Vaticana* was a frequent target of Soviet-aligned jamming stations. The encyclical provided a moral framework for the Church to lobby Western governments to treat the free flow of information as a fundamental human right, a position that would later be echoed in the Helsinki Accords.\n\n### 3. Institutional Prescriptions\nThe document\u2019s demand for a \"National Office\" in every country was largely successful in terms of formal structure but less so in terms of actual influence. By the late 1950s, the \"Catholic film rating\" was becoming a niche concern for the devout rather than a standard for the general public. The encyclical\u2019s attempt to treat television as an extension of the \"home as sanctuary\" failed to account for the rapid commercialization of the medium, which prioritized advertising revenue over the moral \"guest\" metaphor proposed by the Pope.\n\n### 4. The Shift to Vatican II\nThe encyclical is a \"bridge\" document. It represents the final, highly centralized attempt to control media from the top down. Within five years, the Second Vatican Council\u2019s decree *Inter Mirifica* (1963) would shift the tone toward a more pastoral, less regulatory approach, effectively superseding the rigid classification systems mandated in *Miranda Prorsus*.\n\n### 5. Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Burstyn v. Wilson* (1952) | US Supreme Court ruling limiting religious censorship of film. |\n| Media | *The New York Times* (Aug 1957) | Reported on the encyclical as a \"modernization\" of Church media policy. |\n| Academic | *The Catholic Church and the Media* (Various) | Historiography notes the decline of the Legion of Decency post-1957. |\n| Historical Record | Vatican Radio Archives | Documentation of jamming incidents in the 1950s. |",
+            "thoughtSignature": "EjQKMgEMOdbHpzs7ICQdvngrIHb6bCZJXkrGZDne2Nhjj9DZs7O8POF8fvro9HuO2liONIv6"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3427,
+    "candidatesTokenCount": 1097,
+    "totalTokenCount": 4524,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3427
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "JBVCapG-LO-kmtkPlvHTmA8"
+}

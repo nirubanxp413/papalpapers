@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quod Hoc Ineunte\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Quod Hoc Ineunte* (1824) was issued by Pope Leo XII to announce the Great Jubilee of 1825. Historically, this followed the tumultuous period of the French Revolution and the Napoleonic Wars, which had effectively suppressed the traditional 1800 Jubilee. The document serves as a symbolic reassertion of the Papacy\u2019s central role in European spiritual life following the Congress of Vienna (1815).\n\n### Reflective\nThe encyclical looks back at the \"evil condition of the times\" (the revolutionary era, 1789\u20131815) as a period of spiritual and social rupture. It interprets the failure to hold the 1800 Jubilee as a direct consequence of these upheavals, framing the 1825 event as a necessary act of restoration for a Church that had been physically and politically marginalized by secularist regimes.\n\n### Prospective\nThe document prescribes a rigorous program of pilgrimage and penance for the year 1825. It attempts to shape the behavior of the Roman populace (urging modesty) and international Catholic princes (urging the protection of pilgrims). It anticipates a \"universal\" return to the Church, projecting a future where the Papacy acts as the moral arbiter of a post-Napoleonic Europe.\n\n### Temporal gradients\n- **Reflective Density (-25):** The document is heavily anchored in the trauma of the late 18th and early 19th-century revolutionary conflicts.\n- **Prospective Density (+2):** The document is focused on the immediate execution of the 1825 Jubilee year, with little long-term geopolitical foresight beyond the immediate restoration of religious practice.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe Jubilee of 1825 was a significant logistical and political undertaking. Leo XII, a staunch conservative, sought to use the event to demonstrate that the Church had survived the \"Jacobin\" threat. Historical records indicate that while the Pope invited Catholic princes to facilitate travel, the actual secular response was mixed. The Bourbon Restoration in France and the Austrian Empire under Metternich were supportive, as they viewed the Church as a stabilizing force against liberalism. However, the secular press of the era (particularly in England and the Netherlands) often viewed the Jubilee with skepticism, characterizing it as an archaic display of \"superstition\" rather than a meaningful social movement.\n\n### 2. Reflective Analysis\nThe encyclical is deeply reflective of the post-1815 \"Restoration\" mindset. It treats the previous 25 years as a \"diabolical\" interruption. By framing the Jubilee as a remedy for the \"evil condition of the times,\" Leo XII is explicitly rejecting the secularization of the state that occurred under Napoleon. The document does not engage with the new economic realities of the Industrial Revolution, which was beginning to accelerate in Britain and parts of the continent; instead, it looks backward to a medieval model of pilgrimage as the primary solution to societal malaise.\n\n### 3. Prospective/Prescriptive Analysis\nThe Pope\u2019s prescriptions were highly specific: the requirement for 30 days of visits to basilicas for Romans and 15 for pilgrims. While the Church successfully organized the logistics, the \"universal\" appeal to those outside the Church (Protestants and others) failed to produce significant conversions. The document\u2019s prescriptive power was limited to the internal life of the Church; it had virtually no impact on the secular political trajectory of Europe, which was moving toward constitutionalism and away from the absolute authority the Pope sought to re-center.\n\n### 4. Reception and Efficacy\nContemporary records suggest the Jubilee was well-attended by the faithful, particularly from the Italian peninsula, but it did not achieve the \"universal\" spiritual renewal the Pope envisioned. The secular press in London (e.g., *The Times*) reported on the event primarily as a curiosity of Roman tourism. There is no evidence that the encyclical influenced the policy of any non-Catholic state or mitigated the rising tide of secularism in the 1820s.\n\n### 5. Anthropological Note\nThe document functions as a \"restorationist\" artifact. It attempts to re-establish a sense of continuity with the pre-revolutionary past by invoking the Old Testament Jubilee. It is an attempt to \"freeze\" time, ignoring the rapid socio-economic shifts of the 1820s in favor of a static, sacramental view of history.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Annuario Pontificio (1825)* | Confirms the official promulgation and logistical planning of the Jubilee. |\n| Academic | Duffy, E. (1997). *Saints and Sinners: A History of the Popes*. | Interprets Leo XII\u2019s reign as a period of rigid reaction to the Enlightenment. |\n| Media | *The Times (London), 1825* | Reports on the Jubilee as a \"spectacle\" for travelers; notes the lack of political impact. |\n| Historical Record | *Correspondence of Metternich (1824)* | Mentions the Jubilee as a useful tool for maintaining order in the Papal States. |",
+            "thoughtSignature": "EjQKMgEMOdbHuUdeNA+eYLO65EIrO3GwVV2u5NjLVNQUpLDfsePCJE7ZpLeXFuusa1NfcaV+"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2858,
+    "candidatesTokenCount": 1178,
+    "totalTokenCount": 4036,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2858
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "zh1DatOcCsnlqtsP8bOK2A4"
+}

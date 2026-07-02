@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Ubi Nos\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -1},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Event:** The capture of Rome (September 20, 1870) by the Kingdom of Italy, ending the temporal power of the Papacy.\n*   **Legislative Framework:** The \"Law of Guarantees\" (May 13, 1871), a unilateral Italian statute intended to regulate the status of the Pope and the Holy See within the new Italian state.\n*   **Geopolitical Climate:** The aftermath of the Franco-Prussian War, which forced the withdrawal of the French garrison protecting Rome, leaving the Papal States vulnerable to the Italian Risorgimento forces.\n\n### Reflective\n*   **The \"Roman Question\":** The document reflects on the \"sacrilegious\" invasion of Rome and the subsequent \"usurpation\" of the Church's patrimony.\n*   **The Law of Guarantees:** It interprets the Italian government's legislative offer as a \"cunning\" attempt to deceive the international community and reduce the Pope to a subject of the Italian Crown.\n*   **Ecclesial Solidarity:** It reflects on the global outpouring of financial and moral support from the faithful following the loss of the city.\n\n### Prospective\n*   **Non-Recognition:** The document explicitly mandates that the Church will not recognize the Law of Guarantees, setting the stage for the \"Prisoner in the Vatican\" era.\n*   **Diplomatic Isolation:** It calls for secular rulers to intervene, though it offers no concrete mechanism for this beyond moral suasion.\n*   **Eschatological Outlook:** It predicts the eventual failure of the Italian state's actions, framing the current political order as a transient \"hour of darkness.\"\n\n### Temporal gradients\n*   **Reflective Density (-1):** The document is hyper-focused on the events of the previous 8 months (September 1870 to May 1871).\n*   **Prospective Density (+10):** The document sets a policy of non-recognition that lasted until the Lateran Treaty of 1929 (58 years later), though the Pope's specific hope for an immediate restoration of the Papal States was never realized.\n\n---\n\n## Unstructured\n\n### 1. Historical Reception\n*Ubi Nos* was received by the Italian government as a declaration of total non-cooperation. The Piedmontese administration, led by Giovanni Lanza, viewed the encyclical as an obstacle to the integration of Rome into the national fabric. Internationally, the document was largely ignored by secular powers (e.g., Britain, Prussia), who viewed the loss of the Papal States as a *fait accompli* and were unwilling to intervene militarily to restore the Pope's temporal sovereignty.\n\n### 2. The \"Prisoner\" Strategy\nThe encyclical solidified the \"Prisoner in the Vatican\" narrative. By rejecting the Law of Guarantees, Pius IX effectively withdrew the Church from the Italian political process, a stance that would define Vatican-Italian relations for nearly six decades. This was a strategic choice to prioritize the *principle* of sovereignty over the *practicality* of the legal protections offered by the Italian state.\n\n### 3. Secular vs. Ecclesial Tension\nThe document highlights a fundamental clash between the emerging Westphalian nation-state model (where the state is the sole source of law) and the medieval concept of the Papacy as a sovereign entity with divine, extra-legal rights. Pius IX\u2019s rejection of the Law of Guarantees is a rejection of the state's authority to define the Church's legal existence.\n\n### 4. Failed Prophecy\nThe Pope\u2019s expectation that secular rulers would unite to restore the Papal States proved to be a significant miscalculation. The European powers were preoccupied with the shifting balance of power following the unification of Germany and had no strategic interest in reversing the Italian Risorgimento. The \"hour of wickedness\" did not pass in the way the Pope anticipated; rather, the Italian state consolidated its control over Rome permanently.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Legge delle Guarentigie* (1871) | The primary legislative target of the encyclical. |\n| Academic | Kertzer, D. (2004). *Prisoner of the Vatican* | Standard historical analysis of the period. |\n| Media | *The Times* (London), May 1871 | Reported the Pope's defiance as a \"futile gesture.\" |\n| Historical Record | Diplomatic dispatches, UK Foreign Office | Confirmed lack of interest in intervention. |",
+            "thoughtSignature": "EjQKMgEMOdbH1D/04qx+fkrJU3M9FFKthtDMghFo3e7WJF8VZPmKDP5QY/EKq0rAF8E2AvkI"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2973,
+    "candidatesTokenCount": 1050,
+    "totalTokenCount": 4023,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2973
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "b1tCarOLCZyAqtsPydOMGA"
+}

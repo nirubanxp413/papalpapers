@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Charitas\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Charitas* (April 13, 1791) was issued by Pope Pius VI during the escalation of the French Revolution. It serves as the definitive ecclesiastical rejection of the Civil Constitution of the Clergy (July 12, 1790), which had effectively nationalized the Catholic Church in France, subordinating it to the state and requiring clergy to swear an oath of loyalty to the nation, the law, and the King.\n\n### Reflective\nThe document reflects on the breakdown of the Gallican Church's relationship with Rome, specifically the failure of the French National Assembly to consult the Holy See on ecclesiastical restructuring. It catalogues the specific legislative acts of the Assembly, the forced resignation of traditional bishops, and the \"schismatic\" consecrations performed by Talleyrand and others in early 1791.\n\n### Prospective\nThe encyclical prescribes a total non-compliance strategy for the French clergy and laity. It commands the \"intruder\" bishops to cease all functions, orders the faithful to shun the sacraments administered by oath-taking priests, and establishes a forty-day ultimatum for clergy to retract their oaths or face automatic suspension. It anticipates a long-term schism, framing the survival of the \"true\" Church as dependent on the rejection of state-sanctioned ecclesiastical authority.\n\n### Temporal gradients\n- **Reflective Density (-5):** The document is heavily anchored in the immediate past (1790\u20131791), specifically the legislative timeline of the National Assembly and the specific consecrations of February 1791.\n- **Prospective Density (+10):** The document attempts to shape the next decade of French religious life, anticipating the underground Church (the *\u00c9glise r\u00e9fractaire*) that would persist through the Terror and the Directory.\n\n## Unstructured\n\n### 1. Historical Reality vs. Papal Framing\nPius VI frames the crisis as a purely theological and canonical violation. However, historical records (e.g., *Archives parlementaires de 1787 \u00e0 1860*) indicate the Assembly viewed the Civil Constitution as a necessary administrative reform to align the Church with the new departmental map of France. The Pope\u2019s refusal to negotiate was perceived by the Assembly as a hostile political act, accelerating the radicalization of the Revolution against the Church.\n\n### 2. The Failure of Diplomacy\nThe encyclical notes the Pope's correspondence with Louis XVI. Historical evidence confirms that Louis XVI was caught in a \"double bind,\" signing the Civil Constitution under duress in December 1790 while secretly appealing to Rome for guidance. *Charitas* effectively ended the King's ability to act as a mediator, forcing a binary choice upon the French population that contributed to the civil war in the Vend\u00e9e.\n\n### 3. Reception and Efficacy\nThe document was widely circulated in clandestine pamphlets. While it succeeded in creating a clear identity for the \"refractory\" clergy, it also provided the revolutionary government with a pretext to label non-juring priests as counter-revolutionaries and traitors. The \"prescriptive\" power of the document was high among the clergy but limited in its ability to stop the state's seizure of church property.\n\n### 4. Secular Engagement\nThe encyclical is a landmark in the history of secular-religious conflict. By explicitly rejecting the Assembly's right to legislate on \"spiritual\" matters, Pius VI drew a line that would define the Church's stance against the modern secular state for the next century. The document is less a theological treatise and more a legal brief for the defense of institutional autonomy against the encroaching nation-state.\n\n### 5. Anthropological Note\nThe document functions as a \"boundary-marking\" device. By naming specific individuals (e.g., Gobel, Talleyrand) as \"intruders,\" the Pope utilizes the power of the *anathema* to socially isolate these figures within the Catholic community, effectively creating a \"parallel society\" of the faithful that would eventually become the base of the Royalist resistance.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archives parlementaires*, Vol. 25 | Details the Assembly's debates on the oath. |\n| Academic History | Tackett, T. (1996). *Religion, Revolution, and Regional Culture* | Analyzes the social impact of the oath. |\n| Primary Source | *Charitas* (1791) | Vatican Archives/Papal Encyclicals Online. |\n| Media (Contemp.) | *L'Ami du Peuple* (Marat) | Contemporary revolutionary press reaction to papal interference. |",
+            "thoughtSignature": "EjQKMgEMOdbHzQRoD99t2+JA1goCvnvsNvdhHWbeVIkY0Pwn/oKDsdcDzw6YwbA/MAFU9nLn"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3288,
+    "candidatesTokenCount": 1046,
+    "totalTokenCount": 4334,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3288
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "0hZCau7HPMqsqtsPsoHqyQc"
+}

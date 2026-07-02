@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Singulari Nos\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Singulari Nos* (1834) is a direct response to the radicalization of F\u00e9licit\u00e9 de Lamennais following the 1832 encyclical *Mirari Vos*. The document functions as a disciplinary coda to the \"Lamennais Affair,\" marking the definitive rupture between the Holy See and the founders of the journal *L'Avenir*, who had previously advocated for a synthesis of Catholicism and liberal democracy.\n\n### Reflective\n*   **The 1832 Breach:** Reflects on the failure of *Mirari Vos* to silence Lamennais, specifically citing his broken pledge of submission.\n*   **The 1830 July Revolution:** Responds to the lingering instability in France and the rise of \"modern\" political philosophies that decouple civil authority from divine mandate.\n*   **Intellectual Lineage:** Situates Lamennais\u2019s work within a historical continuum of \"heretical\" dissent, explicitly linking his rhetoric to the Waldensians, Wycliffites, and Hussites.\n\n### Prospective\n*   **Suppression of Literature:** Prescribes the active censorship of *Paroles d'un croyant* and similar \"subversive\" pamphlets by the episcopacy.\n*   **Epistemological Boundary:** Attempts to define the limits of \"reason\" in theology, warning that any philosophical system seeking truth outside of apostolic tradition is inherently erroneous.\n*   **Anticipation of Schism:** Prescribes a path for the \"wayward son\" (Lamennais) to return, while simultaneously preparing the Church for his potential permanent departure.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is heavily anchored in the events of 1830\u20131832, looking back at the collapse of the Restoration monarchy and the subsequent theological crisis.\n*   **Prescriptive Density (+10):** The document attempts to set a long-term defensive posture for the Church against the encroaching tide of secular liberalism, a stance that would define the Papacy for the remainder of the 19th century.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe publication of *Paroles d'un croyant* in 1834 was a sensation in the secular press. Unlike the dense, scholastic prose of *Mirari Vos*, Lamennais\u2019s new work was written in a rhythmic, biblical style designed for mass consumption. It was effectively the first \"revolutionary pamphlet\" to use the language of the Gospels to incite class struggle. Gregory XVI\u2019s response was not merely a theological correction; it was a state-level intervention against a perceived threat to the \"public peace\" of Europe.\n\n### 2. Media and Public Reception\nContemporary secular media, particularly in France, viewed the encyclical as a confirmation of the Church\u2019s irreconcilable opposition to the post-1830 political order. While the Catholic press was largely forced into silence or compliance, liberal journals (such as *Le National*) used the encyclical to frame the Papacy as an enemy of progress and popular sovereignty. There is no evidence of the encyclical having any moderating effect on the radicalization of the French public; rather, it served to solidify the \"clerical vs. anti-clerical\" divide that would dominate French politics for the next century.\n\n### 3. Academic Interpretation\nHistorians of the 19th century (e.g., Vidler, Chadwick) interpret *Singulari Nos* as the moment the Papacy abandoned the possibility of a \"liberal Catholicism.\" The document is viewed as the intellectual precursor to the *Syllabus of Errors* (1864). The \"erroneous philosophical system\" mentioned in the text is widely understood by scholars to be a rejection of the *philosophie du si\u00e8cle*, which prioritized individual reason over institutional authority.\n\n### 4. The Failure of Prophecy\nGregory XVI\u2019s hope for Lamennais\u2019s return was never realized. Lamennais left the Church entirely, becoming a secular socialist and a deputy in the 1848 National Assembly. The encyclical failed to suppress the ideas it condemned; instead, it inadvertently accelerated the secularization of the French intellectual class by forcing them to choose between the Church and the emerging democratic ideals.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Paroles d'un croyant* (1834) | The primary object of the encyclical's condemnation. |\n| Academic | Vidler, A. R. (1954). *Prophecy and Papacy*. | Definitive study on the Lamennais-Gregory conflict. |\n| Media | *Le National* (1834) | Contemporary secular reaction to the condemnation. |\n| Historical Record | *Mirari Vos* (1832) | The foundational document for the 1834 rupture. |",
+            "thoughtSignature": "EjQKMgEMOdbHL7kQfltXfzTYxzhG3jHNyhac/4XN+Jj9UpjL1ynBXWUgwXmMw6n9vjLrqzDz"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2944,
+    "candidatesTokenCount": 1112,
+    "totalTokenCount": 4056,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2944
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "g2BCaoLpMIbNqtsP5MmEoAo"
+}

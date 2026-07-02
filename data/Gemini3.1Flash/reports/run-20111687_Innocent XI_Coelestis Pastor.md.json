@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Coelestis Pastor\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Coelestis Pastor* (1687) emerged during the pontificate of Innocent XI (Benedetto Odescalchi), a period defined by intense conflict between the Papacy and the absolutist monarchy of Louis XIV of France. The condemnation of Miguel de Molinos and Quietism was not merely a theological dispute but a political maneuver to reassert Roman centralism against the \"Gallican\" tendencies of the French Church, which had shown sympathy toward Quietist-adjacent mysticism.\n\n### Reflective\nThe document reflects the culmination of a multi-year inquisitorial investigation into the \"Quietist\" movement, which had gained significant traction in the Roman aristocracy and among the clergy in the 1670s and 1680s. It formally codifies the suppression of a movement that had already been effectively neutralized by the arrest of Molinos in 1685.\n\n### Prospective\nThe document prescribes a permanent, rigid framework for the regulation of the \"interior life,\" effectively criminalizing any form of mysticism that bypassed the mediation of the institutional Church. It anticipates the potential for Quietist ideas to persist in clandestine circles, mandating that the condemnation be read from pulpits to ensure the \"poison\" does not take root in future generations.\n\n### Temporal gradients\n- **Reflective density (-15):** The document looks back to the emergence of Molinos\u2019 *Guida Spirituale* (1675) and the subsequent decade of unchecked growth of his influence in Rome.\n- **Prospective density (+10):** The document seeks to establish a permanent doctrinal barrier, projecting its authority forward to prevent the resurgence of Quietism throughout the late 17th and early 18th centuries.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Political Agency\nInnocent XI\u2019s condemnation of Molinos was inextricably linked to his broader struggle against the \"Gallican\" influence. Molinos had been protected by powerful figures, including Cardinal d'Estr\u00e9es, who represented French interests. By condemning Molinos, Innocent XI was also striking at the credibility of the French-aligned faction within the Curia. The \"Quietist\" movement was perceived by the Papacy as a threat to the social order; by encouraging total passivity, it undermined the Church's role as the necessary mediator of grace and the arbiter of moral conduct.\n\n### 2. Reflective Analysis\nThe encyclical is heavily reflective, serving as a post-mortem on the \"Quietist\" phenomenon. It catalogues 68 specific propositions, acting as a forensic record of the movement's errors. It does not engage in dialogue; it performs a judicial execution of ideas. The document reflects a deep-seated anxiety regarding the \"interiorization\" of religion, which the Papacy viewed as a precursor to the privatization of morality\u2014a direct threat to the Church's role in the public and private life of the faithful.\n\n### 3. Prospective Analysis\nThe document is highly prescriptive, aiming to standardize the \"active\" life of the Christian. It mandates that the faithful must remain under the constant supervision of a confessor and that the \"interior way\" must always be subject to the external authority of the Church. While it succeeded in suppressing the organized Quietist movement in Rome, it failed to prevent the spread of similar mystical impulses in France (e.g., the later controversy surrounding Madame Guyon and F\u00e9nelon), suggesting that the document\u2019s prescriptive reach was limited by the shifting political alliances of the European episcopacy.\n\n### 4. Secular and Social Implications\nWhile primarily theological, the condemnation had significant social consequences. It effectively ended the \"mystical\" fashion that had permeated the Roman elite, forcing a return to traditional, highly visible, and institutionalized forms of piety. The document\u2019s insistence on the necessity of confession and external works served to reinforce the Church\u2019s control over the social behavior of the laity, preventing the development of a \"private\" religious sphere that could exist outside of ecclesiastical oversight.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. VII | Official text of the Constitution. |\n| Academic | Knox, R. A. (1950). *Enthusiasm* | Standard historical interpretation of the Quietist crisis. |\n| Academic | Delumeau, J. (1977). *Catholicism between Luther and Voltaire* | Contextualizes the Papacy's struggle for social control. |\n| Historical Record | Correspondence of Cardinal d'Estr\u00e9es | Documents the political tension between France and the Holy See regarding Molinos. |",
+            "thoughtSignature": "EjQKMgEMOdbHLCLgTGowSGWdZoo1N6kdaiaNgOtNsPvCjSFbg8Iqkv4j3tNXB7MaLyuR4Niw"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3364,
+    "candidatesTokenCount": 1037,
+    "totalTokenCount": 4401,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3364
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "kR1Daqe9DoaYqtsP7drSmQ4"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Regnans in Excelsis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -12},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*Regnans in Excelsis* was issued during a period of acute geopolitical instability. The document reflects the culmination of the Counter-Reformation's hardening stance against the Elizabethan Settlement (1559). Historically, it follows the failure of the Northern Rebellion (1569) and the arrival of Mary, Queen of Scots, in England (1568), which provided a Catholic focal point for potential regime change.\n\n### Reflective\nThe document is a retrospective indictment of the English Reformation since 1558. It explicitly catalogs the dismantling of the Catholic hierarchy, the suppression of the Mass, and the imposition of the Act of Supremacy. It interprets the previous decade of English religious policy as a systematic, state-sponsored apostasy.\n\n### Prospective\nThe document prescribes a total withdrawal of civil obedience from Elizabeth I. It anticipates a collapse of her authority through the defection of her subjects. It attempts to shape the future of English governance by providing a moral and legal framework for rebellion, effectively framing any future coup or invasion as a \"just\" act of religious liberation.\n\n### Temporal gradients\n- **Reflective Density (-12):** The document\u2019s gaze is anchored in the 1558 accession of Elizabeth, focusing on the 12-year erosion of Catholic institutional power.\n- **Prescriptive Density (+3):** The document projects a short-term expectation of regime change, anticipating that the excommunication would trigger immediate internal revolt or external intervention within a 3-year window.\n\n---\n\n## Unstructured\n\n### 1. Historical Record and Political Reality\nThe bull was a strategic failure. Rather than destabilizing Elizabeth, it provided the English Crown with the pretext to equate Catholicism with treason. The Treasons Act of 1571 was a direct legislative response, making it high treason to call the Queen a heretic or to claim she had no right to the throne. The bull effectively marginalized English Catholics, forcing them into a \"double bind\" of loyalty to the Pope versus loyalty to the state.\n\n### 2. Media and Contemporary Discourse\nContemporaneous discourse in England, heavily managed by William Cecil\u2019s intelligence network, framed the bull as proof of a \"Popish Plot\" against the nation. It was used in pamphlets and sermons to characterize Catholics as a \"fifth column.\" There is no evidence of widespread popular uprising following the bull; instead, it solidified the Protestant identity of the English state.\n\n### 3. Academic Interpretation\nHistorians (e.g., Haigh, Duffy) generally interpret the bull as a \"tactical disaster\" for the English Catholic mission. It shifted the perception of the Catholic community from a religious minority seeking toleration to a political threat to national security. The document is viewed as the moment the Papacy lost its ability to influence English domestic policy through diplomacy, resorting instead to ineffective spiritual warfare.\n\n### 4. The Pope\u2019s Personal Situation\nPius V, a former Inquisitor General, brought a rigid, legalistic, and uncompromising temperament to the papacy. His background in the Roman Inquisition informed the document's tone: it is a judicial sentence rather than a pastoral appeal. His isolation from the realities of English political life led to a profound miscalculation regarding the loyalty of the English nobility to the Tudor state.\n\n### 5. Legacy and Failure\nThe bull remained a point of contention for centuries. It was not formally revoked, but its practical application became impossible as the English state successfully consolidated power. It serves as a primary example of the limitations of \"soft power\" (excommunication) when confronted with a centralized, sovereign state apparatus.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Treasons Act 1571 (13 Eliz. 1 c. 1)* | Direct legislative response to the bull. |\n| Academic | Haigh, C. (1993). *English Reformations*. | Analyzes the bull as a catalyst for Catholic persecution. |\n| Academic | Duffy, E. (2009). *Fires of Faith*. | Discusses the shift in Catholic status post-1570. |\n| Historical Record | *Calendar of State Papers, Domestic* | Documents the government's use of the bull to justify surveillance. |",
+            "thoughtSignature": "EjQKMgEMOdbHo2j7Dwdhr19CT48hzKPRpgRxcJ9EmOVCn6+4+F0xhK249kwSYAamhrEO5+e7"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3146,
+    "candidatesTokenCount": 969,
+    "totalTokenCount": 4115,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3146
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "lhxDaob1GsnlqtsPw5LC4AY"
+}

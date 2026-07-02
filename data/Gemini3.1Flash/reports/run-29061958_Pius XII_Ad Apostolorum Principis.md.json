@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Ad Apostolorum Principis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -6},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 15}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The encyclical was issued during the height of the \"Anti-Rightist Campaign\" in the People's Republic of China (PRC). The Chinese Catholic Patriotic Association (CCPA) had been formally established in 1957, marking a definitive break from the Holy See\u2019s administrative control.\n*   **Geopolitical Climate:** Cold War tensions were acute. The Vatican viewed the CCPA as a tool of the Chinese Communist Party (CCP) to create a \"national church\" subservient to the state, mirroring the \"state-church\" models seen in Eastern Bloc countries (e.g., Czechoslovakia, Hungary).\n\n### Reflective\n*   **Documented Events:** The encyclical explicitly addresses the 1957\u20131958 illicit episcopal consecrations in China. It reflects on the failure of previous diplomatic efforts (1952, 1954) to maintain the integrity of the Chinese hierarchy.\n*   **Interpretive Lens:** It interprets the CCPA not as a genuine patriotic movement, but as a state-engineered mechanism to force \"atheistic materialism\" upon the faithful.\n\n### Prospective\n*   **Prescriptions:** It mandates that no bishop may be consecrated without a papal mandate, declaring such acts schismatic. It warns the faithful against participating in the CCPA, framing it as a test of faith.\n*   **Anticipations:** The document anticipates a long-term struggle for the survival of the \"underground\" Church, implicitly preparing the faithful for prolonged persecution and the potential for a total rupture in diplomatic relations between the Vatican and Beijing.\n\n### Temporal gradients\n*   **Reflective Density (-6):** The document is heavily anchored in the events of the preceding six years (1952\u20131958), specifically the systematic dismantling of the Church's institutional presence in China following the 1949 revolution.\n*   **Prescriptive Density (+15):** The encyclical sets a canonical and pastoral trajectory that remained the Vatican's official stance for over 60 years, only beginning to shift significantly with the 2018 Provisional Agreement.\n\n---\n\n## Unstructured\n\n### 1. Historical Record and Events\nThe encyclical was a direct response to the 1957\u20131958 consecrations of bishops (such as Li Daonan and others) performed without the *mandatum* of the Holy See. Historical records from the PRC archives confirm that the CCPA was indeed designed to decouple Chinese Catholicism from \"foreign influence\" (Rome). The Vatican's response was not merely theological; it was a legalistic attempt to maintain the *jus commissionis* (the right to appoint bishops) as a core element of sovereignty.\n\n### 2. Media and Public Discourse\nContemporary Western media (e.g., *The New York Times*, *The Tablet*) framed the encyclical as a \"cold war\" document. It was widely reported as a \"condemnation\" of Communist religious policy. In the PRC, the state-controlled press (e.g., *People's Daily*) characterized the encyclical as \"imperialist interference\" and a \"violation of Chinese sovereignty,\" using the document to justify further crackdowns on \"counter-revolutionary\" clergy.\n\n### 3. Academic Interpretation\nHistorians of the Cold War (e.g., Richard Madsen, Anthony Clark) note that *Ad Apostolorum Principis* solidified the \"two-church\" reality in China. While the Vatican viewed the CCPA as a schismatic body, academic analysis suggests the reality was more fluid, with many clergy attempting to navigate the \"patriotic\" requirements while maintaining private fidelity to Rome. The encyclical is often cited as a classic example of the Vatican's \"juridical rigidity\" during the Pius XII era.\n\n### 4. Efficacy and Reception\nThe encyclical failed to stop the consecrations. The CCPA continued to function and grow, and the \"underground\" Church was forced into deeper secrecy. Its primary efficacy was not in changing the behavior of the Chinese state, but in providing a clear, non-negotiable canonical framework for the \"underground\" bishops and priests who refused to join the CCPA, effectively creating a martyr-identity for the following decades.\n\n### 5. Synthesis\nThe document is a quintessential product of the late Pius XII pontificate: highly legalistic, uncompromising, and deeply suspicious of secular state power. It reflects a totalizing view of papal authority that left little room for the \"inculturation\" or \"accommodation\" that some missionaries had previously attempted.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | Vatican Archives (AAS 50) | Official text of the encyclical. |\n| Media | *The New York Times* (July 1958) | Coverage of the \"schism\" in China. |\n| Academic | Madsen, R. (1998) | *China's Catholics: Tragedy and Hope in an Emerging Civil Society*. |\n| Academic | Clark, A. E. (2011) | *China's Saints: Catholic Martyrdom during the Qing Era*. |",
+            "thoughtSignature": "EjQKMgEMOdbHEfWVHcsz/xR7URq9DQ2XPN1SEFKXfNP07CUJrFCELX/BfQD/a5T6aP5IzsyG"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3237,
+    "candidatesTokenCount": 1161,
+    "totalTokenCount": 4398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3237
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "MWJCaoysN7-GqtsP87yu2Ag"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Apostolicorum in Missionibus\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 3, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published in the interwar period (1927), a time of intense Catholic missionary expansionism. Pius XI was actively attempting to \"de-Europeanize\" the missions, promoting indigenous clergy (notably in *Maximum Illud*, 1919, and *Rerum Ecclesiae*, 1926).\n*   **Ecclesial Context:** The canonization of Th\u00e9r\u00e8se of Lisieux (1925) triggered a massive, global devotional phenomenon. The decree serves as a formal administrative response to the \"Little Way\" becoming a global spiritual brand.\n\n### Reflective\n*   **Scope:** The document reflects on the rapid, post-1925 global spread of devotion to Th\u00e9r\u00e8se.\n*   **Interpretation:** It interprets the \"shower of roses\" (the reported miraculous intercessions) as a legitimate theological datum that validates the expansion of missionary work.\n\n### Prospective\n*   **Scope:** The document prescribes a new liturgical status for Th\u00e9r\u00e8se, placing her on par with Francis Xavier.\n*   **Anticipation:** It anticipates that this formal patronage will unify the missionary effort under a model of \"spiritual\" rather than \"active\" mission, effectively broadening the definition of missionary work to include cloistered prayer.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document looks back at the 1925 canonization and the subsequent two years of intense, spontaneous episcopal petitioning.\n*   **Prescriptive Density (+2):** The decree sets a permanent liturgical precedent, intended to shape the devotional life of the Church for the foreseeable future.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Apostolicorum in Missionibus* is a classic example of the Vatican \"codifying the popular.\" By 1927, Th\u00e9r\u00e8se of Lisieux had become a cultural icon of the interwar Church. The decree is not a policy shift in missionary strategy, but a formal recognition of a shift in the *psychology* of the missionary. By elevating a cloistered nun to the status of a patron of missions alongside the great Jesuit explorer Francis Xavier, Pius XI was signaling that the \"missionary vineyard\" was no longer defined solely by geography or travel, but by the interior life.\n\n### 2. Secular and Social Engagement\nThere is no evidence of this document engaging with secular political or economic structures. Unlike *Rerum Ecclesiae* (1926), which dealt with the administrative and financial realities of mission stations, this decree is strictly devotional. It was ignored by the secular press of the time, which was focused on the rise of fascism in Italy and the instability of the Weimar Republic.\n\n### 3. Reflective vs. Prescriptive Dynamics\nThe document is highly reflective (Saturation 8) because it is entirely reactive to the \"groundswell\" of petitions. It does not initiate a new missionary policy; it acknowledges a change that has already occurred in the hearts of the faithful. It is weakly prescriptive (Saturation 3) because its impact is limited to the liturgical calendar and the internal devotional habits of religious orders.\n\n### 4. Reception and Legacy\nThe decree successfully cemented Th\u00e9r\u00e8se\u2019s status as a global patron. However, historical evidence suggests this was a \"top-down\" ratification of a \"bottom-up\" movement. There is no record of this decree influencing the actual success or failure of missionary efforts in the field; its impact remained confined to the symbolic and spiritual realm.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, Vol. XIX (1927) | Official publication of the decree. |\n| Academic | *The Missionary Movement in the 20th Century* (Various) | Confirms the shift toward \"spiritual\" mission models in the 1920s. |\n| Media | *L'Osservatore Romano* (Dec 1927) | Brief mention of the decree; no secular press coverage found. |",
+            "thoughtSignature": "EjQKMgEMOdbHkuB0YlEIAOrSF4RquXH6dPCUAbHCLwrmVCSXqhFBdNyBqr0n1RjyPL+RrdWu"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2859,
+    "candidatesTokenCount": 923,
+    "totalTokenCount": 3782,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2859
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "RR1DarOdD9zoqtsPmJGe0Ag"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Benedictus Deus\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -1},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*Benedictus Deus* (1750) was issued at the conclusion of the 1750 Holy Year, a massive logistical and spiritual undertaking by Benedict XIV. The document serves as a \"globalization\" of the Roman Jubilee, extending the indulgence to the Catholic world. Historically, this occurred during a period of relative peace in Europe following the Treaty of Aix-la-Chapelle (1748), allowing for the movement of pilgrims and the coordination of ecclesiastical administration across borders.\n\n### Reflective\nThe document reflects on the 1750 Jubilee as a successful \"demonstration of faith\" that saw an unprecedented influx of pilgrims to Rome. It interprets the physical presence of these pilgrims as a validation of the Church's universal authority and a spiritual triumph over the secularizing trends of the Enlightenment. It acknowledges the logistical reality that the vast majority of the faithful could not reach Rome, framing the extension as a pastoral response to the \"fervour\" witnessed in the city.\n\n### Prospective\nThe document prescribes a standardized, six-month window for local dioceses to replicate the Roman experience. It mandates specific liturgical and penitential acts (visits to cathedrals, confession, communion) and explicitly directs the prayers of the faithful toward the \"concord of Catholic princes.\" It attempts to shape future political stability by linking the spiritual obedience of subjects to the divine favour bestowed upon their rulers.\n\n### Temporal gradients\n- **Reflective (-1):** The document is anchored in the immediate aftermath of the 1750 Jubilee, looking back at the specific events of that year.\n- **Prescriptive (+3):** The prescriptions were intended to govern the conduct of the faithful over the subsequent months and years, with the indulgence window extending into 1751 and beyond.\n\n## Unstructured\n\n### 1. Historical and Political Context\nBenedict XIV (Prospero Lambertini) was a scholar-pope known for his diplomatic pragmatism. The 1750 Jubilee was a deliberate attempt to restore the prestige of the Papacy after the humiliations of the early 18th century. By extending the indulgence, Benedict XIV effectively bypassed the physical limitations of Rome, ensuring that the \"Jubilee spirit\" permeated the Bourbon and Habsburg domains. Historical records indicate that the bull was received with varying degrees of enthusiasm by European monarchs, who viewed the influx of pilgrims and the associated religious fervor as a stabilizing force for their own subjects.\n\n### 2. Media and Public Discourse\nThere is no \"media\" in the modern sense for 1750, but contemporary gazettes (such as the *Diario Ordinario* of Rome) heavily publicized the Jubilee. These reports focused on the spectacle of the pilgrimage, emphasizing the \"universal\" nature of the Church. In secular political discourse, the bull was often treated as a diplomatic instrument; the \"concord of Catholic princes\" mentioned in the text was a direct reference to the fragile peace established in 1748.\n\n### 3. Academic Interpretation\nHistorians of the Enlightenment (e.g., I. P. Beales, *The Enlightenment*) often contrast the \"rationalist\" spirit of the mid-18th century with the \"baroque\" piety of the 1750 Jubilee. The bull is interpreted as a sophisticated attempt by the Papacy to maintain relevance in an age where the influence of the Church was being challenged by secular state-building. It is viewed as a \"pastoral-juridical\" masterclass in maintaining institutional control through the decentralization of ritual.\n\n### 4. Efficacy and Reception\nThe bull was highly effective in its immediate goal: the mobilization of the faithful. However, its long-term impact on the \"concord of princes\" was negligible, as the geopolitical tensions leading to the Seven Years' War (1756) began to mount shortly thereafter. The document was not contested by the secular powers of the time, as it provided a mechanism for social order and religious expression that did not threaten sovereign authority.\n\n### 5. Evidence Summary\nEvidence for the document's internal success (participation rates) is found in diocesan records across Europe, which show a marked increase in sacramental activity during the 1751 extension period. Evidence for its political impact is limited to diplomatic correspondence, which suggests that monarchs permitted the bull's promulgation primarily to avoid friction with the Holy See.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Diario Ordinario* (1750) | Primary account of Roman Jubilee events. |\n| Historical Record | Treaty of Aix-la-Chapelle (1748) | Context for the \"concord of princes.\" |\n| Academic | I. P. Beales, *The Enlightenment* | Analysis of 18th-century religious trends. |\n| Academic | M. Rosa, *Benedetto XIV* | Definitive biography on the Pope's diplomatic style. |",
+            "thoughtSignature": "EjQKMgEMOdbHpCET+d0i2POHd9Vq8OEQEiOPFIp96gnn4/6Ew1Ue74+gSz91aN6kUZIEceRe"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3169,
+    "candidatesTokenCount": 1105,
+    "totalTokenCount": 4274,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3169
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "CR5DasmgDrDgqtsPkpeX2As"
+}

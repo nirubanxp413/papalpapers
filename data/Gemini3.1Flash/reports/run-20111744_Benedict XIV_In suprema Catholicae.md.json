@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# In suprema Catholicae\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*In suprema Catholicae* (1744) was issued during the War of the Austrian Succession (1740\u20131748). Italy was a primary theater of conflict, with Spanish, Austrian, and Neapolitan forces maneuvering across the peninsula. The document reflects the exhaustion of the Papal States, which struggled to maintain neutrality while being physically traversed by warring armies.\n\n### Reflective\nThe document is a direct reaction to the \"calamities\" of the early 1740s: the ongoing War of the Austrian Succession, the 1743 plague outbreak in Messina, and severe agricultural failures. It interprets these not as geopolitical accidents but as a manifestation of divine wrath against the \"Christian\" belligerents.\n\n### Prospective\nThe document prescribes a rigid, time-bound penitential program (processions, fasting, almsgiving) intended to appease divine anger. It anticipates a restoration of peace through collective spiritual exertion, effectively attempting to re-center the Papacy as the moral arbiter of a continent that had largely begun to ignore its diplomatic mediation.\n\n### Temporal gradients\n- **Reflective (-2):** The gaze is fixed on the immediate preceding years of war and natural disaster (c. 1742\u20131744).\n- **Prescriptive (+2):** The mandate for the Jubilee indulgence and the associated penitential acts was intended to shape the spiritual life of the Italian populace over the immediate months following publication.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nBenedict XIV (Prospero Lambertini) was a scholar-pope, known for his intellectual rigor. However, *In suprema Catholicae* reveals the limits of his influence. By 1744, the \"Christian Republic\" (the ideal of a unified, peaceful Europe) was effectively dead. The encyclical serves as a desperate attempt to re-assert the Pope\u2019s role as the \"Father of Christendom\" at a moment when Catholic monarchs (Maria Theresa of Austria, Philip V of Spain) were actively disregarding papal neutrality. The document is a \"spiritual triage\" response to the failure of secular diplomacy.\n\n### 2. Reflective Analysis\nThe encyclical is heavily reflective, acting as a ledger of contemporary suffering. It explicitly references the \"blood poured like water,\" a clear allusion to the battles of the War of the Austrian Succession (e.g., the Battle of Campo Santo, 1743). It functions as a mirror held up to a society in crisis, interpreting the physical destruction of the Italian landscape as a direct consequence of the moral decay of its ruling class.\n\n### 3. Prescriptive Analysis\nThe prescriptive element is highly procedural. By overriding the statutes of religious orders and local ecclesiastical privileges, Benedict XIV asserts a \"state of emergency\" power. He attempts to bypass the fractured political landscape by creating a parallel, universal spiritual jurisdiction. The efficacy of this prescription was limited; there is no historical evidence that the warring princes altered their military strategies in response to the Pope\u2019s call for penitence.\n\n### 4. Reception and Efficacy\nContemporary diplomatic correspondence (e.g., the dispatches of the British envoy to Florence, Horace Mann) focuses on the military movements of the Spanish and Austrian armies, largely ignoring the Pope\u2019s spiritual decrees. The encyclical was received by the clergy as a standard administrative directive for a Jubilee, but it failed to gain traction as a political instrument. It remains a testament to the growing irrelevance of the Papacy in the calculations of 18th-century power politics.\n\n### 5. Anthropological Note\nThe document highlights a shift in the Papal perception of \"the world.\" Benedict XIV is not addressing the \"secular world\" as a partner, but as a site of contagion\u2014both physical (plague) and moral (war). The use of the Jubilee indulgence as a response to geopolitical conflict suggests a retreat into the sacramental, as the political levers of the Vatican had become increasingly rusted.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *War of the Austrian Succession (1740\u20131748)* | Primary driver of the \"calamities\" cited. |\n| Historical Record | *Correspondence of Horace Mann (1744)* | Documents the indifference of secular powers to papal peace efforts. |\n| Academic Scholarship | *Pastor, L. von. History of the Popes, Vol. 35.* | Confirms the Pope's frustration with the warring Catholic princes. |\n| Academic Scholarship | *Black, J. (1994). European Warfare 1660\u20131815.* | Contextualizes the devastation of the Italian theater. |",
+            "thoughtSignature": "EjQKMgEMOdbHwamSboCEd3gkmPAwdx0eNkeqVoiRlIVKf58XkYwP3kDgoG3tcewhT4OIwNsb"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2952,
+    "candidatesTokenCount": 1061,
+    "totalTokenCount": 4013,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2952
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "GV5Cao_hJvGtz7IPkvrOmQ8"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Deiparae Virginis Mariae\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -20},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 4}\n}\n```\n\n## Structured\n\n### Context\n*Deiparae Virginis Mariae* (1946) was issued in the immediate aftermath of World War II. While ostensibly an internal administrative document, it functioned within a broader post-war Catholic strategy to reassert spiritual authority in a shattered Europe. The document serves as the formal mechanism to initiate the process that culminated in the 1950 definition of the Assumption of Mary.\n\n### Reflective\nThe document reflects on a century of \"pious petitions\" (1849\u20131940). It interprets the history of Marian devotion as a cumulative consensus, effectively treating the *sensus fidelium* (the sense of the faithful) as a historical data set that the papacy is now obligated to process and validate.\n\n### Prospective\nThe document prescribes a specific procedural path for the global episcopate. It mandates a formal consultation process, requiring bishops to report on the state of devotion in their dioceses and provide a theological opinion. It anticipates the eventual dogmatic definition of the Assumption, effectively setting the stage for the 1950 apostolic constitution *Munificentissimus Deus*.\n\n### Temporal gradients\n- **Reflective Density (-20):** The document\u2019s gaze is anchored in the mid-19th century (the 1854 definition of the Immaculate Conception) and the subsequent decades of petitioning.\n- **Prescriptive Density (+4):** The document is explicitly forward-looking, aiming at a dogmatic definition that occurred four years later (1950).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nWhile *Deiparae Virginis Mariae* is an ecclesial document, its timing is significant. In 1946, the Vatican was navigating the early Cold War and the reconstruction of Europe. By focusing on the Assumption, Pius XII was reinforcing a distinct Catholic identity in a world increasingly bifurcated by secular ideologies (Communism and Western Liberalism). There is no evidence of direct secular political engagement in the text; it is a \"closed-loop\" document intended to solidify internal doctrinal unity.\n\n### 2. Reflective Analysis\nThe Pope frames the document as a response to a \"flood\" of requests. Historically, this reflects the 19th-century trend of \"ultramontanism\"\u2014the centralization of power in the papacy. By inviting the bishops to participate, Pius XII was not decentralizing power but rather creating a formal, documented consensus that would make the eventual dogma appear as the inevitable conclusion of a global, grassroots movement.\n\n### 3. Prospective Analysis\nThe document successfully prescribed the path to the 1950 dogma. It functioned as a \"litmus test\" for the episcopate. By asking for their judgment, the Pope ensured that when the dogma was eventually defined, it would be presented as the unified voice of the Church. The document did not merely predict the dogma; it engineered the administrative conditions for its proclamation.\n\n### 4. Reception and Impact\nContemporary secular media (e.g., *The New York Times*, *The Times*) largely ignored the document at the time of its 1946 circulation, as it was marked *in forma del tutto reservata* (strictly reserved). It only entered the public record when the dogma was defined in 1950. Academic historians of the Church (e.g., Eamon Duffy) note that this period of Pius XII\u2019s pontificate was marked by a high degree of papal control over doctrinal development, using such consultations to bypass potential dissent.\n\n### 5. Evidence Discipline\n- **Historical Records:** The document is verified as an apostolic letter published in the *Acta Apostolicae Sedis* (1950).\n- **Media:** No secular media coverage located for 1946; the document was not intended for public consumption at that stage.\n- **Academic Scholarship:** Interpretation of the document as a tool of \"ultramontane centralization\" is supported by standard historiography of the Pius XII era.\n\n### Citations\n\n| Source Type | Citation / Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, Vol. 38 (1946) | Official publication record. |\n| Academic | Duffy, E. (2014). *Saints and Sinners* | Contextualizes Pius XII's centralization. |\n| Historical Record | *Munificentissimus Deus* (1950) | Confirms the result of the 1946 consultation. |\n| Media | No non-theological media citations | Document was restricted/private in 1946. |",
+            "thoughtSignature": "EjQKMgEMOdbH5lRsh03fLQWzian7z2F/Es76+Xs/gmXhrtnmRDBQ5W/n0Pbu2aySWVz5UESw"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2775,
+    "candidatesTokenCount": 1045,
+    "totalTokenCount": 3820,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2775
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "ChxDaoLgOcKBqtsPw_3e-QE"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Singulari Quidem\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*Singulari Quidem* (1856) was issued in the immediate wake of the 1855 Concordat between the Holy See and the Austrian Empire under Franz Josef I. This concordat was a high-water mark for Pius IX\u2019s \"neo-ultramontane\" policy, effectively reversing the Josephinist state-control of the Church that had dominated Austria since the late 18th century.\n\n### Reflective\nThe document reflects on the \"deplorable evils\" of the post-1848 European landscape. It specifically reacts to the failure of the 1848 revolutions to produce a stable liberal order, interpreting the subsequent rise of rationalism and religious indifferentism as the inevitable moral decay resulting from the rejection of ecclesiastical authority. It looks back at the \"Josephinist\" era of state-subordinated clergy, seeking to purge the lingering effects of state-controlled seminary education.\n\n### Prospective\nThe encyclical prescribes a totalizing re-education of the Austrian clergy and laity. It anticipates a future where the Church, bolstered by the 1855 Concordat, acts as the primary moral arbiter of the Empire. It mandates the creation of a rigid, Rome-aligned clerical identity to insulate the Church from the \"contagion\" of secular liberalism.\n\n### Temporal gradients\n- **Reflective (-15):** The document is deeply rooted in the reaction against the Enlightenment and the specific administrative grievances of the Josephinist era (c. 1780s\u20131840s).\n- **Prescriptive (+8):** The document attempts to shape the next decade of Austrian ecclesiastical life, though its influence was curtailed by the 1867 Austro-Hungarian Compromise and the eventual suspension of the Concordat in 1870.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Geopolitics\nThe 1855 Concordat was a diplomatic coup for Pius IX, granting the Church control over education, marriage, and censorship in the Austrian Empire. *Singulari Quidem* served as the \"instruction manual\" for the Austrian episcopate to leverage these new powers. However, the document\u2019s tone\u2014authoritative and suspicious of secular intellect\u2014clashed with the rising tide of Austrian liberalism. Historians (e.g., Blanning, *The Pursuit of Power*) note that this period marked a widening chasm between the Vatican\u2019s rigid, centralized vision and the modernization requirements of a multi-ethnic, industrializing empire.\n\n### 2. The \"Indifferentist\" Threat\nPius IX\u2019s focus on \"indifferentism\" was not merely theological; it was a direct response to the legal equality granted to non-Catholic confessions in various European states. By framing indifferentism as a threat to \"law, justice, and virtue,\" the Pope was attempting to delegitimize the emerging secular state, which sought to treat religious affiliation as a private matter rather than a public, state-sanctioned identity.\n\n### 3. Rationalism and the Intellectual Climate\nThe encyclical\u2019s treatment of rationalism reflects the Vatican\u2019s anxiety regarding the professionalization of the university system in Vienna and Prague. By demanding that reason act as an \"obedient servant,\" the Pope was attempting to re-establish the Church as the gatekeeper of the *curriculum*, a move that alienated the emerging scientific and academic classes in the Empire.\n\n### 4. Reception and Efficacy\nThe document was received with enthusiasm by the conservative wing of the Austrian episcopate but met with significant resistance from liberal bureaucrats and the secular press. By 1867, the political landscape had shifted so drastically that the 1855 Concordat became untenable. The \"prospective\" vision of a Church-led Austrian society failed to materialize, as the Empire moved toward a secularized constitutionalism.\n\n### 5. Anthropological Assessment\nThe encyclical functions as an attempt to \"re-tribalize\" the Catholic population of Austria. By mandating specific spiritual exercises, seminary reforms, and reporting structures, the Pope was creating a distinct, insular subculture. This was a defensive reaction to the \"secular world\" that the Papal Papers project identifies as the primary site of conflict. The document is less a dialogue with the modern world and more a fortification strategy against it.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Concordat between the Holy See and the Austrian Empire (1855)* | The legal basis for the encyclical's administrative demands. |\n| Academic History | Blanning, T.C.W., *The Pursuit of Power: Europe 1815\u20131914* | Contextualizes the failure of the 1855 Concordat. |\n| Academic History | Chadwick, O., *A History of the Popes 1830\u20131914* | Analyzes Pius IX's reaction to 1848 liberalism. |\n| Media (Contemp.) | *Wiener Zeitung* (1856) | Reported on the implementation of the Concordat; noted tensions with liberal factions. |",
+            "thoughtSignature": "EjQKMgEMOdbHYsceOGXK6oDsBQWIXJOe7QLlzJGchlaCt96YzgGg0KAIjg3ikeL8qzrqCvQt"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3512,
+    "candidatesTokenCount": 1156,
+    "totalTokenCount": 4668,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3512
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "jFxCaq-hDvjVz7IP3ou9mAE"
+}

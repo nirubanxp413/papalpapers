@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Summi Maeroris\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Summi Maeroris* was issued on July 19, 1950, less than one month after the outbreak of the Korean War (June 25, 1950). The document functions as a pastoral response to the immediate onset of global anxiety regarding a potential Third World War. It is situated within the 1950 Holy Year, a period where Pius XII sought to project the Vatican as a neutral, moral arbiter amidst the hardening of the Cold War blocs.\n\n### Reflective\n*   **The Korean Crisis:** The encyclical directly addresses the \"threats of war\" and the \"blind rivalry\" of nations, a clear reaction to the invasion of South Korea.\n*   **Persecution of the Church:** The document reflects the ongoing suppression of Catholic institutions in the Soviet satellite states, particularly in Poland, Hungary (the trial of Cardinal Mindszenty, 1949), and Czechoslovakia.\n*   **Post-WWII Trauma:** It reflects on the \"ruins\" and \"treasures of art and culture\" destroyed in the previous decade, framing the current moment as a failure to learn from the recent past.\n\n### Prospective\n*   **Moral Mobilization:** Prescribes a global campaign of public prayer and penance as the primary mechanism for averting nuclear or total war.\n*   **Ecclesial Autonomy:** Demands the restoration of religious liberty in communist-bloc nations as a prerequisite for international peace.\n*   **Christian Social Order:** Anticipates a future where \"brotherly concord\" is achieved only through the explicit integration of Christian principles into the machinery of statecraft.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document is heavily anchored in the immediate post-WWII reality (1945\u20131950), specifically the collapse of the wartime alliance and the onset of the Cold War.\n*   **Prescriptive Density (+10):** The document projects a vision of a \"Christianized\" international order that it hopes to influence over the coming decade, though it lacks specific policy mechanisms for this transition.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Reception\n*Summi Maeroris* was released at a moment of acute geopolitical instability. The Korean War had shattered the illusion of a stable post-war peace. In the Western press, the encyclical was widely interpreted as a \"peace appeal\" from the Vatican, though it was largely ignored by the Soviet-aligned press, which viewed the Holy See as an instrument of Western imperialism. There is no evidence that the document influenced the strategic calculations of the Truman administration or the Kremlin.\n\n### 2. The \"Warmongering\" Apologia\nThe document\u2019s defensive tone regarding the charge that the Church desired war is significant. Historical records from the late 1940s show that the Vatican was frequently accused by communist regimes of being a \"fifth column\" for the United States. Pius XII\u2019s insistence that the Church\u2019s only weapon is \"truth\" was a calculated attempt to maintain the Church's moral standing in nations where it was being actively dismantled.\n\n### 3. The Role of the Holy Year\nThe Jubilee (Holy Year 1950) provided the logistical framework for the encyclical. By contrasting the \"consolation\" of the pilgrims with the \"anxiety\" of the world, Pius XII attempted to position the Church as the only institution capable of transcending national borders. This was a rhetorical strategy to assert the Church's relevance in an era dominated by the rise of the nation-state and ideological blocs.\n\n### 4. Limitations of Influence\nWhile the encyclical was read in parishes globally, its impact on secular policy was negligible. The \"Christian principles\" advocated by the Pope were increasingly viewed by secular political scientists and policymakers as incompatible with the *Realpolitik* required by the Cold War. The document represents the final, high-water mark of the \"moral diplomacy\" approach before the Church began to shift toward the more nuanced social teaching of the late 1950s and early 1960s.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, Vol. 42 (1950) | Official text of the encyclical. |\n| Media | *The New York Times*, July 20, 1950 | Reported the encyclical as a \"Plea for Peace.\" |\n| Academic | Pollard, J. F. (2005). *The Papacy in the Age of Totalitarianism* | Analyzes the Vatican's struggle with Cold War polarization. |\n| Media | *Pravda*, July 1950 (archival) | Characterized Vatican appeals as \"pro-imperialist.\" |",
+            "thoughtSignature": "EjQKMgEMOdbHjWbPmowKmJSC62HKPtbtgSpL9UJYLBMfzvRNGYzbAlXBVC5wiazBUQFwkIKN"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3126,
+    "candidatesTokenCount": 1088,
+    "totalTokenCount": 4214,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3126
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "zl1CarGKHrbCqtsP25KUgQM"
+}

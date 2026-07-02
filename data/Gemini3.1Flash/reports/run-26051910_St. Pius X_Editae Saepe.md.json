@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Editae Saepe\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 12}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published during the height of the *Pascendi Dominici Gregis* (1907) anti-Modernist campaign. The Church was in active conflict with the French Third Republic (1905 Law of Separation) and facing internal crises regarding the \"Sillon\" movement in France.\n*   **Occasion:** The 300th anniversary of the canonization of St. Charles Borromeo.\n*   **Primary Secular Engagement:** The encyclical targets the \"secularization of education\" and the perceived erosion of public morality by state-led, non-confessional institutions.\n\n### Reflective\n*   **Historical Interpretation:** The document frames the 16th-century Protestant Reformation as the primary historical antecedent to 20th-century Modernism.\n*   **Ecclesial Crisis:** It reflects on the \"internal\" threat of Modernism, which Pius X characterizes as a \"stealthy\" infiltration of the clergy.\n*   **Political Tension:** It reflects on the loss of Church property and influence in Europe, specifically citing the \"hostility\" of civil governments.\n\n### Prospective\n*   **Prescriptions:** Mandates the intensification of catechetical instruction, the promotion of frequent Communion, and the formal organization of \"Catholic Action\" as a defensive bulwark.\n*   **Warnings:** Predicts that if the Church does not return to the \"Borromean model\" of discipline and obedience, the \"universal apostasy\" will lead to the collapse of social order.\n*   **Anticipation:** Pius X anticipates a long-term struggle against \"false reformers\" who seek to modernize the Church's structure.\n\n### Temporal gradients\n*   **Reflective Density (-25):** The document is heavily anchored in the 16th-century Council of Trent and the life of Borromeo (1538\u20131584).\n*   **Prescriptive Density (+12):** The prescriptions (Catholic Action, catechetical reform) were intended to shape the Church's posture for the coming decades, though they were largely superseded by the liturgical and social shifts of the mid-20th century (Vatican II).\n\n---\n\n## Unstructured\n\n### 1. Historical Reception and Secular Impact\n*Editae Saepe* was received by the secular press primarily as a polemical document. In France, the *Le Temps* and other republican organs viewed the encyclical as an aggressive intervention into the state's educational autonomy. The document\u2019s harsh language regarding Protestantism caused significant diplomatic friction, leading to a formal protest from the German government, which viewed the Pope\u2019s characterization of the Reformation as an insult to the Protestant majority in the German Empire.\n\n### 2. The \"Borromean\" Model as Political Strategy\nPius X utilized the figure of St. Charles Borromeo not merely for piety, but as a political archetype. By emphasizing Borromeo\u2019s absolute obedience to the Roman Curia, the Pope was effectively signaling to the episcopate that \"reform\" was a top-down, not bottom-up, process. This was a direct rebuke to the *Sillon* movement, which sought to reconcile Catholic social teaching with democratic republicanism.\n\n### 3. Failure of Prophecy\nThe encyclical predicted that the \"Modernist\" threat would be contained by the strict enforcement of the *Oath Against Modernism* and the promotion of traditional catechesis. Historical evidence suggests this failed to prevent the intellectual shifts within the Church; rather, it drove them underground, creating a \"ghettoized\" intellectual culture that persisted until the 1960s. The \"universal apostasy\" Pius X feared was, in the eyes of later historians, a misdiagnosis of the secularization process, which was driven by industrialization and state-building rather than purely theological \"heresy.\"\n\n### 4. Evidence of Secular Engagement\nThe document is notable for its explicit rejection of the \"neutral\" state. Pius X argues that there is no such thing as a neutral school; it is either Catholic or it is \"the stronghold of the powers of darkness.\" This set the stage for the Church's 20th-century struggle to maintain parochial school systems against state monopolies.\n\n### 5. Synthesis of Findings\nThe encyclical is a classic example of \"defensive traditionalism.\" It looks back to the 16th century to provide a blueprint for the 20th, failing to account for the structural changes in the modern nation-state. While it succeeded in centralizing authority within the Church, it alienated secular governments and failed to stem the tide of secularization it so vehemently decried.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, Vol. II (1910) | Official text of the encyclical. |\n| Media | *Le Temps*, May 1910 | Contemporary report on the diplomatic fallout in France. |\n| Academic | Poulat, E. (1960) *Int\u00e9grisme et catholicisme int\u00e9gral* | Definitive study on the anti-Modernist crisis. |\n| Historical Record | German Foreign Office Archives (1910) | Records of the protest regarding the \"Protestant insult.\" |",
+            "thoughtSignature": "EjQKMgEMOdbHO2xZvOWiINMNXCbp+7h81RknulBMg4g2S1/RkuYXlDaY/3OH7aZ7HQ7hmif5"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3163,
+    "candidatesTokenCount": 1192,
+    "totalTokenCount": 4355,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3163
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "L2FCaryVJYanmtkPweiqqAw"
+}

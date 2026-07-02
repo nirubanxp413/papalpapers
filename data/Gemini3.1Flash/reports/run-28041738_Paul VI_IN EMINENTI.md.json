@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# IN EMINENTI\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The document was issued by Pope Clement XII (not Paul VI) in 1738. It emerged during the early Enlightenment, a period of rapid growth for the Grand Lodge of London (est. 1717) and the subsequent spread of Masonic lodges across Europe.\n*   **Secular Engagement:** The encyclical directly addresses the intersection of civil order and private association. It acknowledges that secular authorities (e.g., the Dutch Republic, the French monarchy) had already begun to view these societies with suspicion, framing the Church\u2019s intervention as a reinforcement of state security.\n\n### Reflective\n*   **Scope:** The document reflects on the rapid, clandestine proliferation of \"liberi Muratori\" (Freemasons) across European borders.\n*   **Interpretation:** It interprets the \"secrecy\" of these groups not as a neutral social feature, but as a deliberate evasion of public and ecclesiastical scrutiny, citing the maxim that \"those who do evil hate the light.\"\n\n### Prospective\n*   **Prescription:** It mandates a total prohibition for Catholics to join, support, or shelter these societies under pain of *ipso facto* excommunication.\n*   **Anticipation:** It attempts to preemptively stifle the influence of Enlightenment-era fraternal organizations, fearing they would erode the Church's monopoly on moral and social formation.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document looks back at the preceding two decades (1717\u20131738) of Masonic expansion.\n*   **Prescriptive Density (+10):** The document aims to establish a permanent, long-term legal barrier, intended to govern Catholic conduct for the foreseeable future.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*In Eminent* was a reactive measure to the \"Masonic explosion\" of the 1720s and 1730s. Historically, the Church viewed the lodge as a rival to the parish, offering a form of \"natural religion\" that bypassed sacramental life. The document\u2019s reliance on the \"rumor\" of the time suggests the Vatican was responding to intelligence reports from nuncios in Paris and London rather than a deep theological study of Masonic rituals, which were then in their infancy.\n\n### 2. Media and Public Discourse\nContemporaneous secular reaction was mixed. In Protestant-majority states, the papal bull was often viewed as an encroachment of Roman authority. In Catholic states, it provided a legal framework for monarchs to suppress lodges they already feared as hubs of sedition. There is no evidence of widespread public debate in the press; rather, the document functioned as a directive to the hierarchy to initiate local crackdowns.\n\n### 3. Academic Interpretation\nHistorians of the Enlightenment (e.g., Margaret Jacob) interpret *In Eminenti* as a pivotal moment where the Church identified the \"public sphere\" of the 18th century as a direct threat. The document is seen as the first of many attempts to categorize secular, non-denominational social spaces as inherently subversive to the Catholic social order.\n\n### 4. Efficacy and Failure\nThe encyclical\u2019s efficacy was limited. While it successfully intimidated many Catholics, it failed to halt the growth of Freemasonry, which continued to flourish in the 18th and 19th centuries. The document\u2019s rigid, punitive approach arguably accelerated the alienation of the intellectual elite from the Church, as it forced a choice between Enlightenment social participation and religious identity.\n\n### 5. Attribution Correction\nAs noted in the source file, the attribution to Pope Paul VI is a significant error. The document is the work of Pope Clement XII. The tone and legalistic structure are characteristic of the 18th-century Curia, not the 20th-century post-Vatican II papacy.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *In Eminenti* (1738) | Primary text; confirms Clement XII authorship. |\n| Academic | Jacob, M. (1991) *Living the Enlightenment* | Analyzes the social function of lodges vs. Church. |\n| Historical Record | Vatican Secret Archives | Correspondence regarding Masonic activity in 1730s. |\n| Media | *The Gentleman's Magazine* (1738) | Brief mention of the papal ban in London. |",
+            "thoughtSignature": "EjQKMgEMOdbHbQzcniQsFUyjYNXZ0tbr807U4CIGd9TZNzGwPeff+QzeJ3an/hTVGuzAVcJB"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2980,
+    "candidatesTokenCount": 1004,
+    "totalTokenCount": 3984,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2980
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "mWFCapbkH4eyqtsPo_2r4QM"
+}

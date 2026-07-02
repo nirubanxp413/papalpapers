@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Spesse Volte\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Italy, 1898. The \"Bava Beccaris massacre\" in Milan (May 1898) saw the military fire cannons into crowds protesting bread prices, killing hundreds. The government of Antonio di Rudin\u00ec responded by declaring a state of siege and suppressing \"subversive\" organizations, including Catholic social clubs, which were accused of fomenting unrest.\n*   **Papal Status:** Leo XIII remained a \"prisoner in the Vatican,\" maintaining the *Non Expedit* (the prohibition on Italian Catholics participating in national elections), which created a vacuum in the Italian political landscape.\n\n### Reflective\n*   **The \"Progressive Oppression\":** The encyclical catalogs decades of anti-clerical legislation (1860s\u20131890s), including the suppression of religious orders and the seizure of ecclesiastical property.\n*   **The 1898 Pretext:** It explicitly refutes the government's claim that Catholic charitable associations were responsible for the May riots, labeling the state's crackdown as a \"ridiculous and ill-concealed pretext.\"\n\n### Prospective\n*   **Social Stability:** Leo predicts that the destruction of Catholic charitable networks will accelerate the rise of socialism and anarchy by removing the only institutions capable of providing social welfare and moral discipline.\n*   **Ecclesial Strategy:** He prescribes a continued, rigid separation between \"Catholic action\" (charity/social work) and the Italian political state, while maintaining the demand for the restoration of the Pope\u2019s temporal independence.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is heavily anchored in the grievances of the *Risorgimento* and the subsequent decades of the \"Roman Question,\" looking back to the 1870s and 1880s as the origin of the current crisis.\n*   **Prescriptive Density (+8):** The prescriptions look toward a long-term, indefinite future where the Church remains a \"state within a state,\" waiting for the eventual collapse of the liberal-secular order.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\nThe encyclical is a defensive reaction to the *Rudin\u00ec* ministry\u2019s attempt to consolidate the Italian state by crushing all independent power centers. Historical records confirm that the government did indeed dissolve over 3,000 Catholic associations in 1898. While the government claimed these groups were \"clerical-socialist\" agitators, modern historiography (e.g., Pollard, *The Vatican and Italian Fascism*) suggests the government was actually terrified of the *Opera dei Congressi*\u2014a massive, organized network that provided a viable alternative to the state\u2019s failing social services.\n\n### 2. Media and Public Discourse\nContemporary secular press (e.g., *La Stampa*, *Corriere della Sera*) largely echoed the government's narrative, portraying the Church as an obstacle to national unity. Conversely, the Catholic press (e.g., *L'Osservatore Romano*) framed the encyclical as a vindication of the Church\u2019s role as the \"true\" protector of the poor. There is no evidence that the encyclical swayed the Italian government; rather, it hardened the resolve of the anti-clerical factions in the Chamber of Deputies.\n\n### 3. The \"Socialism\" Foil\nLeo XIII\u2019s argument that the Church is the best bulwark against socialism was a recurring theme in his pontificate (cf. *Rerum Novarum*). In *Spesse Volte*, he attempts to weaponize the government's fear of socialism against the government itself, arguing that by attacking the Church, the state is \"cutting the branch it sits upon.\" This was a failed prophecy in the short term; the Italian state survived, but the alienation of Catholics from the state continued until the 1929 Lateran Pacts.\n\n### 4. Institutional Reception\nThe encyclical was largely ignored by the Italian political establishment, who viewed it as an interference in internal security matters. However, it served as a vital morale-booster for the *Opera dei Congressi*, providing a theological justification for their continued existence despite state harassment.\n\n### 5. Anthropological Perspective\nThe document reveals a Church struggling with the transition from a temporal power to a \"moral authority\" in a modern nation-state. Leo\u2019s insistence on \"keeping outside politics\" while simultaneously demanding the restoration of the Papal States creates a cognitive dissonance that defined the Italian Catholic experience for the next thirty years.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archivio Centrale dello Stato (Rome)* | Records of the 1898 state of siege and dissolution of associations. |\n| Academic | Pollard, J. (2005). *The Vatican and Italian Fascism*. | Analyzes the long-term impact of the 1898 crackdown. |\n| Media | *Corriere della Sera* (August 1898) | Contemporary reporting on the government's justification for the crackdown. |\n| Primary Document | *Spesse Volte* (1898) | The encyclical text itself. |",
+            "thoughtSignature": "EjQKMgEMOdbHtMnGFyl3SnyCMLe3BFxq6iOp9FM7cuaTxYAn1t8pj16BmKDe9wrFames5JAx"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3113,
+    "candidatesTokenCount": 1166,
+    "totalTokenCount": 4279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3113
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "hBNCarv0LeCeqtsP7YSh8Q0"
+}

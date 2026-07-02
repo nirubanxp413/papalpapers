@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Veritatis Splendor\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Veritatis Splendor* was promulgated in the wake of the Cold War\u2019s end (1989\u20131991), a period characterized by the \"triumph\" of liberal democracy. John Paul II sought to address the internal theological fallout of the post-Vatican II era, specifically the rise of moral methodologies (proportionalism, consequentialism) that he viewed as incompatible with the Church's traditional moral absolute framework.\n\n### Reflective\nThe document is a direct reaction to the \"crisis of moral theology\" that emerged in the 1960s and 1970s. It looks back at the development of moral theology in the decades following the Second Vatican Council, specifically naming and rejecting the \"fundamental option\" theory and the denial of \"intrinsically evil acts.\" It interprets the secularization of Western society as a consequence of the loss of objective truth.\n\n### Prospective\nThe encyclical prescribes a strict return to traditional moral norms and asserts that the survival of democracy depends on the recognition of objective moral truths. It warns that without these, democracy will inevitably devolve into totalitarianism. It mandates that bishops and theological faculties align their teaching with the Magisterium, effectively attempting to curtail academic freedom within Catholic institutions.\n\n### Temporal gradients\n- **Reflective (-15):** The document is deeply rooted in the theological debates of the 1970s and 1980s, specifically the reaction against the \"new moral theology\" that gained traction after 1965.\n- **Prospective (+10):** The document attempts to set a moral trajectory for the 21st century, warning of a long-term decline in democratic health if moral relativism persists.\n\n---\n\n## Unstructured\n\n### 1. Historical Moment and Reception\n*Veritatis Splendor* was received as a \"restorationist\" document. In the secular press, it was widely interpreted as an attempt to reassert papal authority over the intellectual life of the Church. While the Vatican framed it as a defense of human dignity, secular media (e.g., *The New York Times*, *The Guardian*) focused on the document's impact on internal dissent, particularly regarding sexual ethics and the role of conscience.\n\n### 2. Reflective Analysis\nThe encyclical is a retrospective critique of the \"post-conciliar\" era. It identifies a specific intellectual lineage\u2014proportionalism and consequentialism\u2014that it blames for the erosion of moral certainty. It reflects a deep-seated concern that the Church\u2019s intellectual infrastructure (seminaries, universities) had been captured by secular methodologies that prioritized human autonomy over divine law.\n\n### 3. Prospective Analysis\nThe document\u2019s warning regarding the \"alliance between democracy and ethical relativism\" was a significant, if controversial, contribution to political theory. It anticipated the \"culture wars\" of the late 1990s and 2000s. However, evidence of its impact on secular political structures is minimal; it was largely ignored by secular policymakers, who viewed it as an internal ecclesial matter.\n\n### 4. Evidence of Efficacy\nThere is no evidence in parliamentary or legislative records that *Veritatis Splendor* influenced secular policy. Its primary \"efficacy\" was internal: it led to the tightening of oversight in Catholic theological faculties and the departure or silencing of several prominent moral theologians who held views contrary to the encyclical\u2019s definitions.\n\n### 5. Limitations of Influence\nThe encyclical\u2019s reach was largely confined to the Catholic sphere. While it attempted to engage the \"secular world,\" the secular world largely treated it as a document of internal discipline. The claim that democracy requires an objective moral foundation was debated in academic circles (e.g., political philosophy journals) but did not translate into actionable political or social policy.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Media | *The New York Times* (Oct 6, 1993) | Reported on the \"crackdown\" on dissent. |\n| Academic | Curran, C. E. (1994) | Critical analysis of the encyclical's methodology. |\n| Historical | Vatican Archives (1993) | Official text and accompanying commentary. |\n| Media | *The Tablet* (1993) | Contemporary analysis of the internal ecclesial impact. |",
+            "thoughtSignature": "EjQKMgEMOdbHy7Z0dQ1JeSfm5zdUNzzcAuXhSz+WI/XSd5QWvmRX3EN46xB4r9rMgdxG8JZz"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3571,
+    "candidatesTokenCount": 985,
+    "totalTokenCount": 4556,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3571
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "KBRCaungGdbRz7IP7c2syAo"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Inter omnigenas\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Inter omnigenas* (1744) was issued by Benedict XIV to address the \"crypto-Christian\" phenomenon in the Ottoman Balkans, specifically Serbia. It follows the *Concilio Albanese* (1703) and reflects the ongoing struggle of the Roman Curia to maintain canonical uniformity in territories where the Catholic population lived as a minority under the *millet* system. The document is a response to the administrative reports of Archbishop Giovanni Battista of Skopje, who sought papal clarification on the limits of \"dissimulation\" (hiding one's faith to avoid the *jizya* tax or social persecution).\n\n### Reflective\nThe document reflects on:\n- The failure of previous local synodal decrees (specifically the 1703 Albanian Council) to curb outward conformity to Islamic practices.\n- The persistent influence of Orthodox (schismatic) customs regarding marriage impediments, which the Vatican viewed as an encroachment on Roman jurisdiction.\n- The material reality of the \"hardest yoke,\" acknowledging that the Catholic community was physically and economically coerced into public Islamic performance.\n\n### Prospective\nThe document prescribes:\n- A strict prohibition against \"outward conformity,\" framing it as a mortal sin regardless of internal intent.\n- The enforcement of the Council of Trent\u2019s marriage decrees, effectively invalidating marriages performed under Ottoman civil law if they bypassed Catholic rites.\n- A long-term strategy of \"clandestine\" sacramental life, providing specific instructions for priests to carry the Eucharist secretly, anticipating that Ottoman hostility would not abate in the near future.\n\n### Temporal gradients\n- **Reflective (-15):** The document is heavily anchored in the 1703 Albanian Council and the decades of \"crypto-Christian\" practice that preceded Benedict XIV\u2019s pontificate.\n- **Prescriptive (+10):** The directives were intended to govern the life of the Balkan Catholic community for the remainder of the Ottoman period, anticipating a long-term state of siege for the Church in the region.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe encyclical operates at the intersection of Ottoman civil law and Roman canon law. Under the Ottoman *millet* system, religious communities were granted a degree of autonomy, but the social and economic pressure to convert\u2014or at least to appear Muslim\u2014was significant. Benedict XIV\u2019s intervention was not merely theological; it was an attempt to prevent the \"Turkification\" of the Catholic population, which would have resulted in the permanent loss of the Church's demographic and political footprint in the Balkans.\n\n### 2. The \"Crypto-Christian\" Dilemma\nThe document addresses the practice of *taqiyya* (or its Christian equivalent), where believers publicly performed Islamic rites to avoid the *jizya* (poll tax) or to secure better legal standing in Ottoman courts. Benedict XIV\u2019s rejection of this practice as \"scandalous\" demonstrates a refusal to accept the secular reality of the Ottoman state as a legitimate framework for Catholic life. He prioritizes the \"purity\" of the faith over the physical survival or economic prosperity of the community.\n\n### 3. Conflict with Orthodox Customs\nA significant portion of the text is dedicated to the \"schismatics\" (the Orthodox Church). The Pope\u2019s insistence that Catholic marriage law must supersede local customs\u2014even when those customs were shared by the broader Christian population\u2014highlights the Church's effort to define a distinct, non-assimilated identity for Catholics in the region. This was a defensive move against the absorption of Catholics into the larger, more established Orthodox structures.\n\n### 4. Efficacy and Reception\nThere is little evidence that the encyclical achieved its goal of total compliance. Historical accounts of the 18th-century Balkans suggest that the practice of \"crypto-Christianity\" persisted in various forms well into the 19th century, particularly in regions like Kosovo and Albania. The document functioned more as a moral boundary-marker than an effective administrative tool, as the physical danger of practicing Catholicism openly remained high.\n\n### 5. Scholarly Interpretation\nModern historians of the Balkans (e.g., Malcolm, *Kosovo: A Short History*) note that the Roman Catholic Church\u2019s insistence on strict adherence to Tridentine norms often placed the local clergy in an impossible position, forcing them to choose between the Pope\u2019s mandates and the survival of their congregations. The encyclical is viewed by secular historians as a document of \"ecclesiastical centralism\" that often ignored the pragmatic survival strategies of the laity.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Concilio Albanese* (1703) | Referenced as the failed precedent for the 1744 decrees. |\n| Academic History | Noel Malcolm, *Kosovo: A Short History* | Analyzes the survival strategies of Balkan Catholics under Ottoman rule. |\n| Primary Document | *Inter omnigenas* (1744) | Vatican Archives/Papal Encyclicals Online. |\n| Academic History | Frazee, C. A., *Catholics and Sultans* | Contextualizes the Vatican's diplomatic and pastoral struggle in the Ottoman Empire. |",
+            "thoughtSignature": "EjQKMgEMOdbHIXeHuo4Q//pOuDqV4HqCsxGRazS7qMDbLW7c1g5dKKlUWrI98LeUEwyJ28rN"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3199,
+    "candidatesTokenCount": 1157,
+    "totalTokenCount": 4356,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3199
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "aepBaor-HI61qtsPx9eP8A8"
+}

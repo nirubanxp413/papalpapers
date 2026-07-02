@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Dum Multa\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Ecuador, 1895\u20131902. The \"Liberal Revolution\" led by Eloy Alfaro dismantled the conservative, pro-clerical order established by Gabriel Garc\u00eda Moreno.\n*   **Key Events:** The 1897 Constitution and subsequent 1902 legislation introduced civil marriage, divorce, and secularized education. The government seized Church property and expelled religious orders.\n*   **Papal Status:** Leo XIII, in the final year of his pontificate, was attempting to maintain the remnants of the *Patronato* system, which the Ecuadorian state had unilaterally abandoned.\n\n### Reflective\n*   **Grievances:** The document explicitly reacts to the 1902 civil marriage laws, the suppression of the Diocese of Ibarra, and the state's attempt to appoint bishops without Vatican approval.\n*   **Interpretation:** Leo interprets these acts as a direct continuation of the \"Liberal\" assault on the Church that began with the 1895 revolution, framing the state's actions as a betrayal of Ecuador's historical dedication to the Sacred Heart.\n\n### Prospective\n*   **Prescriptions:** Commands the Ecuadorian episcopate to maintain non-compliance with civil marriage registration and to continue public protest.\n*   **Predictions:** Warns that the abandonment of Catholic marriage will lead to the \"ruin of the family\" and the \"corruption of public morality.\"\n*   **Actual Outcome:** The Liberal government largely ignored the encyclical. Civil marriage remained the law of the land, and the separation of Church and State was solidified in the 1906 Constitution.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is deeply rooted in the 15-year trajectory of Ecuadorian secularization, specifically the breakdown of the 1862 Concordat.\n*   **Prescriptive Density (+8):** The Pope\u2019s prescriptions for resistance were intended to shape the next decade of ecclesiastical life, though they largely failed to reverse the legislative reality.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\n*Dum Multa* represents the final, desperate attempt of the Leo XIII papacy to leverage moral authority against the radical secularization of Ecuador. The \"Liberal Revolution\" of 1895, led by Eloy Alfaro, sought to modernize the state by stripping the Catholic Church of its monopoly on civil registry, education, and social welfare. By 1902, the government had moved beyond mere anticlerical rhetoric to structural dismantling, including the introduction of divorce\u2014a direct affront to the Vatican's definition of the indissoluble sacrament.\n\n### 2. Reflective Analysis\nThe encyclical is a reactive document. It does not engage in abstract theology but serves as a formal protest against specific, named legislative acts. Leo XIII looks back at the \"hopes\" of the 1860s (the era of Garc\u00eda Moreno) and mourns their total collapse. The document is a record of the failure of diplomatic forbearance; the Pope admits that previous attempts at negotiation have been met with \"contempt.\"\n\n### 3. Prospective Analysis\nThe document prescribes a strategy of \"passive resistance\" for the clergy. By ordering bishops to refuse recognition of civil marriage, the Pope effectively forced the Church into a state of illegality within its own country. The document anticipates a moral decline in Ecuadorian society, framing the state\u2019s secularization as a precursor to social chaos. Historically, this prescription led to a period of intense friction between the state and the Church, but it did not prevent the secularization of the Ecuadorian legal code.\n\n### 4. Reception and Impact\nThere is no evidence in parliamentary records that the Ecuadorian government altered its legislative course in response to *Dum Multa*. The document served primarily as a morale-booster for the conservative opposition and the hierarchy, rather than a functional tool of policy change. It highlights the limits of papal influence in the face of a state committed to the *la\u00efcit\u00e9* model of the late 19th century.\n\n### 5. Evidence Discipline\n*   **Historical Records:** The 1902 Ecuadorian legislative records confirm the enactment of civil marriage laws.\n*   **Media:** Contemporary press in Quito (e.g., *El Comercio*) reflected the polarization of the era, with liberal papers framing the encyclical as foreign interference in sovereign affairs.\n*   **Academic Scholarship:** Historians of Latin American secularization (e.g., Ayala Mora) categorize this period as the definitive end of the \"Garc\u00eda Moreno\" model of the state.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | Constitution of Ecuador (1897/1906) | Confirms the legal shift toward secularization. |\n| Academic | Ayala Mora, E. (1988) *Historia del Ecuador* | Standard interpretation of the Liberal Revolution. |\n| Media | *El Comercio* (Quito, 1902) | Reported on the tension between the Curia and the Alfaro government. |",
+            "thoughtSignature": "EjQKMgEMOdbHEhkDpg3SCvfxn3LZRCH6RFSUtkXLBhDhqjy37FG5kYPlKAZpUw/IhRkjGEnc"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2644,
+    "candidatesTokenCount": 1140,
+    "totalTokenCount": 3784,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2644
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "M2BCavi1JIrwqtsPiPvCqAc"
+}

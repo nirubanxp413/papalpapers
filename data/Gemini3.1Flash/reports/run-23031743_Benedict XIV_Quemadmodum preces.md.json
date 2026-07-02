@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quemadmodum preces\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Quemadmodum preces* (1743) emerged during the pontificate of Benedict XIV (Prospero Lambertini), a period characterized by the \"Enlightened\" absolutism of European monarchs. The encyclical addresses the friction between the Holy See and secular magistrates who, in the spirit of *regalism* (the assertion of state control over church administration), sought to dictate the content and timing of liturgical prayers to suit political or military agendas.\n\n### Reflective\nThe document reflects on two specific, recent jurisdictional disputes:\n1. A secular tribunal\u2019s nullification of a magistrate\u2019s decree regarding public prayer.\n2. A secular edict mandating a *Te Deum* following a military victory, which the Sacred Congregation of the Council subsequently struck down.\nIt interprets these as symptoms of a broader, encroaching \"abuse\" of power by civil authorities who failed to recognize the distinct boundary between the *imperium* (secular rule) and the *sacerdotium* (ecclesial authority).\n\n### Prospective\nThe encyclical prescribes a clear protocol for bishops:\n1. **Instruction:** Educate secular authorities on the theological and canonical separation of powers.\n2. **Negotiation:** Use historical precedent (e.g., Hosius of C\u00f3rdoba) to argue against state-mandated liturgy.\n3. **Escalation:** If persuasion fails, refer the matter to the Holy See rather than engaging in unilateral conflict or capitulation.\nIt anticipates a future where secular states continue to view the Church as a department of the state, warning against the normalization of such practices.\n\n### Temporal gradients\n- **Reflective density (-5):** The document is deeply rooted in the immediate administrative crises of the early 1740s, drawing on patristic precedents (centuries old) to resolve conflicts from the previous five years.\n- **Prescriptive density (+10):** While the instructions were immediate, they were intended to establish a long-term defensive posture for the Church against the rising tide of 18th-century state secularism, which Benedict XIV correctly anticipated would intensify.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nBenedict XIV was a canonist of the highest order, and *Quemadmodum preces* is a quintessential expression of his \"diplomatic\" approach to governance. Unlike his predecessors who might have issued excommunications, Benedict sought to define the \"just limits\" of authority. The secular world of 1743 was increasingly dominated by the *Jura Majestatica circa sacra*\u2014the legal theory that the sovereign had inherent rights over the Church within their territory. This encyclical serves as a formal pushback against the encroachment of the state into the *lex orandi* (law of prayer).\n\n### 2. Reflective Analysis\nThe encyclical is a reactive document. It does not seek to expand papal power into the secular realm but rather to draw a \"cordon sanitaire\" around the liturgy. By citing the Council of Trent and the early Church Fathers, Benedict is attempting to anchor the Church\u2019s autonomy in a past that secular rulers\u2014who often claimed to be \"Most Christian\" or \"Catholic\" monarchs\u2014could not easily dismiss without contradicting their own religious legitimacy.\n\n### 3. Prescriptive Analysis\nThe prescriptive power of the document is limited by the reality of the 18th-century state. While Benedict instructs bishops to resist, he acknowledges the difficulty of doing so in a climate where secular rulers held the sword. The instruction to \"refer to the Holy See\" is a strategic move to centralize authority, ensuring that local bishops were not left to negotiate alone against powerful, often aggressive, state bureaucracies.\n\n### 4. Reception and Efficacy\nThere is little evidence that this encyclical halted the trend of regalism. Throughout the mid-to-late 18th century, the \"Josephist\" reforms in the Habsburg lands and similar movements in Portugal and France continued to treat the Church\u2019s liturgical life as a matter of state policy. The encyclical functioned more as a \"manual of resistance\" for the episcopacy than as a document that successfully deterred secular rulers.\n\n### 5. Anthropological/Journalistic Assessment\nFrom an investigative standpoint, *Quemadmodum preces* reveals a Church in a defensive crouch. It is a document of \"jurisdictional maintenance.\" Benedict XIV\u2019s tone is notably devoid of the polemical fire seen in earlier centuries; he treats the secular encroachment as an \"error of ignorance\" rather than malice. This reflects the Pope's own personality as a scholar-diplomat who preferred legal precision over confrontation.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum* | Official text of the encyclical. |\n| Academic Interpretation | F.J. Coppa, *The Papacy, the Jews, and the Holocaust* (contextual background) | Provides insight into the 18th-century jurisdictional climate. |\n| Academic Interpretation | M. Rosa, *Settecento religioso* | Analyzes the tension between the Papacy and Enlightenment-era monarchs. |\n| Media/Public Record | No non-theological media citation located | The document was an internal administrative directive, not a public manifesto. |",
+            "thoughtSignature": "EjQKMgEMOdbHlMbc/tLSEYRwHdljFmwEp2rpOjaF4ImrIvb6zi3UnUZc68UCct96UY94OaOw"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2811,
+    "candidatesTokenCount": 1182,
+    "totalTokenCount": 3993,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2811
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "JF9CasnvFobNqtsP5MmEoAo"
+}

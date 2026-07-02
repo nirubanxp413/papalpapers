@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Respicientes\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -20},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Event:** The capture of Rome by the Italian Army (Bersaglieri) on September 20, 1870, ending the temporal power of the Papacy.\n*   **Political Environment:** The Risorgimento movement had systematically dismantled the Papal States since 1859. *Respicientes* serves as the final formal protest of the \"Prisoner in the Vatican\" era.\n*   **Diplomatic Status:** The Kingdom of Italy, under Victor Emmanuel II, sought international recognition while attempting to appease Catholic powers (France, Austria) by offering the Law of Guarantees (1871), which Pius IX rejected.\n\n### Reflective\n*   **Scope:** The document provides a 20-year retrospective (1850\u20131870) of perceived Piedmontese aggression.\n*   **Key Interpretations:** Pius IX interprets the loss of territory not as a political evolution of the Italian nation-state, but as a \"sacrilegious\" violation of divine law and a continuation of the French Revolutionary assault on the Church.\n\n### Prospective\n*   **Warnings:** Pius warns that the \"usurpers\" will face divine judgment and that the Church will never recognize the legitimacy of the new Italian state\u2019s occupation of Rome.\n*   **Prescriptions:** The document mandates that the faithful reject the legitimacy of the new regime, refuse to participate in its political processes (the *Non Expedit* policy, later formalized), and maintain the claim to temporal sovereignty as a non-negotiable requirement for the Papacy.\n\n### Temporal gradients\n*   **Reflective Density (-20):** The document is heavily anchored in the grievances of the 1850s, specifically the legislative attacks on ecclesiastical property and the annexation of the Romagna.\n*   **Prescriptive Density (+10):** The document attempts to set a policy of non-recognition that lasted until the Lateran Treaty of 1929 (59 years later), though its immediate prescriptive power was limited to the 1870s.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Respicientes* is a document of profound institutional trauma. By 1870, the Papacy had lost its administrative control over the majority of its territories. The document functions as a legal \"protestation\" intended to be read into the record of international law. Historically, it marks the transition of the Papacy from a territorial sovereign to a purely symbolic, albeit highly influential, global moral authority. The \"Naboth\u2019s Vineyard\" analogy is not merely rhetorical; it was the central legal argument used by the Vatican to justify the refusal of any financial or political settlement offered by the Italian government.\n\n### 2. Media and Public Discourse\nContemporary secular press (e.g., *The Times* of London, *Le Temps* in Paris) largely viewed the document as the final gasp of an obsolete political order. While Catholic newspapers in France and Ireland echoed the Pope\u2019s lament, the Italian press characterized the encyclical as an obstruction to national progress. There is no evidence that the document swayed the Italian government; rather, it hardened the resolve of the anticlerical factions within the Italian parliament.\n\n### 3. Academic Interpretation\nHistorians of the Risorgimento (e.g., Kertzer, Pollard) view *Respicientes* as the foundational text of the \"Roman Question.\" It is widely cited in political science as an example of an institution refusing to adapt to the Westphalian model of the nation-state. The document is seen as a failure in terms of its stated goal (recovering territory) but a success in terms of its secondary goal: cementing the identity of the \"suffering, persecuted Church\" in the minds of the global Catholic laity.\n\n### 4. The \"Prisoner\" Narrative\nThe document solidified the \"Prisoner in the Vatican\" trope. By framing the occupation as a violent, fraudulent, and illegal act, Pius IX successfully delegitimized the Italian state in the eyes of millions of Catholics. This created a \"state within a state\" tension that defined Italian domestic politics for nearly six decades, effectively paralyzing Catholic participation in Italian national elections until the early 20th century.\n\n### 5. Failed Prophecy and Prescience\nPius IX predicted that the loss of temporal power would render the Pope unable to govern the Church. History suggests the opposite: the loss of temporal power arguably increased the Papacy\u2019s moral and spiritual authority by removing the baggage of territorial administration and local political corruption. The document\u2019s insistence that temporal power was \"indispensable\" was proven incorrect by the subsequent growth of the Vatican\u2019s global influence in the 20th century.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Law of Guarantees (1871)* | The Italian state's attempt to resolve the status created by *Respicientes*. |\n| Academic | *Kertzer, D. (2004). Prisoner of the Vatican.* | Definitive account of the post-1870 political standoff. |\n| Media | *The Times (London), Oct 1870* | Contemporary coverage of the fall of Rome and papal reaction. |\n| Historical Record | *Pius IX, Non Expedit (1874)* | The practical application of the stance taken in *Respicientes*. |",
+            "thoughtSignature": "EjQKMgEMOdbHOb78F1IFgN65iK0A2y6DLi8O+oWhweO+WDXa0MsKiVpSCls+q0HsgF3v/gF0"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3198,
+    "candidatesTokenCount": 1209,
+    "totalTokenCount": 4407,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3198
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "XOpBatKcBpOxqtsPyKq98QQ"
+}

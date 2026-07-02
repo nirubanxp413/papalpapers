@@ -1,0 +1,71 @@
+---
+source_file: "data/encyclical/03031590_Sixtus V_Triumphantis Hierusalem.md"
+step3_report_file: "data/subagents/reports/run-03031590_Sixtus V_Triumphantis Hierusalem.md"
+report_file: "data/Gemini3.1Flash/reports/run-03031590_Sixtus V_Triumphantis Hierusalem.md.md"
+pass: "step-6-gemini-3.1-flash"
+model: "gemini-3.1-flash-lite"
+pope: "Sixtus V"
+title: "Triumphantis Hierusalem"
+published_date: "1590-03-03"
+source_url: "https://www.papalencyclicals.net/sixtus05/triumph.htm"
+alternate_source_url: null
+key_theme: "Spiritual"
+response_id: "VRxDaqWqD_qdqtsPrNjf8Qo"
+completed_at: "2026-06-30T01:31:06+00:00"
+---
+
+# Triumphantis Hierusalem
+
+## Gradients
+```json
+{
+  "reflective": {"saturation": 8, "density": -15},
+  "prescriptive": {"saturation": 6, "density": 10}
+}
+```
+
+## Structured
+
+### Context
+*   **Historical Moment:** Published March 3, 1590, during the final year of Sixtus V’s papacy. The era was defined by the Counter-Reformation, the consolidation of the Vatican Press, and the administrative centralization of the Roman Curia.
+*   **Secular/Political Climate:** Sixtus V was engaged in a high-stakes struggle against the Huguenots in France and the Protestant ascendancy in England. The "sad age" mentioned in the text refers to the fragmentation of Christendom following the Reformation.
+*   **Institutional Goal:** The document serves as a tool for intellectual standardization, aiming to unify Catholic academic output under the Franciscan-Scholastic banner to counter the perceived intellectual threat of Protestant theology.
+
+### Reflective
+*   **Historical Anchors:** The document explicitly references the Council of Lyons (1274), the canonization by Sixtus IV (1482), and the precedent of Pius V’s elevation of Thomas Aquinas (1567).
+*   **Theological Interpretation:** It interprets the history of the Church as a binary struggle between "heretical machinations" and the "fortified citadel" of Scholasticism. It reflects on the "frigid winter" of the 16th century as a period requiring the "burning light" of medieval saints.
+
+### Prospective
+*   **Prescriptions:** Mandates the universal celebration of St. Bonaventure’s feast, the establishment of a dedicated college at the Basilica of the Twelve Apostles, and the systematic publication of his works via the Vatican Press.
+*   **Anticipated Outcome:** The Pope intended to create a permanent, standardized intellectual curriculum that would render the Church "unconquered" by future theological challenges.
+
+### Temporal gradients
+*   **Reflective Density (-15):** The document looks back roughly 15 years to the precedent of Pius V (1567) and over 300 years to Bonaventure’s life, but its primary polemical focus is the immediate crisis of the 1570s-1580s.
+*   **Prescriptive Density (+10):** The mandate for a college and a standardized edition of works was intended to influence the intellectual formation of the clergy for decades to come, projecting authority into the 17th century.
+
+---
+
+## Unstructured
+
+### 1. Historical Context and Agency
+Sixtus V (Felice Peretti) was a Franciscan. His elevation of Bonaventure was as much an act of institutional patronage for his own order as it was a strategic move against Protestantism. By 1590, the Vatican Press was a central instrument of Sixtus’s "administrative papacy," and this encyclical functioned as a directive to populate that press with specific, approved content.
+
+### 2. Reflective Analysis
+The document is deeply reflective of the trauma of the late 16th century. It views the Reformation not as a political or social shift, but as an intellectual "ambush." By invoking the "two olive trees" (Bonaventure and Aquinas), Sixtus attempts to anchor the volatile present in a stable, idealized medieval past. The reflection is highly selective, focusing on Bonaventure’s role in the Council of Lyons to emphasize the "reunion" of the Greek Church—a historical event used to signal the desired submission of contemporary dissenters.
+
+### 3. Prospective Analysis
+The prescriptive force of the document is high regarding liturgical and academic practice. The establishment of the college at the Basilica of the Twelve Apostles was a concrete, physical manifestation of this prescription. However, the "unconquered" nature of Scholasticism as a defense against heresy proved less effective than Sixtus hoped; the intellectual currents of the early modern period (humanism, early scientific inquiry) were already moving beyond the rigid Scholastic framework the Pope sought to mandate.
+
+### 4. Secular Engagement
+While the document is ostensibly ecclesial, its "secular" impact lies in the standardization of education. By mandating the use of Bonaventure in "lecture halls, academies, and schools," the papacy attempted to exert control over the intellectual life of Europe. This was a direct response to the loss of university control in Protestant-leaning territories.
+
+### 5. Reception and Legacy
+The document was successful in its immediate goal of elevating Bonaventure’s status within the Church. However, the broader hope that Scholasticism would serve as a totalizing "citadel" against the Reformation was undermined by the subsequent rise of the Enlightenment and the diversification of European intellectual life. The document is now viewed by historians primarily as a testament to the Counter-Reformation’s attempt to use institutional canonization as a tool of intellectual warfare.
+
+### Citations
+| Source Type | Citation | Note |
+| :--- | :--- | :--- |
+| Historical Record | *Bullarium Romanum*, Vol. IV | Contains the official text of the decree. |
+| Academic Interpretation | Pastor, L. (1923). *History of the Popes* | Contextualizes Sixtus V’s administrative reforms. |
+| Academic Interpretation | O'Malley, J. W. (2000). *Trent and All That* | Discusses the Counter-Reformation's use of Scholasticism. |
+| Historical Record | Vatican Press Archives (1590) | Records of the publication of Bonaventure's works. |

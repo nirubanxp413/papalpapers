@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Mirari Vos\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 15}\n}\n```\n\n## Structured\n\n### Context\n*Mirari Vos* was issued in the immediate aftermath of the July Revolution (1830) in France and the subsequent unrest across Europe, including the Carbonari-led insurrections in the Papal States (1831). Gregory XVI, a former Camaldolese monk, ascended to the papacy in 1831 during a period of intense political instability. The encyclical is a direct response to the rise of \"Liberal Catholicism,\" specifically the movement led by F\u00e9licit\u00e9 de Lamennais, whose journal *L'Avenir* advocated for the separation of Church and state and the embrace of modern civil liberties.\n\n### Reflective\n*   **The July Revolution (1830):** The document reacts to the collapse of the Bourbon Restoration and the perceived threat of secular liberalism to the \"throne and altar\" alliance.\n*   **Lamennais and *L'Avenir*:** The encyclical is a targeted refutation of the ideas championed by Lamennais, Montalembert, and Lacordaire, who argued that the Church should abandon its reliance on state power to gain moral independence.\n*   **Papal States Insurrection (1831):** The \"terrible conspiracy\" mentioned in \u00a71 refers to the armed uprisings in Romagna and the Marches, which required Austrian military intervention to suppress.\n\n### Prospective\n*   **Doctrinal Rigidity:** The document attempts to freeze the Church\u2019s political and social stance, explicitly forbidding \"restoration or regeneration\" of the Church (\u00a710).\n*   **Censorship:** It mandates the use of episcopal authority to suppress the press and control the circulation of \"seditious\" ideas (\u00a715\u201316).\n*   **Long-term Strategy:** It sets the stage for the *Syllabus of Errors* (1864) under Pius IX, establishing a century-long trajectory of opposition to modern democratic and liberal political philosophy.\n\n### Temporal gradients\n*   **Reflective:** Density -5. The document is heavily anchored in the immediate crises of 1830\u20131832, specifically the failure of the 1831 Italian revolts and the intellectual challenge of the French liberal Catholic press.\n*   **Prospective:** Density +15. The document\u2019s prescriptions were intended to govern the Church's posture for decades, effectively shaping the Vatican's defensive stance against the rise of the modern secular state until the mid-20th century.\n\n---\n\n## Unstructured\n\n### 1. Historical Situation\nGregory XVI\u2019s pontificate began in a state of siege. The Papal States were effectively ungovernable without the presence of Austrian troops. *Mirari Vos* was not merely a theological treatise; it was a political manifesto intended to signal to the Great Powers that the Papacy would not accommodate the \"revolutionary\" spirit of the age. The document\u2019s focus on \"legitimate princes\" was a direct appeal to the conservative order established by the Congress of Vienna.\n\n### 2. The Liberal Catholic Challenge\nThe primary target of the encyclical was the circle around *L'Avenir*. Lamennais and his followers believed that by shedding its dependence on the state, the Church would regain its spiritual authority. Gregory XVI viewed this as a fatal error, arguing that the Church\u2019s survival was inextricably linked to the stability of the existing political order. The encyclical effectively silenced the liberal wing of the French Church, forcing a choice between total submission to the Roman line or departure from the faith.\n\n### 3. Reception and Efficacy\nThe encyclical was received with shock by the liberal Catholic intelligentsia. Lamennais eventually left the Church, becoming a symbol of the \"lost\" potential for a democratic Catholicism. Conversely, the document was welcomed by the reactionary regimes of Europe, who saw it as a validation of their own efforts to suppress democratic movements. However, its efficacy in stopping the tide of liberalism was minimal; the secularization of European states continued unabated throughout the 19th century.\n\n### 4. The \"Novelty\" Trap\nThe encyclical\u2019s obsession with *novitas* (novelty) created a rhetorical trap. By framing any adaptation to the modern world as a \"defect\" in the Church, Gregory XVI made it impossible for the Church to engage with the emerging social realities of the Industrial Revolution or the rise of constitutionalism without appearing to contradict its own foundational claims. This created a \"bunker mentality\" that defined the Vatican\u2019s diplomatic and social policy for over a century.\n\n### 5. Anthropological Assessment\nFrom an anthropological perspective, *Mirari Vos* functions as a \"boundary-maintenance\" mechanism. It defines the \"Catholic\" identity by what it excludes: the press, the liberal state, and the individual conscience. It is a document of profound anxiety, reflecting a leadership that perceived the loss of temporal power as a direct threat to the ontological truth of the faith.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Gregorii Papae XVI* | Official record of the 1831 insurrection. |\n| Academic History | Vidler, A. R. (1954). *Prophecy and Papacy* | Definitive study on the Lamennais-Gregory conflict. |\n| Media (Contemp.) | *L'Avenir* (1830\u20131831) | Primary source for the \"liberal\" arguments condemned. |\n| Academic History | Hales, E. E. Y. (1954). *Pio Nono* | Contextualizes the transition from Gregory to Pius IX. |",
+            "thoughtSignature": "EjQKMgEMOdbHFRme1tGKspju7S4PSI9yxP3UAOduLbRcZL9MXQA4nLy0lMZAd4Ni72rf2OXN"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3446,
+    "candidatesTokenCount": 1258,
+    "totalTokenCount": 4704,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3446
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "sFtCarbfKrLBz7IPlJWDmQw"
+}

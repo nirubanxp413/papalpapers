@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Libentissime quidem\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*Libentissime quidem* (1745) functions as a regulatory consolidation of Benedict XIV\u2019s earlier interventions regarding Lenten discipline. It emerges from a period of significant tension between the Roman Curia\u2019s desire for liturgical uniformity and the practical, often localized, adaptations made by bishops in the face of economic hardship and public health crises (specifically recurring respiratory epidemics in the 1730s and 1740s).\n\n### Reflective\nThe document reflects on the failure of the 1741 apostolic letters (*Non ambigimus* and *In suprema*) to curb the \"laxity\" of local episcopal dispensations. It explicitly addresses the \"cavils\" of Spanish theologians and the administrative confusion caused by the *Bulla Crociata* (Crusade Bull), which had become a source of revenue and a loophole for dietary exemptions across the Spanish Empire.\n\n### Prospective\nThe encyclical prescribes a rigid, centralized standard for future dispensations. It mandates that bishops must require written medical evidence for communal exemptions and restricts the definition of \"necessity\" to exclude economic factors like high food prices or the presence of military garrisons. It attempts to shape the future of pastoral administration by stripping bishops of the discretionary power to grant broad, standing exemptions.\n\n### Temporal gradients\n*   **Reflective (-5):** The document is heavily anchored in the administrative disputes and theological debates of the preceding five years (1740\u20131745).\n*   **Prescriptive (+3):** The prescriptions were intended to govern the immediate future of Lenten observance, though their efficacy was limited by the logistical realities of the mid-18th century.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nBenedict XIV (Prospero Lambertini) was a canonist of the highest order, and *Libentissime quidem* reflects his characteristic approach: the application of legal precision to pastoral problems. The \"secular\" engagement here is indirect but significant: the encyclical addresses the intersection of public health (epidemics) and economic conditions (food prices) with religious law. By rejecting \"high prices\" as a valid reason for dispensation, Benedict was effectively asserting that the Church\u2019s penitential calendar should remain immune to market fluctuations, a stance that placed him at odds with local administrators concerned with social stability.\n\n### 2. The Spanish Connection and the *Bulla Crociata*\nA critical, often overlooked element is the document's engagement with the *Bulla Crociata*. This was not merely a religious instrument but a financial one, providing the Spanish Crown with significant revenue. By attempting to clarify that the *Bulla* did not grant a blanket override of Lenten discipline, Benedict was navigating a delicate diplomatic path with the Bourbon monarchy, attempting to assert ecclesiastical authority without triggering a jurisdictional conflict with the Spanish state.\n\n### 3. Efficacy and Reception\nThere is little evidence that this encyclical achieved its goal of total uniformity. Historical records from the late 18th century suggest that the practice of \"buying\" dispensations or obtaining them through local episcopal influence remained common. The document was highly effective as a *canonical* reference point for future canonists, but as a *social* instrument, it struggled against the entrenched habits of the faithful and the pragmatic needs of local bishops.\n\n### 4. The Role of the Pope\nBenedict XIV\u2019s reputation as a \"learned\" pope allowed him to frame this as a resolution of \"doubts\" rather than a new law. His personal history as Archbishop of Bologna provided him with the credibility to lecture other bishops on the \"ease\" of fasting, as he had implemented similar, albeit more localized, reforms earlier in his career.\n\n### 5. Anthropological Note\nThe encyclical reveals a profound anxiety regarding the \"dissolution of penitential practice.\" Benedict views the erosion of fasting not just as a loss of piety, but as a loss of order. The insistence on written medical testimony is an attempt to \"bureaucratize\" the body, turning the physical experience of illness into a documented, legal fact that can be audited by Rome.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bulla Crociata* (various 18th-c. editions) | The primary financial/legal instrument being curtailed. |\n| Academic History | *The Papacy in the Age of Enlightenment* (various) | Contextualizes Benedict XIV\u2019s legalistic reform style. |\n| Historical Record | *Non ambigimus* (1741) | The foundational document being reinforced. |\n| Media / Public | No non-theological media located | The document was an internal administrative circular. |",
+            "thoughtSignature": "EjQKMgEMOdbHk8uV438Z55zPbupj+nMzdqsb4zRVL773p1R+5SmIZXqtTG6ReTW98PqVjoa1"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3011,
+    "candidatesTokenCount": 1051,
+    "totalTokenCount": 4062,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3011
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "CB1DapnhOY63mtkPn4KJwQQ"
+}

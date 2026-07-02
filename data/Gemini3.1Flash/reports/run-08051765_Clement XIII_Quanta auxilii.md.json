@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quanta auxilii\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*Quanta auxilii* (1765) was issued during a period of intense friction between the Holy See and the Bourbon monarchies (France, Spain, Naples). The \"sad conspiracy\" referenced is the rising tide of Enlightenment anti-clericalism and the specific political movement to suppress the Society of Jesus (Jesuits), which had been expelled from France in 1764.\n\n### Reflective\nThe document reflects on the systemic erosion of ecclesiastical immunity and the \"wicked\" influence of *philosophes* and Jansenist-leaning jurists in the French *Parlements*. It acknowledges the failure of previous diplomatic efforts to protect the Jesuits and the internal fractures within the French episcopate regarding the *Unigenitus* bull.\n\n### Prospective\nThe encyclical prescribes a strategy of \"episcopal unity\" as a defensive bulwark. It anticipates that a unified front of bishops, appealing to the \"Most Christian King\" (Louis XV), could reverse the secularizing trends of the *Parlements*. It also prescribes a path of reconciliation for the bishops of Al\u00e8s and Angers, hoping to avoid formal schism.\n\n### Temporal gradients\n- **Reflective (-15):** The document is deeply rooted in the 1750s-1760s struggle over the *Unigenitus* bull and the legal assault on the Jesuits.\n- **Prospective (+3):** The Pope anticipates a restoration of Church status through royal favor, a hope that proved largely futile as the French monarchy moved toward the secular reforms of the 1770s.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\n*Quanta auxilii* was not a theological treatise but a tactical intervention in the Gallican Church's General Assembly. By 1765, the French *Parlements*\u2014the sovereign courts\u2014had effectively seized control of the Jesuit suppression process, often bypassing the King\u2019s own inclinations. Clement XIII\u2019s appeal to Louis XV was a desperate attempt to re-assert the \"traditional\" alliance between the Throne and the Altar, ignoring the reality that the French state was already transitioning toward a bureaucratic model that viewed the Church as a subordinate department of the state.\n\n### 2. The \"Conspiracy\" and Political Reality\nThe \"sad conspiracy of wicked men\" is a coded reference to the *Parti d\u00e9vot*'s opponents: a coalition of Jansenists, Gallican lawyers, and Enlightenment thinkers. Historical records (e.g., the *M\u00e9moires* of the period) confirm that the French episcopate was deeply divided. The Pope\u2019s attempt to force unity was a reaction to the fact that many French bishops were more loyal to the French Crown\u2019s Gallican liberties than to Roman directives.\n\n### 3. Prescriptive Efficacy\nThe document\u2019s prescription\u2014that the bishops should act as a unified body to influence the King\u2014failed to materialize. The French bishops were largely paralyzed by the fear of the *Parlements* and the Crown's own desire to avoid a confrontation with the courts. The \"restoration\" of the Church's \"former happiness\" never occurred; instead, the state continued to encroach on ecclesiastical property and jurisdiction throughout the 1770s, leading directly to the Civil Constitution of the Clergy in 1790.\n\n### 4. The Case of Al\u00e8s and Angers\nThe bishops of Al\u00e8s and Angers were notable for their resistance to the *Unigenitus* bull. Clement\u2019s \"moderation\" was a strategic retreat; he lacked the political capital to enforce discipline without risking a wider schism that the French Crown would have exploited to further weaken Roman authority.\n\n### 5. Summary of Reception\nThe encyclical was received with polite silence by the French court and ignored by the *Parlements*. It serves as a primary example of the late 18th-century papacy\u2019s inability to grasp that the \"Most Christian King\" was no longer the Church's protector, but rather a prisoner of the emerging secular administrative state.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Proc\u00e8s-verbaux de l'Assembl\u00e9e g\u00e9n\u00e9rale du clerg\u00e9 de France (1765)* | Confirms the assembly's focus on fiscal and legal survival. |\n| Academic History | Van Kley, D. (1996). *The Religious Origins of the French Revolution* | Analyzes the Jansenist-Gallican alliance against the Jesuits. |\n| Academic History | Pastor, L. (1952). *History of the Popes, Vol. 37* | Details the diplomatic isolation of Clement XIII. |\n| Media/Contemporary | *Gazette de France* (1765) | No mention of the encyclical; reflects the state's control of public discourse. |",
+            "thoughtSignature": "EjQKMgEMOdbHEpbURPVi6Sufg9kzj7mcFPXDPKijBd496zwPnl1bF8bCCtDCg+2lTkVvlg4U"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3096,
+    "candidatesTokenCount": 1089,
+    "totalTokenCount": 4185,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3096
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "zRxDat-UDp31jMcPmYa42QE"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Iniquis Afflictisque\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -10},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Iniquis Afflictisque* was issued during the height of the *Cristero War* (1926\u20131929), a violent conflict between the Mexican government under President Plutarco El\u00edas Calles and Catholic rebels. The encyclical followed the implementation of the \"Calles Law,\" which enforced the anti-clerical provisions of the 1917 Constitution.\n\n### Reflective\nThe document serves as a formal Vatican record of the 1926 legislative crackdown. It reflects on:\n- The 1917 Mexican Constitution\u2019s secularization mandates.\n- The July 1926 presidential decrees restricting clerical civil rights.\n- The systematic closure of Catholic schools and the expulsion of foreign-born clergy.\n- The historical role of the Church in Mexican \"civilization\" (a retrospective defense of the colonial and post-colonial social order).\n\n### Prospective\nThe document prescribes:\n- Continued \"passive resistance\" (non-compliance with secular laws deemed unjust).\n- A call for global Catholic solidarity and prayer.\n- An implicit expectation that the Mexican state would eventually collapse or retreat under divine pressure, framing the conflict as a test of endurance rather than a political negotiation.\n\n### Temporal gradients\n- **Reflective density (-10):** The document is deeply rooted in the decade leading up to 1926, specifically the consolidation of the post-revolutionary state (1917\u20131926).\n- **Prescriptive density (+2):** The gaze is immediate, focusing on the ongoing survival of the Church in the months following the 1926 suspension of public worship.\n\n---\n\n## Unstructured\n\n### 1. Historical Reality vs. Papal Narrative\nThe encyclical frames the conflict as a purely religious persecution by an \"insane\" state. Historical records (e.g., Meyer, 1976) indicate a more complex reality: the conflict was a clash between the radical secularism of the Mexican Revolution and the Church\u2019s refusal to accept the state\u2019s sovereignty over social and educational spheres. While the encyclical highlights the \"heroic\" nature of the resistance, it omits the tactical role of the *Liga Nacional Defensora de la Libertad Religiosa*, which eventually moved from the \"passive resistance\" Pius XI praised to armed insurrection.\n\n### 2. Media and Public Reception\nContemporary international press (e.g., *The New York Times*, 1926) covered the encyclical primarily as a diplomatic crisis. The U.S. government, under Coolidge, was wary of the conflict, fearing it would destabilize the border and oil interests. The encyclical was widely cited in Catholic press outlets in the U.S. and Europe as a rallying cry, but secular media often framed it as an interventionist document that complicated U.S.-Mexico diplomatic relations.\n\n### 3. The Limits of Papal Authority\nThe encyclical\u2019s call for \"passive resistance\" was largely superseded by the reality on the ground. By 1927, the *Cristeros* were engaged in full-scale guerrilla warfare. The Vatican\u2019s later role in the 1929 *Modus Vivendi* (negotiated by U.S. Ambassador Dwight Morrow) suggests that the \"passive resistance\" prescribed in *Iniquis Afflictisque* was eventually abandoned in favor of a pragmatic, state-sanctioned settlement that the encyclical did not anticipate.\n\n### 4. Anthropological Framing\nPius XI utilizes a \"martyrological lens\" to interpret the Mexican situation. By comparing the Mexican clergy to the martyrs of the French Revolution, he effectively de-politicizes the conflict, transforming a struggle over land, education, and state power into a cosmic battle between \"the Church\" and \"the gates of hell.\" This framing was essential for mobilizing the global Catholic laity but arguably hindered diplomatic resolution by hardening the positions of both the Church and the Calles government.\n\n### 5. Citations\n\n| Source | Type | Significance |\n| :--- | :--- | :--- |\n| Meyer, J. (1976). *The Cristero Rebellion*. | Academic | Definitive history of the conflict; notes the gap between Vatican rhetoric and rebel tactics. |\n| *The New York Times* (1926). \"Pope Pius XI Denounces Mexican Laws.\" | Media | Documents the immediate international perception of the encyclical as a diplomatic escalation. |\n| Calles, P. E. (1926). *Decrees on Religious Worship*. | Historical | The primary legal target of the encyclical's polemic. |\n| Vatican Archives (1926). *Diplomatic Correspondence*. | Historical | Confirms the Vatican's internal struggle to balance moral condemnation with the need for a diplomatic exit. |",
+            "thoughtSignature": "EjQKMgEMOdbHOdenWLaS4e0+JJn/WMWR5waNp2yTspr0FKuq7nYVRRM3n/8cRuwYhL0wuUMT"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3043,
+    "candidatesTokenCount": 1078,
+    "totalTokenCount": 4121,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3043
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "X11CaviiNZ3rz7IPyePu4QE"
+}

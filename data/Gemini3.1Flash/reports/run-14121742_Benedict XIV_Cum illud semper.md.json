@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Cum illud semper\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -22},\n  \"prescriptive\": {\"saturation\": 9, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Cum illud semper* (1742) emerges from the administrative career of Prospero Lambertini (Benedict XIV) before and during his papacy. The document addresses the \"concorso\" (competitive examination) system for parish benefices, a mechanism intended to curb nepotism and incompetence. The historical context is the tension between the Council of Trent\u2019s (1545\u20131563) mandate for meritocracy and the subsequent 170+ years of procedural \"gaming\" by candidates and local elites.\n\n### Reflective\nThe document reflects on the failure of the 1721 circular letter (which Benedict authored as a junior official) to curb the abuse of the \"in devolutivo\" appeal process. It acknowledges a systemic crisis where the legal right of appeal\u2014intended to protect candidates from biased bishops\u2014had become a tool for \"unworthy\" candidates to paralyze parish administration through endless litigation.\n\n### Prospective\nThe encyclical prescribes a rigid, standardized, and documented examination process. It mandates that bishops maintain written records of exams to prevent appeal judges from overturning decisions based on hearsay. It prospectively aims to shift the power balance back to the local ordinary by allowing for \"secret\" communication of disqualifying moral information, effectively insulating the bishop from the formalistic requirements of civil-style litigation.\n\n### Temporal gradients\n- **Reflective (-22):** The document is deeply rooted in the administrative failures observed by Benedict XIV during his tenure at the Sacred Congregation for the Council (c. 1720).\n- **Prospective (+10):** The prescriptions were intended to govern the appointment of parish rectors for the remainder of the 18th century, aiming to stabilize the pastoral hierarchy against the litigious culture of the era.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\nThe encyclical is a classic example of \"administrative reformism\" characteristic of Benedict XIV\u2019s pontificate. Unlike his predecessors, who often issued broad moral condemnations, Benedict XIV acted as a jurist. The historical record confirms that the \"concorso\" system was frequently exploited by candidates who used the appeal process to stall appointments, often to keep a parish vacant while they collected revenues or to force a bishop to accept a compromise candidate.\n\n### 2. Secular/Political Engagement\nWhile ostensibly ecclesial, the document touches on the secular administration of property and civil-ecclesiastical law. In the 18th century, parish benefices were significant economic units. By standardizing the \"concorso,\" Benedict XIV was effectively regulating the distribution of local wealth and influence. The document reflects a broader Enlightenment-era trend toward the rationalization of bureaucracy, even within the Church.\n\n### 3. Reception and Efficacy\nThere is no evidence of widespread secular media coverage, as the document was an internal administrative instruction. However, canon law historiography (e.g., *The Catholic Encyclopedia*, *Dictionnaire de th\u00e9ologie catholique*) notes that Benedict XIV\u2019s reforms were highly influential in standardizing the \"concorso\" throughout the 18th and 19th centuries. The document was not \"contested\" in a political sense, but it was frequently circumvented by local patronage networks that the Pope could not fully monitor from Rome.\n\n### 4. The \"Secret\" Innovation\nThe most significant aspect of the document is the formalization of \"secret\" information in judicial proceedings. This indicates a profound skepticism toward the \"legalistic\" turn of the era. Benedict XIV prioritized the \"pastoral truth\" (the bishop\u2019s knowledge of a candidate's character) over the \"procedural truth\" (the candidate's performance on a test). This tension between administrative transparency and episcopal discretion remains a recurring theme in ecclesiastical governance.\n\n### 5. Conclusion\n*Cum illud semper* is a document of \"bureaucratic consolidation.\" It represents the Pope\u2019s attempt to use his personal experience as a former administrator to close loopholes he had previously identified. It is less a theological statement and more a manual for institutional survival in an age of increasing litigiousness.\n\n### Citations\n\n| Source Type | Citation | Relevance |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. XVI | Official text and legislative context. |\n| Academic History | *Prospero Lambertini: The Pope as Jurist* (Various) | Analysis of Benedict XIV's administrative reform style. |\n| Academic History | *The Council of Trent and its Aftermath* | Contextualizes the \"concorso\" system. |\n| Media | No non-theological media citation located | Confirms the document's status as internal administrative law. |",
+            "thoughtSignature": "EjQKMgEMOdbHHSEjEh56KTFtWBat7am8BG3QZyj7r1UJWN2GGdtz7UXaIfM7KOyMn2PDNwBo"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3129,
+    "candidatesTokenCount": 1040,
+    "totalTokenCount": 4169,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3129
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "C1tCaoHoCbasz7IP9MGiwQc"
+}

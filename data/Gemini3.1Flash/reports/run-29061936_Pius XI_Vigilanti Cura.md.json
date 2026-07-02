@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Vigilanti Cura\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -6},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 12}\n}\n```\n\n## Structured\n\n### Context\n*Vigilanti Cura* was issued during the \"Golden Age\" of Hollywood (1930s), a period defined by the transition to sound and the consolidation of the \"Big Five\" studio system. The encyclical serves as the Vatican's formal endorsement of the Legion of Decency, a US-based Catholic pressure group that had successfully coerced the Motion Picture Producers and Distributors of America (MPPDA) into strictly enforcing the Hays Code by 1934.\n\n### Reflective\nThe document is a direct reaction to the perceived failure of the 1930 \"Hays Code\" (Motion Picture Production Code). Pius XI explicitly references the \"lamentable progress\" of the industry between 1930 and 1934, citing the rise of \"gangster films\" and \"sex-obsessed\" narratives as evidence that industry self-regulation was a facade. It validates the 1934 boycott movement as the primary mechanism that forced the industry to capitulate to moral oversight.\n\n### Prospective\nThe encyclical prescribes the institutionalisation of the \"Legion of Decency\" model globally. It mandates that every national hierarchy establish a permanent \"National Reviewing Office\" to classify films for the faithful. It anticipates a future where the Church acts as a global \"consumer watchdog,\" leveraging the collective economic power of the laity to dictate the moral content of mass media.\n\n### Temporal gradients\n- **Reflective (-6):** The document is heavily anchored in the 1930\u20131936 period, specifically the failure of the 1930 Code and the subsequent 1934 crackdown.\n- **Prescriptive (+12):** The document projects a long-term vision for Catholic media control, which remained the standard operating procedure for the Church until the late 1940s and early 1950s, when the rise of television and the *Miracle* decision (1952) began to erode the efficacy of such censorship.\n\n## Unstructured\n\n### 1. Historical Reception and Secular Impact\nThe encyclical was received by the American film industry as a formalisation of the *status quo* rather than a new threat. By 1936, the industry had already integrated the Legion\u2019s \"C\" (Condemned) rating into its risk-management strategy. Secular press coverage in the *New York Times* and *Variety* at the time treated the encyclical as a \"blessing\" for the industry\u2019s own internal censors, as it provided a clear, albeit rigid, framework for what would be tolerated.\n\n### 2. The \"Legion\" as a Global Model\nThe document\u2019s prescription for national offices was unevenly implemented. While the US Legion of Decency remained a powerful force until the 1960s, European implementation was often subsumed by state-level censorship boards (e.g., in Fascist Italy or Francoist Spain), where the Church\u2019s moral oversight became indistinguishable from state propaganda.\n\n### 3. Tension with Artistic Freedom\nThe encyclical explicitly rejects the notion of \"art for art's sake\" in the context of cinema. It frames the medium as a \"public utility\" rather than an artistic expression. This stance created a long-term friction between the Church and the burgeoning auteur movement in post-war European cinema, eventually leading to the Church's loss of cultural relevance in film criticism by the 1960s.\n\n### 4. The Failure of Prophecy\nPius XI\u2019s hope that the Church could \"guide\" the industry toward positive, morally uplifting content largely failed. The industry adopted the Church's negative constraints (avoiding \"sin\") but ignored the positive prescriptions (promoting \"noble ideals\"), leading to a sterile, sanitized cinema that eventually lost its audience to more daring, non-Catholic-aligned productions.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Motion Picture Production Code (1930)* | The primary failure the encyclical addresses. |\n| Media | *The New York Times (July 3, 1936)* | Reported on the encyclical as a \"world-wide\" expansion of the Legion. |\n| Academic | *Black, G. D. (1997). The Catholic Crusade Against the Movies.* | Definitive history of the Legion of Decency and the Church's role. |\n| Academic | *Couvares, F. G. (1996). Hollywood, Censorship, and American Culture.* | Analyzes the tension between the Church and the studio system. |",
+            "thoughtSignature": "EjQKMgEMOdbHB4o1mdtbTu7BvOO4+OjHEH4OogS8Lx2llYXeaFS2TEuN8uO5rze2QCJsESff"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3136,
+    "candidatesTokenCount": 1046,
+    "totalTokenCount": 4182,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3136
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "JWJCaqeGAviHqtsP4_nikQ0"
+}

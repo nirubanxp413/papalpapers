@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Adeo nota\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 4}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Published April 23, 1791, during the French Revolution. The Comtat Venaissin and Avignon, papal territories since the 13th/14th centuries, had been in open revolt since 1789, seeking annexation by France.\n*   **Political Climate:** The French National Assembly was debating the annexation of these territories, which occurred formally in September 1791. Pius VI was attempting to maintain the integrity of the Papal States against the encroaching revolutionary ideology.\n*   **Ecclesial Crisis:** The Civil Constitution of the Clergy (July 1790) had forced a schism in France; *Adeo nota* addresses the forced imposition of this model within the Pope's own sovereign lands.\n\n### Reflective\n*   **Documentation of Usurpation:** The encyclical functions as a legal deposition, meticulously cataloging the expulsion of the Vice-Legate Casoni and the forced election of the \"intruder\" Malierio.\n*   **Interpretation of Motive:** Pius VI frames the rebellion not as a legitimate political grievance (citing the low tax burden) but as a moral failure\u2014a \"desire for unbridled freedom.\"\n*   **Historical Precedent:** The document reflects on the Arian crisis, specifically using the 4th-century intrusion of George of Alexandria to interpret the 18th-century revolutionary actions as a recurring pattern of secular interference in divine order.\n\n### Prospective\n*   **Canonical Warnings:** The Pope prescribes specific spiritual penalties (suspension, excommunication) for those participating in the \"schismatic\" elections.\n*   **Instruction to the Faithful:** He commands the clergy and laity to reject the \"intruder\" pastors and maintain allegiance to the exiled legitimate hierarchy.\n*   **Anticipation of Annexation:** The document serves as a final diplomatic warning to the French National Assembly, asserting that no transfer of sovereignty is valid without the Pope's express consent.\n\n### Temporal gradients\n*   **Reflective Density (-2):** The document is hyper-focused on the immediate events of 1789\u20131791. It is a reactive piece of crisis management.\n*   **Prescriptive Density (+4):** The Pope looks forward to the potential loss of the territories, attempting to set a legal and moral framework for the Church's survival in a post-annexation environment.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Adeo nota* is less a theological treatise and more a desperate act of sovereign preservation. By 1791, the Papal States were effectively losing control of their French enclaves. The document serves as a \"protest of record.\" Historically, it failed to halt the annexation, which was finalized by the French National Assembly in September 1791. The Pope\u2019s insistence on the \"mildness\" of his rule in Avignon stands in stark contrast to the revolutionary rhetoric of the period, which viewed the papal administration as an archaic, feudal relic.\n\n### 2. Media and Public Discourse\nContemporary French revolutionary press (e.g., *Le Moniteur Universel*) largely ignored the theological nuances of the encyclical, framing it instead as the \"obstinacy of a foreign prince.\" The document was treated by the revolutionary government as a hostile act of foreign interference, further justifying the annexation of the Comtat Venaissin as a \"liberation\" from clerical despotism.\n\n### 3. Scholarly Interpretation\nHistorians (e.g., Aston, *The End of an Elite*) view this document as a classic example of the Papacy\u2019s inability to reconcile its dual role as a spiritual authority and a temporal prince. The encyclical is often cited in studies of the \"Avignon Question\" as the definitive statement of the Pope\u2019s refusal to acknowledge the legitimacy of the revolutionary state's claim to the territory.\n\n### 4. Efficacy and Reception\nThe encyclical had negligible impact on the ground in Avignon. The \"intruder\" clergy remained in place, and the revolutionary administration proceeded with the secularization of the territories. The document\u2019s primary legacy is as a canonical reference point for the Church\u2019s stance against the Civil Constitution of the Clergy, rather than as a successful instrument of political governance.\n\n### 5. Synthesis\nThe document is a poignant example of a sovereign power attempting to use the language of canon law to counter the language of popular sovereignty. Its \"reflective\" saturation is high because it is obsessed with the specific procedural details of the rebellion; its \"prescriptive\" power is limited by the reality that the Pope had lost the physical means to enforce his decrees.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archives Parlementaires* (1791) | Records of the French National Assembly regarding the annexation of Avignon. |\n| Academic | Aston, N. (2002) | *Religion and Revolution in France, 1780-1804*. |\n| Primary Source | Vatican Archives | *Adeo nota* (1791) text. |\n| Media | *Le Moniteur Universel* (1791) | Contemporary coverage of the \"Avignon Question.\" |",
+            "thoughtSignature": "EjQKMgEMOdbHMWs/NumS3sB8ymUx8X4KKY+MK+fwGsroxBWHNqGxSALC26H7pYjEqrxhjQOr"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3149,
+    "candidatesTokenCount": 1186,
+    "totalTokenCount": 4335,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3149
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "P19Cau7aCIOAqtsP4MqZ0QU"
+}

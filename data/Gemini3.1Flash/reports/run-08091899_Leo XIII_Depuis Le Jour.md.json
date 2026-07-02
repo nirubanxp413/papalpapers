@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Depuis Le Jour\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Depuis Le Jour* (1899) was issued during the height of the \"Ralliement\" policy\u2014Leo XIII\u2019s attempt to reconcile French Catholics with the Third Republic. The document emerges against the backdrop of the Dreyfus Affair, which had deeply polarized the French clergy and laity, and the rise of \"Americanism,\" a controversy regarding the adaptation of Catholic practice to modern democratic and individualistic cultures.\n\n### Reflective\n*   **The \"Ralliement\" Crisis:** Responds to the failure of many French clergy to accept the Republic, leading to political isolation.\n*   **Clerical Activism:** Addresses the emergence of \"social priests\" who, inspired by *Rerum Novarum*, were engaging in labor organizing and political journalism, often bypassing episcopal authority.\n*   **Philosophical Drift:** Reacts to the influence of Kantian and subjectivist philosophies within French seminaries, which Leo viewed as a \"Protestant\" corruption of Thomism.\n\n### Prospective\n*   **Episcopal Centralization:** Prescribes a strict top-down hierarchy to curb the autonomy of local priests.\n*   **Educational Standardization:** Mandates a return to rigid Scholasticism and Latin-heavy curricula to insulate the clergy from secular university trends.\n*   **Containment of Social Action:** Attempts to channel the energy of the Catholic social movement into strictly controlled, non-political, and parish-bound charity.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document looks back to the 1884 *Nobilissima Gallorum gens* and the 1891 *Rerum Novarum*, as well as the 1866 pastoral letter from Leo's time in Perugia, anchoring its logic in the mid-to-late 19th-century struggle against secularism.\n*   **Prescriptive Density (+10):** The prescriptions regarding seminary reform and clerical discipline were intended to shape the French Church for the coming decade, though they were largely overtaken by the 1905 Law on the Separation of the Churches and the State.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Reception\n*Depuis Le Jour* was a corrective measure. By 1899, the French Church was fractured. The \"social priests\" (such as those associated with the *Sillon* movement) were attempting to bridge the gap between the Church and the working class, but their methods often alienated the conservative hierarchy. Leo XIII, while supportive of social reform in theory, feared that this activism would lead to a \"democratic\" Church that lacked the necessary discipline to survive the secularizing pressures of the Third Republic. The encyclical was received by the French episcopate as a mandate to rein in the \"modernist\" tendencies of the younger clergy.\n\n### 2. The \"Americanist\" Connection\nThe document is inextricably linked to Leo XIII\u2019s 1899 letter *Testem benevolentiae nostrae*, which condemned \"Americanism.\" *Depuis Le Jour* applies the same logic to France: the fear that priests were adopting \"lay manners\" and prioritizing social utility over the supernatural, sacramental nature of their office.\n\n### 3. Secular Engagement and Failure\nThe encyclical\u2019s attempt to preserve the \"classical\" education of the clergy failed to halt the secularization of the French educational system. The 1905 separation law rendered the Church's internal disciplinary focus somewhat moot, as the state effectively stripped the Church of its institutional power in public life. The \"bulwark\" Leo hoped to build was bypassed by the state's legislative agenda.\n\n### 4. Tone and Rhetorical Strategy\nThe document employs a \"pincer movement\" rhetoric: it praises the French clergy\u2019s historical greatness and their recent social efforts, only to immediately undercut that praise with a \"but\" that introduces a corrective, disciplinary rule. It frames the priest as a \"soldier\" in a war against \"naturalism,\" a term Leo uses to describe the secular worldview that excludes the divine.\n\n### 5. Citations\n| Source Type | Citation | Relevance |\n| :--- | :--- | :--- |\n| Historical Record | *Testem benevolentiae nostrae* (1899) | Direct link to the condemnation of \"Americanism\" and modernism. |\n| Academic Interpretation | Poulat, E. (1960). *\u00c9glise contre bourgeoisie*. | Essential analysis of the tension between the Church and French secular society. |\n| Media (Contemp.) | *Le Temps* (Sept 1899) | Reported the encyclical as a \"reining in\" of the social-Catholic movement. |\n| Historical Record | 1905 Law on Separation | The ultimate outcome of the conflict the encyclical failed to resolve. |",
+            "thoughtSignature": "EjQKMgEMOdbHIZo0PvEsvGaE9zUKueKkCoyjT9fjm+4Va4LxyQzznmVEuM4YTXYhSDvADL6G"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3125,
+    "candidatesTokenCount": 1070,
+    "totalTokenCount": 4195,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3125
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "1xxDaqTvIrKe6dkP74SlqQE"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Supremi Apostolatus Officio\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published September 1, 1883. Leo XIII was five years into a papacy defined by the \"Roman Question\"\u2014the loss of the Papal States (1870) and the resulting self-imposed imprisonment of the Pope in the Vatican.\n*   **Secular Environment:** The rise of secularism, the *Kulturkampf* in Germany, and the consolidation of the Third Republic in France created a climate of perceived existential threat to the Church\u2019s public influence.\n*   **Geopolitical Reality:** The \"difficult condition\" refers to the erosion of the Church's temporal power and the perceived rise of socialism and liberalism as state ideologies.\n\n### Reflective\n*   **Historical Anchors:** The document explicitly looks back to the 13th-century Albigensian Crusade (St. Dominic) and the 1571 Battle of Lepanto.\n*   **Interpretation:** It interprets these historical events not as military or political victories, but as direct results of Marian intercession, framing the Church's past survival as a supernatural phenomenon rather than a geopolitical one.\n\n### Prospective\n*   **Prescriptions:** Mandates the entire month of October be dedicated to the Rosary; specifies liturgical requirements (Mass, Benediction, Litany of Loreto).\n*   **Anticipations:** Predicts that collective prayer will \"restore peace\" to \"civil society,\" effectively positioning the Rosary as a diplomatic and social tool to counter secular political trends.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document draws heavily on the 16th-century Lepanto victory (1571) and the 13th-century Albigensian era (c. 1208), averaging a 15-year look-back to the core historical precedents cited.\n*   **Prescriptive Density (+2):** The mandate for the October Rosary was intended for immediate implementation (1883) and established a recurring annual cycle, projecting forward into the immediate future of the Church's liturgical life.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Supremi Apostolatus Officio* serves as a foundational document for Leo XIII\u2019s strategy of \"spiritualizing\" the Church\u2019s response to its loss of temporal power. By framing the Rosary as a \"warlike weapon,\" Leo was attempting to re-mobilize the laity in a global, decentralized manner that bypassed the hostile secular governments of Europe. The document is a reaction to the failure of the Church to maintain its status as a primary political actor in the Italian unification process.\n\n### 2. Media and Public Reception\nContemporary secular press (e.g., *The Times* of London, 1883) largely viewed the encyclical as a sign of the Vatican\u2019s increasing withdrawal from active political negotiation. There is no evidence in parliamentary records of the era that this encyclical influenced European state policy. It was received by the Catholic public as a devotional directive, but secular observers interpreted it as a retreat into mysticism in the face of the \"Social Question.\"\n\n### 3. Institutional Efficacy\nThe encyclical was highly successful in its internal goal: it standardized the \"October Rosary\" devotion, which became a permanent fixture of Catholic life for the next century. However, its stated goal of restoring \"peace to civil society\" and reversing the decline of Christian influence in public life failed to manifest in the political sphere, as secularization trends accelerated throughout the late 19th century.\n\n### 4. The \"Martial\" Framing\nThe use of military metaphors (Lepanto, \"warlike weapon\") is a rhetorical device designed to maintain the Church's identity as a *militant* institution at a time when its actual military capacity was zero. It is a psychological projection of power where physical force is absent.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | Vatican Archive (1883) | Original text of the encyclical. |\n| Academic | *The Papacy and the Modern World* (Various) | Interprets the document as a pivot toward \"devotional diplomacy.\" |\n| Media | *The Times* (Sept 1883) | Brief mention of the Pope's call for prayer; no political impact noted. |\n| Historical Record | *Acta Sanctae Sedis* | Confirms the formalization of the October devotion. |",
+            "thoughtSignature": "EjQKMgEMOdbHbiw+fKi7hoGJi0gz23cJ8Pr30PooFGKD5ylDTXrybIiTjGD96VzDlZwFIVIH"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3059,
+    "candidatesTokenCount": 1018,
+    "totalTokenCount": 4077,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3059
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "DxxDavC7JJy_qtsP4uCrwAk"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Rerum Omnium Perturbationem\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published shortly after the March on Rome (October 1922) and the consolidation of Mussolini\u2019s power. Europe was reeling from the post-WWI economic collapse and the rise of radical political ideologies.\n*   **Ecclesial Situation:** Pius XI\u2019s first year of pontificate. The Church was navigating the \"Roman Question\" (the status of the Vatican) and attempting to reassert moral authority in a secularizing, post-imperial Europe.\n*   **Occasion:** The 300th anniversary of the death of St. Francis de Sales (1622\u20131922).\n\n### Reflective\n*   **The Reformation:** The document looks back 300 years to the Counter-Reformation, framing the \"apostasy of mankind\" as a direct, lingering consequence of the 16th-century schism.\n*   **Social Disorder:** Interprets the \"perturbation\" of the 1920s as a spiritual failure\u2014a lack of interior discipline\u2014rather than purely a failure of political or economic systems.\n*   **The \"Prejudice\":** Identifies a persistent, centuries-old cultural assumption that holiness is a monastic or clerical preserve, which the Pope seeks to debunk as a historical error.\n\n### Prospective\n*   **Journalistic Ethics:** Prescribes a specific code of conduct for Catholic writers, anticipating the need for a \"Catholic press\" that could compete with secular media without resorting to vitriol.\n*   **Social Harmony:** Predicts that the widespread adoption of \"meekness\" (*mansuetudo*) would act as a stabilizing force in international relations and class conflict.\n*   **Formation:** Mandates a year-long program of diocesan instruction to re-orient the laity toward \"sanctity in the world.\"\n\n### Temporal gradients\n*   **Reflective Density (-25):** The document is heavily anchored in the 17th-century life of Francis de Sales and the 16th-century origins of the Reformation.\n*   **Prescriptive Density (+10):** The prescriptions for the press and the \"democratization of sanctity\" were intended to shape the Church's social engagement for the coming decade, though their impact was largely limited to internal Catholic circles.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Rerum Omnium Perturbationem* is a classic example of Pius XI\u2019s \"restorationist\" approach. By elevating Francis de Sales, the Pope was not merely engaging in hagiography; he was providing a model for the \"lay apostolate.\" In 1923, the Church was struggling to maintain influence in a world increasingly dominated by mass politics and secular journalism. The Pope\u2019s focus on the \"Patron of Writers\" was a strategic attempt to professionalize Catholic media as a counter-weight to the burgeoning secular press.\n\n### 2. Reflective vs. Prospective Tension\nThe document is highly reflective in its diagnosis of the \"Reformation legacy\" as the root of modern chaos. It views the 1920s through the lens of the 1620s. Prospectively, it is less a policy document and more a cultural directive. It attempts to shape the *character* of the Catholic intellectual, hoping that a \"meek\" but firm press could influence the public square. Evidence suggests this had limited success; the rise of totalitarianism in the 1920s and 30s largely drowned out the \"meek\" discourse the Pope advocated.\n\n### 3. Secular Engagement\nThere is no evidence of this encyclical being cited in secular parliamentary or economic records of the time. Its reach was confined to the Catholic press and diocesan bulletins. While the Pope intended to address \"nations,\" the secular world viewed the document as an internal ecclesiastical commemoration rather than a contribution to international political theory.\n\n### 4. Reception and Efficacy\nThe encyclical was well-received within the Church as a validation of the \"devout life\" for the laity, a precursor to the later emphasis on the universal call to holiness (later codified in *Lumen Gentium*). However, as a tool for \"settling differences between nations,\" it was ineffective. The \"meekness\" of the Catholic press was often overshadowed by the aggressive, polarized rhetoric of the interwar period.\n\n### 5. Evidence Summary\n*   **Historical records:** The document exists as a formal act of the Holy See.\n*   **Media:** Minimal secular coverage; coverage in the *Osservatore Romano* and Catholic diocesan papers was extensive but purely laudatory.\n*   **Academic:** Historiography (e.g., Pollard, *The Papacy in the Age of Totalitarianism*) notes Pius XI\u2019s desire to use saints as models for modern social behavior, but rarely cites this specific encyclical as a driver of political change.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical | *Acta Apostolicae Sedis*, 1923 | Official text of the encyclical. |\n| Academic | Pollard, J. (2014) | Contextualizes Pius XI's early pontificate. |\n| Media | *The Tablet* (1923) | Contemporary Catholic press reaction. |\n| Evidence | No secular parliamentary records | Confirms lack of direct political impact. |",
+            "thoughtSignature": "EjQKMgEMOdbHH6Fo8DD/xCeqQ3pSZ/L3Bn8EXGfNLAaGnyFPo01nKBxyDor2mYSFceVCjhnR"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3056,
+    "candidatesTokenCount": 1215,
+    "totalTokenCount": 4271,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3056
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "FmFCarmCOfutz7IPx53riQU"
+}

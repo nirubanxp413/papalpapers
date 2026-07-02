@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Aeterna Dei Sapientia\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published November 11, 1961, during the intense preparatory phase of the Second Vatican Council (convened 1962). The Cold War context is implicit; the \"waves of bitter hostility\" (\u00a770) refer to both the ideological pressure of Soviet-aligned states on Eastern European churches and the internal secularization of Western society.\n*   **Ecclesial Situation:** John XXIII sought to anchor the upcoming Council in historical continuity, specifically the Christological orthodoxy of the 5th century, to counter fears that the Council would lead to doctrinal innovation or \"modernism.\"\n\n### Reflective\n*   **Historical Anchoring:** The document is a deliberate act of historical retrieval, focusing on the 15th centenary of Pope St. Leo I (d. 461). It interprets the 5th-century Council of Chalcedon as the definitive model for papal authority and doctrinal stability.\n*   **Interpretation of Crisis:** It frames the 1961 geopolitical landscape as a mirror of the 5th-century collapse of the Roman Empire, positioning the Papacy as the sole remaining \"bulwark\" of order and truth.\n\n### Prospective\n*   **Council Framing:** It attempts to set the agenda for Vatican II by defining \"unity\" not as a compromise with modernity, but as a return to the \"whole faith\" of the early Church.\n*   **Ecumenical Goal:** It prescribes a specific path for the reunion of Eastern churches: the recognition of Roman primacy as the necessary condition for visible unity.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is heavily anchored in the 5th century (c. 450\u2013461 AD), specifically the Council of Chalcedon.\n*   **Prescriptive Density (+8):** The document looks toward the immediate future (the 1962 Council) and the long-term goal of ecumenical reunion, which the Pope anticipated as a multi-generational project.\n\n---\n\n## Unstructured\n\n### 1. Historical and Political Context\nThe encyclical was released at a time when the Vatican was navigating the delicate \"Ostpolitik\" of the early 1960s. While the text focuses on St. Leo, the subtext is the survival of the Church behind the Iron Curtain. By invoking Leo\u2019s confrontation with Attila, John XXIII was signaling to the secular powers of the Cold War that the Papacy remained an independent, non-aligned moral authority.\n\n### 2. Media and Public Reception\nContemporary secular media (e.g., *The New York Times*, *The Times of London*) largely interpreted the encyclical as a \"pre-Council signal.\" It was viewed as a conservative corrective to the more liberal expectations surrounding the upcoming Council. There is no evidence of significant secular political engagement with the document's theological arguments; it was treated primarily as a \"Vatican signal\" for internal Catholic consumption.\n\n### 3. Scholarly Interpretation\nHistorians of the Second Vatican Council (e.g., Giuseppe Alberigo) note that *Aeterna Dei Sapientia* was one of several documents used by the Roman Curia to attempt to \"pre-package\" the Council's outcomes. The document\u2019s emphasis on the \"juridical\" nature of primacy was later contested by the more \"collegial\" emphasis that emerged during the Council sessions (1962\u20131965).\n\n### 4. Secular Engagement\nThe document\u2019s engagement with the \"secular world\" is indirect. It asserts that \"things secular stand on a different basis from things divine\" (\u00a722), a principle used to justify the Church\u2019s autonomy from state interference. This was a defensive posture against the encroaching secularism of the post-war state.\n\n### 5. Assessment of Prescience\nThe encyclical\u2019s hope for a swift reunion with Eastern churches proved overly optimistic. The document failed to account for the depth of the historical and political grievances that would continue to define the East-West schism well into the 21st century. Its prescriptive power was limited to the internal governance of the Church rather than influencing secular international relations.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, 53 (1961) | Official publication of the encyclical. |\n| Academic | Alberigo, G., *A Brief History of Vatican II* | Contextualizes the document as a \"pre-Council\" effort. |\n| Media | *The New York Times*, Nov 12, 1961 | Reported as a call for unity on the eve of the Council. |\n| Academic | O'Malley, J., *What Happened at Vatican II* | Analyzes the tension between the Curial \"pre-packaging\" and the Council's actual trajectory. |",
+            "thoughtSignature": "EjQKMgEMOdbHE6AfK7u0PlUQs8goJ+0N6n2QgoI5jt/WezYrDfKyt7YbPjJsavhyBTfrRDli"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3207,
+    "candidatesTokenCount": 1108,
+    "totalTokenCount": 4315,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3207
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "bBZCati6NM-vqtsPz8282Qc"
+}

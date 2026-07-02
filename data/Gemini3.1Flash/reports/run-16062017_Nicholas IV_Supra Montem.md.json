@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Supra Montem\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Supra Montem* (1289) was issued by Pope Nicholas IV to formalize the *Brothers of Penance* (Third Order of St. Francis). Historically, this occurred during a period of intense competition between mendicant orders and the secular clergy, and amidst the Church's struggle to contain \"unregulated\" lay piety movements (e.g., the Humiliati or the Waldensians) that often drifted into heterodoxy.\n\n### Reflective\nThe document reflects the institutionalization of the *Propositum* (rule of life) that had existed informally since the early 13th century. It explicitly reacts to the \"excesses\" of lay life\u2014specifically the adoption of secular fashions, participation in public spectacles, and the proliferation of informal, potentially subversive, lay religious associations.\n\n### Prospective\nThe document prescribes a rigid, standardized legal framework to ensure that lay penitents remained under the direct supervision of the Friars Minor. It anticipates a future where lay piety is strictly tethered to the hierarchy, effectively neutralizing the potential for independent lay movements to become centers of dissent.\n\n### Temporal gradients\n- **Reflective:** -15 years (The document codifies practices and tensions that had been evolving since the death of St. Francis in 1226 and the subsequent growth of the Third Order).\n- **Prescriptive:** +10 years (The rule was intended to stabilize the order for the coming decade, though it was quickly superseded by later papal interventions, such as *Unigenitus* in 1290).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\n*Supra Montem* is a legislative instrument designed to solve a \"management\" problem. By the late 13th century, the Franciscan Third Order had become a massive, loosely organized social force. Secular authorities were often wary of these groups because they operated outside traditional feudal or guild structures. Nicholas IV\u2019s intervention was a move to \"domesticate\" this movement, ensuring that the lay penitents remained politically neutral and ecclesiastically obedient.\n\n### 2. The Reflective Axis: Policing the Boundary\nThe document is deeply reflective of the 13th-century anxiety regarding \"the world.\" The specific prohibitions against \"line-dancing\" and \"immodest banquets\" are not merely theological; they are sociological. They reflect a reaction against the rising urban merchant class, whose wealth allowed for a lifestyle that the Church viewed as a distraction from the penitential life. The document attempts to freeze the social behavior of the laity in a state of perpetual, visible humility.\n\n### 3. The Prescriptive Axis: Institutional Control\nThe prescription is clear: the Third Order is to be a branch of the Friars Minor, not an independent entity. By mandating that visitators must be Friars Minor, Nicholas IV effectively stripped the lay order of its autonomy. This was a forward-looking strategy to prevent the \"lay-led\" religious movements that had historically caused the Church significant headaches in Northern Italy and Southern France.\n\n### 4. Reception and Efficacy\nHistorical evidence suggests that while the rule provided a legal baseline, it was frequently contested. The tension between the \"Spiritual\" Franciscans (who wanted absolute poverty) and the \"Conventual\" Franciscans (who accepted the administrative reality of the order) meant that *Supra Montem* was often ignored or reinterpreted by local chapters. There is no evidence of widespread secular adoption of these rules; they remained strictly within the ecclesiastical sphere.\n\n### 5. Anthropological Assessment\nThe document functions as a \"manual of identity.\" By regulating the type of cloth, the nature of oaths, and the frequency of prayer, the Church was creating a distinct \"sub-culture\" within the medieval city. It is an early example of institutional branding, where the \"penitent\" is marked as a specific type of citizen\u2014one who is reliable, non-violent, and, crucially, under the surveillance of the Church.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Franciscanum*, Vol. IV | Primary source for the text of *Supra Montem*. |\n| Academic History | Moorman, J.R.H. (1968). *A History of the Franciscan Order* | Standard historiography on the institutionalization of the Third Order. |\n| Academic History | Leff, G. (1967). *Heresy in the Later Middle Ages* | Contextualizes the Church's fear of unregulated lay movements. |\n| Media | No non-theological media citation located | The document was an internal administrative act, not a public-facing manifesto. |",
+            "thoughtSignature": "EjQKMgEMOdbHMlcQshKmZ+attX0YaGzvKIOkFQsulHxWNYKS5r39WWf0qAFXp7uXPC3mKfyz"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2972,
+    "candidatesTokenCount": 1056,
+    "totalTokenCount": 4028,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2972
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "NVxCaraAH7-zqtsPu7jnkA0"
+}

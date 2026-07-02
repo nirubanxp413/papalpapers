@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Non ambigimus\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Non ambigimus* (1741) was issued by Benedict XIV (Prospero Lambertini) shortly after his election (1740). It addresses the perceived decay of Lenten discipline, which had become a flashpoint for broader anxieties regarding the Church's cultural authority in the Enlightenment era. The document reflects the Pope's scholarly, legalistic approach to governance, attempting to standardize the chaotic, localized system of dispensations that had emerged across Europe.\n\n### Reflective\nThe document reacts to a decade of \"laxity\" in fasting, which the Pope attributes to the proliferation of medical and social excuses. It explicitly references the \"scandal\" caused by public banqueting during Lent, which Benedict interprets as a sign of the Church\u2019s waning influence over the daily habits of the laity.\n\n### Prospective\nBenedict prescribes a centralized, rigorous methodology for granting dispensations: requiring dual medical certification and limiting the scope of local episcopal authority. He anticipates that restoring these \"ancient\" disciplines will serve as a bulwark against both internal moral decay and external mockery by \"heretics\" (Protestants).\n\n### Temporal gradients\n- **Reflective:** -5 years (focusing on the immediate preceding decade of administrative slippage).\n- **Prescriptive:** +10 years (aiming for a long-term restoration of discipline that the Pope hoped would stabilize the Church's social standing throughout the mid-18th century).\n\n---\n\n## Unstructured\n\n### 1. Historical and Social Context\nThe mid-18th century was a period of significant tension between traditional Catholic asceticism and the rising secularism of the Enlightenment. Benedict XIV, often called the \"Enlightenment Pope,\" was acutely aware that the Church\u2019s inability to enforce its own calendar was a symptom of its declining grip on the public sphere. The \"public banquets\" mentioned in the text were not merely religious failures; they represented a shift in social life where the *salon* and the *caf\u00e9* were beginning to supersede the parish as the center of social gravity.\n\n### 2. The Mechanics of Dispensation\nThe encyclical highlights a structural failure: the \"dispensation industry.\" Bishops and local clergy were frequently granting dispensations to the wealthy and the politically connected to avoid the social inconvenience of fasting. Benedict\u2019s insistence on \"two physicians\" was a classic Lambertini move\u2014applying legalistic, bureaucratic rigor to curb the arbitrary power of local prelates.\n\n### 3. Confessional Competition\nThe Pope\u2019s concern that \"heretics mock and exult\" is a critical indicator of the document's defensive posture. In the post-Reformation landscape, the visible performance of Catholic identity (fasting, abstinence) was a primary marker of difference. When this marker eroded, the Church felt it was losing the \"culture war\" of the 1740s.\n\n### 4. Efficacy and Reception\nThere is little evidence that *Non ambigimus* successfully reversed the trend of secularization. Historical records from the mid-18th century suggest that the practice of Lenten fasting continued to decline among the urban elite and the burgeoning middle class. The document functioned more as a \"re-assertion of principle\" than an effective policy instrument. It was widely circulated in episcopal archives but had limited impact on the changing dietary habits of the European population.\n\n### 5. Anthropological Significance\nThe document frames fasting as a \"badge of the militia.\" Anthropologically, this suggests that the Church viewed its members as a distinct, disciplined body. The failure of the fast was, in the Pope's view, a failure of the \"militia\" to maintain its uniform, rendering the Church vulnerable to the \"divine vengeance\" (a common rhetorical device for social instability).\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. 16 | Official text of the brief. |\n| Academic History | Pastor, L. von. *History of the Popes*, Vol. 35 | Contextualizes Benedict XIV's administrative reforms. |\n| Academic History | Delumeau, J. *Catholicism between Luther and Voltaire* | Discusses the decline of Lenten discipline in the 18th century. |\n| Media | No non-theological media citation located | The document was an internal administrative circular. |",
+            "thoughtSignature": "EjQKMgEMOdbHRU6Iii/GDKWxNRNjE2zleHYQNZeRowwahVgvs7N4AAXi2qVnl8ZROdLDG/6F"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3076,
+    "candidatesTokenCount": 984,
+    "totalTokenCount": 4060,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3076
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "RB5DaqPNIIGTqtsPuMOj2Q0"
+}

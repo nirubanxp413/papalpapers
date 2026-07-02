@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quare lacrymae\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -18},\n  \"prescriptive\": {\"saturation\": 3, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Event:** The execution of Louis XVI (21 January 1793) by the French National Convention.\n*   **Political Climate:** The First French Republic was at war with the First Coalition; the Papal States were under existential threat from revolutionary expansionism.\n*   **Ecclesial Status:** Pius VI was in a state of diplomatic isolation; the Civil Constitution of the Clergy (1790) had effectively schismed the French Church.\n\n### Reflective\n*   **Retrospective Scope:** The document looks back to the 1775 encyclical *Inscrutabile divinae* (18 years prior) and the 1787 publication of Voltaire\u2019s works.\n*   **Interpretation:** It frames the French Revolution not as a political shift but as a teleological outcome of Enlightenment philosophy (\"perverse philosophers\") and Calvinist subversion.\n\n### Prospective\n*   **Prescriptive Scope:** Limited to liturgical mourning (solemn obsequies) and a theological appeal for the intercession of the \"martyred\" king.\n*   **Anticipation:** The Pope predicts that the destruction of the monarchy will inevitably lead to the total collapse of social order and the persecution of the Church, a prediction that largely aligned with the subsequent Reign of Terror.\n\n### Temporal gradients\n*   **Reflective Density:** -18 (Focuses on the intellectual origins of the Revolution dating back to the mid-18th century).\n*   **Prescriptive Density:** +2 (Focuses on the immediate spiritual consequences for France in the years following 1793).\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Quare lacrymae* functions as a formal protest against the regicide of Louis XVI. Historically, it marks the definitive rupture between the Papacy and the French Revolutionary state. While the document attempts to elevate Louis XVI to the status of a martyr, contemporary diplomatic records suggest the Vatican\u2019s primary concern was the loss of the \"Most Christian King\" as a geopolitical guarantor of the Church\u2019s status in Europe. The document is less a policy directive and more a formal act of mourning that serves to delegitimize the French Republic\u2019s claim to sovereignty.\n\n### 2. Reflective vs. Prospective Balance\nThe document is overwhelmingly reflective. It spends the majority of its length constructing a historical narrative that links the 1793 execution to the intellectual currents of the 1770s and 1780s. Its prospective element is weak; the Pope admits he has no practical power to reverse the events in France, shifting the burden of action from the political sphere to the metaphysical (the intercession of the \"martyr\").\n\n### 3. Secular Engagement\nThe encyclical engages with secular concepts\u2014liberty and equality\u2014by redefining them as theological errors. It rejects the Enlightenment definition of these terms, labeling them as \"false\" and \"poisonous.\" This represents an early, foundational moment in the Church\u2019s long-term opposition to liberal democratic theory, framing it as inherently hostile to divine order.\n\n### 4. Reception and Efficacy\nThere is no evidence that *Quare lacrymae* influenced the actions of the French National Convention. In the context of 1793, the document was viewed by the revolutionary government as an act of foreign interference. It served primarily to consolidate the loyalty of the \"refractory\" (non-juring) clergy within France, providing them with a theological justification for their continued resistance to the state.\n\n### 5. Limitations of Authority\nThe document is notable for its candid admission of impotence. By citing the failure of previous warnings, Pius VI acknowledges that the Papacy\u2019s moral authority had been effectively decoupled from the political realities of the late 18th century. The lack of a formal excommunication of the regicides suggests a strategic hesitation to further provoke a regime that was already seizing papal territories (Avignon and Venaissin).\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archives parlementaires de 1787 \u00e0 1860* | Records of the Convention's reaction to papal protests. |\n| Academic | Tackett, T. (1996). *Religion, Revolution, and Regional Culture* | Analysis of the schism caused by the Civil Constitution. |\n| Academic | Duffy, E. (1997). *Saints and Sinners: A History of the Popes* | Contextualizes Pius VI's isolation during the Revolution. |\n| Media | *Gazette de France* (1793) | Contemporary reporting on the Vatican's stance (limited). |",
+            "thoughtSignature": "EjQKMgEMOdbHC3VUD7CarRcrca13F+f2uxldQFOUXE4i+BuK42+V+NkEyRckHiC0YL/78Z3G"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3362,
+    "candidatesTokenCount": 1061,
+    "totalTokenCount": 4423,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3362
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "t1xCas-3LtaeqtsPhpvYqQ4"
+}

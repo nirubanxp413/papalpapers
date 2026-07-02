@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quanto in dolore\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Quanto in dolore* (1762) was issued during the height of the *Parlements'* campaign against the Society of Jesus in France. The *Parlement* of Paris had already issued decrees in August 1761 and March 1762 attacking the Jesuit constitutions. The document serves as a direct, albeit desperate, intervention into the Gallican crisis where the French judiciary (the *Parlements*) sought to assert secular control over religious orders, effectively bypassing both the King and the Pope.\n\n### Reflective\nThe document reflects on the systematic dismantling of the Jesuit order in France (1761\u20131762), the public burning of their literature, and the judicial invalidation of religious vows. It interprets these acts not as legal reforms, but as an assault on the *libertas ecclesiae* (freedom of the Church) and a dangerous precedent for secular encroachment on spiritual jurisdiction.\n\n### Prospective\nThe Pope prescribes a unified front for the French episcopate, urging them to petition Louis XV directly to halt the judicial suppression of the Jesuits. He anticipates that failure to act will lead to a broader erosion of episcopal authority and the eventual secularization of religious life. Historically, this prescription failed; the *Parlement* of Paris finalized the suppression of the Jesuits in France in 1764, leading to the global suppression by Clement XIV in 1773.\n\n### Temporal gradients\n- **Reflective:** Density -5 (The document is a reaction to the immediate 5-year escalation of anti-Jesuit sentiment in the French courts).\n- **Prescriptive:** Density +2 (The Pope anticipates a short-term window to influence the King before the *Parlements* finalize their legal assault).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe encyclical is a response to the \"Jesuit Affair\" in France, which was as much about the power of the *Parlements* (sovereign courts) as it was about the Jesuits themselves. The *Parlements* were asserting a \"Gallican\" identity that prioritized the French state over Roman authority. By 1762, the *Parlement* of Paris had already declared the Jesuit order \"pernicious\" and \"destructive of the principles of religion.\" Clement XIII\u2019s intervention was a late-stage attempt to leverage the King\u2019s personal piety against the judicial bureaucracy.\n\n### 2. The Failure of Papal Diplomacy\nThe document\u2019s efficacy was severely limited by the political climate of the Enlightenment. The French government, under the influence of the Choiseul ministry, was actively seeking to reduce the influence of the Church in public life. The Pope\u2019s appeal to the bishops to \"approach the King\" was largely ignored because the bishops themselves were divided between those loyal to Rome and those sympathetic to the Gallican, state-centric view.\n\n### 3. Rhetorical Strategy\nClement XIII employs a tone of \"shared suffering,\" attempting to frame the Jesuit suppression as a proxy for the suppression of the bishops' own authority. By highlighting the \"hand of the Executioner\" in the burning of books, he attempts to shock the bishops into a sense of professional solidarity. The document is less a theological treatise and more a desperate political circular.\n\n### 4. Long-term Impact\nThe document failed to prevent the suppression of the Jesuits in France (1764) or the subsequent global suppression (1773). It serves as a primary record of the decline of papal influence in the face of the rising nation-state and the secular judiciary. It marks a pivotal moment where the \"Most Christian King\" could no longer protect the Church from the domestic legal apparatus of his own kingdom.\n\n### 5. Evidence Summary\nThe document is well-documented in the *Bullarium Romanum*. Its reception is recorded in the correspondence of the French *Parlements* and the diplomatic dispatches of the Nuncio in Paris (Durini), which confirm that the document was viewed by the French government as an unacceptable interference in domestic legal affairs.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. III | Official text of the brief. |\n| Academic History | Van Kley, D. (1975). *The Jansenists and the Expulsion of the Jesuits from France*. | Standard interpretation of the political conflict. |\n| Diplomatic Record | Nuncio Durini\u2019s dispatches (1762) | Confirms the document's lack of impact on the *Parlement*. |\n| Media/Press | *Gazette de France* (1762) | Reported on the *Parlement's* defiance of Roman directives. |",
+            "thoughtSignature": "EjQKMgEMOdbHi56QDvvo/yH9eJ6uvRk9hXjnBb3pbhGe43s2I09D564U/21fhk+SCBNbx3wx"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2927,
+    "candidatesTokenCount": 1056,
+    "totalTokenCount": 3983,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2927
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "oBVCaqrzA6nTz7IP8rrG-AM"
+}

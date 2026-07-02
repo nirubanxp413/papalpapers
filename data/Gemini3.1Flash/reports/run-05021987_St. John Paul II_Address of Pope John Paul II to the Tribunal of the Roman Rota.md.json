@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Address of Pope John Paul II to the Tribunal of the Roman Rota\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\nThe 1987 address to the Roman Rota occurred during a period of intense internal debate regarding the 1983 Code of Canon Law, specifically concerning the grounds for marriage nullity. The Church was grappling with a surge in annulment petitions in the West, particularly in the United States, which critics viewed as \"Catholic divorce.\"\n\n### Reflective\nThe document reflects on the 1983 Code of Canon Law, specifically Canon 1095, which addresses psychological incapacity to consent to marriage. It interprets the growing trend of \"psychologizing\" marriage nullity as a departure from the ontological reality of the marital bond.\n\n### Prospective\nThe address prescribes a stricter interpretation of \"psychological maturity\" for marriage. It warns against the encroachment of secular psychological theories into canon law, attempting to shape future tribunal rulings by narrowing the scope of what constitutes a \"grave lack of discretion of judgment.\"\n\n### Temporal gradients\n- **Reflective (-5):** Looks back at the implementation of the 1983 Code and the preceding years of shifting psychological discourse in the 1970s.\n- **Prospective (+10):** Aims to influence the next decade of tribunal jurisprudence, attempting to curb the rising tide of annulments that would peak in the 1990s.\n\n---\n\n## Unstructured\n\n### 1. Historical Context\nIn 1987, the Roman Rota\u2014the Vatican\u2019s highest appellate court\u2014was the epicenter of a quiet but profound conflict between traditional canonists and those influenced by modern psychology. John Paul II\u2019s address was a direct intervention in the \"annulment crisis.\" By the mid-1980s, the number of annulments granted in the U.S. had skyrocketed, a phenomenon often attributed to the broad interpretation of \"psychological incapacity.\" The Pope\u2019s address sought to re-anchor the definition of marriage in the \"truth of the person\" rather than the \"subjective feelings\" of the spouses.\n\n### 2. Reflective Analysis\nThe Pope explicitly critiques the \"anthropological\" shift he observed in the previous five years (1982\u20131987). He argues that the legal system had begun to prioritize the *psychological* state of the individual over the *covenantal* nature of the union. He reflects on the danger of reducing the marital bond to a mere contract that can be dissolved if one party claims a lack of \"maturity\" at the time of the wedding.\n\n### 3. Prospective/Prescriptive Analysis\nThe address is highly prescriptive. It functions as a judicial directive to judges of the Roman Rota and, by extension, diocesan tribunals worldwide. He demands a \"rigorous\" standard of proof, warning that if the Church continues to grant annulments based on vague psychological criteria, it risks undermining the indissolubility of marriage. He anticipates that without this correction, the Church\u2019s witness to the permanence of marriage will be eclipsed by secular therapeutic culture.\n\n### 4. Secular Engagement\nWhile ostensibly an internal ecclesial matter, the address engages with the secular world by rejecting the \"therapeutic turn\" in Western society. It positions the Church as a bulwark against the normalization of divorce, framing the annulment process as a site of resistance against the \"culture of the provisional.\"\n\n### 5. Reception and Legacy\nThe address was received as a \"course correction\" by conservative canonists. However, historical data shows that the trend of annulments continued to rise in the late 1980s and 1990s, suggesting that the Pope\u2019s prescriptive influence on local tribunals was limited by the practical realities of pastoral care and the autonomy of diocesan judges.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Code of Canon Law (1983)* | The primary legal framework the Pope is interpreting. |\n| Academic | *The Jurist (1988)* | Contemporary legal analysis of the Rota address. |\n| Media | *The New York Times (1987)* | Coverage of the Vatican's concern over \"Catholic divorce.\" |\n| Academic | *Witte, J. (2002)* | Analysis of the tension between canon law and modern psychology. |",
+            "thoughtSignature": "EjQKMgEMOdbHQQOI2RXf2Ja90DZDlpPIIuEkcXilV0Ps7ZA5jh6e9/2aucpTHiueYCeZ5qtV"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2328,
+    "candidatesTokenCount": 977,
+    "totalTokenCount": 3305,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2328
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "lhxDaoLAGcnlqtsPw5LC4AY"
+}

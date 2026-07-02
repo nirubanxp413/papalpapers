@@ -1,0 +1,68 @@
+---
+source_file: "data/encyclical/11121925_Pius XI_Quas Primas.md"
+step3_report_file: "data/subagents/reports/run-11121925_Pius XI_Quas Primas.md"
+report_file: "data/Gemini3.1Flash/reports/run-11121925_Pius XI_Quas Primas.md.md"
+pass: "step-6-gemini-3.1-flash"
+model: "gemini-3.1-flash-lite"
+pope: "Pius XI"
+title: "Quas Primas"
+published_date: "1925-12-11"
+source_url: "https://www.papalencyclicals.net/pius11/p11prima.htm"
+alternate_source_url: null
+key_theme: "Mixed"
+response_id: "dhZCarTUN4ihz7IP_PrBkQw"
+completed_at: "2026-06-29T06:53:47+00:00"
+---
+
+# Quas Primas
+
+## Gradients
+```json
+{
+  "reflective": {"saturation": 8, "density": -15},
+  "prescriptive": {"saturation": 9, "density": 12}
+}
+```
+
+## Structured
+
+### Context
+*Quas Primas* was issued in the immediate aftermath of the 1925 Holy Year, a period characterized by Pius XI’s attempt to reassert Catholic influence in a post-WWI Europe defined by the rise of secular nationalism, the consolidation of the Soviet Union, and the lingering trauma of the "Great War." The document serves as a direct ideological counter-offensive to the perceived "laicization" of public life.
+
+### Reflective
+The encyclical reflects on the "seeds of discord" sown by the Treaty of Versailles, the failure of the League of Nations to establish a moral order, and the rise of totalitarian secularism (specifically anti-clericalism in Mexico and the Soviet Union). It interprets the post-war collapse of empires as a vacuum that secular ideologies—which the Pope labels as "plagues"—have filled.
+
+### Prospective
+The document prescribes the universal adoption of the Feast of Christ the King as a liturgical mechanism to re-subordinate civil authority to divine law. It anticipates a future where the "rights of Christ" are recognized in international law and domestic policy, effectively calling for a "re-Christianization" of the state apparatus.
+
+### Temporal gradients
+- **Reflective density (-15):** The document is heavily anchored in the immediate post-WWI period (1914–1925), specifically reacting to the failure of the secular international order to maintain peace.
+- **Prescriptive density (+12):** The prescription for a "social reign of Christ" was intended to shape the mid-20th century, though it largely failed to influence secular political structures, instead becoming a foundational element of 20th-century Catholic identity and later, in some contexts, a rallying cry for integralist political movements.
+
+---
+
+## Unstructured
+
+### 1. Historical Context and Secular Engagement
+Pius XI’s 1925 encyclical was not merely a theological exercise; it was a strategic response to the *secularization of the state*. In the 1920s, the Church faced the "Roman Question" (the status of the Vatican) and the rise of aggressive secularism in Mexico (the *Cristero* War began in 1926) and the USSR. The encyclical explicitly rejects the liberal separation of church and state, framing it as a "grave error."
+
+### 2. Reflective Analysis
+The document looks back at the "Great War" as a failure of secular diplomacy. Pius XI argues that the absence of Christ from international conferences (like Versailles) led to the "insatiable greed" and "national rivalries" that defined the era. It reflects a deep-seated anxiety that the Church was being relegated to the private sphere, a process the Pope identifies as the root cause of the "social plague."
+
+### 3. Prescriptive Analysis
+The prescription is twofold: liturgical and political. By instituting the Feast of Christ the King, Pius XI sought to create a "pedagogical" tool that would bypass the intellectualism of doctrinal decrees. He intended for this to be a permanent, recurring public assertion of sovereignty. Historically, this prescription was largely ignored by secular governments, though it became a central pillar of Catholic Action groups in the 1930s.
+
+### 4. Reception and Efficacy
+- **Secular Reception:** There is no evidence of significant engagement from secular governments or international bodies at the time. The League of Nations, which the Pope implicitly criticized, did not acknowledge the encyclical.
+- **Ecclesial Reception:** The feast became a staple of the liturgical calendar, successfully embedding the concept of "Christ the King" into the Catholic consciousness. However, the political goal—the submission of states to Christ's rule—remained unfulfilled, eventually leading to the shift in Catholic social teaching at Vatican II (specifically *Dignitatis Humanae*), which moved away from the "social kingship" model toward religious freedom.
+
+### 5. Evidence Discipline
+- **Historical Records:** The encyclical is a primary source for the Vatican's stance on the "social reign of Christ."
+- **Media/Academic:** Contemporary secular press coverage was minimal, focusing more on the Holy Year's pageantry than the theological implications of the encyclical. Academic historiography (e.g., Pollard, 2005) confirms that Pius XI’s "social kingship" was a direct challenge to the liberal democratic order of the 1920s.
+
+### Citations
+| Source Type | Citation | Note |
+| :--- | :--- | :--- |
+| Historical | *Quas Primas* (1925) | Primary text. |
+| Academic | Pollard, J. (2005). *The Papacy in the Age of Totalitarianism*. | Contextualizes the encyclical as a response to secularism. |
+| Historical | *Cristero War* (1926–1929) | Real-world conflict reflecting the "anti-clericalism" mentioned in §24. |

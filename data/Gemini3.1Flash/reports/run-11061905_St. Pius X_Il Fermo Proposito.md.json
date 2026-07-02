@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Il Fermo Proposito\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 12}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Italy, 1905. The *Non Expedit* (the papal prohibition against Catholics participating in Italian national elections) had been in place since 1874, creating a \"ghetto\" mentality among Italian Catholics.\n*   **Political Climate:** The rise of the Italian Socialist Party (PSI) and the secularization of the state under the Liberal government.\n*   **Ecclesial Crisis:** The \"Democratic Christian\" movement (led by figures like Romolo Murri) sought to modernize the Church's social approach, often clashing with the conservative hierarchy.\n\n### Reflective\n*   **The *Non Expedit*:** The document reflects on the long-standing, often confusing, and increasingly untenable policy of abstention from national politics.\n*   **Internal Dissent:** It explicitly reacts to the \"pernicious movement\" of young Catholic activists who prioritized social reform over episcopal obedience.\n*   **Social Dislocation:** It acknowledges the failure of traditional charitable structures to stem the tide of socialist influence among the rural and industrial working classes.\n\n### Prospective\n*   **Political Re-entry:** It prescribes a gradual, controlled return to the ballot box, shifting from a policy of \"abstention\" to \"conditional participation.\"\n*   **Institutional Centralization:** It mandates the reorganization of Catholic social works under the *Unione Popolare*, ensuring that all lay activity is strictly subordinated to the hierarchy.\n*   **Anti-Socialist Strategy:** It prescribes the creation of a \"Christian civilization\" as a defensive bulwark against the perceived threat of secular socialism.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is deeply rooted in the 1874\u20131905 period of the *Non Expedit* and the subsequent internal struggles of the *Opera dei Congressi*.\n*   **Prescriptive Density (+12):** The document anticipates the formation of a formal Catholic political party (eventually the Partito Popolare Italiano in 1919), though it stops short of endorsing a specific party structure.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Il Fermo Proposito* serves as a tactical pivot point in the history of the Italian Church. By 1905, the *Non Expedit* had become a strategic liability; the Church was losing the working class to the socialists while remaining politically impotent. Pius X\u2019s encyclical was an attempt to \"re-capture\" the social question by professionalizing Catholic activism. It effectively ended the era of the *Opera dei Congressi* (which was dissolved in 1904) and replaced it with a more hierarchical, bishop-led model of \"Catholic Action.\"\n\n### 2. Reflective vs. Prescriptive Dynamics\nThe document is highly reflective regarding the failure of the previous generation of Catholic activists. Pius X\u2019s critique of the \"pernicious movement\" is a direct response to the intellectual ferment of the late 19th century. Conversely, its prescriptive nature is forward-looking: it provides the blueprint for the 20th-century model of Catholic political engagement, where the Church acts as a \"supervisor\" of lay political activity rather than a direct participant.\n\n### 3. Secular Engagement\nThe encyclical was not merely an internal church matter; it was a signal to the Italian Liberal government that the Church was prepared to enter the political arena to counter the socialist threat. This was a pragmatic alliance: the Church needed the state to curb socialism, and the Liberal government needed the Catholic vote to stabilize the parliamentary system.\n\n### 4. Reception and Efficacy\n*   **Immediate:** The document was welcomed by conservative bishops but caused significant distress among the \"Christian Democrats\" who felt their autonomy was being crushed.\n*   **Long-term:** It paved the way for the *Patto Gentiloni* (1913), where Catholics began voting for Liberal candidates who promised to protect Church interests. It is widely viewed by historians as the \"death knell\" for independent Catholic social movements in Italy.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Academic | Pollard, J. (2008). *The Papacy in the Age of Totalitarianism*. | Analyzes the shift from *Non Expedit* to political engagement. |\n| Historical | *Opera dei Congressi* records (1904) | Documents the dissolution of the organization prior to the encyclical. |\n| Media | *La Civilt\u00e0 Cattolica* (1905) | Contemporary defense of the encyclical's disciplinary measures. |\n| Academic | Scoppola, P. (1977). *La Chiesa e il fascismo*. | Contextualizes the shift toward organized Catholic Action. |",
+            "thoughtSignature": "EjQKMgEMOdbHWx2CVn7JhMD1HghfwtRq2yrXdE5nC150mAfn9kM8m1PekLUq00TeIu44LLMu"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3100,
+    "candidatesTokenCount": 1083,
+    "totalTokenCount": 4183,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3100
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "WRZCaqTWDvr9qtsPjICayQc"
+}

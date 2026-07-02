@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Regnans in Excelsis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -12},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Regnans in Excelsis* (1570) was issued by Pope Pius V (not Paul VI, as erroneously noted in the prompt's metadata). It represents the apex of the Counter-Reformation\u2019s militant phase. The document was a direct response to the consolidation of the Elizabethan Religious Settlement, which had effectively marginalized the English Catholic minority.\n\n### Reflective\nThe document reflects on the \"monstrous\" usurpation of the English throne by Elizabeth I, the systematic dismantling of the Mass, and the failure of diplomatic efforts by Pius IV and Pius V to secure religious toleration for English Catholics through European monarchs. It interprets the previous decade (1558\u20131570) as a period of \"miserable ruin\" for the English Church.\n\n### Prospective\nThe bull prescribes the total political and spiritual isolation of Elizabeth I. It commands English subjects to withhold obedience, effectively inciting civil disobedience and potential insurrection. It anticipates a restoration of the Catholic order through the removal of the monarch, though it provides no mechanism for this beyond the moral imperative of the excommunication.\n\n### Temporal gradients\n- **Reflective density (-12):** The document is heavily anchored in the events of 1558 (Elizabeth's accession) and the subsequent legislative dismantling of Catholic structures.\n- **Prescriptive density (+2):** The document looks forward to an immediate, forced regime change, anticipating that the declaration would trigger a Catholic uprising within two years of its publication.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Reception\nThe bull was issued in February 1570, but its impact was largely counter-productive. Rather than rallying English Catholics, it placed them in an impossible position: they were forced to choose between their faith and their loyalty to the Crown. The English government, under William Cecil, used the bull as evidence of treason, leading to the Treasons Act of 1571, which intensified the persecution of Catholics.\n\n### 2. Political and Social Impact\nThe document failed to achieve its primary goal of deposing Elizabeth. Instead, it provided the English state with the justification to treat all Catholics as potential fifth-columnists. The \"prescriptive\" nature of the document was effectively neutralized by the reality of English state power, which successfully framed the Pope\u2019s intervention as foreign interference in domestic sovereignty.\n\n### 3. Scholarly Interpretation\nHistorians (e.g., Eamon Duffy, John Bossy) generally view *Regnans in Excelsis* as a strategic disaster for the English Catholic community. It marked the transition of English Catholicism from a tolerated (if pressured) minority to a persecuted, \"recusant\" identity. The document is cited in political science as an example of the limits of \"soft power\" when divorced from military reality.\n\n### 4. Media and Public Discourse\nIn the 16th century, the bull was widely circulated in London by the government to whip up anti-Catholic sentiment. In modern historiography, it is frequently referenced in the context of the \"Black Legend\" of the Papacy, illustrating the perceived incompatibility of Roman authority with the emerging Westphalian concept of the nation-state.\n\n### 5. Evidence of Failure\nThe bull did not lead to a mass uprising. The vast majority of English Catholics remained loyal to the Crown, fearing that the Pope\u2019s intervention would lead to a Spanish invasion. The document is a prime example of a prescriptive act that ignored the sociological reality of its target audience.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Statutes of the Realm*, 13 Eliz. c. 1 | Parliamentary response to the Bull. |\n| Academic Scholarship | Duffy, E. (1992). *The Stripping of the Altars*. | Analysis of the liturgical impact. |\n| Academic Scholarship | Bossy, J. (1975). *The English Catholic Community*. | Analysis of the social isolation caused by the Bull. |\n| Primary Document | Vatican Secret Archives, Reg. Vat. 1570 | Original text of the excommunication. |",
+            "thoughtSignature": "EjQKMgEMOdbH7qfuo0pUU50Ttplgcxp4gv+Njw0dQ6QyqtPLSsgI8rOQvrG+9PvaQRnGzp3M"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3176,
+    "candidatesTokenCount": 938,
+    "totalTokenCount": 4114,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3176
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "JBdCap2uCebtqtsPoPmXkA8"
+}

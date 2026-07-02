@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Nullis Certe Verbis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** The Risorgimento is at a critical juncture. Following the 1859 Second Italian War of Independence, the Papal States (specifically the Romagna/Emilia region) have effectively seceded. Napoleon III, seeking to balance French Catholic support with his alliance with Piedmont-Sardinia, published *Le Pape et le Congr\u00e8s* (Dec 1859), suggesting the Pope relinquish these provinces to maintain his spiritual authority.\n*   **Political Reality:** The Pope\u2019s temporal power is collapsing. The \"patrimony of St. Peter\" is being dismantled by nationalist forces supported by Cavour. The encyclical is a direct response to the diplomatic pressure exerted by the French Emperor.\n\n### Reflective\n*   **Events:** The document reflects on the 1859 loss of the Romagna provinces and the subsequent diplomatic pressure from the French government.\n*   **Interpretations:** Pius IX interprets the loss of territory not as a political failure, but as a \"sacrilegious\" assault on the Church's independence. He frames the \"universal solidarity\" of the faithful as a divine mandate to resist.\n\n### Prospective\n*   **Warnings:** The Pope warns secular leaders (specifically Napoleon III) of the \"tribunal of Christ,\" implying divine retribution for those who undermine the Papal States.\n*   **Prescriptions:** He commands bishops to continue mobilizing the laity to defend the temporal power, effectively creating a transnational pressure group to lobby European governments against the unification of Italy.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document is deeply rooted in the immediate events of the 1855\u20131860 period, specifically the erosion of the Papal States following the 1859 war.\n*   **Prescriptive Density (+10):** The Pope anticipates a long-term struggle for the \"liberty of the Church,\" projecting the necessity of temporal power into the indefinite future, though he fails to anticipate the 1870 collapse of Rome.\n\n## Unstructured\n\n### 1. Historical Analysis\nThe encyclical functions as a diplomatic counter-offensive. By the time of publication (Jan 1860), the Romagna had already established a provisional government under the Sardinian commissioner. The Pope\u2019s refusal to negotiate was a strategic decision to maintain the *status quo ante* at all costs. Historically, this stance alienated Napoleon III, who had been the Pope's primary protector since 1849, eventually leading to the withdrawal of French troops in 1870.\n\n### 2. Media and Public Discourse\nContemporary press (e.g., *Le Moniteur Universel*) treated the encyclical as a formal rejection of the \"Congress of Paris\" proposals. In the UK and France, the secular press largely viewed the document as an anachronistic refusal to accept the principle of national self-determination. The \"hundreds of thousands of letters\" mentioned by the Pope were part of a coordinated ultramontane campaign to demonstrate that the Pope still held the \"moral\" high ground, even as he lost the physical ground.\n\n### 3. Theological vs. Political Framing\nThe document is a masterclass in conflating the *spiritual* office of the Papacy with the *civil* administration of territory. By defining the Papal States as a \"divine grant,\" Pius IX effectively made the surrender of territory a matter of heresy rather than diplomacy. This made any compromise with the Italian nationalist movement impossible, forcing the Church into a state of \"prisoner\" status that would last until 1929.\n\n### 4. Efficacy and Reception\nThe encyclical failed to stop the annexation of the Papal States. It succeeded, however, in galvanizing a specific brand of \"Pius-era\" Catholicism that was intensely loyal to the person of the Pope and suspicious of the modern nation-state. It did not influence the political trajectory of the Risorgimento, which continued unabated toward the capture of Rome.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Le Moniteur Universel*, Dec 1859 | Contains the initial French proposal for the Pope to cede provinces. |\n| Academic | Kertzer, D. (2004). *Prisoner of the Vatican* | Analyzes the Pope's refusal to compromise as a catalyst for his isolation. |\n| Historical Record | Diplomatic Correspondence, 1860 | Records the frustration of the French Foreign Ministry with the Pope's intransigence. |\n| Media | *The Times* (London), Jan 1860 | Contemporary reporting on the \"stubbornness\" of the Roman Curia. |",
+            "thoughtSignature": "EjQKMgEMOdbHKWXyRDGb7S6/oifSm3npfVNLkhDeFa/OSZLsiBZCjVenteqNb2rDTb+ByECR"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3089,
+    "candidatesTokenCount": 1068,
+    "totalTokenCount": 4157,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "d11Caq_tDaj9qtsPwcCHcA"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Pascendi Dominici Gregis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 10, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Pascendi Dominici Gregis* was issued during the \"Modernist Crisis,\" a period of intense friction between the Catholic Church and the rise of secular historical-critical methods in European academia. It followed the 1907 decree *Lamentabili Sane Exitu*, which condemned 65 specific propositions. The document was a direct response to the intellectual output of figures like Alfred Loisy and George Tyrrell, who sought to reconcile Catholic dogma with evolutionary biology and critical biblical scholarship.\n\n### Reflective\nThe document reflects on the late 19th-century \"liberal\" turn in theology, specifically the influence of Kantian agnosticism and the historical-critical school of the University of Paris and similar institutions. It interprets the \"Modernist\" movement not as a genuine intellectual development but as a systematic infiltration of the Church by secular rationalism.\n\n### Prospective\nThe document prescribes a total overhaul of clerical formation, mandating the return to Scholasticism (Thomism) as the sole philosophical framework. It establishes a \"Council of Vigilance\" in every diocese to monitor publications and teaching, effectively creating a surveillance apparatus intended to purge the clergy of dissent for decades to come.\n\n### Temporal gradients\n- **Reflective (Density -15):** The document is deeply rooted in the intellectual battles of the 1890s and early 1900s, specifically the reaction against the *Kulturkampf* and the perceived secularization of the French and Italian intelligentsia.\n- **Prescriptive (Density +10):** The prescriptions were intended to shape the Church's intellectual life for the next decade, though the \"Sodalitium Pianum\" (a secret network of informers) operated until its suppression in 1921, extending the document's prescriptive reach into the post-WWI era.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nWhile *Pascendi* is primarily an internal ecclesial document, its impact on the secular world was significant. In France, the encyclical exacerbated tensions during the separation of Church and State (1905 Law). The secular press, particularly in France and Italy, viewed the encyclical as a declaration of war against modern science and democratic values. It solidified the image of the Catholic Church as an anti-modern, reactionary institution, which influenced secular political discourse and anti-clerical legislation for the following two decades.\n\n### 2. Reflective Analysis\nThe encyclical is a reactive document. It looks back at the \"synthesis of all heresies\" that the Pope believed had been gestating since the Enlightenment. It interprets the work of Catholic scholars like Loisy as a betrayal of the Church's foundational epistemology. The document is a defensive reaction to the perceived loss of control over the intellectual formation of the clergy.\n\n### 3. Prescriptive Analysis\nThe prescriptions were highly effective in the short term. The mandatory \"Oath Against Modernism\" (introduced in 1910) forced a generation of priests to conform or leave. However, the long-term prescriptive goal\u2014the total eradication of critical inquiry\u2014failed to prevent the eventual rise of the *Nouvelle Th\u00e9ologie* in the mid-20th century, which utilized many of the historical methods Pius X condemned.\n\n### 4. Reception and Legacy\nThe encyclical was met with immediate, fierce resistance from the intellectual wing of the Church. George Tyrrell was excommunicated shortly after his public critique of the encyclical in *The Times* (London). Secular observers, such as those writing for *The Nation* or *Le Figaro*, frequently cited the encyclical as evidence that the Church was incapable of adapting to the modern world, a narrative that persisted until the Second Vatican Council.\n\n### 5. Evidence of Efficacy\nThe creation of the *Sodalitium Pianum* (the \"Sapini\u00e8re\") by Monsignor Umberto Benigni serves as the primary evidence of the document's prescriptive force. This secret network of informants operated with the Pope's tacit approval to monitor and report \"Modernist\" tendencies among the clergy, creating a climate of fear that effectively silenced academic theological debate within the Church until the 1920s.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Lamentabili Sane Exitu* (1907) | Precursor decree; provides the list of condemned errors. |\n| Media | *The Times* (London), Oct 1907 | Coverage of George Tyrrell\u2019s critique of the encyclical. |\n| Academic | Poulat, \u00c9. (1960) *Int\u00e9grisme et catholicisme int\u00e9gral* | Definitive study on the anti-modernist network. |\n| Academic | Hebblethwaite, P. (1993) *Paul VI: The First Modern Pope* | Contextualizes the long-term impact of the anti-modernist oath. |",
+            "thoughtSignature": "EjQKMgEMOdbHdSQ7eepQUPOX7lq57HCQE16cL8cV+KoLTp0b7r2/k9LyEIL9YOdX11oRJRii"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3467,
+    "candidatesTokenCount": 1114,
+    "totalTokenCount": 4581,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3467
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "2BxDaoOiEs3UjMcPo4ql6Ao"
+}

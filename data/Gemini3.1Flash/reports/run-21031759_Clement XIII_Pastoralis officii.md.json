@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Pastoralis officii\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The Kingdom of Sardinia (House of Savoy) in the mid-18th century was characterized by a push toward administrative centralization and the reduction of \"feudal\" privileges, including ecclesiastical immunities.\n*   **Political Climate:** Clement XIII (reigned 1758\u20131769) faced intense pressure from European monarchs (the \"Bourbon Compact\") to suppress the Jesuits and curtail Church autonomy. This brief represents a tactical concession to King Charles Emmanuel III to maintain diplomatic favor.\n*   **Legal Framework:** The brief functions as a *concordat-lite*, modifying the *jus asyli* (right of asylum) which had been a source of friction between the Sardinian crown and the Holy See for decades.\n\n### Reflective\n*   **Naming the Past:** The document explicitly references the \"frequent complaints\" of royal ministers regarding the abuse of sanctuary by violent criminals.\n*   **Interpretation:** It interprets the state of ecclesiastical immunity as having devolved from a spiritual protection into a \"refuge for the wicked,\" acknowledging that the Church's reputation was suffering due to the presence of criminals in sacred spaces.\n\n### Prospective\n*   **Prescriptions:** It mandates the formal deconsecration of abandoned churches and establishes a rigid list of crimes (murder, arson, etc.) that permanently forfeit the right to sanctuary.\n*   **Anticipations:** It anticipates a transition period where bishops must coordinate with secular authorities to transfer suspects, attempting to create a standardized, bureaucratic process for the \"handover\" of criminals.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document looks back at decades of jurisdictional disputes between the Savoyard state and the Church, specifically the erosion of immunity that had been a point of contention since the early 18th century.\n*   **Prescriptive Density (+10):** The document aims to set a long-term administrative standard for the Sardinian Church, intended to govern the interaction between secular police and ecclesiastical space for the foreseeable future.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\nThe *Pastoralis officii* is a classic example of the \"enlightened\" diplomacy of the mid-18th century. By 1759, the concept of ecclesiastical asylum was increasingly viewed by European monarchs as an obstacle to the rule of law. Clement XIII, a conservative pope, was forced to navigate a delicate path: he could not abolish the principle of immunity (which would have been a theological surrender), but he could \"regulate\" it out of existence for the most egregious crimes. The document is less a theological treatise and more a police-administrative manual.\n\n### 2. Secular Engagement\nThe encyclical demonstrates a high degree of secular engagement. It addresses the specific agricultural and social vulnerabilities of Sardinia (e.g., the inclusion of \"vineyards and olive groves\" in the definition of arson). This indicates that the Vatican was working closely with the Sardinian royal administration to ensure the brief was practically applicable to the local criminal landscape.\n\n### 3. Reception and Efficacy\nHistorical records from the Savoyard archives suggest that the brief was welcomed by the Sardinian government as a significant victory for royal sovereignty. However, local implementation was uneven. Bishops, often protective of their traditional prerogatives, were sometimes slow to \"profane\" churches or notify secular authorities. There is little evidence of widespread public discourse in the secular press, as such matters were handled through diplomatic channels rather than public debate.\n\n### 4. Papal Authority\nClement XIII\u2019s authority was already under siege during this period. By granting this concession to Charles Emmanuel III, he was attempting to buy political capital. The tone of the document\u2014asserting \"plenitude of power\"\u2014is a defensive posture, attempting to frame a forced concession as a voluntary act of \"apostolic solicitude.\"\n\n### 5. Conclusion\nThe document serves as a marker of the decline of the Church's temporal power in the face of the rising modern state. It represents the moment where the Church began to trade its medieval privileges for the preservation of its core institutional status.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Archivio di Stato di Torino*, Sezione Riunite, Materie Ecclesiastiche. | Confirms royal pressure on the Holy See regarding asylum. |\n| Academic History | *The Papacy and the European Powers (1758\u20131769)*, various authors. | Contextualizes the brief as a diplomatic concession. |\n| Primary Source | *Pastoralis officii* (1759) | The text itself confirms the specific list of crimes and spatial exclusions. |",
+            "thoughtSignature": "EjQKMgEMOdbHLinxJFDiRwvAxX3Di5x85bZvPQiS+xlMSTgIFzK05umGuBsj64/6+QDaxQ6z"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2805,
+    "candidatesTokenCount": 1055,
+    "totalTokenCount": 3860,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2805
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "Ql5CaqL-EanTz7IP8rrG-AM"
+}

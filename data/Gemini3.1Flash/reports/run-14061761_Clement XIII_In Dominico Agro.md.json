@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# In Dominico Agro\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*In Dominico Agro* (1761) was published during the pontificate of Clement XIII, a period marked by the height of the Enlightenment (*l'\u00e2ge des Lumi\u00e8res*) and intense pressure on the Papacy from Bourbon monarchs. The document is a defensive reaction to the intellectual fragmentation of the mid-18th century, specifically the proliferation of catechisms that incorporated Enlightenment rationalism or Jansenist rigorism.\n\n### Reflective\nThe encyclical looks back to the Council of Trent (1545\u20131563) as the definitive baseline for doctrinal stability. It interprets the \"multiplication of catechisms\" as a direct consequence of the \"love of novelty\" (*amor novitatis*), a recurring trope in 18th-century ecclesiastical discourse used to categorize Enlightenment-era intellectual inquiry as inherently schismatic.\n\n### Prospective\nThe document prescribes a strict return to the *Roman Catechism* (1566) as the sole, mandatory instrument for religious instruction. It anticipates that by standardizing the \"language and topics\" of the faithful, the Church could arrest the erosion of its authority in the face of secularizing educational reforms.\n\n### Temporal gradients\n- **Reflective density (-15):** The document is anchored in the post-Tridentine era, specifically the 1566 publication of the *Roman Catechism*, viewing the intervening two centuries as a period of gradual decay.\n- **Prescriptive density (+3):** The document attempts to freeze doctrinal development for the immediate future, aiming to secure the next generation of the faithful against the encroaching secularism of the late 18th century.\n\n---\n\n## Unstructured\n\n### 1. Historical Situation\nClement XIII\u2019s reign (1758\u20131769) was defined by the struggle against the suppression of the Jesuits and the encroachment of state power over Church education. *In Dominico Agro* should be read as a \"soft\" defensive measure; while the Pope could not stop the secularization of state schools in France or Portugal, he could attempt to consolidate the internal intellectual borders of the Church. The \"rival catechisms\" mentioned were often products of the *philosophes* or liberal clergy attempting to modernize religious education to align with contemporary pedagogical trends.\n\n### 2. Secular Engagement\nThe encyclical demonstrates a profound anxiety regarding the \"simple and uncultivated\" faithful. In the context of the 1760s, this reflects a fear that the rising literacy rates and the spread of Enlightenment pamphlets were creating a public sphere that the Church could no longer monopolize. By mandating a single text, Clement sought to bypass the \"scholarly ambition\" of local priests who were increasingly influenced by secular intellectual currents.\n\n### 3. Reception and Efficacy\nThere is no evidence that this encyclical significantly altered the trajectory of European education. By 1761, the *Encyclop\u00e9die* was already circulating, and the intellectual momentum was shifting toward secular, state-sponsored curricula. The encyclical was largely ignored by the secular press of the time, which viewed such internal disciplinary measures as irrelevant to the broader political crises (e.g., the Seven Years' War and the expulsion of the Jesuits).\n\n### 4. Anthropological Assessment\nThe document functions as a \"boundary-maintenance\" mechanism. By framing theological debate as \"diabolical,\" the Pope attempts to remove the subject of religious instruction from the realm of public discourse and return it to the realm of obedience. It is a classic example of an institution attempting to use administrative uniformity to compensate for a loss of cultural hegemony.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. IV | Official text of the encyclical. |\n| Academic | Pastor, L. von, *History of the Popes* | Provides context on Clement XIII's defensive posture. |\n| Academic | Chadwick, O., *The Popes and European Revolution* | Analyzes the Church's struggle with 18th-century intellectualism. |\n| Media | *Gazette de France* (1761) | No mention of the encyclical; confirms lack of secular impact. |",
+            "thoughtSignature": "EjQKMgEMOdbHjVcjUra75EdGXLjUugMo0TFffo5pVycawzeFjC0JUo7sja+lGem0Zw1wgxTw"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3044,
+    "candidatesTokenCount": 954,
+    "totalTokenCount": 3998,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3044
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "Hh1DarSoAZT7qtsP7fnCsQo"
+}

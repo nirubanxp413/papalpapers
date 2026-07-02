@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Tribus Circiter\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Tribus Circiter* (1906) addresses the Mariavite movement, a schismatic group originating in Poland (then under the Russian Empire). The movement centered on Maria Franciszka Koz\u0142owska, who claimed visions of the \"Work of Great Mercy.\" The encyclical serves as a formal disciplinary instrument following the failure of the 1904 decree of suppression.\n\n### Reflective\n- **The Polish Question:** The document reflects the volatile intersection of Polish nationalism and religious identity under the Russian partition. The Mariavites gained traction by using the Polish language in liturgy and emphasizing a \"national\" mysticism, which Pius X viewed as a threat to the universal, hierarchical structure of the Church.\n- **The \"Woman\" Factor:** It reflects the Vatican\u2019s deep-seated anxiety regarding female-led spiritual movements (mysticism) that bypassed the male clerical hierarchy.\n\n### Prospective\n- **Canonical Enforcement:** The document prescribes the total isolation of the Mariavites from the sacramental life of the Church.\n- **Future Schism:** It anticipates the formalization of the Mariavite Church as an independent entity (which occurred in 1906, shortly after the encyclical, leading to their excommunication).\n- **Clerical Discipline:** It sets a precedent for the \"Modernist\" crackdown that would intensify with *Pascendi Dominici Gregis* (1907), emphasizing that private revelation is subordinate to the Roman curia.\n\n### Temporal gradients\n- **Reflective Density (-5):** The document is heavily anchored in the specific events of 1901\u20131905, particularly the failed reconciliation of the priests in Rome.\n- **Prescriptive Density (+2):** The document looks forward to the immediate containment of the schism, though it failed to prevent the Mariavites from establishing their own Old Catholic-affiliated hierarchy.\n\n---\n\n## Unstructured\n\n### 1. Historical Context: The Mariavite Schism\nThe Mariavite movement was not merely a theological dispute but a socio-political phenomenon. In the context of the Russian Empire, the Catholic Church was a primary pillar of Polish identity. The Mariavites, by claiming a \"new\" revelation, challenged the institutional stability of the Church. Historical records indicate that the movement appealed to the lower clergy and the peasantry, who felt alienated by the aristocratic and conservative episcopate.\n\n### 2. The Failure of Papal Diplomacy\nThe encyclical highlights a failed diplomatic effort. The two priests, Kowalski and Prochniewsky, were received in Rome in 1904. Their subsequent return to Poland and immediate resumption of their activities demonstrated the limits of papal authority in the face of charismatic, localized movements. The document is a \"last resort\" text, marking the transition from negotiation to total excommunication.\n\n### 3. Secular and Political Reception\nThere is no evidence of significant secular political engagement with this document outside of the Russian-occupied Polish territories. In the Polish press of 1906, the encyclical was treated as a major ecclesiastical event, but it was largely overshadowed by the ongoing 1905 Russian Revolution and the struggle for Polish autonomy. The Mariavites were often viewed by secular nationalists with suspicion, as their schism weakened the unified front of the Polish Catholic Church against the Russian Orthodox state.\n\n### 4. The Gendered Nature of Authority\nThe document is notable for its refusal to engage with the content of Koz\u0142owska\u2019s visions. By labeling them \"vain things\" and \"lies,\" Pius X avoids a theological debate, instead framing the issue as a matter of *obedience*. This is a classic Pius X strategy: reducing complex spiritual or social movements to a binary of \"submission to the hierarchy\" vs. \"rebellion.\"\n\n### 5. Long-term Impact\nThe encyclical failed to suppress the movement. The Mariavites formally broke away, eventually joining the Old Catholic Union of Utrecht. Today, the Mariavite Church remains a small, distinct denomination in Poland. The encyclical serves as a historical marker of the Vatican's inability to control grassroots religious movements that utilized the language of national identity and private mysticism.\n\n### Citations\n\n| Source Type | Reference | Description |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis* | Official text of the encyclical and subsequent excommunication decrees. |\n| Academic Interpretation | Ryba, M. (2007) | Analysis of the Mariavite movement as a reaction to the social conditions of the Polish partition. |\n| Media (Contemp.) | *Kurier Warszawski* (1906) | Contemporary reporting on the tension between the Mariavite priests and the Warsaw episcopate. |\n| Academic Interpretation | K\u0142oczowski, J. (2000) | Contextualization of the Mariavites within the broader history of Polish Catholicism. |",
+            "thoughtSignature": "EjQKMgEMOdbHD3kWwQGKOmbKoZ+bXjaPsBLkdxPFVAvbhvgjpXBmTiIxvku9b2M18IABeTTZ"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2957,
+    "candidatesTokenCount": 1082,
+    "totalTokenCount": 4039,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2957
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "lhxDapqALNS2qtsP35fx0Aw"
+}

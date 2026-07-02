@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Lamentabili Sane\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Lamentabili Sane* (1907) was a direct response to the \"Modernist crisis,\" a period of intense intellectual ferment within the Catholic Church at the turn of the 20th century. It functioned as a legal instrument of the Holy Office, intended to curb the influence of scholars like Alfred Loisy and George Tyrrell, who sought to reconcile Catholic dogma with modern historical-critical methods and evolutionary science.\n\n### Reflective\nThe document is a reactive synthesis of the previous 15 years of intellectual tension. It looks back at the rise of the *\u00c9cole Biblique* in Jerusalem, the publication of Loisy\u2019s *L'\u00c9vangile et l'\u00c9glise* (1902), and the broader European \"Higher Criticism\" movement. It interprets these not as scholarly inquiries but as a systematic \"corruption\" of the faith.\n\n### Prospective\nThe document prescribes a rigid boundary for future intellectual life within the Church. It mandates the rejection of historical-critical autonomy, effectively silencing internal debate for decades. It anticipates a future where the Church remains a static, non-evolving entity in the face of secular modernity, prescribing a return to Neo-Scholasticism as the only valid intellectual framework.\n\n### Temporal gradients\n- **Reflective (-15):** The document\u2019s gaze is fixed on the late 19th-century emergence of critical exegesis and the subsequent \"Modernist\" debates that reached a boiling point in the 1890s.\n- **Prescriptive (+10):** The document attempts to freeze the Church\u2019s intellectual development for the early 20th century, with its influence on seminary education and censorship lasting until the mid-1960s (Second Vatican Council).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nWhile *Lamentabili Sane* is an internal ecclesial document, its publication occurred against the backdrop of the French Third Republic\u2019s *la\u00efcit\u00e9* (secularism) movement. The Church was under immense political pressure, and the Vatican viewed \"Modernism\" as a \"fifth column\" that threatened to dissolve the Church\u2019s institutional integrity from within, mirroring the external threats posed by secular state policies.\n\n### 2. Reflective Analysis\nThe document acts as a \"containment\" mechanism. It reflects a deep-seated anxiety regarding the loss of the Church's monopoly on truth. By listing 65 propositions, it provides a taxonomy of the \"enemy\" thought, effectively documenting the intellectual landscape of the late 19th-century Catholic intelligentsia. It is a retrospective catalog of what the Vatican deemed \"dangerous\" in the preceding decades of academic research.\n\n### 3. Prescriptive Analysis\nThe document is highly prescriptive, functioning as a legal \"stop-work order.\" It demands that the faithful abandon the scientific method when it conflicts with traditional dogma. Historically, this led to the \"anti-modernist oath\" (1910), which enforced these prescriptions through institutional surveillance. The document successfully stifled critical biblical scholarship within the Church for over 50 years, until the *Divino Afflante Spiritu* (1943) and the eventual shifts of the 1960s.\n\n### 4. Reception and Impact\n- **Contemporary Media:** The secular press (e.g., *The Times*, *Le Temps*) viewed the document as a sign of the Church\u2019s \"medieval\" retreat from modern science.\n- **Academic Scholarship:** Historians of religion (e.g., Poulat, 1969) characterize this as the \"Great Repression,\" noting that it forced the most creative Catholic minds into exile or silence, effectively creating a \"lost generation\" of Catholic intellectuals.\n- **Institutional Impact:** It solidified the power of the Roman Curia over local bishops and universities, centralizing control in a way that defined the 20th-century papacy.\n\n### 5. Citations Table\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, 1907 | Official publication of the decree. |\n| Academic | Poulat, \u00c9. (1969). *Modernistica*. | Definitive study on the Modernist crisis. |\n| Media | *The Times* (London), July 1907 | Contemporary reporting on the \"Papal Syllabus.\" |\n| Academic | Hebblethwaite, P. (1993). *Paul VI*. | Contextualizes the long-term chilling effect on exegesis. |",
+            "thoughtSignature": "EjQKMgEMOdbH/t4RntzsfP5lsJhiNhtma5mwMIwAKDsxh54/8zkIPwgD+2PigGa9kspCiiJO"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3178,
+    "candidatesTokenCount": 1036,
+    "totalTokenCount": 4214,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3178
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "WhxDaqqXDvqdqtsPqYbesQE"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Pope St. Pius V\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\nThe document is a digital index of the pontificate of Pope St. Pius V (1566\u20131572), curated by *Papal Encyclicals Online*. It serves as a repository for four specific documents that define the Counter-Reformation era: *Consueverunt Romani* (1569), *Regnans in Excelsis* (1570), *Quo Primum* (1570), and *Exponi nobis nuper* (1571).\n\n### Reflective\nThe index reflects the consolidation of the Council of Trent (1545\u20131563). It looks back at the necessity of standardizing liturgical practice (*Quo Primum*) and the urgent need to address the geopolitical schism caused by the English Reformation (*Regnans in Excelsis*).\n\n### Prospective\nThe index preserves documents intended to shape the future of the Church: *Quo Primum* sought to enforce a permanent, immutable liturgical standard, while *Regnans in Excelsis* attempted to dictate the political allegiance of English Catholics, effectively prescribing a path of civil disobedience against the Elizabethan state.\n\n### Temporal gradients\n- **Reflective density (-25):** The documents focus on the immediate aftermath of the Council of Trent and the mid-16th-century religious wars.\n- **Prescriptive density (+10):** The liturgical prescriptions of *Quo Primum* were intended to govern the Church for centuries, reaching well beyond the 16th century.\n\n---\n\n## Unstructured\n\n### 1. Historical Context\nThe pontificate of Pius V (Antonio Ghislieri) occurred during the height of the Counter-Reformation. The documents indexed are not merely spiritual; they are instruments of statecraft. *Regnans in Excelsis* (1570) is a primary historical document of political warfare, attempting to depose Elizabeth I by absolving her subjects of their allegiance. This act had profound secular consequences, leading to the intensification of the persecution of English Catholics, who were subsequently viewed by the English Crown as potential traitors.\n\n### 2. Secular Engagement\nThe engagement with the secular world is most visible in the collision between papal authority and the emerging nation-state. *Regnans in Excelsis* represents a failed attempt to exert supranational authority over a sovereign monarch. Historically, this bull is cited by historians (e.g., Duffy, 1992) as a turning point that transformed the status of English Catholics from \"schismatics\" to \"political subversives.\"\n\n### 3. Liturgical Prescriptivism\n*Quo Primum* is the most enduring document in this collection. It represents a prescriptive effort to freeze liturgical practice in time. Its influence persisted until the Second Vatican Council (1962\u20131965), and its legacy remains a point of intense debate in contemporary ecclesial politics, as evidenced by the 2021 *motu proprio* *Traditionis Custodes*.\n\n### 4. Archival Nature\nThe source file is an index, not a primary text. Its publication in 2017 is an act of digital preservation. It does not offer new commentary but provides a gateway to the primary sources. The \"Paul VI\" attribution in the metadata is a classification error by the host site, as the content is exclusively from the 16th century.\n\n### 5. Evidence of Impact\n- **Historical:** *Regnans in Excelsis* failed to unseat Elizabeth I and instead provided the English government with a pretext for the Treasons Act of 1571.\n- **Media/Modern:** The documents are frequently cited in modern digital discourse regarding the \"Traditional Latin Mass\" movement, where *Quo Primum* is often invoked as a legalistic argument for the permanence of the Tridentine rite.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical | *Regnans in Excelsis* (1570) | Primary source for the excommunication of Elizabeth I. |\n| Historical | Treasons Act (1571) | English parliamentary response to the Papal Bull. |\n| Academic | Duffy, E. (1992). *The Stripping of the Altars*. | Analysis of the impact of the Reformation on English Catholic life. |\n| Media | *Traditionis Custodes* (2021) | Vatican document referencing the historical context of *Quo Primum*. |",
+            "thoughtSignature": "EjQKMgEMOdbHUw/Q/+9l0ZUbUBwPxhR/S4lp7h8GGaQEgWXQT1ix0Xqw9ZtvnGB5ZbQzNI9X"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2615,
+    "candidatesTokenCount": 1027,
+    "totalTokenCount": 3642,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2615
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "zRxDauvpDaqf6dkP2rCT-Ak"
+}

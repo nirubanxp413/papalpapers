@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quam Singulari\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Quam Singulari* (1910) emerged during the height of the \"Modernist crisis\" under Pius X. While ostensibly a liturgical and catechetical decree, it functioned as a centralizing instrument of the Roman Curia, aiming to strip local bishops and national hierarchies of their autonomy in sacramental administration.\n\n### Reflective\n*   **Jansenist Legacy:** The document explicitly targets the \"Jansenist\" tendency to treat the Eucharist as a reward for moral perfection rather than a medicinal necessity. This reflects a centuries-long struggle within the Church to define the threshold of \"worthiness.\"\n*   **Liturgical Divergence:** It reacts to the 19th-century \"rigorist\" trend where First Communion was increasingly delayed to adolescence (ages 12\u201314) to ensure \"sufficient\" preparation, a practice that had become entrenched in diocesan statutes across Europe and the Americas.\n\n### Prospective\n*   **Standardization:** It mandates a universal age of discretion (approx. age seven) for both Confession and Communion, effectively overriding local customs.\n*   **Eucharistic Piety:** It anticipates a shift toward frequent, even daily, communion for children, aiming to create a \"Eucharistic generation\" as a bulwark against the perceived secularization of the early 20th century.\n\n### Temporal gradients\n*   **Reflective Density (-25):** The document\u2019s gaze is anchored in the 1880s\u20131890s, when the \"rigorist\" practices it seeks to dismantle reached their peak in parish life.\n*   **Prescriptive Density (+10):** The decree projects a vision of Catholic life for the next decade (1910\u20131920), aiming to reshape the spiritual formation of children in the immediate lead-up to the First World War.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nWhile *Quam Singulari* is an internal ecclesial document, its publication occurred in a period of intense secular-clerical friction. In France, the 1905 Law on the Separation of the Churches and the State had dismantled the state-supported parish system. By lowering the age of First Communion, the Vatican sought to solidify the identity of Catholic children at a younger age, ensuring their primary allegiance remained to the Church despite the secularization of the public school curriculum.\n\n### 2. The \"Jansenist\" Rhetoric as Political Tool\nThe document\u2019s use of the term \"Jansenist\" is a rhetorical device common to the Pius X pontificate. By labeling the delay of Communion as a \"heresy,\" the Pope effectively delegitimized the authority of local bishops who had implemented these delays for pastoral or pedagogical reasons. It was a move to consolidate power in Rome, ensuring that the \"Roman\" way of doing things became the only way.\n\n### 3. Reception and Efficacy\nThe decree was met with immediate, if sometimes quiet, resistance from clergy who felt that seven-year-olds were incapable of the \"reverence\" required for the Eucharist. However, the administrative weight of the Roman Curia ensured rapid implementation. Within five years, the \"age of seven\" became the global standard for the Latin Rite, a status it maintains to this day.\n\n### 4. Secular/Societal Impact\nThere is no evidence that this decree influenced secular policy or law. Its impact was confined to the \"private\" sphere of the family and the parish. However, it significantly altered the social ritual of the \"First Communion\" in Catholic cultures, transforming it from a \"coming of age\" ceremony (associated with adolescence) into a childhood milestone, which had the effect of shortening the period of \"innocence\" before the child was fully integrated into the sacramental life of the Church.\n\n### 5. Critical Assessment\nThe document is a masterclass in administrative centralization. By framing a disciplinary change as a return to \"ancient tradition,\" the Pope successfully bypassed the need for consensus among the episcopacy. The \"danger\" mentioned in the text\u2014the \"seductions of the present time\"\u2014is never defined, serving as a vague, fear-based justification for the rapid, top-down imposition of the new age limit.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Academic | O'Malley, J. W. (2010). *A History of the Popes*. | Contextualizes the centralization of the Curia under Pius X. |\n| Historical | *Acta Apostolicae Sedis* (1910). | Official text of the decree. |\n| Academic | Collins, P. M. (2009). *Modernity and the Eucharist*. | Analyzes the shift from \"reward\" to \"remedy.\" |\n| Media | *The Tablet* (1910). | Contemporary reporting on the \"new rules\" for children. |",
+            "thoughtSignature": "EjQKMgEMOdbHSxxBB8HaPAMgKNcyktrb/Z+ya8ExT7F01xKDCPK5e2EW3ZFxOwqBBCJzAyZ0"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2920,
+    "candidatesTokenCount": 1111,
+    "totalTokenCount": 4031,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2920
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "0hxDauLsELKkqtsPu6PA8AQ"
+}

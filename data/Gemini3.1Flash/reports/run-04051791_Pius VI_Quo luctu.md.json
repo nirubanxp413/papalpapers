@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quo luctu\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 3}\n}\n```\n\n## Structured\n\n### Context\n*Quo luctu* (May 4, 1791) was issued during the height of the French Revolution\u2019s assault on the Gallican Church. It follows the *Civil Constitution of the Clergy* (July 1790), which mandated that clergy be elected by citizens and swear an oath of loyalty to the state over the Pope. By May 1791, the schism between \"constitutional\" (oath-taking) and \"refractory\" (loyalist) priests was absolute.\n\n### Reflective\nThe document reflects on the \"devastation\" of the French Church, specifically the forced displacement of bishops, the seizure of ecclesiastical property, and the state-mandated restructuring of dioceses. It interprets these events not as political reform, but as a systematic \"persecution\" by \"infamous men\" (the National Assembly).\n\n### Prospective\nThe document prescribes an emergency survival strategy for the French episcopate. It anticipates a prolonged period of illegality, authorizing the suspension of Tridentine liturgical norms to ensure the continuity of the sacraments. It implicitly warns that any clergy who have taken the state oath are excluded from these emergency faculties, effectively drawing a line of excommunication.\n\n### Temporal gradients\n- **Reflective density (-2):** The document is a direct, immediate reaction to the legislative fallout of the 1790 Civil Constitution.\n- **Prescriptive density (+3):** The faculties were intended to sustain the Church through the anticipated duration of the revolutionary crisis, which Pius VI hoped would be short-lived but which persisted for decades.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Agency\nThe encyclical is a tactical response to the collapse of the *Ancien R\u00e9gime*\u2019s ecclesiastical infrastructure. By May 1791, the French state had effectively nationalized the Church. Pius VI\u2019s tone is one of desperate pragmatism; he is not debating the merits of the Revolution but attempting to maintain a \"shadow\" Church in France. The document serves as a legal \"lifeboat,\" granting bishops powers that would normally require years of canonical review.\n\n### 2. The Schism as a Secular-Ecclesial Boundary\nThe document\u2019s primary secular impact was the hardening of the divide between the revolutionary state and the Roman Church. By delegating episcopal powers to simple priests, Pius VI bypassed the state-controlled administrative structures. This created a dual-track society in France: the official, state-sanctioned Church and the clandestine, Roman-loyalist Church.\n\n### 3. Reception and Efficacy\nThere is no evidence that the French National Assembly acknowledged this document, as they viewed the Pope\u2019s authority as null and void within French borders. The document was, however, widely circulated among the *pr\u00eatres r\u00e9fractaires* (refractory priests). It provided the legal justification for their continued, illicit ministry, which became a focal point for counter-revolutionary sentiment in regions like the Vend\u00e9e.\n\n### 4. Limitations of Papal Power\nWhile the document was authoritative within the Church, it had zero efficacy in the secular sphere. The French state continued its de-Christianization campaign regardless of the Pope\u2019s dispensations. The document highlights the limits of ecclesiastical law when faced with a state that claims total sovereignty over the lives and loyalties of its citizens.\n\n### 5. Historical Interpretation\nModern historians (e.g., Tackett, *Religion, Revolution, and Regional Culture*) view this period as the moment the Papacy lost its ability to negotiate with the modern nation-state. *Quo luctu* represents the transition from a Church that governs through established legal structures to a Church that governs through resistance and emergency measures.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Civil Constitution of the Clergy* (1790) | The primary legislative cause of the crisis. |\n| Academic History | Tackett, T. (1986). *Religion, Revolution, and Regional Culture*. | Analyzes the impact of the oath on the clergy. |\n| Historical Record | Archives Parlementaires, Vol. 26 | Records of the National Assembly's stance on papal briefs. |\n| Academic History | McManners, J. (1998). *The French Revolution and the Church*. | Standard account of the schism and papal response. |",
+            "thoughtSignature": "EjQKMgEMOdbHJB14oUPniIp9/5uWOjsd4ZmOmg2jLc+4iazP6ehYAAT7wZ+LJu3SAHKeYmgQ"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2995,
+    "candidatesTokenCount": 989,
+    "totalTokenCount": 3984,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2995
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "YBxDat-_IbbXz7IPtb6f6AM"
+}

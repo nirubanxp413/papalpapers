@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quod Auctoritate\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Quod Auctoritate* (1885) was issued during a period of intense tension between the Holy See and the secularizing forces of the Italian Risorgimento and the broader European \"Kulturkampf.\" Leo XIII, having recently published *Immortale Dei* (Nov 1885) on the Christian constitution of states, utilized this Jubilee proclamation to bridge high-level political theory with the lived piety of the laity.\n\n### Reflective\nThe document reflects on the \"deterioration of public and private morals\" over the preceding two decades. It specifically interprets the rise of secular liberalism and the decline of traditional religious practice as a direct consequence of the loss of \"forefather\" virtues. It acknowledges the failure of the Church to maintain social cohesion in the face of \"wicked societies\" (likely referring to Freemasonry and radical socialist groups).\n\n### Prospective\nThe encyclical prescribes a \"triple remedy\": penance, prayer (specifically the Rosary), and the strengthening of the Third Order of St. Francis. It anticipates that by incentivizing the laity to support primary schools and seminaries, the Church could secure a future generation of clergy and faithful citizens, effectively attempting to \"re-Christianize\" the state from the bottom up.\n\n### Temporal gradients\n- **Reflective (-15):** The gaze reaches back to the mid-19th century, mourning the erosion of the pre-Risorgimento social order.\n- **Prescriptive (+10):** The document aims to shape the moral and institutional landscape for the coming decade, specifically targeting the education of the next generation of clergy and youth.\n\n---\n\n## Unstructured\n\n### 1. Historical Situation\nIn late 1885, Leo XIII was navigating the \"Roman Question\"\u2014the status of the Pope as a \"prisoner\" in the Vatican. *Quod Auctoritate* serves as a pastoral mobilization of the faithful during a time when the Church felt besieged by the Italian state\u2019s secular education laws and the suppression of religious orders. The call for alms specifically for \"primary schools\" was a direct, if defensive, response to the state\u2019s monopoly on public education.\n\n### 2. The \"Softness\" Diagnosis\nLeo\u2019s critique of the \"delicate\" life of his contemporaries is a recurring motif in his pontificate. He viewed the rise of bourgeois comfort as a spiritual pathology that rendered the population susceptible to \"madness of opinion\" (radicalism/socialism). By promoting the Third Order of St. Francis, he was attempting to institutionalize a form of \"lay asceticism\" that could act as a counter-culture to the prevailing secular materialism.\n\n### 3. Reception and Efficacy\nThere is little evidence in secular political records that this Jubilee had a measurable impact on the legislative trajectory of European states. However, within the Church, it successfully reinforced the \"Rosary diplomacy\" that defined Leo\u2019s reign. The document was widely circulated in diocesan bulletins, serving to unify the clergy under the banner of the \"Roman\" identity during a period of administrative centralization.\n\n### 4. The Secular-Ecclesial Tension\nThe document attempts to solve a political problem (the loss of the Church's influence in the state) with a spiritual solution (the Jubilee indulgence). This reflects a fundamental tension: Leo believed that the \"health of the state\" was a derivative of individual piety, yet he lacked the political levers to influence the state directly. Consequently, the encyclical functions as a \"spiritual lobby,\" attempting to create a critical mass of pious citizens to influence the state indirectly.\n\n### 5. Historical Assessment\nThe prophecy that a return to penance and the Rosary would restore the \"Christian constitution of states\" did not materialize in the late 19th century. Instead, the period saw the continued secularization of European public life. The document is best understood as a defensive consolidation of the Church's internal resources rather than a successful intervention in the secular political order.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Leonis XIII*, Vol. V | Official text and administrative decrees. |\n| Academic | Pollard, J. (2005). *Money and the Rise of the Modern Papacy* | Contextualizes the financial/institutional focus on seminaries. |\n| Media | *The Tablet* (Jan 1886) | Contemporary Catholic press coverage of the Jubilee announcement. |\n| Academic | Chadwick, O. (1998). *A History of the Popes 1830\u20131914* | Analysis of the \"Roman Question\" and Leo's defensive posture. |",
+            "thoughtSignature": "EjQKMgEMOdbHdx7elGId7D7cfGozl+fQBxFNWPdgCCq3k9iCnvrDgjN6orNYYUlklNCdNItV"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3068,
+    "candidatesTokenCount": 1051,
+    "totalTokenCount": 4119,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3068
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "D19CaqfCIfqzqtsPmoXsuAc"
+}

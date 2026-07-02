@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Magno cum animi\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Magno cum animi* (1751) addresses the Polish-Lithuanian Commonwealth during a period of significant internal political fragmentation. The document functions as a legal intervention into the \"private oratory\" crisis, where the proliferation of domestic chapels had eroded the liturgical monopoly of parish churches and the disciplinary authority of the episcopate.\n\n### Reflective\nThe encyclical looks back to the Council of Trent (1545\u20131563) as the primary normative baseline, treating the intervening two centuries as a period of progressive \"abuse\" of apostolic privileges. It specifically interprets the 1703 decree of Clement XI as the definitive, albeit ignored, standard for the regulation of portable altars.\n\n### Prospective\nThe document prescribes a rigorous re-centralization of liturgical control under the local bishop, acting as an apostolic delegate. It anticipates a future where Polish bishops, armed with this specific mandate, can override the \"exempt\" status of religious orders and the \"protection\" of secular nobility, effectively attempting to re-establish a pre-modern, strictly hierarchical liturgical order.\n\n### Temporal gradients\n- **Reflective (-25):** The document is heavily anchored in the post-Tridentine legal framework, specifically referencing the 1703 Clementine decree as the \"correct\" state of affairs that had been allowed to lapse.\n- **Prospective (+10):** The prescriptions were intended to govern the immediate future of Polish diocesan administration, with the expectation that these rules would stabilize the Church's internal order for the coming decade.\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe encyclical emerged during the reign of Augustus III of Poland. The \"private oratory\" issue was not merely a liturgical dispute; it was a socio-political one. The Polish nobility (*szlachta*) frequently maintained private chapels to avoid the public nature of parish worship, which served as a status symbol and a means of insulating their households from episcopal oversight. Benedict XIV\u2019s intervention was a direct attempt to curb the \"privatization\" of religion by the landed elite, which he viewed as a threat to the communal integrity of the Church.\n\n### 2. The Limits of Papal Authority\nWhile Benedict XIV was a renowned canonist, the efficacy of *Magno cum animi* was constrained by the political weakness of the Polish state. The \"secular princes\" mentioned in the text were often the very patrons of the private oratories. Historical records indicate that while the bishops welcomed the legal backing, the actual closure of chapels was frequently met with resistance from local magnates who viewed their domestic religious privileges as property rights.\n\n### 3. Reception and Impact\nThere is no evidence of widespread compliance in the immediate aftermath. The document was treated as a high-level legal reference for bishops, but the structural conditions\u2014the power of the *szlachta* and the fragmentation of the Commonwealth\u2014meant that the \"abuse\" of private oratories continued until the partitions of Poland fundamentally altered the religious landscape.\n\n### 4. Scholarly Interpretation\nModern historiography (e.g., studies on the Polish Church in the 18th century) views *Magno cum animi* as a classic example of Benedict XIV\u2019s \"legalistic\" papacy. Scholars note that he sought to solve pastoral problems through the application of rigorous, often archaic, canonical precedents rather than through new pastoral strategies.\n\n### 5. Evidence of Failure\nThe encyclical\u2019s reliance on \"apostolic delegate\" status for bishops was a tactical admission that local episcopal authority was insufficient on its own. The need to explicitly threaten the withdrawal of secular protection for disobedient chaplains highlights the degree to which the Church had lost control over the domestic sphere of the nobility.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. III | Contains the full text and the appended Clementine decree. |\n| Academic History | *The Polish Church in the 18th Century* (Various) | Notes the tension between the *szlachta* and the episcopate regarding chapel patronage. |\n| Primary Source | *Magno cum animi* (1751) | The encyclical itself serves as the primary evidence of the \"abuses\" cited. |\n| Media | No non-theological media citation | The document was an internal administrative tool, not a public-facing manifesto. |",
+            "thoughtSignature": "EjQKMgEMOdbHs1aM35d/il6ShJXZYh+u1lXcNfLEB0BdanvoGvBGeogp0fqy9+ax8+jeeea3"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3286,
+    "candidatesTokenCount": 1001,
+    "totalTokenCount": 4287,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3286
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "qxJCao_hJrOEz7IPlraNyQM"
+}

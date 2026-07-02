@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# In eminenti\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 9, \"density\": 15}\n}\n```\n\n## Structured\n\n### Context\n*In eminenti apostolatus specula* (1738) emerged during a period of intense Enlightenment-era social reorganization. Freemasonry had migrated from Britain to the Continent (Paris, 1725; Florence, 1732). Clement XII, physically infirm and blind, faced a Papal State struggling with geopolitical irrelevance and internal administrative corruption. The document was a reaction to the rapid, decentralized proliferation of lodges that bypassed traditional ecclesiastical and aristocratic hierarchies.\n\n### Reflective\nThe encyclical reflects the Church's anxiety regarding the \"public sphere\" emerging outside its control. It specifically reacts to:\n*   **The \"London Model\":** The 1717 formation of the Premier Grand Lodge of England and the subsequent publication of Anderson\u2019s *Constitutions* (1723).\n*   **Continental Proliferation:** The establishment of lodges in Florence (1732), which directly threatened the Pope's immediate temporal jurisdiction.\n*   **Civil Precedents:** The document explicitly cites existing bans by secular authorities (e.g., the Dutch Republic in 1735, and local prohibitions in France) as justification for its own intervention.\n\n### Prospective\nThe document attempts to:\n*   **Establish a Universal Prohibition:** It seeks to create a permanent, global canonical barrier against Freemasonry, regardless of local political climate.\n*   **Inquisitorial Mobilization:** It mandates that bishops and inquisitors treat membership as *prima facie* evidence of heresy, effectively weaponizing the Inquisition against a social, rather than strictly theological, movement.\n*   **Future-Proofing:** By invoking \"perpetual\" prohibition, it attempts to bind future generations of Catholics to a policy that would remain a point of contention for nearly three centuries.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The gaze is fixed on the preceding decade of lodge growth and the immediate threat of Masonic influence in the Papal States.\n*   **Prescriptive Density (+15):** The document aims for long-term, multi-generational suppression, anticipating that the \"secret\" nature of the societies would require a permanent, standing ecclesiastical defense.\n\n---\n\n## Unstructured\n\n### 1. Historical Reality vs. Papal Claim\nThe encyclical claims that the secrecy of Freemasonry is proof of criminal intent (\"if they were not doing evil they would not have so great a hatred of the light\"). Historical records from the 1730s suggest a more mundane reality: lodges were primarily social, philanthropic, and intellectual hubs for the emerging middle class and liberal aristocracy. The Church\u2019s claim that these societies were \"heretical\" was a strategic framing to bring them under the jurisdiction of the Holy Office, as they lacked a specific, identifiable theological doctrine to condemn.\n\n### 2. The \"Secular Arm\" and Political Efficacy\nThe document\u2019s call for the \"secular arm\" to assist in enforcement met with mixed results. In the Papal States, enforcement was immediate and severe. In France, the Parlement of Paris refused to register the bull, effectively rendering it unenforceable in the secular courts. This highlights a significant gap between papal prescription and European political reality: the Church could command the faithful, but it could no longer command the state.\n\n### 3. The Social Dimension\nThe encyclical\u2019s most profound concern was the \"mixed\" nature of the lodges. By allowing men of different religions to meet on equal footing, Freemasonry undermined the Church\u2019s role as the sole mediator of social and moral life. The \"natural probity\" mentioned in the text was a direct challenge to the necessity of the Church's sacramental mediation.\n\n### 4. Reception and Legacy\n*In eminenti* failed to stop the growth of Freemasonry. Instead, it arguably solidified the identity of the lodges as an anti-clerical, or at least non-clerical, space. The document set a precedent for the Church\u2019s \"culture war\" against secret societies, which would culminate in later, more aggressive encyclicals (e.g., *Humanum Genus* in 1884).\n\n### 5. Investigative Summary\nThe document is a classic example of institutional defensive posturing. It identifies a genuine shift in social organization\u2014the rise of voluntary, non-confessional associations\u2014and attempts to categorize this shift as a moral and spiritual contagion. Its efficacy was high within the Church's internal disciplinary structure but low in the broader European political landscape, where the Enlightenment was already decoupling social life from ecclesiastical oversight.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. XIV | Official text of the condemnation. |\n| Academic | Jacob, M. C. (1991). *Living the Enlightenment* | Analyzes the social function of lodges vs. Church fears. |\n| Historical Record | Parlement of Paris Records (1738) | Documents the refusal to register the bull in France. |\n| Academic | Roberts, J. M. (1972). *The Mythology of the Secret Societies* | Examines the \"conspiracy\" framing of the encyclical. |",
+            "thoughtSignature": "EjQKMgEMOdbHfdiFcUI7jM1eCAx8vFOntDxIPLjfXKyaCOafspqFinGKGd2ca5bKVDqtm9ak"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2865,
+    "candidatesTokenCount": 1160,
+    "totalTokenCount": 4025,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2865
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "jmFCapvVKaWDqtsPqPKg2AU"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Quam graviter\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Quam graviter* (1766) emerged during a period of intense Gallican-Roman friction. The French *Parlements* were increasingly asserting the *appel comme d'abus*\u2014a legal mechanism allowing secular courts to review ecclesiastical decisions. The 1766 decrees were part of a broader trend of \"Enlightened Absolutism\" where the French Crown and its legal apparatus sought to consolidate administrative control over all corporate bodies, including the Church and religious orders.\n\n### Reflective\nThe document reflects the erosion of the *Ancien R\u00e9gime*\u2019s traditional jurisdictional balance. It specifically responds to the *Arr\u00eats* of the Royal Council of May 1766, which mandated that religious orders submit their internal constitutions to secular review. It interprets these acts as a departure from the \"customary\" protection the French Crown historically afforded the Church.\n\n### Prospective\nThe Pope prescribes a strategy of diplomatic petitioning. He directs the French episcopate to act as a collective lobby to the King, anticipating that a formal, unified protest would force a royal reversal. He predicts that failure to protect the Church's internal autonomy will lead to the total collapse of ecclesiastical discipline and divine authority within the realm.\n\n### Temporal gradients\n- **Reflective Density (-15):** The document draws upon a 15-year history of escalating *Parlementaire* interference in Church affairs, specifically referencing the precedents of the 1750s and early 1760s regarding the taxation and regulation of religious houses.\n- **Prescriptive Density (+2):** The Pope\u2019s gaze is immediate, focusing on the upcoming legislative implementation of the May decrees. His hope for a royal reversal proved short-lived, as the French Crown continued its centralizing trajectory toward the suppression of the Jesuits (1773) and eventually the Civil Constitution of the Clergy (1790).\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\nThe encyclical is a direct reaction to the *Parlements'* assertion of state sovereignty over the Church. In 1766, the French state was not merely concerned with theology but with the \"mortmain\" (land held by the Church) and the administrative independence of religious orders. The *Arr\u00eats* were intended to ensure that no religious rule could supersede the laws of the state. Clement XIII\u2019s intervention was a desperate attempt to maintain the \"two powers\" doctrine in an era where the state was rapidly becoming the sole arbiter of public order.\n\n### 2. Reflective Analysis\nThe Pope looks back at a \"golden age\" of cooperation between the French Crown and the Holy See. He frames the current crisis as an anomaly caused by \"bad advice\" given to the King. This reflects a strategic choice to avoid a direct confrontation with Louis XV, instead positioning the Church as a victim of bureaucratic overreach rather than royal malice.\n\n### 3. Prospective Analysis\nClement XIII\u2019s prescription\u2014that the bishops should appeal to the King\u2014was a standard diplomatic maneuver that ultimately failed to halt the secularization of French administrative law. The document anticipates that if the Church loses its right to govern its own orders, it will lose its identity as a divine institution. History suggests this was a prescient observation regarding the trajectory of the French state, though the Pope\u2019s proposed remedy (royal intervention) was ineffective against the structural shifts of the Enlightenment.\n\n### 4. Reception and Efficacy\nThe encyclical had minimal impact on the *Parlements*, which viewed the Pope\u2019s letter as an \"abuse\" of authority itself. The French legal establishment largely ignored the papal protest, viewing the regulation of religious orders as a matter of domestic police power. There is no evidence that the King altered the decrees in response to this specific appeal.\n\n### 5. Evidence Discipline\n- **Historical Records:** The *Arr\u00eats* of May 1766 are well-documented in the *Recueil g\u00e9n\u00e9ral des anciennes lois fran\u00e7aises*.\n- **Academic Interpretation:** Historians of the Gallican Church (e.g., Van Kley) characterize this period as one of terminal decline for the Church's legal autonomy in France.\n- **Media/Public Discourse:** No contemporary secular press coverage of this specific encyclical was located; it was treated as an internal ecclesiastical matter by the French state.\n\n### Citations\n| Source Type | Reference | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Recueil g\u00e9n\u00e9ral des anciennes lois fran\u00e7aises* | Contains the text of the 1766 *Arr\u00eats*. |\n| Academic | Van Kley, D. (1996) *The Religious Origins of the French Revolution* | Analyzes the conflict between *Parlements* and the Church. |\n| Primary Source | Vatican Archive (Clement XIII) | Confirms the date and intent of the encyclical. |",
+            "thoughtSignature": "EjQKMgEMOdbHPvO3t/3Uit2JGe7WKEPaQ41kV41ZZgtUwYrM8eN8aASLZ8csILqJv0GdZ1S9"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2656,
+    "candidatesTokenCount": 1082,
+    "totalTokenCount": 3738,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2656
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "eWBCapjhAp-vqtsPx42UiAg"
+}

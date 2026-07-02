@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Probe Noscitis Venerabiles\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The 1851 Concordat between the Holy See and Isabella II of Spain. This followed decades of \"Desamortizaci\u00f3n\" (confiscation of Church property) and liberal anti-clericalism during the Carlist Wars.\n*   **Political Climate:** Spain was transitioning through the *D\u00e9cada Moderada*. The Concordat was a pragmatic attempt by the Crown to regain legitimacy by reconciling with the Church, while the Church sought to secure its institutional survival and educational monopoly.\n\n### Reflective\n*   **The \"Difficulties of the Times\":** Explicit reference to the preceding decades of revolutionary upheaval, the suppression of religious orders, and the alienation of ecclesiastical property.\n*   **The Concordat as Resolution:** The document reflects on the \"long and laborious negotiations\" as a necessary corrective to the state-led secularization of the 1830s and 1840s.\n\n### Prospective\n*   **Institutional Consolidation:** Prescribes the immediate revival of provincial and diocesan synods, which had been effectively dormant in Spain for over a century due to royal interference and political instability.\n*   **Educational Control:** Mandates that the Church must reclaim the \"public and private schools\" to ensure that Catholic doctrine is the sole pedagogical foundation, anticipating a struggle against the rising liberal-secular educational reforms of the mid-19th century.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is deeply rooted in the trauma of the 1835-1837 Mendiz\u00e1bal confiscations and the subsequent breakdown of Church-State relations.\n*   **Prescriptive Density (+8):** The Pope\u2019s vision for a restored, synodal, and educationally dominant Church was a long-term project that faced immediate resistance from the *Progressista* factions, which would eventually lead to the 1854 revolution.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Probe Noscitis Venerabiles* is a tactical document. It functions as an \"instruction manual\" for the Spanish episcopate to capitalize on the 1851 Concordat. Historically, the Spanish Church had been severely weakened by the *Desamortizaci\u00f3n*. Pius IX\u2019s insistence on synodal governance was not merely spiritual; it was an attempt to create a unified, bureaucratic, and defensive wall against the liberal state. The document assumes that the Concordat is a \"new beginning,\" but it ignores the deep-seated anti-clericalism embedded in the Spanish liberal bureaucracy.\n\n### 2. Reflective vs. Prospective Tension\nThe document is highly reflective regarding the *loss* of property and influence, framing the past as a period of \"evil times.\" It is prescriptive in its demand for a \"closed\" educational system. The tension lies in the Pope\u2019s expectation that the Crown would act as a protector, while the reality of Spanish politics was that the Crown was often a hostage to shifting liberal-conservative coalitions.\n\n### 3. Reception and Efficacy\nThere is insufficient evidence to suggest that the call for provincial synods was fully realized in the immediate aftermath. The Spanish episcopate remained divided between those loyal to the Bourbon restoration and those wary of the state\u2019s continued interference. The \"manufacturers of lies\" mentioned by the Pope were not just abstract heretics; they were the burgeoning liberal press and the parliamentary proponents of secular education.\n\n### 4. Media and Public Discourse\nContemporary Spanish press (e.g., *El Clamor P\u00fablico*) reflected a polarized reception. Liberal outlets viewed the encyclical as an attempt to re-establish the \"Old Regime\" in education. Conservative/Catholic outlets (e.g., *La Esperanza*) hailed it as the restoration of the true Spanish identity. No evidence exists of a unified national implementation of the synodal reforms requested.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Concordato de 1851* | The legal basis for the encyclical's claims. |\n| Academic | Callahan, W. J. (1984). *Church, Politics, and Society in Spain, 1750-1874*. | Standard analysis of the Church's struggle for institutional survival. |\n| Media | *El Clamor P\u00fablico* (1852) | Representative of the liberal press reaction to clerical influence. |\n| Academic | Llorca, B. (1955). *Historia de la Iglesia Cat\u00f3lica en Espa\u00f1a*. | Contextualizes the dormancy of synods. |",
+            "thoughtSignature": "EjQKMgEMOdbHZ7LBx8+0z0szzNxzqGg6S5oe4sobfJKxAqi2ALfm490NLyU63ULraiC/GGTb"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3078,
+    "candidatesTokenCount": 1035,
+    "totalTokenCount": 4113,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3078
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "rVxCaqbBFa_Xz7IPquWo0QM"
+}

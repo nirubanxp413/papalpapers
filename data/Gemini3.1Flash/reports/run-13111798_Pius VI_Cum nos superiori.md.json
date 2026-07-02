@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Cum nos superiori\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Published during the Roman Republic (1798\u20131799), a puppet state established by French revolutionary forces. Pius VI was captured in February 1798, stripped of his temporal power, and eventually deported to the Certosa di Firenze.\n*   **Institutional Crisis:** The College of Cardinals was fractured; many were in exile, under house arrest, or in hiding. The document is a direct response to the existential threat posed by the French Directory\u2019s anti-clerical policies.\n\n### Reflective\n*   **The \"Catastrophe\":** The document reflects on the systematic dismantling of the Papal States, the expulsion of the Curia, and the physical displacement of the Pope. It interprets these events not as mere political shifts but as a \"tempest\" threatening the survival of the Petrine office.\n*   **Precedent:** It explicitly acknowledges the failure of the earlier decree *Christi Ecclesiae* (1797), reflecting on the rapid acceleration of the crisis that rendered previous emergency measures obsolete.\n\n### Prospective\n*   **Conclave Reform:** Prescribes a radical simplification of conclave rules to ensure a valid election under conditions of duress.\n*   **Schism Prevention:** Anticipates the danger of a \"headless\" Church or competing elections, mandating that the election proceed with whatever number of Cardinals can assemble in a safe territory.\n*   **Legal Validity:** Establishes the legal framework for the 1799\u20131800 conclave (held in Venice), ensuring that the election of Pius VII would be recognized as canonical despite the absence of Rome and the majority of the College.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document is deeply rooted in the events of the preceding 15 years (the French Revolution's impact on the Church, starting from the Civil Constitution of the Clergy in 1790).\n*   **Prescriptive Density (+2):** The gaze is immediate, focused on the next conclave, which occurred approximately 18 months after the document's publication.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Cum nos superiori* is a document of \"sovereign survival.\" By 1798, the French Directory had effectively ended the temporal sovereignty of the Papacy. Pius VI\u2019s legislative act is a strategic maneuver to decouple the *office* of the Papacy from the *territory* of Rome. Historically, this marks the transition of the Papacy from a territorial prince to a purely transnational spiritual authority, a shift forced by the bayonets of the French Republic.\n\n### 2. Reflective vs. Prescriptive Tension\nThe document is highly reflective regarding the *loss* of the Roman infrastructure. It catalogs the \"plundering\" and \"violation\" of the Church with the precision of a legal inventory. Conversely, its prescriptive power is high because it successfully created the legal \"safe harbor\" that allowed the 1799 conclave in Venice to proceed. Without this document, the legitimacy of the next Pope would have been subject to intense canonical challenge.\n\n### 3. Reception and Efficacy\nThe document was not a public manifesto for the masses; it was a secret instruction for the College of Cardinals. Its efficacy was proven in the 1799\u20131800 conclave, where the Cardinals, operating under the protection of the Austrian Emperor, utilized the provisions of *Cum nos superiori* to elect Barnaba Chiaramonti (Pius VII). The document effectively prevented a schism that the French Directory hoped would occur.\n\n### 4. Secular Engagement\nThe encyclical engages the secular world by acknowledging the reality of the \"Catholic Prince\" as the only viable protector of the Church. It marks the end of the era where the Pope could rely on his own military or territorial defenses, forcing the Church into a reliance on the geopolitical maneuvering of European monarchies (specifically the Habsburgs).\n\n### 5. Anthropological Note\nThe tone is one of \"institutional stoicism.\" Pius VI, writing from a monastery, adopts the persona of a dying monarch ensuring the succession of his house. There is no attempt to negotiate with the French Republic; the document treats the revolutionary forces as an external, uncontrollable, and hostile natural disaster.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. 10 | Official text of the apostolic letter. |\n| Academic History | Duffy, E. (1997). *Saints and Sinners* | Contextualizes the 1799 conclave as a survival event. |\n| Academic History | Chadwick, O. (1975). *The Popes and European Revolution* | Confirms the legal necessity of the decree for the 1799 election. |\n| Historical Record | Archives of the Venice Conclave (1799) | Records show the Cardinals explicitly cited this bull to justify their procedures. |",
+            "thoughtSignature": "EjQKMgEMOdbH3dyout+3qt01GlBKkkGOdTwZXqSjs7WMP2BuWM+pavJzz4lsDCCDqFpNj0a9"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3393,
+    "candidatesTokenCount": 1123,
+    "totalTokenCount": 4516,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "GR1DasOnEoGTqtsPuMOj2Q0"
+}

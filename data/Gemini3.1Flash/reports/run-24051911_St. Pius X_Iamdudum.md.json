@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Iamdudum\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Iamdudum* (May 24, 1911) was issued in the immediate aftermath of the 5 October 1910 revolution in Portugal, which deposed King Manuel II and established a secular Republic. The new government, dominated by the Democratic Party and the Carbon\u00e1ria, implemented a radical *la\u00efcit\u00e9* program, culminating in the *Lei da Separa\u00e7\u00e3o* (April 20, 1911).\n\n### Reflective\nThe document reflects on the rapid dismantling of the *Padroado* (the historical concordat system) and the state's unilateral seizure of Church assets. It interprets the Portuguese Republic's actions as a continuation of the \"anti-clerical\" movements seen in the French Third Republic (specifically the 1905 law), viewing the Portuguese legislation as a more aggressive, \"tyrannical\" iteration of the same secularist impulse.\n\n### Prospective\nPius X prescribes a policy of non-cooperation and civil resistance. He explicitly forbids the formation of the \"cult associations\" mandated by the law, predicting that compliance would lead to the \"schismatic\" detachment of the Portuguese Church from the Holy See. He anticipates a long-term struggle for the restoration of Church property and the preservation of the clergy's independence from state-appointed lay oversight.\n\n### Temporal gradients\n- **Reflective (-2):** The document is heavily anchored in the events of the preceding 18 months (1910\u20131911).\n- **Prescriptive (+10):** The Pope\u2019s directives regarding the rejection of the law and the maintenance of the hierarchy remained the official Vatican stance for over a decade, until the *Modus Vivendi* of 1940 began to normalize relations.\n\n---\n\n## Unstructured\n\n### 1. Historical Reality vs. Papal Interpretation\nThe Portuguese Republic viewed the *Lei da Separa\u00e7\u00e3o* as a necessary modernization to end the \"servitude\" of the state to the Church. Pius X, conversely, interpreted this as the \"servitude\" of the Church to the state. Historical records confirm that the law was indeed punitive: it confiscated all Church property, banned religious education, and required priests to be paid by state-sanctioned lay associations. The Pope\u2019s claim that the law aimed to \"sunder\" the Church from Rome was supported by the rhetoric of republican leaders like Afonso Costa, who openly hoped that the law would lead to the \"extinction of Catholicism\" in Portugal within a generation.\n\n### 2. The \"Separation\" Paradox\nThe document\u2019s most potent rhetorical device is the deconstruction of the term \"Separation.\" Pius X correctly identifies that the law was not a separation of spheres, but an interventionist state takeover of ecclesiastical administration. By requiring the state to approve seminary textbooks and regulate the internal governance of parishes, the Republic effectively made the Church a department of the state.\n\n### 3. Reception and Efficacy\nThe encyclical was received with defiance by the Portuguese government, which viewed it as foreign interference in domestic sovereignty. The document served to galvanize the conservative rural population, particularly in the north of Portugal, where resistance to the Republic\u2019s secularization policies became a rallying point for monarchist and Catholic traditionalist movements. It did not, however, prevent the implementation of the law; rather, it solidified a state of \"cold war\" between the Church and the Republic that lasted until the rise of the *Estado Novo* under Salazar.\n\n### 4. Papal Authority and Tone\nPius X\u2019s tone is notably juridical. Unlike his more pastoral encyclicals, *Iamdudum* functions as a legal brief. His reputation as an \"anti-modernist\" pope is reinforced here; he treats the Portuguese Republic not as a legitimate political entity, but as a hostile actor operating outside the bounds of natural and divine law. This uncompromising stance limited the Vatican's diplomatic maneuverability but maintained the ideological purity of the Portuguese episcopate.\n\n### 5. Long-term Impact\nThe encyclical failed to stop the immediate secularization of Portugal but succeeded in preventing the formation of a \"nationalized\" church. By forbidding the \"cult associations,\" the Pope forced the Portuguese Church into a state of financial poverty, which ironically increased its reliance on the faithful and the Holy See, thereby preventing the state from successfully co-opting the clergy.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Lei da Separa\u00e7\u00e3o* (1911) | Primary legislation of the Portuguese Republic. |\n| Academic History | Wheeler, D. L. (1978). *Republican Portugal*. | Analyzes the conflict between the Republic and the Church. |\n| Academic History | Ramos, R. (2010). *Hist\u00f3ria de Portugal*. | Contextualizes the 1910 revolution and anti-clericalism. |\n| Media (Contemp.) | *The Times* (London), May 1911 | Reported on the \"rupture\" between Lisbon and the Vatican. |",
+            "thoughtSignature": "EjQKMgEMOdbHshapeW64Cn2nJLuI06AmCdxErFj15Cc3Vs7+aBkkNPXi/kfFFxmc5Tc4ucdY"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2694,
+    "candidatesTokenCount": 1137,
+    "totalTokenCount": 3831,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2694
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "-R1Daq_2DLqCz7IPw7GOyQ4"
+}

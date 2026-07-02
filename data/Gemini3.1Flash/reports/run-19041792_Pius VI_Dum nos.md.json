@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Dum nos\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The annexation of Avignon and the Comtat Venaissin by the French National Assembly (1791\u20131792) represented the final collapse of the Papal States' sovereignty in France. This was a direct consequence of the French Revolution\u2019s radical restructuring of administrative and ecclesiastical boundaries.\n*   **Political Reality:** By April 1792, the French Assembly had already moved beyond the Civil Constitution of the Clergy (1790) toward total secularization of the papal territories. The \"massacre of the Glaci\u00e8re\" (October 1791) had already occurred, creating a climate of terror that Pius VI references as the \"crimes\" of the rebels.\n\n### Reflective\n*   **Naming Events:** The encyclical explicitly documents the failure of the 1791 diplomatic efforts, the specific dates of the French annexation decrees (14 Sept 1791, 3 March 1792), and the ongoing persecution of the non-juring clergy.\n*   **Interpretation:** Pius interprets the resistance of the local population not merely as political loyalty, but as a religious duty, framing the French revolutionary government as an existential threat to the \"liberty\" of the Church.\n\n### Prospective\n*   **Prescriptions:** The Pope mandates the continued refusal of the oath to the Civil Constitution, orders the distribution of canonical warnings to schismatic clergy, and attempts to maintain the legal fiction of papal sovereignty over the territories through formal declarations of nullity.\n*   **Anticipations:** Pius anticipates a future reconciliation (\"when the passion of fanaticism subsides\"), though historical evidence suggests this was a miscalculation of the revolutionary trajectory, which was moving toward the total abolition of the monarchy and the eventual occupation of Rome itself.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document is heavily anchored in the immediate past (the 1791\u20131792 legislative actions of the Assembly).\n*   **Prescriptive Density (+2):** The prescriptions are immediate, intended for the 60-day window of the canonical warning, with a short-term horizon for the resolution of the conflict.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\nThe encyclical *Dum nos* serves as a legal instrument of protest. Historically, it marks the transition from diplomatic negotiation to total rupture between the Holy See and the French revolutionary state. The \"five centuries of possession\" cited by Pius VI were effectively terminated by the Treaty of Tolentino (1797), rendering the Pope's legal declarations of nullity moot in the eyes of the French state.\n\n### 2. Media and Public Discourse\nContemporary French revolutionary press (e.g., *Le Moniteur Universel*) largely dismissed such papal pronouncements as the \"superstitious\" interference of a foreign prince. The document was not a tool of public persuasion in France but a rallying cry for the *\u00e9migr\u00e9* clergy and the counter-revolutionary forces in the Comtat.\n\n### 3. Academic Interpretation\nHistorians (e.g., Aston, *Religion and Revolution in France*) note that Pius VI\u2019s insistence on the \"temporal\" rights of the Papacy in Avignon alienated even moderate French constitutionalists who might have otherwise been sympathetic to the Church's spiritual concerns. The conflation of spiritual authority with the defense of feudal landholdings is viewed by modern scholars as a strategic error that accelerated the de-Christianization of the region.\n\n### 4. The Pope\u2019s Personal Situation\nPius VI was, at this time, increasingly isolated. His reliance on the \"paternal\" tone reflects a desperate attempt to maintain the *Ancien R\u00e9gime* structure of the Papal States. His authority was already being eroded by the very forces he condemned, and his inability to influence the French Assembly\u2019s decisions highlights the impotence of the Papacy in the face of the emerging nation-state model.\n\n### 5. Summary of Efficacy\nThe encyclical failed to prevent the annexation or the implementation of the Civil Constitution in the Comtat. It functioned primarily as a record of protest for the Vatican archives, providing a theological and legal basis for the later restoration claims of the Papacy, which were ultimately unsuccessful.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Proc\u00e8s-verbal de l'Assembl\u00e9e nationale* (1791-92) | Confirms the legislative timeline of annexation. |\n| Academic | Aston, N. (2000). *Religion and Revolution in France*. | Analyzes the failure of papal diplomacy. |\n| Primary Source | *Dum nos* (1792) | Vatican Archive / Papal Encyclicals Online. |\n| Media | *Le Moniteur Universel* (1792) | Contemporary revolutionary press reaction. |",
+            "thoughtSignature": "EjQKMgEMOdbH5Gl4+FXCpwz9DKFW9GZEk4+D3a6fxjXPf+hBKnHYMj3xz++1GrH8NcxHjuRc"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3169,
+    "candidatesTokenCount": 1090,
+    "totalTokenCount": 4259,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3169
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "xF1CavfZEYjgz7IP-NnfSQ"
+}

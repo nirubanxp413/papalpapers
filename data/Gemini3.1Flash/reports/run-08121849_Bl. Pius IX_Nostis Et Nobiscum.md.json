@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Nostis Et Nobiscum\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -2},\n  \"prescriptive\": {\"saturation\": 8, \"density\": 15}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** Published December 8, 1849, while Pius IX was in exile in Gaeta (Kingdom of the Two Sicilies) following the Roman Republic's collapse.\n*   **Secular Environment:** The aftermath of the 1848 \"Springtime of Nations.\" Italy was fractured, with the Risorgimento movement gaining momentum against the temporal power of the Papacy.\n*   **Ideological Climate:** The rise of organized Socialism and Communism (Marx/Engels' *Manifesto* published 1848) and the proliferation of Protestant Bible societies in Italy, viewed by the Vatican as \"Trojan horses\" for secular liberalism.\n\n### Reflective\n*   **Primary Focus:** The 1848\u20131849 revolutionary upheaval in the Papal States.\n*   **Interpretation:** The Pope frames the loss of his temporal authority not as a political failure, but as a moral and spiritual crisis caused by \"secret societies\" and \"impious\" agitators.\n*   **Targeted Phenomena:** The Roman Republic (1849), the secularization of education, and the perceived \"poisoning\" of the Italian press.\n\n### Prospective\n*   **Primary Focus:** The long-term preservation of the Papal States and the containment of socialist/communist influence.\n*   **Prescriptions:** Strict censorship of literature, centralization of episcopal control over education, and the re-assertion of the \"natural\" hierarchy of social classes.\n*   **Anticipation:** The document predicts that socialist equality will lead to total social collapse and the destruction of private property, a theme that would dominate papal social teaching until *Rerum Novarum* (1891).\n\n### Temporal gradients\n*   **Reflective Density (-2):** The document is hyper-focused on the immediate trauma of the 1848 revolutions.\n*   **Prescriptive Density (+15):** The prescriptions (e.g., anti-socialist rhetoric, control of education) were intended to shape the next two decades of Italian clerical policy, leading up to the loss of Rome in 1870.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Nostis Et Nobiscum* serves as a bridge between the reactionary politics of the Restoration era and the defensive posture of the late 19th-century Church. By 1849, Pius IX had pivoted from his early reputation as a \"liberal\" pope to a staunch defender of the *Ancien R\u00e9gime*. The encyclical is a direct response to the \"Roman Question\"\u2014the existential threat posed by Italian nationalism to the Papal States.\n\n### 2. Secular Engagement\nThe document is notable for its early, explicit engagement with \"Socialism\" and \"Communism.\" Unlike later encyclicals that would offer a \"Third Way\" (e.g., *Rerum Novarum*), *Nostis Et Nobiscum* is purely oppositional. It treats these ideologies as synonyms for anarchy and theft. It ignores the legitimate economic grievances of the Italian peasantry, framing poverty as a providential state to be managed by charity rather than structural reform.\n\n### 3. Reception and Efficacy\nThe encyclical was received with hostility by the liberal press in Piedmont and abroad. In the short term, it provided the ideological justification for the \"White Terror\" and the repressive measures enacted by the restored papal administration. However, it failed to stem the tide of the Risorgimento; the document's rigid insistence on the necessity of temporal power likely alienated moderate Italian nationalists who might have otherwise sought a compromise with the Church.\n\n### 4. Prophetic Accuracy\nThe Pope\u2019s warning that socialist movements would lead to the \"plunder of the rich\" and the \"destruction of the family\" was a common trope of the era. While he correctly identified the rising power of these ideologies, his failure to distinguish between radical revolutionary socialism and the broader democratic aspirations of the Italian people rendered the Church increasingly irrelevant to the emerging modern Italian state.\n\n### 5. Anthropological Perspective\nThe text reveals a profound anxiety regarding the \"vernacularization\" of authority. By attacking Protestant Bible societies, the Pope was not merely defending dogma; he was defending the monopoly of the institutional Church over the interpretation of reality. The document functions as a \"containment strategy\" for a world where the printing press and literacy were beginning to democratize information.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Pii IX*, Vol. I | Official text of the encyclical. |\n| Academic History | Kertzer, D. (2004). *Prisoner of the Vatican* | Details the political isolation of Pius IX post-1849. |\n| Media (Contemp.) | *The Times* (London), Dec 1849 | Reports on the Pope's exile and the \"reactionary\" tone of his correspondence. |\n| Academic History | Hobsbawm, E. (1962). *The Age of Revolution* | Contextualizes the 1848 movements as the \"Springtime of Nations.\" |",
+            "thoughtSignature": "EjQKMgEMOdbHhD/TgHBqpHNTgxxVUYn9Ug7ZavIk12PcjQhuQxkwwUPkNvT0vFWkYuoeKkS5"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3013,
+    "candidatesTokenCount": 1161,
+    "totalTokenCount": 4174,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3013
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "VhVCav-yIsDAqtsP6o_0oQ0"
+}

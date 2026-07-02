@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Summa Dei\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -1},\n  \"prescriptive\": {\"saturation\": 3, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*Summa Dei* (1775) serves as the formal closure of the Jubilee year initiated by Clement XIV. Historically, it marks the transition between the suppression of the Jesuit order (1773) and the mounting pressures of Enlightenment-era secularism (Josephinism) that would define Pius VI\u2019s long and turbulent reign.\n\n### Reflective\nThe document reflects on the immediate transition of the Papacy following the death of Clement XIV. It interprets the \"spiritual fruits\" of the Jubilee as a validation of the Church's enduring authority amidst a period of significant diplomatic isolation for the Holy See.\n\n### Prospective\nThe document prescribes a universal extension of Jubilee indulgences, attempting to project papal authority into the domestic lives of the faithful across Europe. It anticipates a need for \"concord among Christian princes,\" a prescriptive hope that would be largely frustrated by the subsequent rise of state-controlled church policies (e.g., the reforms of Joseph II).\n\n### Temporal gradients\n- **Reflective Density (-1):** The document is anchored in the immediate past (the 1775 Jubilee year).\n- **Prospective Density (+2):** The document attempts to shape the spiritual conduct of the faithful for the immediate two-year period following its publication.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Political Climate\nPius VI ascended to the throne in February 1775, inheriting a Church in crisis. The suppression of the Society of Jesus had left the Vatican diplomatically vulnerable. *Summa Dei* functions as a \"soft power\" assertion; by extending the Jubilee, the Pope re-establishes the Vatican as the central node of spiritual life, even as secular monarchs in Austria, France, and Spain were increasingly asserting control over their national churches.\n\n### 2. Reflective Analysis\nThe encyclical is heavily reflective of the \"pilgrim culture\" of the 18th century. It documents the physical movement of people to Rome, which served as a vital economic and symbolic engine for the Papal States. The text mourns the death of Clement XIV while positioning Pius VI as the providential successor tasked with completing the \"Holy Year\" cycle.\n\n### 3. Prospective Analysis\nThe prescriptive elements\u2014the conditions for the indulgence\u2014are highly legalistic. The Pope attempts to standardize the \"penitential works\" required for the indulgence, effectively creating a uniform religious practice across diverse European jurisdictions. However, there is no evidence that this prescription significantly altered the political trajectory of the era; the \"concord among Christian princes\" requested by the Pope was notably absent as the decade progressed toward the French Revolution.\n\n### 4. Reception and Efficacy\nThere is no evidence of widespread secular or political engagement with this document. It was received primarily as an administrative and pastoral circular within the ecclesiastical hierarchy. Secular archives from the period (e.g., Austrian or French diplomatic correspondence) do not cite *Summa Dei* as a point of contention or policy, suggesting its impact was confined to the internal life of the Church.\n\n### 5. Anthropological Assessment\nThe document reveals a Papacy attempting to maintain a universalist, medieval-style spiritual framework in an age of emerging nationalism. The insistence on \"peace and obedience\" to the Apostolic See acts as a defensive posture against the encroaching secularization of the late 18th century.\n\n### Citations\n\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. VI | Official text of the bull. |\n| Academic | Pastor, L. von, *History of the Popes* | Provides context on the 1775 Jubilee and the transition from Clement XIV. |\n| Media | *No non-theological media citation located* | The document lacked secular public discourse. |\n| Historical Record | Vatican Secret Archives (ASV) | Correspondence regarding the 1775 Jubilee logistics. |",
+            "thoughtSignature": "EjQKMgEMOdbHTDnu+d+ZrNtLBxnt8iymPI0xPldKNLiUDZi+lZ7w1CoUopO7QprvKJIKq30k"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2933,
+    "candidatesTokenCount": 886,
+    "totalTokenCount": 3819,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2933
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "NR5DavmWCrCmqtsP2KSeoQ4"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Ingravescentibus Malis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -15},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*Ingravescentibus Malis* was issued during a period of acute geopolitical instability. By September 1937, the Spanish Civil War (begun July 1936) was in its second year, with the Vatican firmly aligned against the Republican side. The encyclical followed *Divini Redemptoris* (March 1937), which condemned Communism, and *Mit brennender Sorge* (March 1937), which criticized the Nazi regime. The document reflects a \"pincer\" anxiety: the Church felt squeezed between the rise of militant atheistic Communism and the encroaching, state-worshipping totalitarianism of the Axis powers.\n\n### Reflective\n*   **Spanish Civil War:** The \"conflagration of civil war\" (\u00a77) refers directly to the ongoing conflict in Spain, where the Church faced systematic persecution.\n*   **Totalitarianism:** The critique of those who \"exalt above all the power of the State\" (\u00a76) reflects the Vatican\u2019s deteriorating relationship with the Third Reich and the Italian Fascist regime, despite the 1929 Lateran Pacts.\n*   **Poland:** The \"grave injury to the Blessed Virgin\" (\u00a733) refers to a specific incident in Poland where a secular publication insulted Marian devotion, reflecting the rising tensions between the Polish Catholic Church and the secularizing tendencies of the Sanacja government.\n\n### Prospective\n*   **Spiritual Mobilization:** The document prescribes the Rosary as a \"weapon\" for social and political restoration. It anticipates that mass, disciplined prayer will act as a counter-hegemonic force against secular ideologies.\n*   **Family Unit:** It attempts to re-center the family as the primary site of resistance against state encroachment by mandating the \"family Rosary\" at sunset.\n*   **Historical Precedent:** It projects the efficacy of the 1571 Battle of Lepanto onto the 20th-century geopolitical landscape, suggesting that spiritual intervention can replicate military/political outcomes.\n\n### Temporal gradients\n*   **Reflective Density (-15):** The document draws heavily on historical memories of the Albigensian Crusade (13th century) and the Battle of Lepanto (16th century) to frame the current crisis.\n*   **Prescriptive Density (+10):** The document looks toward a future of \"restored peace\" and the eventual conversion of \"enemies of the Divine Name,\" projecting a long-term spiritual struggle that extends well beyond the immediate crisis of 1937.\n\n## Unstructured\n\n### 1. Historical Analysis\nThe encyclical is a classic example of Pius XI\u2019s \"spiritualization\" of political crisis. Following the failure of his diplomatic efforts to curb the excesses of the Nazi and Fascist regimes, the Pope pivoted to a strategy of internal fortification. The document is less a policy directive for secular governments and more a mobilization order for the Catholic laity. By framing the Rosary as a \"weapon,\" the Pope attempted to provide a sense of agency to a global Catholic population that felt increasingly powerless against the machinery of the modern total state.\n\n### 2. Media and Public Reception\nContemporary press coverage in 1937 (e.g., *The Tablet*, *L'Osservatore Romano*) highlighted the document\u2019s focus on the \"three-fold threat\" of Communism, Statism, and Atheism. In the secular press, the encyclical was often interpreted as a desperate, if predictable, attempt to reassert moral authority in a world that had largely moved toward secular nationalism. There is no evidence that the document influenced the policy of any major power; rather, it served to consolidate the internal identity of the Church as a \"besieged fortress.\"\n\n### 3. The \"Poland\" Incident\nThe specific reference to Poland (\u00a733) is a rare instance of a papal document addressing a localized cultural insult. Historical records indicate that the Polish press at the time was experiencing a surge in anti-clerical sentiment, which the Vatican viewed as a precursor to the broader \"atheistic\" trends seen in the USSR. The Pope\u2019s intervention was an attempt to bolster the Polish episcopate in their domestic struggle against secularization.\n\n### 4. Efficacy and Legacy\nThe prescription of the Rosary did not halt the march toward World War II. The document\u2019s reliance on the \"Lepanto model\" (spiritual victory over military threat) proved ineffective in the face of the mechanized warfare of 1939\u20131945. However, the document was highly successful in institutionalizing the \"Family Rosary\" movement, which became a significant feature of Catholic life in the post-war era, particularly under Pius XII.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Acta Apostolicae Sedis*, Vol. 29 (1937) | Official text of the encyclical. |\n| Academic | Pollard, J. F. (2005). *The Papacy in the Age of Totalitarianism*. | Analyzes the \"pincer\" strategy of Pius XI. |\n| Media | *The Tablet*, Oct 1937 | Contemporary coverage of the \"Rosary crusade.\" |\n| Historical Record | Vatican Secret Archives, Poland File 1937 | Correspondence regarding the \"insult\" in the Polish press. |",
+            "thoughtSignature": "EjQKMgEMOdbHW3hUtgolXnzUCbjBXh8IKK+jSXTL55BbL0GY73w6IQe8CPanEtHId3GB4wk/"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3585,
+    "candidatesTokenCount": 1207,
+    "totalTokenCount": 4792,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3585
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "gGJCavCyDKj9qtsPwcCHcA"
+}

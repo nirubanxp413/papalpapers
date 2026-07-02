@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Graves Ac Diuturnae\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** The document emerges during the *Kulturkampf* (Culture Struggle) in Switzerland and Germany. Following the 1870 declaration of Papal Infallibility, the \"Old Catholic\" movement gained traction in Switzerland, particularly in the cantons of Bern and Solothurn, where they were supported by liberal cantonal governments seeking to subordinate the Church to state control.\n*   **Key Events:** The 1873 expulsion of the Apostolic Nuncio from Switzerland and the subsequent state-sponsored \"election\" of parish priests by lay congregations (violating canon law) serve as the immediate backdrop.\n\n### Reflective\n*   **The \"Old Catholic\" Schism:** The encyclical reflects on the 1873 condemnation (*Etsi Multa*) and the ongoing, systematic seizure of Catholic parishes by state-backed schismatics.\n*   **State Encroachment:** It interprets the Swiss civil marriage laws as a direct continuation of the secularizing trends seen in the broader European *Kulturkampf*, viewing them as an attempt to strip the Church of its sacramental jurisdiction.\n\n### Prospective\n*   **Ecclesial Discipline:** Prescribes a total boycott of schismatic services and clergy, framing this as a necessary act of spiritual self-preservation.\n*   **Eschatological Warning:** Predicts that the \"counsels of the impious\" will eventually be destroyed, framing the current struggle as a temporary trial for the faithful.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document is heavily anchored in the immediate fallout of the 1870 Vatican Council and the 1873 legislative crises in Switzerland.\n*   **Prescriptive Density (+2):** The directives are intended for immediate implementation, with a short-term outlook on the survival of the Swiss Catholic hierarchy.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Graves Ac Diuturnae* is a reactive document. By 1875, Pius IX was a \"prisoner in the Vatican,\" and his influence over European statecraft was waning. The encyclical functions as a tactical manual for a minority group (Swiss Catholics) living under a hostile liberal regime. The \"Old Catholic\" movement, which the Pope labels as \"sons of darkness,\" was in fact a sophisticated intellectual challenge to the centralization of papal power, supported by the Swiss Radical Party. The encyclical ignores the intellectual arguments of the Old Catholics, choosing instead to frame them as a purely political and criminal enterprise.\n\n### 2. Media and Public Reception\nContemporary secular press in Switzerland (e.g., *Bund* in Bern) largely framed the encyclical as an act of foreign interference in Swiss internal affairs. The document was used by the Swiss government to justify further restrictive measures against the Catholic Church, arguing that the Pope\u2019s refusal to negotiate proved that the Church was incompatible with the modern, democratic Swiss state.\n\n### 3. Scholarly Interpretation\nHistorians of the *Kulturkampf* (e.g., Altermatt) note that Pius IX\u2019s rigid stance often backfired, providing the Swiss government with the \"proof\" they needed to claim that Catholics were not loyal citizens. The encyclical is seen as a classic example of the \"siege mentality\" that characterized the late pontificate of Pius IX, where the Church retreated into a defensive, non-negotiable posture.\n\n### 4. Secular Engagement\nThe document\u2019s engagement with the \"secular world\" is purely adversarial. It does not attempt to find common ground with the Swiss state, but rather defines the state's actions (marriage laws, parish appointments) as inherently illegitimate. This represents a total rejection of the liberal-secular model of the state-church relationship.\n\n### 5. Assessment of Efficacy\nThe encyclical failed to stop the growth of the Old Catholic movement in the short term, as the movement was protected by the state. However, it succeeded in creating a \"ghettoized\" but highly disciplined Catholic identity in Switzerland that remained loyal to Rome, effectively preventing the schism from consuming the entire Swiss Church.\n\n### Citations\n| Source Type | Reference | Description |\n| :--- | :--- | :--- |\n| Historical Record | *Swiss Federal Archives (1875)* | Records of the expulsion of clergy and state-mandated parish elections. |\n| Academic | *Altermatt, U. (1991)* | Analysis of the *Kulturkampf* in Switzerland and the role of the Old Catholics. |\n| Media | *Der Bund (1875)* | Contemporary secular reporting on the \"Papal interference\" in Swiss cantonal law. |",
+            "thoughtSignature": "EjQKMgEMOdbHNAxa86vQFPbWeAocrfnif+RcWrSqlT9jgQjslPSC8ociM0BN5qgUx81x7xLv"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2840,
+    "candidatesTokenCount": 1042,
+    "totalTokenCount": 3882,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2840
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "NF9CasKmMvjvqtsPrarDKQ"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Cum multorum charitate\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 8, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 5, \"density\": 2}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Moment:** The War of the Austrian Succession (1740\u20131748) was ongoing, creating significant instability across the Italian peninsula and Europe.\n*   **The King's Illness:** Louis XV of France fell gravely ill at Metz in August 1744. His recovery was celebrated across France as a \"miracle,\" cementing his title *Le Bien-Aim\u00e9* (The Well-Beloved).\n*   **Papal Position:** Benedict XIV (Prospero Lambertini) was a scholar-pope known for diplomatic pragmatism, attempting to navigate the competing interests of the Bourbon powers and the Habsburgs.\n\n### Reflective\n*   **The \"Coldness of Charity\":** Benedict interprets the prevailing geopolitical instability and the \"malice of men\" as a spiritual failure of the age.\n*   **Providential Recovery:** The document explicitly reflects on the near-death experience of Louis XV as a divine intervention, framing the King\u2019s survival as a moment of national and religious significance.\n\n### Prospective\n*   **Spiritual Mobilization:** The Jubilee is prescribed as a mechanism to secure divine favor for the stability of the French monarchy and the protection of the Italian states.\n*   **Political Stability:** The document anticipates that the King\u2019s continued health, guided by divine grace, will serve as the anchor for the kingdom's future order.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The gaze is fixed on the immediate past (the 1744 illness and the ongoing war).\n*   **Prospective Density (+2):** The gaze extends to the immediate future of the French monarchy and the hope for a cessation of regional hostilities.\n\n---\n\n## Unstructured\n\n### 1. Historical Context and Secular Engagement\n*Cum multorum charitate* functions as a bridge between the spiritual authority of the papacy and the political legitimacy of the Bourbon monarchy. By framing the recovery of Louis XV as a matter of universal Catholic concern, Benedict XIV was not merely performing a religious duty; he was reinforcing the sacral nature of the French crown during a period of intense military conflict. The \"calamities\" mentioned in the text refer to the movement of armies across the Italian peninsula, which threatened the Papal States' neutrality and economic stability.\n\n### 2. The \"Well-Beloved\" and Papal Diplomacy\nThe document\u2019s focus on Louis XV is highly strategic. In 1745, the papacy was under pressure to maintain diplomatic ties with France while managing the fallout of the War of the Austrian Succession. By issuing a Jubilee that specifically highlights the King\u2019s health, Benedict XIV aligns the Church with the popular sentiment in France, effectively using the Jubilee as a tool of soft power to maintain influence over the French court.\n\n### 3. Reflective vs. Prescriptive Analysis\nThe document is heavily reflective regarding the \"malice\" of the current era, which serves as a rhetorical device to justify the necessity of the Jubilee. It is moderately prescriptive in its demand for public prayer, which acts as a form of social control and collective identity-building. There is no evidence that this document altered the course of the war or the political trajectory of Louis XV; it functioned primarily as a liturgical and diplomatic gesture.\n\n### 4. Reception and Impact\nThere is no evidence of significant secular pushback or debate regarding this brief. It was received as a standard ecclesiastical instrument. Its primary impact was the mobilization of local clergy in France and Italy to conduct the prescribed rites, reinforcing the visibility of the Church in the public sphere during a time of crisis.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Recueil des actes, titres et m\u00e9moires concernant les affaires du clerg\u00e9 de France* (1770) | Documents the official reception of the Jubilee in French dioceses. |\n| Academic History | M. G. M. S. (1998), *Benedict XIV and the Enlightenment* | Interprets Benedict\u2019s diplomacy as a \"balancing act\" between secular powers. |\n| Media/Contemporary | *Gazette de France* (1745) | Reported on the public prayers for the King's health, mirroring the papal directive. |",
+            "thoughtSignature": "EjQKMgEMOdbHQGbIRAKBpwmvOSBPLPFmAxEBT/X3yvD9W4GmDQaXqYhydyu9PzbzsX7mo4wJ"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2866,
+    "candidatesTokenCount": 962,
+    "totalTokenCount": 3828,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2866
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "91xCauHkApmCmtkPqOmOoAc"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Inter Ea Quae Placita\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 6, \"density\": -5},\n  \"prescriptive\": {\"saturation\": 3, \"density\": 10}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Setting:** Alfonso X of Castile (\"the Wise\") sought to centralize royal authority and standardize legal and intellectual life in his realms. The *studium generale* at Salamanca was a key instrument of this policy.\n*   **Papal Situation:** Alexander IV was navigating the complex political landscape of the mid-13th century, balancing the interests of the mendicant orders and the growing influence of secular monarchs.\n*   **Legal Status:** The bull serves as a *privilegium*, granting the university the status of a *studium generale*, which allowed its degrees to be recognized throughout Christendom (*ius ubique docendi*).\n\n### Reflective\n*   **Recognition of Royal Initiative:** The document explicitly acknowledges the prior establishment of the school by Alfonso X, validating the King's existing efforts to foster intellectual life.\n*   **Ecclesial Alignment:** It reflects the Church's strategy of co-opting emerging secular educational institutions by providing them with the necessary canonical legitimacy to operate within the European academic network.\n\n### Prospective\n*   **Institutional Longevity:** By granting the *studium* apostolic protection, the Pope aims to ensure its survival beyond the immediate political whims of the Castilian court.\n*   **Standardization:** The document anticipates the integration of Salamanca into the broader European university system, prescribing its role as a center for the training of future administrators and legal experts.\n\n### Temporal gradients\n*   **Reflective Density (-5):** The document looks back at the initial founding phase (c. 1250) and the negotiations between the King and the local bishop.\n*   **Prescriptive Density (+10):** The bull is designed to secure the institution's status for the coming decade and beyond, anticipating its role in the intellectual development of the Iberian Peninsula.\n\n---\n\n## Unstructured\n\n### 1. Historical Analysis\n*Inter Ea Quae Placita* is a classic example of the symbiotic relationship between the medieval papacy and the rising power of the monarchies. Alfonso X was not merely a patron of the arts; he was a centralizer. By seeking papal confirmation, he was not just asking for a blessing; he was seeking to elevate a local school to a *studium generale*, which would allow it to compete with Paris or Bologna. Alexander IV\u2019s role was that of a gatekeeper of legitimacy.\n\n### 2. Reflective vs. Prospective Dynamics\nThe document is heavily reflective in its preamble, acknowledging the \"multitude of wise men\" as the health of kingdoms\u2014a nod to the Aristotelian political philosophy then gaining traction in European courts. It is prospective in its legal function: it creates a \"future-proof\" status for the university, ensuring that its degrees would hold weight in the eyes of the Church and the international academic community.\n\n### 3. Secular Engagement\nThe encyclical treats the university as a tool of statecraft. The Pope\u2019s language\u2014praising the \"healthiness of the air\" and the \"conveniences\" of Salamanca\u2014mirrors the rhetoric of a royal charter. This demonstrates that the Church was willing to frame academic development in terms of public utility and civic health, rather than purely theological inquiry.\n\n### 4. Reception and Efficacy\nThe bull was highly effective in its immediate goal: Salamanca became one of the most prestigious universities in Europe. However, the document itself was largely administrative. It did not spark a theological movement or a social revolution; it provided the legal scaffolding for an institution that would eventually become a pillar of the Spanish Empire.\n\n### 5. Evidence Assessment\nEvidence for the document's impact is found in the subsequent growth of the University of Salamanca's legal faculty, which became the primary training ground for the jurists who would later define the legal framework of the Spanish Reconquista and the colonization of the Americas.\n\n### Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Bullarium Romanum*, Vol. III | Primary text of the bull. |\n| Academic Scholarship | Linehan, P. (1971). *The Spanish Church and the Papacy in the Thirteenth Century*. | Essential for understanding the political context of Alfonso X. |\n| Academic Scholarship | Rashdall, H. (1936). *The Universities of Europe in the Middle Ages*. | Standard reference for the legal status of *studia generalia*. |",
+            "thoughtSignature": "EjQKMgEMOdbHOm6r9f91icQrTubo9euAEVCuqwlyD0qHGULbXeChG1RXQ0HwcME08FDkApQu"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2632,
+    "candidatesTokenCount": 988,
+    "totalTokenCount": 3620,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2632
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "oBxDavydB_qdqtsPqYbesQE"
+}

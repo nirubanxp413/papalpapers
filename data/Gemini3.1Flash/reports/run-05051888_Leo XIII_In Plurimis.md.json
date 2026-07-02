@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# In Plurimis\n\n## Gradients\n```json\n{\n  \"reflective\": {\"saturation\": 9, \"density\": -25},\n  \"prescriptive\": {\"saturation\": 6, \"density\": 8}\n}\n```\n\n## Structured\n\n### Context\n*   **Historical Event:** The *Lei \u00c1urea* (Golden Law) of May 13, 1888, abolished slavery in Brazil. *In Plurimis* (May 5, 1888) was issued days prior, timed to coincide with the conclusion of the legislative process and Leo XIII's golden jubilee.\n*   **Geopolitical Climate:** Brazil was the last nation in the Western Hemisphere to abolish slavery. The monarchy of Pedro II was under intense pressure from the abolitionist movement (*abolicionismo*) and the military, which would eventually lead to the 1889 coup.\n*   **Ecclesial Situation:** Leo XIII was actively seeking to modernize the Church's image, moving away from the \"Syllabus of Errors\" era toward a more proactive engagement with social issues (precursor to *Rerum Novarum*).\n\n### Reflective\n*   **Historical Review:** The document provides a curated history of the Church's role in the mitigation and eventual abolition of slavery, citing Gregory I, Hadrian I, and Alexander III.\n*   **Theological Justification:** It interprets the Fall as the origin of slavery, framing the Church as the primary historical force that gradually \"softened\" the institution until its final dissolution.\n*   **Legacy Management:** It explicitly links the canonization of Peter Claver (1888) to the Church's historical moral authority.\n\n### Prospective\n*   **Social Order:** Prescribes that freed slaves must avoid \"license\" and remain industrious, reflecting a fear of social instability in post-emancipation Brazil.\n*   **Missionary Strategy:** Calls for a renewed, aggressive missionary effort in Africa to combat the slave trade, framing this as the \"new\" frontier for the Church's anti-slavery mission.\n*   **Global Governance:** Appeals to world leaders to use state power to suppress the remaining slave trade in the African interior.\n\n### Temporal gradients\n*   **Reflective Density (-25):** The document reaches back to the early Church and the medieval period to construct a continuous narrative of anti-slavery advocacy.\n*   **Prescriptive Density (+8):** The document anticipates a post-slavery transition period of roughly a decade, focusing on the immediate social integration of freed persons and the long-term missionary project in Africa.\n\n---\n\n## Unstructured\n\n### 1. Historical Reception\n*In Plurimis* was received in Brazil as a validation of the monarchy's abolitionist efforts. However, the document's emphasis on \"patience\" and \"order\" was noted by contemporary radical abolitionists (such as Joaquim Nabuco) as being overly cautious. The Church\u2019s claim to be the primary agent of abolition was contested by secular liberals who viewed the *Lei \u00c1urea* as the result of decades of grassroots political agitation, not papal influence.\n\n### 2. The \"Muslim\" Framing\nThe document\u2019s specific focus on the African slave trade as a \"Mohammedan\" enterprise is a notable rhetorical shift. Historical records from the 1880s (e.g., the Brussels Anti-Slavery Conference of 1889\u20131890) confirm that the slave trade in East Africa was a major international concern, but the Pope\u2019s framing served to align the Church with European colonial interests in Africa, effectively providing a moral mandate for the \"civilizing mission\" of the Scramble for Africa.\n\n### 3. The Anxiety of Emancipation\nThe document reveals a distinct anxiety regarding the \"freed\" population. By warning against \"license\" and \"envy,\" Leo XIII was mirroring the concerns of the Brazilian landed elite. There is no evidence in the text of a call for land reform or economic reparations for the formerly enslaved, suggesting that the Church\u2019s vision of \"liberty\" was strictly legal and spiritual, rather than socio-economic.\n\n### 4. Secular vs. Ecclesial Agency\nWhile the encyclical claims the Church \"banished\" slavery, historical data indicates that the Church in Brazil was deeply complicit in the institution for centuries, with many dioceses and religious orders owning slaves until the final years of the Empire. The encyclical functions as a \"rebranding\" exercise, distancing the institution from its own history of slave-holding.\n\n### 5. Citations\n| Source Type | Citation | Note |\n| :--- | :--- | :--- |\n| Historical Record | *Lei \u00c1urea* (1888) | The legal instrument of abolition in Brazil. |\n| Academic | Nabuco, J. (1883) *O Abolicionismo* | Contextualizes the secular struggle for abolition. |\n| Historical Record | Brussels Anti-Slavery Conference (1889) | Shows the international political alignment with the Pope's concerns. |\n| Academic | Bethell, L. (1970) *The Abolition of the Brazilian Slave Trade* | Standard historiography on the Church's role. |",
+            "thoughtSignature": "EjQKMgEMOdbHJQ0ompNA7cVtFV59Qqc6kfb1w0zSTKuq65gRxQf1Y9lnuTmDaznao1852i7I"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3057,
+    "candidatesTokenCount": 1112,
+    "totalTokenCount": 4169,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3057
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "ZhNCarr0BJTg8QGAusfQCQ"
+}
