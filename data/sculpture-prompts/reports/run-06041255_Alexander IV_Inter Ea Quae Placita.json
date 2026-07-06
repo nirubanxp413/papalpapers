@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Sculptural form: The Prism of Salamanca\n\n## Concept\n\nThe sculpture represents the \"inextinguishable light of wisdom\" as a singular, monolithic prism carved from translucent, honey-colored alabaster. The form is geometric yet organic, with a jagged, crystalline top that transitions into a smooth, architectural base. Embodying the phrase \"multitudo sapientium sanitas est regnorum,\" the internal structure of the prism contains thousands of minute, fiber-optic-like threads of polished bronze that radiate outward from the center, suggesting that the strength of a kingdom is derived from the convergence of many wise minds. The sculpture stands as a beacon of intellectual fortification, suggesting that wisdom is the structural foundation upon which the stability of a realm rests.\n\n## Text-to-image prompt\n\n```text\nA monumental, singular sculpture made of translucent, glowing honey-colored alabaster, shaped as a tall, multifaceted crystalline prism standing on a heavy, weathered marble plinth. Thousands of thin, polished bronze filaments are embedded within the translucent stone, radiating from the core outward to the surface like a dense, golden neural network. The sculpture is lit from within, casting a soft, warm amber glow against a dark, minimalist stone background. The surface texture transitions from rough, raw stone at the base to perfectly polished, sharp geometric facets at the apex. Cinematic studio lighting, high contrast, 8k resolution, hyper-realistic, elegant and imposing architectural form.\n```",
+            "thoughtSignature": "EjQKMgERTTIP69vgK6J7/w2W2uMxybarv4QCx8o5Q+hyUyMCBesDjdfwav59U/YCyMfvA9mq"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 779,
+    "candidatesTokenCount": 297,
+    "totalTokenCount": 1076,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 779
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "VqZLar6aJ4nBqtsP-Zm3gQ0"
+}

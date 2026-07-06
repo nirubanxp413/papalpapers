@@ -1,0 +1,48 @@
+# Sculpture prompt generation (Papal Papers)
+
+## Project context
+
+The Papal Papers project analyzes papal encyclicals and related documents. Each document has a concise **summary** capturing its central argument and themes. This pass asks you to translate that meaning into a **single sculptural form** — one coherent physical object a text-to-image model could render.
+
+## Task
+
+Given an encyclical's metadata and summary, produce:
+
+1. A short **concept** explaining how one sculptural form embodies the document's meaning.
+2. A single **text-to-image prompt** describing that form for a generative image model (e.g. Midjourney, DALL·E, Stable Diffusion).
+
+The sculpture must be **one unified object** — not a diorama, not multiple separate statues, not a collage of symbols. Abstract or figurative is fine; the form should read as a finished sculptural work (material, scale, lighting, setting).
+
+## Design principles
+
+- **Embody, don't illustrate.** Prefer metaphor and form-language over literal scene recreation or text-heavy iconography.
+- **Single subject.** One primary sculptural mass; secondary elements only if they are structurally part of that mass.
+- **Image-model ready.** Write the prompt in present tense, with concrete visual details: material (marble, bronze, terracotta, etc.), scale, surface texture, pose or topology, base or plinth, lighting, background, camera angle.
+- **No people required.** Human figures are optional; many encyclicals are better served by abstract or architectural sculpture.
+- **No text in the image.** Do not ask the model to render titles, quotes, or lettering on the sculpture.
+- **Faithful to the summary.** The form should reflect the document's central tension, hope, warning, or argument — not generic religious clichés unless the summary demands them.
+
+## Output format
+
+Return **only** the markdown below — no preamble or closing remarks.
+
+```markdown
+# Sculptural form: {title}
+
+## Concept
+
+(2–4 sentences: how this single form maps to the encyclical's meaning.)
+
+## Text-to-image prompt
+
+```text
+(One paragraph, 80–220 words, ready to paste into a text-to-image model.)
+```
+```
+
+## Constraints
+
+- The `## Text-to-image prompt` block must contain exactly one fenced `text` code block.
+- Do not include multiple prompt variants or bullet lists of alternatives.
+- Do not reproduce the full encyclical summary in the output.
+- Keep the concept section under 120 words.

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "# Sculptural form: The Seal of Scholastic Authority\n\n## Concept\n\nThe sculpture represents the transition from ephemeral speech to institutional permanence. It takes the form of a heavy, monolithic bronze signet ring, partially embedded into a jagged, unhewn block of white Carrara marble. The bronze is oxidized with a rich, dark patina, featuring a complex, geometric relief pattern that suggests the authority of a university seal. The contrast between the raw, organic marble and the rigid, manufactured metal symbolizes the papal sanctioning of the university\u2019s identity. The work embodies the \"common seal\" as a physical anchor for academic legitimacy, suggesting that the university\u2019s intellect is now solidified and protected by apostolic decree.\n\n## Text-to-image prompt\n\n```text\nA monumental, singular sculpture standing on a minimalist stone plinth in a dimly lit, atmospheric gallery. The central form is a massive, circular bronze signet, five feet in diameter, featuring intricate, deeply embossed geometric crests and abstract patterns on its face. This bronze seal is fused halfway into a rough, jagged, unhewn block of pristine white Carrara marble that appears to be splitting under the weight of the metal. The bronze has a dark, weathered patina with subtle traces of verdigris, while the marble is matte and porous. Dramatic, directional spotlighting from above casts sharp, long shadows, emphasizing the texture of the stone and the cool, metallic sheen of the bronze. High-contrast, cinematic photography, 8k resolution, focused on the point of intersection between the two materials.\n```",
+            "thoughtSignature": "EjQKMgERTTIPyA3xIcerIajREZ6HBl8CwpfSJWqr9sr+KpnfntMi3DeTOQ/7QvYj6y2irXZV"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 775,
+    "candidatesTokenCount": 318,
+    "totalTokenCount": 1093,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 775
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "VqZLatCZJ56HqtsPwcbpmQU"
+}
