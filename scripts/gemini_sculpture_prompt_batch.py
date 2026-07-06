@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Generate text-to-image sculpture prompts from encyclical summaries via Gemini.
 
-Reads summaries from data/encyclicals.csv, sends each to Gemini 3.1 Flash Lite with
-instructions to produce a single sculptural-form image prompt. Outputs to
-data/sculpture-prompts/.
+Reads summaries from data/encyclicals.csv and a shared prompt template
+(data/sculpture-prompts/prompt.md). Each run injects the encyclical summary into
+{{encyclical}} at request time. Outputs to data/sculpture-prompts/reports/.
 
     python3 scripts/gemini_sculpture_prompt_batch.py init
     python3 scripts/gemini_sculpture_prompt_batch.py status
@@ -57,30 +57,11 @@ QUOTA_ERROR_MARKERS = (
 SYSTEM_INSTRUCTION = (
     "You are a visual metaphor designer for the Papal Papers project. "
     "Given an encyclical summary, you produce one sculptural concept and a single "
-    "text-to-image prompt describing that form. Follow the output template exactly. "
+    "text-to-image prompt describing that form. Follow the prompt template exactly. "
     "Return only markdown — no preamble."
 )
 
-PROJECT_CONTEXT_RE = re.compile(
-    r"## Project context\s*\n(.*?)(?=\n---|\n## |\Z)",
-    re.DOTALL | re.IGNORECASE,
-)
-TASK_SECTION_RE = re.compile(
-    r"## Task\s*\n(.*?)(?=\n---|\n## |\Z)",
-    re.DOTALL | re.IGNORECASE,
-)
-DESIGN_SECTION_RE = re.compile(
-    r"## Design principles\s*\n(.*?)(?=\n---|\n## |\Z)",
-    re.DOTALL | re.IGNORECASE,
-)
-OUTPUT_SECTION_RE = re.compile(
-    r"## Output format\s*\n(.*?)(?=\n---|\n## |\Z)",
-    re.DOTALL | re.IGNORECASE,
-)
-CONSTRAINTS_SECTION_RE = re.compile(
-    r"## Constraints\s*\n(.*?)(?=\n---|\n## |\Z)",
-    re.DOTALL | re.IGNORECASE,
-)
+ENCYCLICAL_PLACEHOLDER = "{{encyclical}}"
 IMAGE_PROMPT_RE = re.compile(
     r"## Text-to-image prompt\s*\n+```(?:text|txt)?\s*\n(.*?)\n```",
     re.DOTALL | re.IGNORECASE,
@@ -208,69 +189,30 @@ def resolve_encyclical_path(stem: str) -> Path | None:
     return None
 
 
-def load_prompt_sections() -> dict[str, str]:
+def load_prompt_template() -> str:
     if not PROMPT_PATH.exists():
         raise SystemExit(f"Prompt file not found: {PROMPT_PATH}")
-
-    body = PROMPT_PATH.read_text(encoding="utf-8")
-
-    def section(pattern: re.Pattern[str]) -> str:
-        match = pattern.search(body)
-        return match.group(1).strip() if match else ""
-
-    return {
-        "project_context": section(PROJECT_CONTEXT_RE),
-        "task": section(TASK_SECTION_RE),
-        "design_principles": section(DESIGN_SECTION_RE),
-        "output_format": section(OUTPUT_SECTION_RE),
-        "constraints": section(CONSTRAINTS_SECTION_RE),
-    }
+    return PROMPT_PATH.read_text(encoding="utf-8").strip() + "\n"
 
 
-def build_query(
-    *,
-    pope: str,
-    title: str,
-    published_date: str,
-    category: str,
-    summary: str,
-    source_file: str,
-    sections: dict[str, str],
-) -> str:
-    parts = [
-        "# Sculpture prompt request",
-        "",
-        "## Document",
-        f"- Pope: {pope or 'Unknown'}",
-        f"- Title: {title or 'Unknown'}",
-        f"- Published: {published_date or 'Unknown'}",
-        f"- Category: {category or 'Unknown'}",
-        f"- Source file: {source_file}",
-        "",
-        "## Encyclical summary",
-        "",
-        summary.strip(),
-        "",
-    ]
-    if sections["project_context"]:
-        parts.extend(["## Project context", "", sections["project_context"], ""])
-    if sections["task"]:
-        parts.extend(["## Task", "", sections["task"], ""])
-    if sections["design_principles"]:
-        parts.extend(["## Design principles", "", sections["design_principles"], ""])
-    if sections["output_format"]:
-        parts.extend(["## Required output format", "", sections["output_format"], ""])
-    if sections["constraints"]:
-        parts.extend(["## Constraints", "", sections["constraints"], ""])
-    parts.extend(
+def build_encyclical_context(item: dict) -> str:
+    return "\n".join(
         [
-            "---",
+            f"- Pope: {item.get('pope') or 'Unknown'}",
+            f"- Title: {item.get('title') or 'Unknown'}",
+            f"- Published: {item.get('published_date') or 'Unknown'}",
+            f"- Category: {item.get('category') or 'Unknown'}",
             "",
-            "Return ONLY the markdown report. The text-to-image prompt must be a single paragraph inside one ```text fence.",
-            "",
+            (item.get("summary") or "").strip(),
         ]
-    )
-    return "\n".join(parts)
+    ).strip()
+
+
+def build_query(item: dict, template: str) -> str:
+    encyclical = build_encyclical_context(item)
+    if ENCYCLICAL_PLACEHOLDER in template:
+        return template.replace(ENCYCLICAL_PLACEHOLDER, encyclical)
+    return f"{template.rstrip()}\n\n{encyclical}\n"
 
 
 def report_path_for_stem(stem: str) -> Path:
@@ -317,15 +259,13 @@ def init_checklist(*, force: bool = False, require_summary: bool = True) -> None
     if not CSV_PATH.exists():
         raise SystemExit(f"CSV not found: {CSV_PATH}")
 
-    sections = load_prompt_sections()
+    load_prompt_template()
     rows = list(csv.DictReader(CSV_PATH.open(encoding="utf-8")))
     used_stems: set[str] = set()
     items: list[dict] = []
     skipped_no_summary = 0
     skipped_no_source = 0
 
-    queries_dir = OUTPUT_DIR / "queries"
-    queries_dir.mkdir(parents=True, exist_ok=True)
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
     for row in rows:
@@ -342,15 +282,6 @@ def init_checklist(*, force: bool = False, require_summary: bool = True) -> None
 
         rel_source = source.relative_to(ROOT).as_posix()
         rel_out = report_path_for_stem(stem).relative_to(ROOT).as_posix()
-        query = build_query(
-            pope=row.get("pope", ""),
-            title=row.get("title", ""),
-            published_date=row.get("published_date", ""),
-            category=row.get("category", ""),
-            summary=summary,
-            source_file=rel_source,
-            sections=sections,
-        )
 
         status = "complete" if report_is_valid(report_path_for_stem(stem)) else "pending"
         item = {
@@ -362,19 +293,15 @@ def init_checklist(*, force: bool = False, require_summary: bool = True) -> None
             "title": row.get("title"),
             "published_date": row.get("published_date"),
             "category": row.get("category"),
+            "summary": summary,
             "summary_chars": len(summary),
             "status": status,
             "response_id": None,
             "started_at": None,
             "completed_at": utc_now() if status == "complete" else None,
             "error": None,
-            "query_chars": len(query),
         }
         items.append(item)
-
-        query_path = queries_dir / f"{item['id']:04d}.md"
-        query_path.write_text(query, encoding="utf-8")
-        item["query_file"] = query_path.relative_to(ROOT).as_posix()
 
     if not items:
         raise SystemExit("No items matched init filters.")
@@ -567,10 +494,10 @@ async def process_item(
     data: dict,
     client: GeminiClient,
     http: httpx.AsyncClient,
+    prompt_template: str,
 ) -> int:
     item_id = item["id"]
-    query_path = ROOT / item["query_file"]
-    query = query_path.read_text(encoding="utf-8")
+    query = build_query(item, prompt_template)
 
     item["status"] = "in_progress"
     item["started_at"] = item["started_at"] or utc_now()
@@ -650,6 +577,7 @@ async def process_item(
 async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> None:
     data = load_checklist()
     api_key()
+    prompt_template = load_prompt_template()
 
     pending = [
         i
@@ -679,7 +607,7 @@ async def run_batch(*, concurrency: int, limit: int | None, dry_run: bool) -> No
 
         async def worker(item: dict) -> int:
             async with sem:
-                item_id = await process_item(item, data, client, http)
+                item_id = await process_item(item, data, client, http, prompt_template)
                 return item_id
 
         while pending or in_flight:
