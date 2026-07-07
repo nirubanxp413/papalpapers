@@ -42,10 +42,10 @@
       "summary_chars": 603,
       "image_file": "data/render-1-gemini/images/0002_15071255_Alexander IV_Petitionibus Vestris Benignum Impertientes.jpg",
       "report_file": "data/render-1-gemini/reports/0002_15071255_Alexander IV_Petitionibus Vestris Benignum Impertientes.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChdsRnBNYXZQZUl1ZWQtOFlQamFHSjJRVRIXbEZwTWF2UGVJdWVkLThZUGphR0oyUVU",
+      "started_at": "2026-07-07T01:46:53+00:00",
+      "completed_at": "2026-07-07T01:47:01+00:00",
       "error": null
     },
     {
@@ -60,10 +60,10 @@
       "summary_chars": 884,
       "image_file": "data/render-1-gemini/images/0003_26091255_Alexander IV_Clara claris praeclara.jpg",
       "report_file": "data/render-1-gemini/reports/0003_26091255_Alexander IV_Clara claris praeclara.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChdrMXBNYXVHV0pwcl9xdHNQNk1ub21RURIXazFwTWF1R1dKcHJfcXRzUDZNbm9tUVE",
+      "started_at": "2026-07-07T01:46:53+00:00",
+      "completed_at": "2026-07-07T01:47:00+00:00",
       "error": null
     },
     {
@@ -78,10 +78,10 @@
       "summary_chars": 525,
       "image_file": "data/render-1-gemini/images/0004_22091955_Alexander IV_Dignum Arbitramur et Congruum.jpg",
       "report_file": "data/render-1-gemini/reports/0004_22091955_Alexander IV_Dignum Arbitramur et Congruum.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChduRnBNYXE3U0JJTC1xdHNQOXFidmlBTRIXbkZwTWFxN1NCSUwtcXRzUDlxYnZpQU0",
+      "started_at": "2026-07-07T01:47:00+00:00",
+      "completed_at": "2026-07-07T01:47:09+00:00",
       "error": null
     },
     {
@@ -96,10 +96,10 @@
       "summary_chars": 743,
       "image_file": "data/render-1-gemini/images/0005_04051493_Alexander VI_Inter Caetera.jpg",
       "report_file": "data/render-1-gemini/reports/0005_04051493_Alexander VI_Inter Caetera.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChdyMXBNYXVmdEs0T0h6N0lQMmRtSjJRRRIXcjFwTWF1ZnRLNE9IejdJUDJkbUoyUUU",
+      "started_at": "2026-07-07T01:47:01+00:00",
+      "completed_at": "2026-07-07T01:47:28+00:00",
       "error": null
     },
     {
@@ -114,10 +114,10 @@
       "summary_chars": 798,
       "image_file": "data/render-1-gemini/images/0006_09091659_Alexander VII_Super Cathedram Principis Apostolorum.jpg",
       "report_file": "data/render-1-gemini/reports/0006_09091659_Alexander VII_Super Cathedram Principis Apostolorum.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChdxRnBNYXJLbUtjMjZqckVQNmQtWGlBMBIXcUZwTWFyS21LYzI2anJFUDZkLVhpQTA",
+      "started_at": "2026-07-07T01:47:09+00:00",
+      "completed_at": "2026-07-07T01:47:22+00:00",
       "error": null
     },
     {
@@ -132,10 +132,10 @@
       "summary_chars": 539,
       "image_file": "data/render-1-gemini/images/0007_20121334_Benedict XII_Benedictus Deus.jpg",
       "report_file": "data/render-1-gemini/reports/0007_20121334_Benedict XII_Benedictus Deus.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChdzMXBNYXVtREg5VFAtOFlQdU95LXVRZxIXczFwTWF1bURIOVRQLThZUHVPeS11UWc",
+      "started_at": "2026-07-07T01:47:22+00:00",
+      "completed_at": "2026-07-07T01:47:32+00:00",
       "error": null
     },
     {
@@ -150,10 +150,10 @@
       "summary_chars": 708,
       "image_file": "data/render-1-gemini/images/0008_03121740_Benedict XIV_Ubi Primum.jpg",
       "report_file": "data/render-1-gemini/reports/0008_03121740_Benedict XIV_Ubi Primum.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChZ1RnBNYXJVV2pLSFBzZy1NMU95b0JREhZ1RnBNYXJVV2pLSFBzZy1NMU95b0JR",
+      "started_at": "2026-07-07T01:47:28+00:00",
+      "completed_at": "2026-07-07T01:47:37+00:00",
       "error": null
     },
     {
@@ -168,10 +168,10 @@
       "summary_chars": 709,
       "image_file": "data/render-1-gemini/images/0009_30051741_Benedict XIV_Non ambigimus.jpg",
       "report_file": "data/render-1-gemini/reports/0009_30051741_Benedict XIV_Non ambigimus.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chd2RnBNYXNmd050clNqTWNQeHRUMi1BRRIXdkZwTWFzZndOdHJTak1jUHh0VDItQUU",
+      "started_at": "2026-07-07T01:47:32+00:00",
+      "completed_at": "2026-07-07T01:47:41+00:00",
       "error": null
     },
     {
@@ -186,10 +186,10 @@
       "summary_chars": 937,
       "image_file": "data/render-1-gemini/images/0010_30061741_Benedict XIV_Pro eximia tua.jpg",
       "report_file": "data/render-1-gemini/reports/0010_30061741_Benedict XIV_Pro eximia tua.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chd4bHBNYXZ5RE1yMnR6N0lQeU5QNm9BTRIXeGxwTWF2eURNcjJ0ejdJUHlOUDZvQU0",
+      "started_at": "2026-07-07T01:47:37+00:00",
+      "completed_at": "2026-07-07T01:47:52+00:00",
       "error": null
     },
     {
@@ -204,10 +204,10 @@
       "summary_chars": 994,
       "image_file": "data/render-1-gemini/images/0011_30061741_Benedict XIV_Quanta Cura.jpg",
       "report_file": "data/render-1-gemini/reports/0011_30061741_Benedict XIV_Quanta Cura.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChZ4VnBNYXByMEdjMjZqckVQb3R5VlFBEhZ4VnBNYXByMEdjMjZqckVQb3R5VlFB",
+      "started_at": "2026-07-07T01:47:41+00:00",
+      "completed_at": "2026-07-07T01:47:50+00:00",
       "error": null
     },
     {
@@ -222,10 +222,10 @@
       "summary_chars": 711,
       "image_file": "data/render-1-gemini/images/0012_22081741_Benedict XIV_In suprema Universalis.jpg",
       "report_file": "data/render-1-gemini/reports/0012_22081741_Benedict XIV_In suprema Universalis.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chd6VnBNYXJpWkI5T3JqckVQdmNfQjJRSRIXelZwTWFyaVpCOU9yanJFUHZjX0IyUUk",
+      "started_at": "2026-07-07T01:47:50+00:00",
+      "completed_at": "2026-07-07T01:47:58+00:00",
       "error": null
     },
     {
@@ -240,10 +240,10 @@
       "summary_chars": 839,
       "image_file": "data/render-1-gemini/images/0013_26081741_Benedict XIV_Quamvis paternae.jpg",
       "report_file": "data/render-1-gemini/reports/0013_26081741_Benedict XIV_Quamvis paternae.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chd6MXBNYXVyX0RMeUZ6N0lQLTd1RDBBWRIXejFwTWF1cl9ETHlGejdJUC03dUQwQVk",
+      "started_at": "2026-07-07T01:47:52+00:00",
+      "completed_at": "2026-07-07T01:48:00+00:00",
       "error": null
     },
     {
@@ -258,10 +258,10 @@
       "summary_chars": 766,
       "image_file": "data/render-1-gemini/images/0014_17111741_Benedict XIV_Satis vobis compertum.jpg",
       "report_file": "data/render-1-gemini/reports/0014_17111741_Benedict XIV_Satis vobis compertum.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChcxVnBNYXI3YkJaYTlzT0lQOEpTNy1ROBIXMVZwTWFyN2JCWmE5c09JUDhKUzctUTg",
+      "started_at": "2026-07-07T01:47:58+00:00",
+      "completed_at": "2026-07-07T01:48:05+00:00",
       "error": null
     },
     {
@@ -276,10 +276,10 @@
       "summary_chars": 873,
       "image_file": "data/render-1-gemini/images/0015_07021742_Benedict XIV_Etsi minime.jpg",
       "report_file": "data/render-1-gemini/reports/0015_07021742_Benedict XIV_Etsi minime.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChcxMXBNYXZEZUtlS0N6N0lQeWFhV3NBRRIXMTFwTWF2RGVLZUtDejdJUHlhYVdzQUU",
+      "started_at": "2026-07-07T01:48:00+00:00",
+      "completed_at": "2026-07-07T01:48:09+00:00",
       "error": null
     },
     {
@@ -294,10 +294,10 @@
       "summary_chars": 806,
       "image_file": "data/render-1-gemini/images/0016_13111742_Benedict XIV_Certiores effecti.jpg",
       "report_file": "data/render-1-gemini/reports/0016_13111742_Benedict XIV_Certiores effecti.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_ChczRnBNYXBLWUpKV0EtOFlQa2NYaThBZxIXM0ZwTWFwS1lKSldBLThZUGtjWGk4QWc",
+      "started_at": "2026-07-07T01:48:05+00:00",
+      "completed_at": "2026-07-07T01:48:13+00:00",
       "error": null
     },
     {
@@ -312,10 +312,10 @@
       "summary_chars": 785,
       "image_file": "data/render-1-gemini/images/0017_14121742_Benedict XIV_Cum illud semper.jpg",
       "report_file": "data/render-1-gemini/reports/0017_14121742_Benedict XIV_Cum illud semper.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chc1bHBNYXF1S0ItS2Z6N0lQLVBQV2lRZxIXNWxwTWFxdUtCLUtmejdJUC1QUFdpUWc",
+      "started_at": "2026-07-07T01:48:09+00:00",
+      "completed_at": "2026-07-07T01:48:23+00:00",
       "error": null
     },
     {
@@ -330,10 +330,10 @@
       "summary_chars": 727,
       "image_file": "data/render-1-gemini/images/0018_23031743_Benedict XIV_Quemadmodum preces.jpg",
       "report_file": "data/render-1-gemini/reports/0018_23031743_Benedict XIV_Quemadmodum preces.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chc1RnBNYXFiYkRZMkstOFlQZ055M2dBRRIXNUZwTWFxYmJEWTJLLThZUGdOeTNnQUU",
+      "started_at": "2026-07-07T01:48:13+00:00",
+      "completed_at": "2026-07-07T01:48:21+00:00",
       "error": null
     },
     {
@@ -348,10 +348,10 @@
       "summary_chars": 796,
       "image_file": "data/render-1-gemini/images/0019_18051743_Benedict XIV_Nimiam Licentiam.jpg",
       "report_file": "data/render-1-gemini/reports/0019_18051743_Benedict XIV_Nimiam Licentiam.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chc3RnBNYW9teEM2VG9qckVQcnJDd3VRVRIXN0ZwTWFvbXhDNlRvanJFUHJyQ3d1UVU",
+      "started_at": "2026-07-07T01:48:21+00:00",
+      "completed_at": "2026-07-07T01:48:29+00:00",
       "error": null
     },
     {
@@ -366,10 +366,10 @@
       "summary_chars": 828,
       "image_file": "data/render-1-gemini/images/0020_02021744_Benedict XIV_Inter omnigenas.jpg",
       "report_file": "data/render-1-gemini/reports/0020_02021744_Benedict XIV_Inter omnigenas.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chc4RnBNYXNMRUtjYUl6N0lQajl1T2dRdxIXOEZwTWFzTEVLY2FJejdJUGo5dU9nUXc",
+      "started_at": "2026-07-07T01:48:23+00:00",
+      "completed_at": "2026-07-07T01:48:33+00:00",
       "error": null
     },
     {
@@ -384,10 +384,10 @@
       "summary_chars": 683,
       "image_file": "data/render-1-gemini/images/0021_19081744_Benedict XIV_Cum semper oblatas.jpg",
       "report_file": "data/render-1-gemini/reports/0021_19081744_Benedict XIV_Cum semper oblatas.md",
-      "status": "pending",
-      "interaction_id": null,
-      "started_at": null,
-      "completed_at": null,
+      "status": "complete",
+      "interaction_id": "v1_Chc5VnBNYW9mTE9jaTRzT0lQcl92UDJRYxIXOVZwTWFvZkxPY2k0c09JUHJfdlAyUWM",
+      "started_at": "2026-07-07T01:48:29+00:00",
+      "completed_at": "2026-07-07T01:48:38+00:00",
       "error": null
     },
     {
